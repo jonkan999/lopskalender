@@ -4,7 +4,7 @@ import { toggleBoxExpansion } from "/js/toggleBoxExpansion.js";
 import { enlargeMarkersOnZoom } from "/js/enlargeMarkersOnZoom.js";
 
 let map = L.map("map", { attributionControl: false }).setView(
-  [60.346972, 15.748689],
+  [61.7665242, 9.5515165],
   5
 );
 window.globalMap = map;
