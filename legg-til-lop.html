@@ -16,11 +16,11 @@
     </script>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Loppkartan som får Sverige att springa fler lopp 2024</title>
+    <title>Løpekartet som får Norge til å løpe flere løp 2024</title>
     <link rel="icon" href="/img/logo100px.jpg" />
     <meta
       name="description"
-      content="Vi har samlat alla svenska löplopp i en interaktiv karta. Hitta ditt nästa millopp, tidslopp, traillopp, halvmara, marathon eller ultra marathon hos oss idag."
+      content="Vi har samlet alle norske løp og mosjonsløp på et interaktivt kart. Finn ditt neste mosjonsløp, terrengløp, fjelløp, halvmaraton, maraton eller ultraløp hos oss i dag."
     />
     <meta
       name="viewport"
@@ -89,7 +89,7 @@
           <div class="header-and-logo-box">
             <a href="/index.html" class="logo-box"></a>
             <div class="promotion-box">
-              <span>Obetalt samarbete med:</span>
+              <span>Ubetalt samarbeid med:</span>
               <a
                 href="http://www.kungsholmenrunt.se/Main/Start.asp"
                 target="_blank"
@@ -116,17 +116,17 @@
                     href="/index.html"
                     id="navIndex"
                   >
-                    Loppkartan
+                    Løpekartet
                   </a>
                 </li>
                 
                 <li>
                   <a
                     class="main-nav-link tertiary-header"
-                    href="/lopplistan.html"
-                    id="navLopplistan"
+                    href="/lopsliste.html"
+                    id="navLopsliste"
                   >
-                    Lopplistan
+                    Løpplisten
                   </a>
                 </li>
                 
@@ -136,7 +136,7 @@
                     href="/om-oss.html"
                     id="navAbout"
                   >
-                    Om Loppkartan.se
+                    Om Løpekartan.no
                   </a>
                 </li>
                 
@@ -146,17 +146,17 @@
                     href="/kontakt.html"
                     id="navContact"
                   >
-                    Kontaktuppgifter
+                    Kontaktinformasjon
                   </a>
                 </li>
                 
                 <li>
                   <a
                     class="main-nav-link tertiary-header"
-                    href="/lagg-till-lopp.html"
+                    href="/legg-til-lopp.html"
                     id="navAddRace"
                   >
-                    Lägg till lopp
+                    Legg til løp
                   </a>
                 </li>
                 
@@ -172,7 +172,7 @@
         <div id="map" class="margin-bottom--small"></div>
         <div id="latlongBox" class="margin-bottom--small">
           <div id="placeMarkerUrge" class="margin-bottom--small">
-            <p>Placera ut ditt lopp genom att klicka på kartan</p>
+            <p>Plasser løpet ditt ved å klikke på kartet</p>
           </div>
         </div>
         <form
@@ -183,41 +183,41 @@
           netlify
         >
           <div class="race-form-input-box race-date-input">
-            <label for="date">Datum:</label>
+            <label for="date">Dato:</label>
             <input type="date" id="date" name="date" required />
           </div>
 
           <div class="race-form-input-box">
-            <label for="type">Typ av underlag / Typ av lopp:</label>
+            <label for="type">Type underlag / Type løp:</label>
             <select id="type" name="type">
               <option value="default">
-                Välj underlag / typ av lopp
+                Velg underlag / type løp
               </option>
               
-              <option value="Landsväg">Landsväg</option>
+              <option value="Landsvei">Landsvei</option>
               
-              <option value="Terräng">Terräng</option>
+              <option value="Terreng">Terreng</option>
               
-              <option value="Trail">Trail</option>
+              <option value="Fjell">Fjell</option>
               
               <option value="Backyard Ultra">Backyard Ultra</option>
               
               <option value="Stafett">Stafett</option>
               
-              <option value="Bana">Bana</option>
+              <option value="Bane">Bane</option>
               
-              <option value="Övrigt">Övrigt</option>
+              <option value="Annet">Annet</option>
               
             </select>
           </div>
           <div class="race-form-input-box">
-            <label for="name">Loppets namn:</label>
+            <label for="name">Løpets navn:</label>
             <input
               type="text"
               id="name"
               name="name"
               required
-              placeholder="t ex Kungsholmen runt"
+              placeholder="f.eks. Kungsholmen rundt"
             />
           </div>
           <div class="race-form-input-box">
@@ -226,11 +226,11 @@
               type="text"
               id="distance"
               name="distance"
-              placeholder="10 km, halvmara och knattelopp"
+              placeholder="10 km, halvmaraton og barneløp"
             />
           </div>
           <div class="race-form-input-box">
-            <label for="place">Plats:</label>
+            <label for="place">Sted:</label>
             <input
               type="text"
               id="place"
@@ -239,7 +239,7 @@
             />
           </div>
           <div class="race-form-input-box">
-            <label for="organizer">Arrangör:</label>
+            <label for="organizer">Arrangør:</label>
             <input
               type="text"
               id="organizer-contact"
@@ -250,18 +250,18 @@
           </div>
           <div class="race-form-input-box">
             <label for="organizer"
-              >Mail till kontaktperson:</label
+              >E-post til kontaktperson:</label
             >
             <input
               type="mail"
               id="organizer-mail"
               name="organizer-mail"
-              placeholder="info@LoppKartan.se"
+              placeholder="loppkartan@gmail.com"
               required
             />
           </div>
           <div class="race-form-input-box">
-            <label for="website">Arrangörshemsida:</label>
+            <label for="website">Arrangørens nettside:</label>
             <input
               type="text"
               id="website"
@@ -271,28 +271,28 @@
           </div>
 
           <div class="race-form-input-box race-summary-input">
-            <label for="summary">Beskriv loppet</label>
+            <label for="summary">Beskriv løpet</label>
             <textarea
               id="summary"
               name="summary"
               rows="4"
               maxlength="800"
-              placeholder="KfS Kungsholmen Runt är en milbana med långa, flacka rakor ..."
+              placeholder="KfS Kungsholmen Rundt er en milbane med lange, flate strekninger ..."
             ></textarea>
           </div>
 
           <input type="hidden" id="latitude" name="latitude" value="" />
           <input type="hidden" id="longitude" name="longitude" value="" />
           <div id="preview" class="preview-button border-style">
-            <span>Förhandsgranska</span>
+            <span>Forhåndsvis</span>
           </div>
           <button type="submit" class="border-style">
-            Skicka
+            Send
           </button>
         </form>
 
         <button id="previewExit" class="preview-button border-style hide">
-          Tillbaka
+          Tilbake
         </button>
       </div>
     </div>

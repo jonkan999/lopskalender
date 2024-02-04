@@ -1,11 +1,11 @@
 # submission success PAGE CONTENT
 submission_success_name: "submission-success"
-title: "Tack för ditt bidrag!"
-description: "Tack för ditt bidrag! Vi kommer att granska ditt lopp och lägga upp det så snart som möjligt."
+title: "Takk for bidraget ditt!"
+description: "Takk for bidraget ditt! Vi vil gjennomgå løpet ditt og publisere det så snart som mulig."
 
 # submission success PAGE
 # SUBMISSION SUCCESS PAGE
-submission_header: "Tack för ditt bidrag! Alla tillägg behöver granskas, men vi går löpande igenom loppen vi får in och kommer publicera ert snarast."
-back_to_map_box_header: "Gå gärna tillbaka till vår loppkarta och kolla in alla andra lopp sålänge:"
-map_button_text: "KARTAN"
-list_button_text: "LISTAN"
+submission_header: "Takk for bidraget ditt! Alle tillegg må gjennomgås, men vi går kontinuerlig gjennom løpene vi mottar og vil publisere dem så snart som mulig."
+back_to_map_box_header: "Gå gjerne tilbake til løpekartet vårt og sjekk ut alle de andre løpene i mellomtiden:"
+map_button_text: "KART"
+list_button_text: "LISTE"

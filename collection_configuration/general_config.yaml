@@ -1,67 +1,67 @@
 #Main site
 
-domain: "loppkartan.se"
-google_analytics_id: "G-EJBRM67XCS"
+domain: "lopskalender.com"
+google_analytics_id: "G-F83PGVEH79"
 
-title: "Sveriges mest kompletta lista och kalender över löpartävlingar och lopp 2024"
-title_alternative: "Loppkartan som får Sverige att springa fler lopp 2024" # This is used for map
-title_find: "Sveriges mest kompletta lista och kalender över löpartävlingar och lopp"
-seo_county_title: "Alla lopp och löpartävlingar i %s"
-seo_category_title: "Alla %s och andra löpartävlingar i Sverige. På ett och samma ställe."
-seo_checkboxes_title: "Alla svenska lopp och löpartävlingar på %s. På ett och samma ställe."
+title: "Norges mest komplette liste og kalender over løp og mosjonsløp 2024"
+title_alternative: "Løpekartet som får Norge til å løpe flere løp 2024" # This is used for map
+title_find: "Norges mest komplette liste og kalender over løp og mosjonsløp"
+seo_county_title: "Alle løp og mosjonsløp i %s"
+seo_category_title: "Alle %s og andre løp i Norge. På ett og samme sted."
+seo_checkboxes_title: "Alle norske løp og mosjonsløp på %s. På ett og samme sted."
 
-description: "Vi har samlat alla svenska löplopp i en datumsorterad lista. Hitta ditt nästa millopp, tidslopp, traillopp, halvmara, marathon eller ultra marathon hos oss idag."
-description_alternative: "Vi har samlat alla svenska löplopp i en interaktiv karta. Hitta ditt nästa millopp, tidslopp, traillopp, halvmara, marathon eller ultra marathon hos oss idag."
-seo_county_description: "Här har vi samlat alla lopp och löpartävlingar i %s 2024. Hitta ditt nästa millopp, tidslopp, traillopp, halvmara, marathon eller ultra marathon hos oss idag."
-seo_category_description: "Här har vi samlat alla %s och andra löpartävlingar i Sverige 2024. Hitta ditt nästa lopp hos oss idag."
-seo_checkboxes_description: "Här har vi samlat alla svenska lopp och löpartävlingar på %s i Sverige 2024. Hitta ditt nästa lopp hos oss idag."
+description: "Vi har samlet alle norske løp og mosjonsløp i en datert liste. Finn ditt neste mosjonsløp, terrengløp, fjelløp, halvmaraton, maraton eller ultraløp hos oss i dag."
+description_alternative: "Vi har samlet alle norske løp og mosjonsløp på et interaktivt kart. Finn ditt neste mosjonsløp, terrengløp, fjelløp, halvmaraton, maraton eller ultraløp hos oss i dag."
+seo_county_description: "Her har vi samlet alle løp og mosjonsløp i %s 2024. Finn ditt neste mosjonsløp, terrengløp, fjelløp, halvmaraton, maraton eller ultraløp hos oss i dag."
+seo_category_description: "Her har vi samlet alle %s og andre løp i Norge 2024. Finn ditt neste løp hos oss i dag."
+seo_checkboxes_description: "Her har vi samlet alle norske løp og mosjonsløp på %s i Norge 2024. Finn ditt neste løp hos oss i dag."
 
-promotion_text: "Obetalt samarbete med:"
+promotion_text: "Ubetalt samarbeid med:"
 promotion_link:
   url: "http://www.kungsholmenrunt.se/Main/Start.asp"
   target: "_blank"
 promo_logo:
   src: "/img/logokr_bluebg.jpg"
   class: "promo-logo-box"
-list_button_text: "Lista"
-map_button_text: "Karta"
+list_button_text: "Liste"
+map_button_text: "Kart"
 menu_button_text: "Meny"
 menu_items:
   - id: "navIndex"
-    text: "Loppkartan"
+    text: "Løpekartet"
     url: "/index.html"
-  - id: "navLopplistan"
-    text: "Lopplistan"
-    url: "/lopplistan.html"
+  - id: "navLopsliste"
+    text: "Løpplisten"
+    url: "/lopsliste.html"
   - id: "navAbout"
-    text: "Om Loppkartan.se"
+    text: "Om Løpekartan.no"
     url: "/om-oss.html"
   - id: "navContact"
-    text: "Kontaktuppgifter"
+    text: "Kontaktinformasjon"
     url: "/kontakt.html"
   - id: "navAddRace"
-    text: "Lägg till lopp"
-    url: "/lagg-till-lopp.html"
+    text: "Legg til løp"
+    url: "/legg-til-lopp.html"
 
-main_header: "Sveriges mest kompletta loppkalender för löpare"
-main_header_alternative: "Sveriges mest kompletta loppkalender för löpare"
-main_subheader: "Här listar vi alla Sveriges lopp och löpartävlingar under 2024.
-  Filtrera fram ditt nästa 10 km millopp, halvmaraton eller backyard
+main_header: "Norges mest komplette løpekalender for løpere"
+main_header_alternative: "Norges mest komplette løpekalender for løpere"
+main_subheader: "Her lister vi opp alle Norges løp og mosjonsløp i 2024.
+  Filtrer frem ditt neste 10 km mosjonsløp, halvmaraton eller backyard
   ultra."
-main_subheader_alternative: "Hitta ditt nästa lopp! Välj distans, som millopp eller marathon, samt underlag som trail eller landsväg."
+main_subheader_alternative: "Finn ditt neste løp! Velg distanse, som mosjonsløp eller maraton, samt underlag som terreng eller vei."
 
-days_filter_text: "Lopp mellan: "
-distance_filter_text: "Distans mellan: "
+days_filter_text: "Løp mellom: "
+distance_filter_text: "Distanse mellom: "
 
 more_info_text: "Mer info"
-ending_header: "Saknar du ditt lopp på kartan? Lägg till
-  det här!"
+ending_header: "Mangler du ditt løp på kartet? Legg til
+  det her!"
 
 add_race_button:
   id: "addRaceButton"
-  url: "/lagg-till-lopp.html"
+  url: "/legg-til-lopp.html"
   class: "add-race-button border-style"
-  label: "Lägg till lopp"
+  label: "Legg til løp"
 checkbox_mapping:
   - container_id: "relayCheckboxContainer"
     checkbox_id: "relayCheckbox"
@@ -70,64 +70,64 @@ checkbox_mapping:
   - container_id: "backyardCheckboxContainer"
     checkbox_id: "backyardCheckbox"
     check_icon_class: "check-icon-backyard"
-    label_text: "Backyard"
+    label_text: "Backyard Ultra"
   - container_id: "terrainCheckboxContainer"
     checkbox_id: "terrainCheckbox"
     check_icon_class: "check-icon-terrain"
-    label_text: "Terräng"
+    label_text: "Terreng"
   - container_id: "trailCheckboxContainer"
     checkbox_id: "trailCheckbox"
     check_icon_class: "check-icon-trail"
-    label_text: "Trail"
+    label_text: "Fjelløp"
   - container_id: "roadCheckboxContainer"
     checkbox_id: "roadCheckbox"
     check_icon_class: "check-icon-road"
-    label_text: "Landsväg"
+    label_text: "Vei"
   - container_id: "trackCheckboxContainer"
     checkbox_id: "trackCheckbox"
     check_icon_class: "check-icon-track"
-    label_text: "Löparbana"
+    label_text: "Løpebane"
 
 month_mapping:
-  "01": "Januari"
-  "02": "Februari"
+  "01": "Januar"
+  "02": "Februar"
   "03": "Mars"
   "04": "April"
-  "05": "Maj"
+  "05": "Mai"
   "06": "Juni"
   "07": "Juli"
-  "08": "Augusti"
+  "08": "August"
   "09": "September"
   "10": "Oktober"
   "11": "November"
-  "12": "December"
+  "12": "Desember"
 
 month_mapping_short:
   "01": "jan."
   "02": "feb."
   "03": "mars"
   "04": "apr."
-  "05": "maj"
+  "05": "mai"
   "06": "juni"
   "07": "juli"
   "08": "aug."
   "09": "sep."
   "10": "okt."
   "11": "nov."
-  "12": "dec."
+  "12": "des."
 
 distance_mapping:
   backyard: Backyard Ultra
-  time: Tidslopp
+  time: Tidsløp
   relay: Stafett
 
 distance_units:
   - range: [20.9, 21.3]
-    label: Halvmarathon
+    label: Halvmaraton
   - range: [41.9, 42.4]
-    label: Marathon
+    label: Maraton
 
-county_label_text: "Alla län"
+county_label_text: "Alle fylker"
 county_mapping:
   "Stockholms": "Stockholm"
   "Uppsala": "Uppsala"
@@ -153,7 +153,7 @@ county_mapping:
   "Västerbottens": "Västerbotten"
   "Norrbottens": "Norrbotten"
 
-category_label_text: "Loppkategori"
+category_label_text: "Løpkategori"
 category_mapping:
   "1500 meter":
     range: [1.5, 1.5]
@@ -167,14 +167,14 @@ category_mapping:
     range: [4, 6]
   "10 km":
     range: [9, 11]
-  "Millopp":
+  "Mila løp":
     range: [9, 11]
-  "Halvmarathon":
+  "Halvmaraton":
     range: [20, 22]
-  "Marathon":
+  "Maraton":
     range: [40, 44]
   "Backyard Ultra": "backyard"
-  "Ultra Marathon":
+  "Ultraløp":
     range: [42, 500]
   "50 miles":
     range: [75, 100]

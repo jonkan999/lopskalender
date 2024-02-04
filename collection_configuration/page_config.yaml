@@ -1,29 +1,29 @@
-collection_type: "Lopp löpning"
+collection_type: "Mosjonsløp"
 sub_domain: race-pages
 icon_path: /img/logo.svg
-page_type_text: "Loppsida för"
+page_type_text: "Løpsside for"
 
-show_all_local: "Visa alla"
-url_text_top: "Länk till anmälan"
-about_local: "Om loppet"
-info_local: "Detaljerad information"
+show_all_local: "Vis alle"
+url_text_top: "Lenke til påmelding"
+about_local: "Om løpet"
+info_local: "Detaljert informasjon"
 disclaimer_text: |
-  All info på den här sidan är baserat på öppen källdata. Vi gör vårt bästa för att hålla den uppdaterad men
-  kan inte garantera att allt är korrekt. Ser du några felaktigheter, kontakta oss gärna 
-  <a href="/kontakt.html">kontakt</a> så rättar vi till det snarast.
+  All info på denne siden er basert på åpen kildekode. Vi gjør vårt beste for å holde den oppdatert, men
+  kan ikke garantere at alt er korrekt. Ser du noen feil, vennligst kontakt oss på 
+  <a href="/kontakt.html">kontakt</a> så retter vi det så snart som mulig.
 
 # Main labels
-main_labels: ["Distanser", "Underlag", "Plats", "Datum"]
+main_labels: ["Distanse", "Underlag", "Sted", "Dato"]
 main_keys: ["display_distances", "type", "place", "date"]
 icons: ["analytics", "shapes", "navigate-circle", "calendar-clear"]
 
 # Components
 map: True
-mapbox_center: "18.027053, 59.32547"
+mapbox_center: "61.7665242,9.5515165"
 calendar: False
 
 # Additional labels
-additional_labels: ["Loppkategorier", "Län", "Organisatör"]
+additional_labels: ["Løpskategorier", "Fylke", "Arrangør"]
 additional_keys: ["race_categories", "county", "organizer"]
 
-url_text_bot: "Länk till arrangörens hemsida"
+url_text_bot: "Lenke til arrangørens nettside"
