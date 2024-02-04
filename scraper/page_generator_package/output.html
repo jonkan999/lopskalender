@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+      re
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+
+    <script defer="" src="/js/pgJs.js"></script>
+
+    <link href="/css/pg-style.css" rel="stylesheet" />
+    <link href="/css/pg-queries.css" rel="stylesheet" />
+
+    <title>
+      Loppsida för Landhof 4-årstider, Vinterloppet 2024 - 
+    </title>
+    <link rel="icon" href="/img/favicon.png" />
+    <meta name="description" content="Vinterloppet 2024 är här! Kom och delta i vårt populära löplopp som erbjuder 5 km och 10 km långa spårlopp genom vacker vinterlandskap. Passa på att utmana dig själv eller bara njuta av naturen i festlig atmosfär efter loppet. Anmäl dig nu och var med på en dag full av löparspänning och glädje!" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="show-all-overlay" id="showAllOverlay"></div>
+    <button class="hide-grid" id="hideGrid">
+      <ion-icon name="close-outline" class="close-icon"></ion-icon>
+    </button>
+    <header class="header header-black section">
+      <div class="brand-box">
+        <a class="header-brand-name" href="/index.html">
+          <img
+            class="brand-box-small-image"
+            src="/img/logo.svg"
+            alt="Brand logo"
+        /></a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li>
+            <p class="category-link">
+              Loppsida för: Landhof 4-årstider, Vinterloppet 2024
+            </p>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="venue-page" id="venuePage">
+        <div class="show-all-grid" id="showAllGrid">
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/landhof-4-arstider,-vinterloppet-2024_1.webp"
+              alt="image 1 for: Landhof 4-årstider, Vinterloppet 2024"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/landhof-4-arstider,-vinterloppet-2024_2.webp"
+              alt="image 2 for: Landhof 4-årstider, Vinterloppet 2024"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/landhof-4-arstider,-vinterloppet-2024_3.webp"
+              alt="image 3 for: Landhof 4-årstider, Vinterloppet 2024"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/landhof-4-arstider,-vinterloppet-2024_4.webp"
+              alt="image 4 for: Landhof 4-årstider, Vinterloppet 2024"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/landhof-4-arstider,-vinterloppet-2024_5.webp"
+              alt="image 5 for: Landhof 4-årstider, Vinterloppet 2024"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/landhof-4-arstider,-vinterloppet-2024_6.webp"
+              alt="image 6 for: Landhof 4-årstider, Vinterloppet 2024"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+        </div>
+        <div class="images-section section airy-margin" id="imageSection">
+          <div class="left-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/landhof-4-arstider,-vinterloppet-2024_1.webp"
+              alt="image 1 for: Landhof 4-årstider, Vinterloppet 2024"
+            />
+            <div class="image-overlay"></div>
+          </div>
+          <div class="right-images-section">
+            <div class="top-right-image">
+              <img
+                class="image-inner-img"
+                src="/race-pages/img/landhof-4-arstider,-vinterloppet-2024_2.webp"
+                alt="image 2 for: Landhof 4-årstider, Vinterloppet 2024"
+              />
+              <div class="image-overlay"></div>
+            </div>
+            <div class="bottom-right-images">
+              <div class="bottom-right-image">
+                <img
+                  class="image-inner-img"
+                  src="/race-pages/img/landhof-4-arstider,-vinterloppet-2024_3.webp"
+                  alt="image 3 for: Landhof 4-årstider, Vinterloppet 2024"
+                />
+                <div class="image-overlay"></div>
+              </div>
+              <div class="bottom-right-image">
+                <img
+                  class="image-inner-img"
+                  src="/race-pages/img/landhof-4-arstider,-vinterloppet-2024_4.webp"
+                  alt="image 4 for: Landhof 4-årstider, Vinterloppet 2024"
+                />
+                <div class="show-all-container" id="showAll">
+                  <div class="square-icon-container-container">
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                  </div>
+                  <div class="show-all-images-text">
+                    Visa alla
+                  </div>
+                  <div class="image-overlay"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info-container" id="infoContainer">
+          <!-- Venue Name -->
+          <h1 class="event-space-title">Landhof 4-årstider, Vinterloppet 2024</h1>
+
+          <!-- Venue Address -->
+          <div class="adress-div">
+            <ion-icon
+              class="icon ion-ios-location-outline"
+              name="location-outline"
+            ></ion-icon>
+            <p class="event-space-address">Landhof 4-årstider, Vinterloppet 2024</p>
+          </div>
+
+          <!-- Highlights Container -->
+          <ul class="highlights-container">
+            <!-- Star Rating -->
+            <div class="highlight-stars">
+              <ion-icon
+                class="star-icon ion-ios-star-outline md hydrated"
+                name="star"
+                role="img"
+                aria-label="star"
+              ></ion-icon>
+              <a href="https://www.oklandehof.se/skidor/arrangemang/landehof-4-arstider-vinterloppet-2024/"
+                >Länk till anmälan</a
+              >
+            </div>
+
+            <!-- Guests and Size Info -->
+            <li class="highlight-info desktop">
+              <ion-icon
+                class="highlight-icon ion-ios-analytics-outline"
+                name="analytics-outline"
+              ></ion-icon>
+              <p>
+                Distanser: [5000, 10000]
+              </p>
+            </li>
+            <li class="highlight-info mobile full-row">
+              <ion-icon
+                class="highlight-icon ion-ios-analytics-outline"
+                name="analytics-outline"
+              ></ion-icon>
+              <p>
+                Distanser: [5000, 10000]
+              </p>
+            </li>
+            <li class="highlight-info desktop">
+              <ion-icon
+                class="highlight-icon ion-ios-shapes-outline"
+                name="shapes-outline"
+              ></ion-icon>
+              <p>
+                Underlag: trail
+              </p>
+            </li>
+
+            <!-- Food and Drink Info -->
+            <li class="highlight-info">
+              <ion-icon
+                class="highlight-icon ion-ios-navigate-circle-outline"
+                name="navigate-circle-outline"
+              ></ion-icon>
+              <p>
+                Plats: Landhof 4-årstider, Vinterloppet 2024
+              </p>
+            </li>
+            <li class="highlight-info second-col mobile">
+              <ion-icon
+                class="highlight-icon ion-ios-shapes-outline"
+                name="shapes-outline"
+              ></ion-icon>
+              <p>
+                Underlag: trail
+              </p>
+            </li>
+            <li class="highlight-info">
+              <ion-icon
+                class="highlight-icon ion-ios-calendar-clear-outline"
+                name="calendar-clear-outline"
+              ></ion-icon>
+              <p>
+                Datum: 20240206
+              </p>
+            </li>
+            <div class="highlight-star-mobile second-col">
+              <ion-icon
+                class="star-icon ion-ios-star-outline md hydrated"
+                name="star"
+                role="img"
+                aria-label="star"
+              ></ion-icon>
+              <a href="https://www.oklandehof.se/skidor/arrangemang/landehof-4-arstider-vinterloppet-2024/">Länk till anmälan</a>
+            </div>
+          </ul>
+
+          <!-- Calendar and Mail Template Containers -->
+          <div class="subsection-split-container">
+            <!-- Description Container -->
+            <div class="description-container">
+              <h2>:</h2>
+              <p class="venue-description">
+                Vi på Landehof är stolta att presentera Vinterloppet 2024 i vår populära 4-årstider serie. Det kommer att vara ett löplopp för både erfarna och nya löpare och vi hälsar alla välkomna att delta. Distanserna kommer inkludera 5 km och 10 km långa spårlopp som kommer att ta löparna genom en vacker vinterlandskap.
+
+Vårt lopp kommer att ha något för alla - från de som söker en personlig utmaning till dem som bara vill ha skoj och njuta av naturen. Banorna kommer att vara välmärkta och passerar genom en vacker skogsmiljö. Efter loppet är det möjlighet att koppla av och njuta av något gott att äta och dricka och umgås med andra löpare i festlig atmosfär. Så dra på dig dina skor och anmäl dig till Vinterloppet 2024 för en dag full av löparspänning och glädje. Vi ser fram emot att ses där!
+              </p>
+              <h3>Detaljerad information:</h3>
+              <ul>
+                
+                <li>
+                  Distanser: [5000, 10000]
+                </li>
+                
+                <li>
+                  Underlag: trail
+                </li>
+                
+                <li>
+                  Plats: Landhof 4-årstider, Vinterloppet 2024
+                </li>
+                
+                <li>
+                  Datum: 20240206
+                </li>
+                 
+                <li>
+                  Loppkategorier: ['5 km', '10 km']
+                </li>
+                
+                <li>
+                  Län: Värmlands län
+                </li>
+                
+                <li>
+                  Organisatör: 
+                </li>
+                
+              </ul>
+              <h3>Länk till arrangörens hemsida:</h3>
+              <a class="venue-price" href="https://www.oklandehof.se/skidor/arrangemang/landehof-4-arstider-vinterloppet-2024/">
+                https://www.oklandehof.se/skidor/arrangemang/landehof-4-arstider-vinterloppet-2024/
+              </a>
+            </div>
+
+            <div class="subsection-right-split-container">
+              <div
+                data-mapboxCenter="[0, 0]"
+                data-mapboxcenter="[]"
+                class="map-container mapboxgl-map"
+                id="mapboxContainer"
+              ></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rest of your HTML content -->
+      </section>
+      <div id="errorMessage" class="error-message"></div>
+    </main>
+  </body>
+</html>

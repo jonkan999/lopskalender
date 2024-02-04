@@ -1,0 +1,333 @@
+.add-info-section {
+  margin-top: 8.55rem; /* Increased from 5.7rem */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3rem;
+  padding: 7.5rem; /* Adjust padding as needed */
+}
+
+.add-info-box {
+  width: 75rem; /* Increased from 50rem */
+  padding-bottom: 3rem; /* Increased from 2rem */
+  border-bottom: 1px solid #ccc;
+}
+.add-info-box [type="checkbox"] {
+  appearance: auto;
+}
+
+.add-info-box h3 {
+  font-size: 2.7rem; /* Increased from 1.8rem */
+  margin-bottom: 2.25rem; /* Increased from 1.5rem */
+}
+
+.mandatory {
+  color: #8a2be2; /* Purple color */
+  font-size: 2.7rem; /* Increased from 1.8rem */
+  vertical-align: middle;
+  margin-left: 7.5px; /* Increased from 5px */
+}
+
+.add-info-box p {
+  font-size: 1.8rem; /* Increased from 1.2rem */
+  color: #333;
+  margin-bottom: 15px; /* Increased from 10px */
+  line-height: 1.3;
+}
+
+.strong {
+  font-weight: 600;
+}
+
+.add-info-box ul {
+  margin-bottom: 3rem; /* Increased from 2rem */
+}
+
+.add-info-box p.example {
+  font-size: 1.8rem; /* Increased from 1.2rem */
+  color: var(--black-text-color);
+  margin-bottom: 2.25rem; /* Increased from 1rem */
+}
+
+.add-info-box p.input-header {
+  margin-top: 2.25rem; /* Increased from 1rem */
+  font-size: 1.8rem; /* Increased from 1.2rem */
+  color: var(--black-text-color);
+  margin-bottom: 1.125rem; /* Increased from 0.5rem */
+}
+
+.no-bullets {
+  list-style-type: none;
+  font-style: italic;
+  color: #333;
+}
+
+.add-info-box li {
+  margin-left: 2.25rem; /* Increased from 1.5rem */
+  font-size: 1.8rem; /* Increased from 1.2rem */
+  line-height: 1.4;
+  margin-bottom: 1.125rem; /* Increased from 0.5rem */
+  color: #333;
+}
+
+.add-info-box input[type="text"],
+.add-info-box textarea,
+.add-info-box input[type="number"],
+.add-info-box input[type="tel"],
+.add-info-box input[type="email"] {
+  width: 90%; /* Increased from 80% */
+  padding: 15px; /* Increased from 10px */
+  border: 1px solid #ccc;
+  border-radius: 4px; /* Increased from 3px */
+  font-family: "Inter", sans-serif;
+}
+
+.add-info-box input[type="text"]:hover,
+.add-info-box textarea:hover,
+.add-info-box input[type="number"]:hover,
+.add-info-box input[type="tel"]:hover,
+.add-info-box input[type="email"]:hover {
+  cursor: text;
+}
+
+.add-info-box textarea {
+  width: 100%; /* Adjust the width to your preference */
+  height: 25rem; /* Increased from 20rem */
+  resize: none;
+  font-size: 1.65rem;
+  /* Rest of your styles */
+}
+
+.add-info-box label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px; /* Increased from 10px */
+}
+
+.add-info-box label span {
+  width: 12.5rem; /* Increased from 10rem */
+}
+
+.add-info-box input[type="checkbox"] {
+  width: 1.8rem; /* Increased from 1.2rem */
+  height: 1.8rem; /* Increased from 1.2rem */
+  margin-right: 1.8rem; /* Increased from 1rem */
+}
+
+.split-buttons {
+  width: 75rem; /* Increased from 50rem */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem; /* Increased from 2rem */
+}
+
+.continue-button,
+.back-button {
+  font-size: 2.25rem; /* Increased from 1.5rem */
+  text-decoration: none;
+  margin: 0;
+}
+
+.back-button {
+  background-color: #eee;
+  border: solid 1px #000;
+  color: #000;
+}
+
+.back-button:hover {
+  background-color: #ddd;
+}
+
+/* IMAGE SPECIFIC STYLES */
+
+/* Hide the default file input */
+#imageUpload {
+  display: none;
+}
+
+/* Style the label to make it look like a button */
+label[for="imageUpload"],
+#clearImagesButton {
+  display: inline-block;
+  padding: 1.5rem 3rem; /* Increased from 1rem 2rem */
+  background-color: #eee;
+  color: #333;
+  cursor: pointer;
+  border: solid 1px #000;
+  color: #000;
+}
+
+#clearImagesButton {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+
+  padding: 1.4rem 3rem;
+  background-color: rgb(243, 201, 201);
+}
+
+label[for="imageUpload"]:hover {
+  background-color: #ddd;
+}
+
+#clearImagesButton:hover {
+  background-color: rgb(228, 182, 182);
+}
+
+/* Customize the appearance of the file input label when files are chosen */
+#imageUpload::file-selector-button {
+  border: none;
+  background-color: #3498db;
+  color: white;
+  padding: 12px 24px; /* Increased from 8px 16px */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Hide the text "No files chosen" */
+#imageUpload::-webkit-file-upload-button {
+  display: none;
+}
+
+.custom-file-upload {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 15px; /* Increased from 10px */
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.file-upload-status {
+  margin-left: 15px; /* Increased from 10px */
+  color: #999;
+}
+
+/* Style for uploaded images */
+.image-container {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+  max-height: 25rem; /* Increased from 20rem */
+  margin-bottom: 3rem; /* Increased from 2rem */
+  scroll-snap-type: x mandatory; /* Add scroll-snap-type here */
+}
+
+.uploaded-image-container {
+  flex: 0 0 calc(36% - 15px); /* 3 images on larger screens */
+  margin: 0 0.75rem; /* Increased from 0.5rem */
+  scroll-snap-align: start;
+  position: relative;
+}
+
+.uploaded-image-container:last-child {
+  margin-right: 0;
+}
+
+.uploaded-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.delete-icon {
+  position: absolute;
+  top: 4.5px; /* Increased from 3px */
+  right: 4.5px; /* Increased from 3px */
+  padding: 3px 3px; /* Increased from 2px */
+  border-radius: 100%;
+  background-color: #ffffff8f;
+  cursor: pointer;
+  font-size: 2.4rem; /* Increased from 1.6rem */
+}
+/* Add this CSS to your stylesheet */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  font-size: 1.5rem;
+}
+
+.spinner {
+  display: flex;
+  align-items: center;
+}
+
+.dot1,
+.dot2,
+.dot3,
+.dot4,
+.dot5 {
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 4px;
+  animation: bounce 0.7s infinite alternate;
+}
+.dot2 {
+  animation-delay: 0.2s;
+}
+.dot3 {
+  animation-delay: 0.4s;
+}
+.dot4 {
+  animation-delay: 0.6s;
+}
+.dot5 {
+  animation-delay: 0.8s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-6px);
+  }
+}
+
+.loading-text {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.drag-drop-area {
+  margin-left: 7.5%; /* Increased from 5% */
+  width: 85%; /* Increased from 90% */
+  height: 187.5px; /* Increased from 150px */
+  border: 2px dashed #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dragging-over {
+  border: 2px dashed var(--highlight-color);
+  z-index: 2;
+  transition: transform 0.3s ease-in-out;
+}
+.drag-drop-container {
+  position: relative;
+}
+
+.drag-drop-container p {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>{{data.config_aux.title}}</title>
+    <link rel="icon" href="/img/logo100px.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="description" content="{{data.config_aux.description}}" />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"
+      integrity="sha512-0bEtK0USNd96MnO4XhH8jhv3nyRF0eK87pJke6pkYf3cM0uDIhNJy9ltuzqgypoIFXw3JSuiy04tVk4AjpZdZw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!--     <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css"
+      rel="stylesheet"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="/js/mobile-nav.js"></script>
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/add-race.css" />
+    <link rel="stylesheet" href="/css/queries.css" />
+    <link rel="stylesheet" href="/css/add-race-queries.css" />
+
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner-container">
+        <header class="header-section margin-top--small margin-bottom--default">
+          <div class="header-and-logo-box">
+            <a href="/index.html" class="logo-box"></a>
+            <div class="promotion-box">
+              <span>{{data.config.promotion_text}}</span>
+              <a
+                href="{{ data.config.promotion_link.url }}"
+                target="{{ data.config.promotion_link.target }}"
+              >
+                <img
+                  src="{{ data.config.promo_logo.src }}"
+                  class="{{ data.config.promo_logo.class }}"
+                />
+              </a>
+            </div>
+          </div>
+          <nav class="main-nav">
+            <ul class="main-nav-list">
+              <li>
+                <h2 class="main-nav-header secondary-header">
+                  {{data.config.menu_button_text}}
+                </h2>
+              </li>
+              <ul class="main-nav-list">
+                {% for item in data.config.menu_items %}
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="{{item.url}}"
+                    id="{{item.id}}"
+                  >
+                    {{ item.text }}
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+            </ul>
+          </nav>
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+        </header>
+
+        <h1 class="submission-header">{{data.config_aux.submission_header}}</h1>
+        <div class="back-to-map-box margin-bottom--default">
+          <h2 class="secondary-header">
+            {{data.config_aux.back_to_map_box_header}}
+          </h2>
+          <a href="/index.html" class="add-race-button border-style"
+            >{{data.config_aux.map_button_text}}</a
+          >
+          <a href="/lopplistan.html" class="add-race-button border-style"
+            >{{data.config_aux.list_button_text}}</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

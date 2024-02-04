@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-EJBRM67XCS"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-EJBRM67XCS");
+    </script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>{{data.config.title_alternative}}</title>
+    <link rel="icon" href="/img/logo100px.jpg" />
+    <meta
+      name="description"
+      content="{{data.config.description_alternative}}"
+    />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"
+      integrity="sha512-0bEtK0USNd96MnO4XhH8jhv3nyRF0eK87pJke6pkYf3cM0uDIhNJy9ltuzqgypoIFXw3JSuiy04tVk4AjpZdZw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!--     <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css"
+      rel="stylesheet"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      type="module"
+      defer
+      src="/js/add-race/leafletMapAddRace.js"
+    ></script>
+    <script defer src="/js/mobile-nav.js"></script>
+    <script defer src="/js/add-race/togglePreview.js"></script>
+    <script defer src="/js/add-race/nudgeClick.js"></script>
+
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/add-race.css" />
+    <link rel="stylesheet" href="/css/queries.css" />
+    <link rel="stylesheet" href="/css/add-race-queries.css" />
+
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner-container">
+        <header class="header-section margin-top--small margin-bottom--smaller">
+          <div class="header-and-logo-box">
+            <a href="/index.html" class="logo-box"></a>
+            <div class="promotion-box">
+              <span>{{data.config.promotion_text}}</span>
+              <a
+                href="{{ data.config.promotion_link.url }}"
+                target="{{ data.config.promotion_link.target }}"
+              >
+                <img
+                  src="{{ data.config.promo_logo.src }}"
+                  class="{{ data.config.promo_logo.class }}"
+                />
+              </a>
+            </div>
+          </div>
+          <nav class="main-nav">
+            <ul class="main-nav-list">
+              <li>
+                <h2 class="main-nav-header secondary-header">
+                  {{data.config.menu_button_text}}
+                </h2>
+              </li>
+              <ul class="main-nav-list">
+                {% for item in data.config.menu_items %}
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="{{item.url}}"
+                    id="{{item.id}}"
+                  >
+                    {{ item.text }}
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+            </ul>
+          </nav>
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+        </header>
+
+        <div id="map" class="margin-bottom--small"></div>
+        <div id="latlongBox" class="margin-bottom--small">
+          <div id="placeMarkerUrge" class="margin-bottom--small">
+            <p>{{data.config_aux.map_message}}</p>
+          </div>
+        </div>
+        <form
+          class="grid grid--2-cols race-form margin-bottom--default"
+          name="race-form"
+          id="addRaceForm"
+          action="./submission-success.html"
+          netlify
+        >
+          <div class="race-form-input-box race-date-input">
+            <label for="date">{{data.config_aux.date_text}}:</label>
+            <input type="date" id="date" name="date" required />
+          </div>
+
+          <div class="race-form-input-box">
+            <label for="type">{{data.config_aux.type_text}}:</label>
+            <select id="type" name="type">
+              <option value="default">
+                {{data.config_aux.type_select_placeholder}}
+              </option>
+              {% for type_option in data.config_aux.type_options %}
+              <option value="{{ type_option }}">{{ type_option }}</option>
+              {% endfor %}
+            </select>
+          </div>
+          <div class="race-form-input-box">
+            <label for="name">{{data.config_aux.name_label}}</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="{{data.config_aux.name_placeholder}}"
+            />
+          </div>
+          <div class="race-form-input-box">
+            <label for="distance">{{data.config_aux.distance_label}}</label>
+            <input
+              type="text"
+              id="distance"
+              name="distance"
+              placeholder="{{data.config_aux.distance_placeholder}}"
+            />
+          </div>
+          <div class="race-form-input-box">
+            <label for="place">{{data.config_aux.place_label}}</label>
+            <input
+              type="text"
+              id="place"
+              name="place"
+              placeholder="{{data.config_aux.place_placeholder}}"
+            />
+          </div>
+          <div class="race-form-input-box">
+            <label for="organizer">{{data.config_aux.organizer_label}}</label>
+            <input
+              type="text"
+              id="organizer-contact"
+              name="organizer-contact"
+              placeholder="{{data.config_aux.organizer_contact_placeholder}}"
+              required
+            />
+          </div>
+          <div class="race-form-input-box">
+            <label for="organizer"
+              >{{data.config_aux.organizer_contact_label}}</label
+            >
+            <input
+              type="mail"
+              id="organizer-mail"
+              name="organizer-mail"
+              placeholder="{{data.config_aux.organizer_mail_placeholder}}"
+              required
+            />
+          </div>
+          <div class="race-form-input-box">
+            <label for="website">{{data.config_aux.website_label}}</label>
+            <input
+              type="text"
+              id="website"
+              name="website"
+              placeholder="{{data.config_aux.website_placeholder}}"
+            />
+          </div>
+
+          <div class="race-form-input-box race-summary-input">
+            <label for="summary">{{data.config_aux.summary_label}}</label>
+            <textarea
+              id="summary"
+              name="summary"
+              rows="4"
+              maxlength="800"
+              placeholder="{{data.config_aux.summary_placeholder}}"
+            ></textarea>
+          </div>
+
+          <input type="hidden" id="latitude" name="latitude" value="" />
+          <input type="hidden" id="longitude" name="longitude" value="" />
+          <div id="preview" class="preview-button border-style">
+            <span>{{data.config_aux.preview_button}}</span>
+          </div>
+          <button type="submit" class="border-style">
+            {{data.config_aux.submit_button}}
+          </button>
+        </form>
+
+        <button id="previewExit" class="preview-button border-style hide">
+          {{data.config_aux.preview_exit_button}}
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

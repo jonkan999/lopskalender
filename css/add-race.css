@@ -1,0 +1,358 @@
+#map {
+  width: 100%;
+  height: 40rem;
+  margin: 0 auto;
+  border: solid #333 2px;
+}
+
+#map:hover {
+  cursor: auto;
+}
+
+#map:active {
+  cursor: pointer;
+}
+
+.marker-default {
+  background: #777;
+  /* background-image: url("/svg/track.svg"); */
+  border-radius: 50%;
+
+  animation: easeIn ease 0.3s;
+  -webkit-animation: easeIn ease 0.3s;
+  -moz-animation: easeIn ease 0.3s;
+  -o-animation: easeIn ease 0.3s;
+  -ms-animation: easeIn ease 0.3s;
+}
+
+#latlongBox {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#placeMarkerUrge {
+  top: -20rem;
+  height: 3rem;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.race-form {
+  row-gap: 2rem;
+  column-gap: 3rem;
+
+  animation: easeIn ease 0.4s;
+  -webkit-animation: easeIn ease 0.4s;
+  -moz-animation: easeIn ease 0.4s;
+  -o-animation: easeIn ease 0.4s;
+  -ms-animation: easeIn ease 0.4s;
+}
+.race-form-input-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1.4rem;
+  padding: 0 2rem;
+}
+
+.race-form-input-box:has(> #type),
+.race-form-input-box:has(> #date) {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#date,
+#type {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 0 0.5rem;
+  height: 3rem;
+  background-color: var(--highlight-color);
+  width: 15rem;
+  border: solid 2px #333;
+  border-radius: 0;
+
+  color: #333;
+}
+#type option {
+  text-align: center;
+}
+.race-form-input-box input[type="date"]::-webkit-calendar-picker-indicator {
+  background-image: none;
+}
+.race-form-input-box input[type="date"] {
+  background-image: url(/svg/calendar-clear-sharp.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+}
+
+.race-form-input-box input {
+  height: 3rem;
+  padding: 0 0.5rem;
+  background-color: var(--highlight-color);
+
+  border: solid 2px #333;
+  border-radius: 0;
+}
+
+.race-form-input-box input:focus {
+  background-color: #fff;
+}
+
+.race-summary-input {
+  grid-column: 1/3;
+  padding: 0 0;
+}
+.race-summary-input textarea {
+  height: 10rem;
+  padding: 0.5rem 0.5rem;
+  overflow: auto;
+  resize: none;
+  vertical-align: top;
+  background-color: var(--highlight-color);
+  border: solid 2px #333;
+  border-radius: 0;
+}
+
+.race-summary-input textarea:focus {
+  background-color: #fff;
+}
+.race-form button {
+  width: 20rem;
+  height: 3rem;
+  justify-self: center;
+  background-color: var(--highlight-color);
+  font-size: 1.5rem;
+  color: #000;
+}
+.preview-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  height: 3rem;
+  justify-self: center;
+  background-color: var(--highlight-color);
+  font-size: 1.5rem;
+  color: #000;
+
+  animation: easeIn ease 0.4s;
+  -webkit-animation: easeIn ease 0.4s;
+  -moz-animation: easeIn ease 0.4s;
+  -o-animation: easeIn ease 0.4s;
+  -ms-animation: easeIn ease 0.4s;
+}
+
+.race-form button:focus,
+.race-form button:active,
+.race-form button:hover,
+.preview-button:focus,
+.preview-button:active,
+.preview-button:hover {
+  background-color: #fff;
+  cursor: default;
+}
+
+#previewExit {
+  margin: 2rem auto;
+}
+
+.hide {
+  display: none;
+}
+
+/* Info box section */
+
+.race-info-box {
+  background-color: var(--highlight-color);
+  padding: 0.3rem 2rem 0 2rem;
+
+  gap: 1rem;
+  width: 100%;
+  height: 7rem;
+  /* border: solid 1px #333; */
+  border-radius: 3px;
+
+  overflow: hidden;
+
+  animation: easeIn ease 0.4s;
+  -webkit-animation: easeIn ease 0.4s;
+  -moz-animation: easeIn ease 0.4s;
+  -o-animation: easeIn ease 0.4s;
+  -ms-animation: easeIn ease 0.4s;
+
+  transition: 0.2s all;
+}
+
+.race-info-box--expanded {
+  height: 30rem;
+}
+
+.race-info-box:hover,
+.race-info-box:active {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.race-info-box--expanded.race-info-box:hover,
+.race-info-box--expanded.race-info-box:active {
+  background-color: var(--highlight-color);
+  cursor: auto;
+}
+
+.race-info-box-upper-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.highlighted-box {
+  position: relative;
+  /* box-shadow: 0 0.3rem 0.9rem #3b924cab; */
+  overflow: visible;
+}
+
+.highlight-text-box-road {
+  position: absolute;
+  display: block;
+  padding: 0.6rem;
+  left: 3%;
+  top: 55%;
+  color: #495057;
+  background-color: #dbdcdd;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.race-info-box--expanded .highlight-text-box-road {
+  top: 80%;
+}
+
+.text-icon-road {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #495057;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 14px solid #495057;
+  border-radius: 2px;
+  margin: 3px 0px 0 0;
+}
+
+.text-icon-trail {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #e2701b;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 14px solid #e2701b;
+  border-radius: 2px;
+  margin: 0 0px 2px 0;
+}
+
+.text-icon-terrain {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #3b924d;
+  width: 14px !important;
+  height: 14px !important;
+  border-radius: 2px;
+}
+
+.text-icon-track {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: #ca2c2c;
+  border-radius: 50%;
+}
+
+.text-icon-relay {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #336ab9;
+  border-radius: 50%;
+}
+
+.race-type {
+}
+
+.race-website:link,
+.race-website:visited {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: blue;
+}
+.race-website:active,
+.race-website:hover {
+  text-decoration: underline;
+}
+
+.nudge-text-box {
+  animation: delayedEaseIn ease 2s;
+  -webkit-animation: delayedEaseIn ease 2s;
+  -moz-animation: delayedEaseIn ease 2s;
+  -o-animation: delayedEaseIn ease 2s;
+  -ms-animation: delayedEaseIn ease 2s;
+}
+
+.submission-header {
+  text-align: center;
+  margin: 20rem 0 10rem;
+  line-height: 1.2;
+  color: #0f2037;
+}
+.back-to-map-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.back-to-map-button {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  height: 3rem;
+  justify-self: center;
+  background-color: var(--highlight-color);
+  font-size: 1.5rem;
+  color: #000;
+
+  animation: easeIn ease 0.4s;
+  -webkit-animation: easeIn ease 0.4s;
+  -moz-animation: easeIn ease 0.4s;
+  -o-animation: easeIn ease 0.4s;
+  -ms-animation: easeIn ease 0.4s;
+}
+
+.back-to-map-button:focus,
+.back-to-map-button:active,
+.back-to-map-button:hover {
+  background-color: #fff;
+}
+
+@keyframes delayedEaseIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

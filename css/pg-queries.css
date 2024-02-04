@@ -1,0 +1,389 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 1720px (category grid breaks) */
+/**************************/
+@media (max-width: 108em) {
+}
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+  #showAllGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+  #hideGrid {
+    right: 2rem;
+  }
+  .images-section {
+    height: 30rem;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+  .category-link,
+  .cta {
+    display: block;
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  .venue-page {
+    width: auto;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .search-box {
+    top: 30rem;
+
+    flex-direction: column;
+    width: 95%;
+    align-items: flex-start;
+    padding: 2rem 1.5rem;
+  }
+
+  .main-heading {
+    font-size: 3.75rem;
+    line-height: 1.1;
+  }
+
+  .border-div {
+    display: block;
+    width: 100%;
+    border-top: 1px solid #555;
+  }
+  .input-group {
+    width: 100%;
+  }
+  #eventDate {
+    width: 100%;
+  }
+  .search-button {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .search-button.continue-button {
+    width: 28rem;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .mobile {
+    display: flex;
+  }
+
+  .desktop {
+    display: none;
+  }
+  #venuePage {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #infoContainer {
+    display: block;
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .images-section {
+    flex-direction: column;
+    height: 50rem;
+  }
+  .left-image {
+    width: 100%;
+    height: 24.25rem;
+  }
+
+  .right-images-section {
+    flex-direction: row;
+    width: 100%;
+    height: 25rem;
+  }
+  .top-right-image {
+    width: calc(60% - 0.5rem);
+    height: 25rem;
+  }
+  .bottom-right-images {
+    width: calc(40% - 0.25rem);
+    flex-direction: column;
+    height: 25rem;
+  }
+  .bottom-right-image {
+    width: 100%;
+    height: 12.25rem;
+  }
+  .square-icon-container .icon {
+    font-size: 1.8rem;
+    color: #fff;
+  }
+  .highlights-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1rem;
+  }
+  .full-row {
+    grid-column: 1 / 3;
+  }
+  .second-col {
+    justify-self: flex-end;
+    margin-right: 2rem;
+  }
+  .second-col p {
+    width: 10rem;
+  }
+  .highlight-stars {
+    display: none;
+  }
+  .highlight-star-mobile {
+    display: flex;
+  }
+  .subsection-split-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .description-container {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .subsection-right-split-container {
+    width: 100%;
+  }
+  .map-container {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    width: 90%;
+    height: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .calendar {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mail-template-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #showAllGrid {
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(100%, 1fr)
+    ); /* Make each item as wide as the screen */
+    gap: 10px; /* Adjust the gap between items as needed */
+    overflow-y: scroll; /* Enable vertical scrolling */
+
+    scroll-snap-type: y mandatory; /* Enable vertical scroll snapping */
+  }
+
+  .gallery-image {
+    width: 100%; /* Make each item as wide as the screen */
+    text-align: center; /* Center the content inside the items */
+    scroll-snap-align: center; /* Center alignment for scroll snapping */
+  }
+
+  .description-container .venue-price {
+    margin-left: 5%;
+  }
+  .search-button.continue-button {
+    left: 15%;
+    width: 70%;
+    transform: none;
+  }
+}
+
+/**************************/
+/* BELOW 430px ( new Phones) */
+/**************************/
+@media (max-width: 27em) {
+}
+
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 1720px (category grid breaks) */
+/**************************/
+@media (max-width: 108em) {
+}
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  .category-link,
+  .cta {
+  }
+  .cta {
+    display: block;
+  }
+  .menu-box {
+    display: block;
+  }
+  /*  .brand-box {
+    display: none;
+  } */
+  /*   .brand-box-small {
+    display: flex;
+    margin: 0 0 0 3.75rem;
+  } */
+  .brand-box-small-image {
+    height: 33%;
+    width: 33%;
+    object-fit: contain;
+  }
+
+  /* Style for the sliding menu */
+  .menu {
+    position: fixed;
+    top: 0;
+    right: -85%; /* Start off-screen */
+    width: 85%;
+    height: 100vh;
+    background-color: var(--black-background-color);
+    transition: right 0.3s ease; /* Add smooth transition effect */
+    z-index: 9999;
+  }
+
+  /* Add this CSS for the menu overlay */
+  .menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    z-index: 5; /* Set z-index to be higher than the menu */
+    display: none; /* Hide the overlay by default */
+  }
+
+  /* Style for the menu box */
+  .menu-box {
+    cursor: pointer;
+  }
+
+  /* Style for the 'open' class to slide the menu in */
+  .menu.open {
+    right: 0;
+  }
+
+  .menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  /* Style for the menu items */
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin-top: calc(var(--header-size) + 5rem);
+    display: block;
+    text-align: center;
+  }
+
+  .menu li {
+    padding: 2rem 4rem;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  .menu li:last-child {
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .category-link {
+    text-decoration: none;
+  }
+  .category-link.cta {
+    width: 30rem;
+  }
+
+  .icon-box.close-button {
+    display: block;
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+    top: 1.75rem;
+    right: 1.75rem;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .menu-box {
+    display: block;
+  }
+}
+
+/**************************/
+/* BELOW 430px ( new Phones) */
+/**************************/
+@media (max-width: 27em) {
+}

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id={{data.config.google_analytics_id}}"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "{{data.config.google_analytics_id}}");
+    </script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>{{data.config.title}}</title>
+    <link rel="icon" href="/img/logo100px.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="description" content="{{data.config.description}}" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"
+      integrity="sha512-0bEtK0USNd96MnO4XhH8jhv3nyRF0eK87pJke6pkYf3cM0uDIhNJy9ltuzqgypoIFXw3JSuiy04tVk4AjpZdZw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js
+    "></script>
+
+    <!--     <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css"
+      rel="stylesheet"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- <script defer src="/js/initiateList.js"></script> -->
+    <script defer src="/js/mobile-nav.js"></script>
+    <script type="module" src="/js/loadHiddenRaces.js"></script>
+    <script type="module" src="/js/initiateListSite.js"></script>
+    <!-- <script type="module" src="/js/toggleView.js"></script> -->
+    <script type="module" defer src="/js/sliderMax.js"></script>
+    <script type="module" defer src="/js/sliderDistanceMax.js"></script>
+    <!-- <script type="module" defer src="/js/leafletMapNew.js"></script> -->
+    <script type="module" defer src="/js/toggleCheckboxes.js"></script>
+
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/queries.css" />
+
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner-container">
+        <header class="header-section margin-top--small margin-bottom--smaller">
+          <div class="header-and-logo-box">
+            <a href="/index.html" class="logo-box"></a>
+            <div class="promotion-box">
+              <span>{{data.config.promotion_text}}</span>
+              <a
+                href="{{ data.config.promotion_link.url }}"
+                target="{{ data.config.promotion_link.target }}"
+              >
+                <img
+                  src="{{ data.config.promo_logo.src }}"
+                  class="{{ data.config.promo_logo.class }}"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="map-or-list-view margin-bottom--tiny">
+            <div
+              id="category-selector"
+              class="select-wrapper show"
+              style="display: block; opacity: 1"
+            >
+              <select class="view-button category-filter-button">
+                <option value="">{{data.config.category_label_text}}</option>
+                {% for category in data.config.category_mapping %}
+                <option value="{{category}}">{{category}}</option>
+                {% endfor %}
+              </select>
+              <!--               <ion-icon
+                class="menu-icon"
+                name="chevron-down-outline"
+              ></ion-icon> -->
+            </div>
+            <div
+              id="county-selector"
+              class="select-wrapper show"
+              style="display: block; opacity: 1"
+            >
+              <select class="view-button lan-filter-button">
+                <option value="">{{data.config.county_label_text}}</option>
+                {% for county in data.config.county_mapping %}
+                <option value="{{county}}">{{county}}</option>
+                {% endfor %}
+              </select>
+              <!--              <ion-icon
+                class="menu-icon"
+                name="chevron-down-outline"
+              ></ion-icon> -->
+            </div>
+            <a class="view-button-wrapper" href="/">
+              <button
+                class="view-button map-view-button toggle-button active-button"
+              >
+                {{data.config.map_button_text}}
+              </button>
+            </a>
+          </div>
+
+          <nav class="main-nav">
+            <ul class="main-nav-list">
+              <li>
+                <h2 class="main-nav-header secondary-header">
+                  {{data.config.menu_button_text}}
+                </h2>
+              </li>
+              <ul class="main-nav-list">
+                {% for item in data.config.menu_items %}
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="{{item.url}}"
+                    id="{{item.id}}"
+                  >
+                    {{ item.text }}
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+            </ul>
+          </nav>
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+        </header>
+        <h1 class="main-header margin-bottom--tiny">
+          {{data.config.main_header}}
+        </h1>
+        <h2
+          class="secondary-header block-header map-header margin-bottom--tiny"
+        >
+          {{data.config.main_subheader}}
+        </h2>
+
+        <div class="filter-section margin-bottom--default">
+          <div class="slider-container">
+            <div class="slider-box">
+              <p>
+                <label for="daysFilterText"
+                  >{{data.config.days_filter_text}}</label
+                >
+                <input type="text" id="daysFilterText" readonly />
+              </p>
+              <div id="sliderDays"></div>
+            </div>
+            <div class="slider-box">
+              <p>
+                <label for="distanceFilterText"
+                  >{{data.config.distance_filter_text}}</label
+                >
+                <input type="text" id="distanceFilterText" readonly />
+              </p>
+              <div id="sliderDistance"></div>
+            </div>
+          </div>
+          <div class="checkboxes">
+            {% for checkbox in data.config.checkbox_mapping %}
+            <div id="{{ checkbox.container_id }}" class="checkbox-container">
+              <div
+                id="{{ checkbox.checkbox_id }}"
+                class="header-checkbox active"
+              >
+                <div class="check-icon {{ checkbox.check_icon_class }}"></div>
+              </div>
+              <span for="{{ checkbox.checkbox_id }}"
+                >{{ checkbox.label_text }}</span
+              >
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+
+        <div id="raceContainer" class="race-container">
+          {% for month_year, events_in_month in data.events_by_month.items() %}
+          <!-- Month Header -->
+          <div class="month-name" style="display: block">
+            <h2
+              class="secondary-header"
+              style="margin-bottom: 0.3rem; padding-left: 0.2rem"
+            >
+              {{ month_year }}
+            </h2>
+          </div>
+
+          <!-- Race Containers for the Month -->
+          {% for race in events_in_month %}
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="{{ race.id }}"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">{{ race.display_date }}</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">{{ race.name }}</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-{{ race.type }}"></div>
+                  <p class="race-type">{{ race.type }}</p>
+                </div>
+                <p class="race-distance">{{ race.display_distances }}</p>
+              </div>
+              <a class="race-website" href="{{ race.website }}" target="_blank"
+                >{{ data.config.more_info_text }}</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">{{ race.summary }}</p>
+            </div>
+          </div>
+          {% endfor %} {% endfor %}
+        </div>
+
+        <div class="add-new-race-box margin-bottom--default">
+          <h2 class="add-new-race-header secondary-header">
+            {{data.config.ending_header}}
+          </h2>
+          <a
+            id="{{data.config.add_race_button.id}}"
+            href="{{data.config.add_race_button.url}}"
+            class="{{data.config.add_race_button.class}}"
+            >{{data.config.add_race_button.label}}
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

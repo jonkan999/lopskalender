@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Kontakta oss på loppkartan.se</title>
+    <link rel="icon" href="/img/logo100px.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="description" content="Kontakta oss på loppkartan.se om du har frågor eller synpunkter på innehållet i något lopp." />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"
+      integrity="sha512-0bEtK0USNd96MnO4XhH8jhv3nyRF0eK87pJke6pkYf3cM0uDIhNJy9ltuzqgypoIFXw3JSuiy04tVk4AjpZdZw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!--     <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css"
+      rel="stylesheet"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer src="/js/mobile-nav.js"></script>
+
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/queries.css" />
+
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner-container">
+        <header class="header-section margin-top--small margin-bottom--default">
+          <div class="header-and-logo-box">
+            <a href="/index.html" class="logo-box"></a>
+            <div class="promotion-box">
+              <span>Obetalt samarbete med:</span>
+              <a
+                href="http://www.kungsholmenrunt.se/Main/Start.asp"
+                target="_blank"
+              >
+                <img
+                  src="/img/logokr_bluebg.jpg"
+                  class="promo-logo-box"
+                />
+              </a>
+            </div>
+          </div>
+
+          <nav class="main-nav">
+            <ul class="main-nav-list">
+              <li>
+                <h2 class="main-nav-header secondary-header">
+                  Meny
+                </h2>
+              </li>
+              <ul class="main-nav-list">
+                
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="/index.html"
+                    id="navIndex"
+                  >
+                    Loppkartan
+                  </a>
+                </li>
+                
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="/lopplistan.html"
+                    id="navLopplistan"
+                  >
+                    Lopplistan
+                  </a>
+                </li>
+                
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="/om-oss.html"
+                    id="navAbout"
+                  >
+                    Om Loppkartan.se
+                  </a>
+                </li>
+                
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="/kontakt.html"
+                    id="navContact"
+                  >
+                    Kontaktuppgifter
+                  </a>
+                </li>
+                
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="/lagg-till-lopp.html"
+                    id="navAddRace"
+                  >
+                    Lägg till lopp
+                  </a>
+                </li>
+                
+              </ul>
+            </ul>
+          </nav>
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+        </header>
+        <h1 class="main-header margin-bottom--small">
+          Kontaktinformation
+        </h1>
+        <h2 class="secondary-header margin-bottom--small">
+          Vi som står bakom loppkartan
+        </h2>
+        <p class="standard-paragraph margin-bottom--small">
+          Den här webbplatsen är skapad ur frustration över att det inte finns
+någon komplett källa till att hitta nya löpartävlingar. Vi som står
+bakom sajten är själva aktiva löpare och springer
+regelbundet lopp. Sidan är ett hobbyprojekt och finansieras enbart av
+passion och funktionärsbullar. Vi tar tacksamt emot feedback på hur vi
+kan göra användarupplevelsen bättre, eller om ni har synpunkter på
+innehållet i något lopp så får ni gärna kontakta oss på:
+
+        </p>
+        <div class="mail-to-link-wrapper margin-bottom--default">
+          <a
+            class="inline-link mail-to-link"
+            href="mailto:loppkartan@gmail.com"
+            >loppkartan@gmail.com</a
+          >
+        </div>
+        <h2 class="secondary-header margin-bottom--small">
+          Lägg till saknade lopp
+        </h2>
+        <p class="standard-paragraph margin-bottom--small">
+          Om ni redan har gått igenom listan grundligt och känner att ni saknade
+något lopp. Följ då gärna nedan länk till vårat arrangörsformulär och
+fyll i uppgifterna så lägger vi upp loppet snarast. Detta går även bra
+att göra för ickearrangörer samt vänner av ordning som tycker att vi
+saknar något. Länken är här:
+
+        </p>
+        <div class="mail-to-link-wrapper margin-bottom--default">
+          <a
+            class="inline-link mail-to-link"
+            href="/lagg-till-lopp.html"
+            >Lägg till lopp</a
+          >
+        </div>
+
+        <div class="add-new-race-box margin-bottom--default">
+          <h2
+            class="add-new-race-header secondary-header margin-bottom--default"
+          >
+            Nog om oss, leta rätt på ditt nästa lopp med hjälp av kartan eller listan nedan:
+          </h2>
+          <a href="/index.html" class="add-race-button border-style"
+            >KARTAN</a
+          >
+          <a href="/lopplistan.html" class="add-race-button border-style"
+            >LISTAN</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

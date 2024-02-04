@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-EJBRM67XCS"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-EJBRM67XCS");
+    </script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Loppkartan som får Sverige att springa fler lopp 2024</title>
+    <link rel="icon" href="/img/logo100px.jpg" />
+    <meta
+      name="description"
+      content="Vi har samlat alla svenska löplopp i en interaktiv karta. Hitta ditt nästa millopp, tidslopp, traillopp, halvmara, marathon eller ultra marathon hos oss idag."
+    />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"
+      integrity="sha512-0bEtK0USNd96MnO4XhH8jhv3nyRF0eK87pJke6pkYf3cM0uDIhNJy9ltuzqgypoIFXw3JSuiy04tVk4AjpZdZw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!--     <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css"
+      rel="stylesheet"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      type="module"
+      defer
+      src="/js/add-race/leafletMapAddRace.js"
+    ></script>
+    <script defer src="/js/mobile-nav.js"></script>
+    <script defer src="/js/add-race/togglePreview.js"></script>
+    <script defer src="/js/add-race/nudgeClick.js"></script>
+
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/add-race.css" />
+    <link rel="stylesheet" href="/css/queries.css" />
+    <link rel="stylesheet" href="/css/add-race-queries.css" />
+
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner-container">
+        <header class="header-section margin-top--small margin-bottom--smaller">
+          <div class="header-and-logo-box">
+            <a href="/index.html" class="logo-box"></a>
+            <div class="promotion-box">
+              <span>Obetalt samarbete med:</span>
+              <a
+                href="http://www.kungsholmenrunt.se/Main/Start.asp"
+                target="_blank"
+              >
+                <img
+                  src="/img/logokr_bluebg.jpg"
+                  class="promo-logo-box"
+                />
+              </a>
+            </div>
+          </div>
+          <nav class="main-nav">
+            <ul class="main-nav-list">
+              <li>
+                <h2 class="main-nav-header secondary-header">
+                  Meny
+                </h2>
+              </li>
+              <ul class="main-nav-list">
+                
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="/index.html"
+                    id="navIndex"
+                  >
+                    Loppkartan
+                  </a>
+                </li>
+                
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="/lopplistan.html"
+                    id="navLopplistan"
+                  >
+                    Lopplistan
+                  </a>
+                </li>
+                
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="/om-oss.html"
+                    id="navAbout"
+                  >
+                    Om Loppkartan.se
+                  </a>
+                </li>
+                
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="/kontakt.html"
+                    id="navContact"
+                  >
+                    Kontaktuppgifter
+                  </a>
+                </li>
+                
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="/lagg-till-lopp.html"
+                    id="navAddRace"
+                  >
+                    Lägg till lopp
+                  </a>
+                </li>
+                
+              </ul>
+            </ul>
+          </nav>
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+        </header>
+
+        <div id="map" class="margin-bottom--small"></div>
+        <div id="latlongBox" class="margin-bottom--small">
+          <div id="placeMarkerUrge" class="margin-bottom--small">
+            <p>Placera ut ditt lopp genom att klicka på kartan</p>
+          </div>
+        </div>
+        <form
+          class="grid grid--2-cols race-form margin-bottom--default"
+          name="race-form"
+          id="addRaceForm"
+          action="./submission-success.html"
+          netlify
+        >
+          <div class="race-form-input-box race-date-input">
+            <label for="date">Datum:</label>
+            <input type="date" id="date" name="date" required />
+          </div>
+
+          <div class="race-form-input-box">
+            <label for="type">Typ av underlag / Typ av lopp:</label>
+            <select id="type" name="type">
+              <option value="default">
+                Välj underlag / typ av lopp
+              </option>
+              
+              <option value="Landsväg">Landsväg</option>
+              
+              <option value="Terräng">Terräng</option>
+              
+              <option value="Trail">Trail</option>
+              
+              <option value="Backyard Ultra">Backyard Ultra</option>
+              
+              <option value="Stafett">Stafett</option>
+              
+              <option value="Bana">Bana</option>
+              
+              <option value="Övrigt">Övrigt</option>
+              
+            </select>
+          </div>
+          <div class="race-form-input-box">
+            <label for="name">Loppets namn:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="t ex Kungsholmen runt"
+            />
+          </div>
+          <div class="race-form-input-box">
+            <label for="distance">Distanser:</label>
+            <input
+              type="text"
+              id="distance"
+              name="distance"
+              placeholder="10 km, halvmara och knattelopp"
+            />
+          </div>
+          <div class="race-form-input-box">
+            <label for="place">Plats:</label>
+            <input
+              type="text"
+              id="place"
+              name="place"
+              placeholder="Rålambshovsparken, Stockholm"
+            />
+          </div>
+          <div class="race-form-input-box">
+            <label for="organizer">Arrangör:</label>
+            <input
+              type="text"
+              id="organizer-contact"
+              name="organizer-contact"
+              placeholder="FK Studenterna"
+              required
+            />
+          </div>
+          <div class="race-form-input-box">
+            <label for="organizer"
+              >Mail till kontaktperson:</label
+            >
+            <input
+              type="mail"
+              id="organizer-mail"
+              name="organizer-mail"
+              placeholder="info@LoppKartan.se"
+              required
+            />
+          </div>
+          <div class="race-form-input-box">
+            <label for="website">Arrangörshemsida:</label>
+            <input
+              type="text"
+              id="website"
+              name="website"
+              placeholder="https://fkstudenterna.se/"
+            />
+          </div>
+
+          <div class="race-form-input-box race-summary-input">
+            <label for="summary">Beskriv loppet</label>
+            <textarea
+              id="summary"
+              name="summary"
+              rows="4"
+              maxlength="800"
+              placeholder="KfS Kungsholmen Runt är en milbana med långa, flacka rakor ..."
+            ></textarea>
+          </div>
+
+          <input type="hidden" id="latitude" name="latitude" value="" />
+          <input type="hidden" id="longitude" name="longitude" value="" />
+          <div id="preview" class="preview-button border-style">
+            <span>Förhandsgranska</span>
+          </div>
+          <button type="submit" class="border-style">
+            Skicka
+          </button>
+        </form>
+
+        <button id="previewExit" class="preview-button border-style hide">
+          Tillbaka
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

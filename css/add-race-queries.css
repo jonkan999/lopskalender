@@ -1,0 +1,103 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+@media (max-width: 94em) {
+  .heading-primary {
+    font-size: 5rem;
+  }
+}
+
+/**************************/
+/* BELOW 1720px (category grid breaks) */
+/**************************/
+@media (max-width: 108em) {
+  .product-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  .container {
+    padding: 0 1rem;
+  }
+  .inner-container {
+    padding: 0 1rem;
+  }
+
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-items: center;
+    row-gap: 2rem;
+  }
+  .race-summary-input {
+    grid-column: 1/2;
+  }
+
+  #date,
+  #type {
+    width: 23rem;
+  }
+
+  .race-form-input-box {
+    width: 30rem;
+  }
+  #preview {
+    margin-bottom: -0.5rem;
+  }
+  .race-info-box--expanded {
+    height: 32rem;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .race-info-box--expanded {
+    height: 35rem;
+  }
+}
+
+/**************************/
+/* BELOW 430px ( new Phones) */
+/**************************/
+@media (max-width: 27em) {
+  .race-info-box--expanded {
+    height: 38rem;
+  }
+}
+
+@media (max-width: 1300px) and (min-width: 1000px) and (max-height: 600px) {
+}

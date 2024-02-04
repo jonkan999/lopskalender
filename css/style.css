@@ -1,0 +1,523 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* STYLING HEADER BUTTONS */
+.map-or-list-view {
+  position: absolute;
+  top: 31.9rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 41rem;
+  height: 4rem;
+  padding-right: 11.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 401;
+}
+.view-button-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.view-button {
+  border: none;
+  border-top: solid 2px #333;
+  border-bottom: solid 1px #333;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+}
+.view-button:hover,
+.view-button:active {
+  background-color: var(--highlight-color);
+  box-shadow: inset 0.2rem 0.2rem 0.2rem 0 #333;
+  cursor: pointer;
+}
+
+#category-selector {
+  position: relative;
+  display: inline-block;
+  display: block;
+  text-align: center;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#county-selector {
+  position: relative;
+  display: inline-block;
+  display: block;
+  text-align: center;
+  opacity: 0;
+  width: 75%;
+  height: 100%;
+}
+
+.select-wrapper .menu-icon {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#county-selector select,
+#category-selector select {
+  /*   appearance: none;
+  -webkit-appearance: none; */
+  border-radius: 0;
+  text-align: center;
+  color: #333;
+}
+#category-selector option {
+  text-align: center;
+}
+.menu-icon {
+  color: #333;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.lan-filter-button {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s ease-in-out;
+}
+
+.category-filter-button {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s ease-in-out;
+}
+
+.list-view-button {
+  background-color: #fff;
+  width: 60%;
+  height: 100%;
+}
+.map-view-button {
+  background-color: #fff;
+  width: 60%;
+  height: 100%;
+}
+.list-view-button:focus,
+.active-button {
+  background-color: var(--highlight-color);
+  box-shadow: inset 0.2rem 0.2rem 0.2rem 0 #333;
+}
+
+.map-view-button:focus,
+.active-button {
+  background-color: var(--highlight-color);
+  box-shadow: inset 0.2rem 0.2rem 0.2rem 0 #333;
+}
+
+/* STYLING MAP */
+
+#map {
+  width: 100%;
+  height: 50rem;
+  margin: 0 auto;
+  border: solid #333 2px;
+  animation: easeIn ease 0.4s;
+  -webkit-animation: easeIn ease 0.4s;
+  -moz-animation: easeIn ease 0.4s;
+  -o-animation: easeIn ease 0.4s;
+  -ms-animation: easeIn ease 0.4s;
+
+  transition: height 0.3s ease-in-out;
+  overflow: hidden;
+}
+#map:focus {
+  box-shadow: none;
+}
+.controls {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.hideMarkerOnCheck {
+  display: none;
+}
+.hideMarkerOnDays {
+  display: none;
+}
+.hideMarkerOnDistance {
+  display: none;
+}
+.filter-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 3.5rem;
+  margin-bottom: 1.2rem;
+
+  padding: 0 1rem;
+
+  gap: 1rem;
+
+  position: relative;
+  top: 0;
+  transition: top 0.3s ease-in-out;
+}
+
+/* Set new top position and add class to trigger transition */
+.remove-transition {
+  top: -100%;
+}
+
+/* Reset top position after transition is completed */
+.filter-section:not(.transition) {
+  top: auto;
+}
+
+.slider-container {
+  margin-top: -9rem;
+  width: 50rem;
+  font-size: 1.4rem;
+}
+
+#daysFilterText {
+  border: 0;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#sliderDays {
+  width: auto;
+  height: 1rem;
+  margin-bottom: 3rem;
+}
+
+#sliderDays .ui-slider-handle {
+  width: 1.3rem;
+  height: 1.5rem;
+  background-color: var(--highlight-color);
+  border: solid 2px #333;
+}
+
+#distanceFilterText {
+  border: 0;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#sliderDistance {
+  width: auto;
+  height: 1rem;
+}
+
+#sliderDistance .ui-slider-handle {
+  width: 1.3rem;
+  height: 1.5rem;
+  background-color: var(--highlight-color);
+  border: solid 2px #333;
+}
+
+.ui-slider-range {
+  background-color: var(--highlight-color);
+}
+
+.checkboxes {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: -4rem;
+  gap: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  transition: all 0.1s ease-in-out;
+  z-index: 402;
+}
+
+.checkbox-container {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+}
+
+.header-checkbox.active {
+  border-color: #333;
+  animation: easeIn ease 0.2s;
+  -webkit-animation: easeIn ease 0.2s;
+  -moz-animation: easeIn ease 0.2s;
+  -o-animation: easeIn ease 0.2s;
+  -ms-animation: easeIn ease 0.2s;
+}
+.check-icon {
+  display: none;
+}
+
+.header-checkbox.active .check-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  animation: easeIn ease 0.2s;
+  -webkit-animation: easeIn ease 0.2s;
+  -moz-animation: easeIn ease 0.2s;
+  -o-animation: easeIn ease 0.2s;
+  -ms-animation: easeIn ease 0.2s;
+}
+
+.check-icon-road {
+  color: #495057;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 14px solid #495057;
+  border-radius: 2px;
+  margin: 3px 0px 0 0;
+
+  animation: easeIn ease 0.2s;
+  -webkit-animation: easeIn ease 0.2s;
+  -moz-animation: easeIn ease 0.2s;
+  -o-animation: easeIn ease 0.2s;
+  -ms-animation: easeIn ease 0.2s;
+}
+.check-icon-trail {
+  color: #e2701b;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 14px solid #e2701b;
+  border-radius: 2px;
+  margin: 0 0px 2px 0;
+
+  animation: easeIn ease 0.2s;
+  -webkit-animation: easeIn ease 0.2s;
+  -moz-animation: easeIn ease 0.2s;
+  -o-animation: easeIn ease 0.2s;
+  -ms-animation: easeIn ease 0.2s;
+}
+
+.check-icon-relay {
+  background-color: #336ab9;
+  border-radius: 50%;
+
+  animation: easeIn ease 0.2s;
+  -webkit-animation: easeIn ease 0.2s;
+  -moz-animation: easeIn ease 0.2s;
+  -o-animation: easeIn ease 0.2s;
+  -ms-animation: easeIn ease 0.2s;
+}
+.check-icon-backyard {
+  background-color: #fff;
+  border-radius: 50%;
+  border: solid 5px #e2701b;
+
+  animation: easeIn ease 0.2s;
+  -webkit-animation: easeIn ease 0.2s;
+  -moz-animation: easeIn ease 0.2s;
+  -o-animation: easeIn ease 0.2s;
+  -ms-animation: easeIn ease 0.2s;
+}
+
+.check-icon-terrain {
+  background-color: #3b924d;
+  width: 14px !important;
+  height: 14px !important;
+  /* background-image: url("/svg/terrain.svg"); */
+  border-radius: 2px;
+}
+
+.check-icon-track {
+  background: #ca2c2c;
+  border-radius: 50%;
+
+  animation: easeIn ease 0.2s;
+  -webkit-animation: easeIn ease 0.2s;
+  -moz-animation: easeIn ease 0.2s;
+  -o-animation: easeIn ease 0.2s;
+  -ms-animation: easeIn ease 0.2s;
+}
+
+.header-checkbox span {
+  font-size: 1.6rem;
+}
+
+/* Info box section */
+
+.race-info-box {
+  background-color: var(--highlight-color);
+  padding: 0.3rem 2rem 0 2rem;
+
+  gap: 1rem;
+  width: 100%;
+  min-height: 7rem;
+  /* border: solid 1px #333; */
+  border-radius: 3px;
+
+  overflow: hidden;
+  transition: 0.3s all;
+}
+
+.race-info-box--expanded {
+  max-height: 38rem;
+  padding: 0.3rem 2rem 2rem 2rem;
+}
+
+.race-info-box:hover,
+.race-info-box:active {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.race-info-box--expanded.race-info-box:hover,
+.race-info-box--expanded.race-info-box:active {
+  background-color: var(--highlight-color);
+  cursor: auto;
+}
+
+.race-info-box-upper-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.highlighted-box {
+  position: relative;
+  /* box-shadow: 0 0.3rem 0.9rem #3b924cab; */
+  overflow: visible;
+}
+.highlighted-box.race-info-box--expanded {
+  padding: 0.3rem 2rem 5rem 2rem;
+}
+
+.highlight-text-box-road {
+  position: absolute;
+  display: block;
+  padding: 0.6rem;
+  left: 3%;
+  top: 55%;
+  color: #495057;
+  background-color: #dbdcdd;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.text-icon-road {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #495057;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 14px solid #495057;
+  border-radius: 2px;
+  margin: 3px 0px 0 0;
+}
+
+.text-icon-trail {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #e2701b;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 14px solid #e2701b;
+  border-radius: 2px;
+  margin: 0 0px 2px 0;
+}
+
+.text-icon-terrain {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #3b924d;
+  width: 14px !important;
+  height: 14px !important;
+  border-radius: 2px;
+}
+
+.text-icon-track {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: #ca2c2c;
+  border-radius: 50%;
+}
+
+.text-icon-relay {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #336ab9;
+  border-radius: 50%;
+}
+.text-icon-backyard {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #fff;
+  border-radius: 50%;
+  border: solid 5px #e2701b;
+}
+
+.race-type {
+}
+
+.add-new-race-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.add-race-button {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  height: 3rem;
+  justify-self: center;
+  background-color: var(--highlight-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+
+  animation: easeIn ease 0.4s;
+  -webkit-animation: easeIn ease 0.4s;
+  -moz-animation: easeIn ease 0.4s;
+  -o-animation: easeIn ease 0.4s;
+  -ms-animation: easeIn ease 0.4s;
+}
+
+.add-race-button:focus,
+.add-race-button:active,
+.add-race-button:hover {
+  background-color: #fff;
+}
