@@ -1,1 +1,20 @@
-[{"date": "20240303", "type": "trail", "name": "Night Trail Farsta", "distance": "Night Trail Farsta", "distance_m": [6000, 11000], "place": "Night Trail Farsta", "latitude": 59.2444552, "longitude": 18.0902987, "organizer": "", "website": "/race-pages/night-trail-farsta.html", "src_url": "https://www.trailrunningsweden.se/trailkalendern/", "id": "night-trail-farsta_20240303_httpswwwtrailrunningswedensetrailkalendern", "summary": "I l\u00f6rdags arrangerade vi v\u00e5r \u00e5rliga terr\u00e4ngl\u00f6pning med distanserna 6 km och 11 km. Deltagarna kom i alla \u00e5ldrar och l\u00f6parniv\u00e5er, och det var fantastiskt att se s\u00e5 m\u00e5nga m\u00e4nniskor njuta av den vackra naturen. Vi \u00e4r glada att fr\u00e4mja h\u00e4lsosam livsstil och ser fram emot att forts\u00e4tta arrangera dessa evenemang i framtiden! Tack till alla deltagare, volont\u00e4rer och supportrar!", "county": "Stockholms", "website_organizer": "https://trailrunningsweden.se/events/farsta-night-trail-2022/"}]
+[
+  {
+    "date": "20240205.",
+    "type": "road",
+    "name": "Necon Vinterkarusellen Bergen - løp 5",
+    "distance": "5 km, 10 km",
+    "distance_m": [5000],
+    "place": "Bergen, Vestland",
+    "latitude": 60.39126279999999,
+    "longitude": 5.3220544,
+    "organizer": "",
+    "website": "/race-pages/necon-vinterkarusellen-bergen-lop-5.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+    "county": null,
+    "id": "necon-vinterkarusellen-bergen-løp-5_20240205_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+    "summary": "Bli med på vårt årlige løp med en spennende 5 km landeveisløp! Dette løpet er åpent for alle aldre og ferdighetsnivåer, og vil gi en flott mulighet til å teste dine ferdigheter på en flat og rask asfaltbane. Vi tilbyr også andre distanser for de som ønsker å utfordre seg selv. Kom og nyt en herlig løpeopplevelse og støtt en god sak sammen med venner og familie!",
+    "website_organizer": "https://www.gneist.org/vinterkarusellen/",
+    "new_version": true
+  }
+]

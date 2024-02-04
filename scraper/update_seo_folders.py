@@ -36,8 +36,8 @@ for county, county_value in config["county_mapping"].items():
   folder_path = os.path.join(lan_folder, folder_name)
   os.makedirs(folder_path, exist_ok=True)
 
-  # Copy lopplistan.html to index.html in the folder
-  shutil.copy2("../lopplistan.html", os.path.join(folder_path, "index.html"))
+  # Copy lopsliste.html to index.html in the folder
+  shutil.copy2("../lopsliste.html", os.path.join(folder_path, "index.html"))
 
   # Replace the field containing the county selector and add "selected"
   with open(os.path.join(folder_path, "index.html"), 'r+', encoding='utf-8') as file:
@@ -54,7 +54,7 @@ for county, county_value in config["county_mapping"].items():
 
   # Generate sitemap string
   sitemap_string += f"<url>\n"
-  sitemap_string += f"  <loc>https://loppkartan.se/lan/{folder_name}/index.html</loc>\n"
+  sitemap_string += f"  <loc>https://lopskalender.com/lan/{folder_name}/index.html</loc>\n"
   # Get the current date
   current_date = datetime.now().date()
 
@@ -73,8 +73,8 @@ for category, category_data in config["category_mapping"].items():
     folder_path = os.path.join(category_folder, folder_name)
     os.makedirs(folder_path, exist_ok=True)
 
-    # Copy lopplistan.html to index.html in the folder
-    shutil.copy2("../lopplistan.html", os.path.join(folder_path, "index.html"))
+    # Copy lopsliste.html to index.html in the folder
+    shutil.copy2("../lopsliste.html", os.path.join(folder_path, "index.html"))
 
     # Replace the field containing the category selector and add "selected"
     with open(os.path.join(folder_path, "index.html"), 'r+', encoding='utf-8') as file:
@@ -90,7 +90,7 @@ for category, category_data in config["category_mapping"].items():
 
     # Generate sitemap string
     sitemap_string += f"<url>\n"
-    sitemap_string += f"  <loc>https://loppkartan.se/category/{folder_name}/index.html</loc>\n"
+    sitemap_string += f"  <loc>https://lopskalender.com/category/{folder_name}/index.html</loc>\n"
 
     # Get the current date
     current_date = datetime.now().date()
@@ -114,8 +114,8 @@ for checkbox_config in config["checkbox_mapping"]:
     folder_path = os.path.join(type_folder, folder_name)
     os.makedirs(folder_path, exist_ok=True)
 
-    # Copy lopplistan.html to index.html in the folder
-    shutil.copy2("../lopplistan.html", os.path.join(folder_path, "index.html"))
+    # Copy lopsliste.html to index.html in the folder
+    shutil.copy2("../lopsliste.html", os.path.join(folder_path, "index.html"))
 
     # Replace the field containing the checkbox and add "active" or remove "active" accordingly
     with open(os.path.join(folder_path, "index.html"), 'r+', encoding='utf-8') as file:
@@ -155,7 +155,7 @@ for checkbox_config in config["checkbox_mapping"]:
     
         # Generate sitemap string
     sitemap_string += f"<url>\n"
-    sitemap_string += f"  <loc>https://loppkartan.se/category/{folder_name}/index.html</loc>\n"
+    sitemap_string += f"  <loc>https://lopskalender.com/category/{folder_name}/index.html</loc>\n"
 
     # Get the current date
     current_date = datetime.now().date()

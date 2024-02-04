@@ -52,7 +52,7 @@ if __name__ == "__main__":
     }
     html = template.render(data=data)
 
-    page_path = f"../lopplistan.html"
+    page_path = f"../lopsliste.html"
     print(f"Saving page to {page_path}")
     # Save the generated HTML page
     with open(page_path, 'w', encoding='utf-8') as f:

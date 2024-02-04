@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-F83PGVEH79"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-F83PGVEH79");
+    </script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Alle løp og mosjonsløp i Jämtland 2024</title>
+    <link rel="icon" href="/img/logo100px.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="description" content="Her har vi samlet alle løp og mosjonsløp i Jämtland 2024. Finn ditt neste mosjonsløp, terrengløp, fjelløp, halvmaraton, maraton eller ultraløp hos oss i dag." />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"
+      integrity="sha512-0bEtK0USNd96MnO4XhH8jhv3nyRF0eK87pJke6pkYf3cM0uDIhNJy9ltuzqgypoIFXw3JSuiy04tVk4AjpZdZw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js
+    "></script>
+
+    <!--     <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css"
+      rel="stylesheet"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- <script defer src="/js/initiateList.js"></script> -->
+    <script defer src="/js/mobile-nav.js"></script>
+    <script type="module" src="/js/loadHiddenRaces.js"></script>
+    <script type="module" src="/js/initiateListSite.js"></script>
+    <!-- <script type="module" src="/js/toggleView.js"></script> -->
+    <script type="module" defer src="/js/sliderMax.js"></script>
+    <script type="module" defer src="/js/sliderDistanceMax.js"></script>
+    <!-- <script type="module" defer src="/js/leafletMapNew.js"></script> -->
+    <script type="module" defer src="/js/toggleCheckboxes.js"></script>
+
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/queries.css" />
+
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner-container">
+        <header class="header-section margin-top--small margin-bottom--smaller">
+          <div class="header-and-logo-box">
+            <a href="/index.html" class="logo-box"></a>
+            <div class="promotion-box">
+              <span>Ubetalt samarbeid med:</span>
+              <a
+                href="http://www.kungsholmenrunt.se/Main/Start.asp"
+                target="_blank"
+              >
+                <img
+                  src="/img/logokr_bluebg.jpg"
+                  class="promo-logo-box"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="map-or-list-view margin-bottom--tiny">
+            <div
+              id="category-selector"
+              class="select-wrapper show"
+              style="display: block; opacity: 1"
+            >
+              <select class="view-button category-filter-button">
+                <option value="">Løpkategori</option>
+                
+                <option value="1500 meter">1500 meter</option>
+                
+                <option value="3000 meter">3000 meter</option>
+                
+                <option value="5000 meter">5000 meter</option>
+                
+                <option value="10000 meter">10000 meter</option>
+                
+                <option value="5 km">5 km</option>
+                
+                <option value="10 km">10 km</option>
+                
+                <option value="Mila løp">Mila løp</option>
+                
+                <option value="Halvmaraton">Halvmaraton</option>
+                
+                <option value="Maraton">Maraton</option>
+                
+                <option value="Backyard Ultra">Backyard Ultra</option>
+                
+                <option value="Ultraløp">Ultraløp</option>
+                
+                <option value="50 miles">50 miles</option>
+                
+                <option value="100 miles">100 miles</option>
+                
+                <option value="200 miles">200 miles</option>
+                
+                <option value="50 km">50 km</option>
+                
+                <option value="100 km">100 km</option>
+                
+              </select>
+              <!--               <ion-icon
+                class="menu-icon"
+                name="chevron-down-outline"
+              ></ion-icon> -->
+            </div>
+            <div
+              id="county-selector"
+              class="select-wrapper show"
+              style="display: block; opacity: 1"
+            >
+              <select class="view-button lan-filter-button">
+                <option value="">Alle fylker</option>
+                
+                <option value="Stockholms">Stockholms</option>
+                
+                <option value="Uppsala">Uppsala</option>
+                
+                <option value="Södermanlands">Södermanlands</option>
+                
+                <option value="Östergötlands">Östergötlands</option>
+                
+                <option value="Jönköpings">Jönköpings</option>
+                
+                <option value="Kronobergs">Kronobergs</option>
+                
+                <option value="Kalmar">Kalmar</option>
+                
+                <option value="Gotlands">Gotlands</option>
+                
+                <option value="Blekinge">Blekinge</option>
+                
+                <option value="Skåne">Skåne</option>
+                
+                <option value="Hallands">Hallands</option>
+                
+                <option value="Västra Götalands">Västra Götalands</option>
+                
+                <option value="Värmlands">Värmlands</option>
+                
+                <option value="Örebro">Örebro</option>
+                
+                <option value="Västmanlands">Västmanlands</option>
+                
+                <option value="Dalarnas">Dalarnas</option>
+                
+                <option value="Gävleborgs">Gävleborgs</option>
+                
+                <option value="Västernorrlands">Västernorrlands</option>
+                
+                <option value="Jämtlands" selected>Jämtlands</option>
+                
+                <option value="Västerbottens">Västerbottens</option>
+                
+                <option value="Norrbottens">Norrbottens</option>
+                
+              </select>
+              <!--              <ion-icon
+                class="menu-icon"
+                name="chevron-down-outline"
+              ></ion-icon> -->
+            </div>
+            <a class="view-button-wrapper" href="/">
+              <button
+                class="view-button map-view-button toggle-button active-button"
+              >
+                Kart
+              </button>
+            </a>
+          </div>
+
+          <nav class="main-nav">
+            <ul class="main-nav-list">
+              <li>
+                <h2 class="main-nav-header secondary-header">
+                  Meny
+                </h2>
+              </li>
+              <ul class="main-nav-list">
+                
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="/index.html"
+                    id="navIndex"
+                  >
+                    Løpekartet
+                  </a>
+                </li>
+                
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="/lopsliste.html"
+                    id="navLopsliste"
+                  >
+                    Løpplisten
+                  </a>
+                </li>
+                
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="/om-oss.html"
+                    id="navAbout"
+                  >
+                    Om Løpekartan.no
+                  </a>
+                </li>
+                
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="/kontakt.html"
+                    id="navContact"
+                  >
+                    Kontaktinformasjon
+                  </a>
+                </li>
+                
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="/legg-til-lopp.html"
+                    id="navAddRace"
+                  >
+                    Legg til løp
+                  </a>
+                </li>
+                
+              </ul>
+            </ul>
+          </nav>
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+        </header>
+        <h1 class="main-header margin-bottom--tiny">
+          Norges mest komplette løpekalender for løpere
+        </h1>
+        <h2
+          class="secondary-header block-header map-header margin-bottom--tiny"
+        >
+          Her lister vi opp alle Norges løp og mosjonsløp i 2024. Filtrer frem ditt neste 10 km mosjonsløp, halvmaraton eller backyard ultra.
+        </h2>
+
+        <div class="filter-section margin-bottom--default">
+          <div class="slider-container">
+            <div class="slider-box">
+              <p>
+                <label for="daysFilterText"
+                  >Løp mellom: </label
+                >
+                <input type="text" id="daysFilterText" readonly />
+              </p>
+              <div id="sliderDays"></div>
+            </div>
+            <div class="slider-box">
+              <p>
+                <label for="distanceFilterText"
+                  >Distanse mellom: </label
+                >
+                <input type="text" id="distanceFilterText" readonly />
+              </p>
+              <div id="sliderDistance"></div>
+            </div>
+          </div>
+          <div class="checkboxes">
+            
+            <div id="relayCheckboxContainer" class="checkbox-container">
+              <div
+                id="relayCheckbox"
+                class="header-checkbox active"
+              >
+                <div class="check-icon check-icon-relay"></div>
+              </div>
+              <span for="relayCheckbox"
+                >Stafett</span
+              >
+            </div>
+            
+            <div id="backyardCheckboxContainer" class="checkbox-container">
+              <div
+                id="backyardCheckbox"
+                class="header-checkbox active"
+              >
+                <div class="check-icon check-icon-backyard"></div>
+              </div>
+              <span for="backyardCheckbox"
+                >Backyard Ultra</span
+              >
+            </div>
+            
+            <div id="terrainCheckboxContainer" class="checkbox-container">
+              <div
+                id="terrainCheckbox"
+                class="header-checkbox active"
+              >
+                <div class="check-icon check-icon-terrain"></div>
+              </div>
+              <span for="terrainCheckbox"
+                >Terreng</span
+              >
+            </div>
+            
+            <div id="trailCheckboxContainer" class="checkbox-container">
+              <div
+                id="trailCheckbox"
+                class="header-checkbox active"
+              >
+                <div class="check-icon check-icon-trail"></div>
+              </div>
+              <span for="trailCheckbox"
+                >Fjelløp</span
+              >
+            </div>
+            
+            <div id="roadCheckboxContainer" class="checkbox-container">
+              <div
+                id="roadCheckbox"
+                class="header-checkbox active"
+              >
+                <div class="check-icon check-icon-road"></div>
+              </div>
+              <span for="roadCheckbox"
+                >Vei</span
+              >
+            </div>
+            
+            <div id="trackCheckboxContainer" class="checkbox-container">
+              <div
+                id="trackCheckbox"
+                class="header-checkbox active"
+              >
+                <div class="check-icon check-icon-track"></div>
+              </div>
+              <span for="trackCheckbox"
+                >Løpebane</span
+              >
+            </div>
+            
+          </div>
+        </div>
+
+        <div id="raceContainer" class="race-container">
+          
+          <!-- Month Header -->
+          <div class="month-name" style="display: block">
+            <h2
+              class="secondary-header"
+              style="margin-bottom: 0.3rem; padding-left: 0.2rem"
+            >
+              Februar 2024
+            </h2>
+          </div>
+
+          <!-- Race Containers for the Month -->
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="necon-vinterkarusellen-bergen-løp-5_20240205_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">5 feb.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Necon Vinterkarusellen Bergen - løp 5</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-road"></div>
+                  <p class="race-type">road</p>
+                </div>
+                <p class="race-distance">5 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/necon-vinterkarusellen-bergen-lop-5.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Bli med på vårt årlige løp med en spennende 5 km landeveisløp! Dette løpet er åpent for alle aldre og ferdighetsnivåer, og vil gi en flott mulighet til å teste dine ferdigheter på en flat og rask asfaltbane. Vi tilbyr også andre distanser for de som ønsker å utfordre seg selv. Kom og nyt en herlig løpeopplevelse og støtt en god sak sammen med venner og familie!</p>
+            </div>
+          </div>
+           
+          <!-- Month Header -->
+          <div class="month-name" style="display: block">
+            <h2
+              class="secondary-header"
+              style="margin-bottom: 0.3rem; padding-left: 0.2rem"
+            >
+              Mars 2024
+            </h2>
+          </div>
+
+          <!-- Race Containers for the Month -->
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="night-trail-farsta_20240303_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">3 mars</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Night Trail Farsta</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">6 km, 11 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/night-trail-farsta.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">I lördags arrangerade vi vår årliga terränglöpning med distanserna 6 km och 11 km. Deltagarna kom i alla åldrar och löparnivåer, och det var fantastiskt att se så många människor njuta av den vackra naturen. Vi är glada att främja hälsosam livsstil och ser fram emot att fortsätta arrangera dessa evenemang i framtiden! Tack till alla deltagare, volontärer och supportrar!</p>
+            </div>
+          </div>
+           
+        </div>
+
+        <div class="add-new-race-box margin-bottom--default">
+          <h2 class="add-new-race-header secondary-header">
+            Mangler du ditt løp på kartet? Legg til det her!
+          </h2>
+          <a
+            id="addRaceButton"
+            href="/legg-til-lopp.html"
+            class="add-race-button border-style"
+            >Legg til løp
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

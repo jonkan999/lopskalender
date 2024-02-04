@@ -1,2 +1,2 @@
-lang_val = 'Swedish'
-lang_code = 'sv'
+lang_val = 'Norwegian'
+lang_code = 'no'
