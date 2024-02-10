@@ -143,7 +143,8 @@ def check_allowed_url_get_goog(disallowed_urls, query):
 
     try:
         # Using the googlesearch library to perform a search and get the results
-        results_generator = search(query, num_results=5)
+        print(f"Searching for '{query}'")
+        results_generator = search("Vinterkarusellen (Romerike)  8. løp Årnes Nes, Akershus 3,1 km", num_results=5)
         # Convert the generator to a list
         urls = list(results_generator)
 

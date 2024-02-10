@@ -1,0 +1,370 @@
+[
+    {
+        "date": "20240215.",
+        "type": "road",
+        "name": "Vinterkarusellen (Romerike)  8. løp Årnes",
+        "distance": "3,1 km",
+        "distance_m": [
+            3000
+        ],
+        "place": "Nes, Akershus",
+        "latitude": 60.15453719999999,
+        "longitude": 11.4795506,
+        "organizer": "",
+        "website": "/race-pages/vinterkarusellen-(romerike)-8.-lop-arnes.html",
+        "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+        "county": null,
+        "id": "vinterkarusellen-romerike-8-løp-årnes_20240215_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+        "summary": "Vinterkarusellen 2023-2024 er tilbake på Romerike med løpekonkurranser gjennom vintermånedene. Med distanser som 3 km, er dette arrangementet perfekt for løpere på alle nivåer. Løpet foregår langs veiene i området, og gir deltakerne en mulighet til å oppleve det vakre vinterlandskapet. Bli med og utfordre deg selv, møt andre løpere og bli en del av løpefellesskapet på Romerike!",
+        "website_organizer": "http://www.lorenskogfil.no/arrangementer/vinterkarusellen",
+        "new_version": true
+    },
+    {
+        "date": "20240222.",
+        "type": "road",
+        "name": "Åsane løpskarusell  løp 3",
+        "distance": "5 km, 10 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Bergen, Vestland",
+        "latitude": 60.39126279999999,
+        "longitude": 5.3220544,
+        "organizer": "",
+        "website": "/race-pages/asane-lopskarusell-lop-3.html",
+        "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+        "county": null,
+        "id": "åsane-løpskarusell-løp-3_20240222_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+        "summary": "Bli med på vår årlige løpskarusell og opplev gleden av å konkurrere på veiene mens du nyter det vakre landskapet vårt. Vår karusell inkluderer 5 km løp, og vi tilbyr ukentlige treningsmuligheter for å forbedre ferdighetene dine. Bli med oss for en morsom og utfordrende løpeopplevelse gjennom året!",
+        "website_organizer": "https://aasane-lopskarusell.no/",
+        "new_version": true
+    },
+    {
+        "date": "20240226.",
+        "type": "road",
+        "name": "Necon Vinterkarusellen Bergen - løp 6",
+        "distance": "5 km, 10 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Bergen, Vestland",
+        "latitude": 60.39126279999999,
+        "longitude": 5.3220544,
+        "organizer": "",
+        "website": "/race-pages/necon-vinterkarusellen-bergen-lop-6.html",
+        "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+        "county": null,
+        "id": "necon-vinterkarusellen-bergen-løp-6_20240226_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+        "summary": "Bli med på vårt årlige løpsarrangement med 5 km landeveisløp. Løpet vil være åpent for alle aldersgrupper og ferdighetsnivåer, og vil ta deltakerne gjennom vakre omgivelser og pittoreske landskap. Vårt fokus er å skape en trygg og støttende atmosfære for alle deltakere. Enten du ønsker å teste dine egne ferdigheter eller bare ha det gøy med familie og venner, er dette løpet for deg. Vi gleder oss til å se deg på startstreken!",
+        "website_organizer": "http://www.gneist.org/vinterkarusellen/",
+        "new_version": true
+    },
+    {
+        "date": "20240229.",
+        "type": "road",
+        "name": "Vinterkarusellen (Romerike)  9. løp Lillestrøm",
+        "distance": "7 km",
+        "distance_m": [
+            7000
+        ],
+        "place": "Lillestrøm, Akershus",
+        "latitude": 59.9559696,
+        "longitude": 11.0503785,
+        "organizer": "",
+        "website": "/race-pages/vinterkarusellen-(romerike)-9.-lop-lillestrom.html",
+        "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+        "county": null,
+        "id": "vinterkarusellen-romerike-9-løp-lillestrøm_20240229_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+        "summary": "Bli med på Vinterkarusellen på Romerike 2023-2024 for en spennende løpeserie gjennom vinterlandskapet. Velg blant ulike distanser, inkludert 7 km landeveisløp, og utforsk vakre løyper gjennom skog og fjell. Møt likesinnede og opplev den friske vinterluften mens du utfordrer deg selv til nye høyder. En unik opplevelse du ikke vil glemme!",
+        "website_organizer": "http://www.lorenskogfil.no/arrangementer/vinterkarusellen",
+        "new_version": true
+    },
+    {
+        "date": "20240309.",
+        "type": "road",
+        "name": "Vinterkarusellen (Romerike)  10. løp Lørenskog",
+        "distance": "5 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Lørenskog, Akershus",
+        "latitude": 59.923799,
+        "longitude": 10.9541825,
+        "organizer": "",
+        "website": "/race-pages/vinterkarusellen-(romerike)-10.-lop-lorenskog.html",
+        "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+        "county": null,
+        "id": "vinterkarusellen-romerike-10-løp-lørenskog_20240309_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+        "summary": "Velkommen til Vinterkarusellen på Romerike! Bli med på vårt populære vinterarrangement for sesongen 2023-2024. Vi tilbyr ulike distanser og ønsker løpere i alle aldre og ferdighetsnivåer velkommen. En favorittdistanse er 5 km på vei. Sett deg personlige mål og bli med på en morsom og utfordrende løpsopplevelse. Meld deg på Vinterkarusellen på Romerike 2023-2024 nå!",
+        "website_organizer": "http://www.lorenskogfil.no/arrangementer/vinterkarusellen",
+        "new_version": true
+    },
+    {
+        "date": "20240314.",
+        "type": "road",
+        "name": "Åsane løpskarusell  løp 4",
+        "distance": "5 km, 10 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Bergen, Vestland",
+        "latitude": 60.39126279999999,
+        "longitude": 5.3220544,
+        "organizer": "",
+        "website": "/race-pages/asane-lopskarusell-lop-4.html",
+        "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+        "county": null,
+        "id": "åsane-løpskarusell-løp-4_20240314_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+        "summary": "Bli med på årlig Åsane Løpskarusell - en spennende løpsserie for alle nivåer! Vårt løp har flate og raske veier og passer for erfarne løpere og nybegynnere. Vi tilbyr ukentlige treninger og støtte for alle som vil delta. Meld deg på i dag og opplev fellesskap og morsomme løpeopplevelser. Velg mellom ulike distanser, inkludert 5 km. Vi gleder oss til å se deg på startstreken!",
+        "website_organizer": "https://aasane-lopskarusell.no/",
+        "new_version": true
+    },
+    {
+        "date": "20240318.",
+        "type": "road",
+        "name": "Necon Vinterkarusellen Bergen - løp 7",
+        "distance": "5 km, 10 km",
+        "distance_m": [
+            5000,
+            10000
+        ],
+        "place": "Bergen, Vestland",
+        "latitude": 60.39126279999999,
+        "longitude": 5.3220544,
+        "organizer": "",
+        "website": "/race-pages/necon-vinterkarusellen-bergen-lop-7.html",
+        "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+        "county": null,
+        "id": "necon-vinterkarusellen-bergen-løp-7_20240318_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+        "summary": "Bli med på vårt årlige løpearrangement med 5 km og 10 km distanser på veiene i lokalsamfunnet. Uansett om du er erfaren eller nybegynner, vil vårt løp gi deg en flott opplevelse med godt merkede løyper, vannstasjoner og profesjonell tidtaking. Etter løpet kan du feire sammen med andre løpere. Sett deg selv på prøve og nyt løping og fellesskapet! Vi sees på startstreken!",
+        "website_organizer": "http://www.gneist.org/vinterkarusellen/",
+        "new_version": true
+    },
+    {
+        "date": "20240406.",
+        "type": "road",
+        "name": "Holmestrand maraton",
+        "distance": "0,25 km, 5 km, 10 km, Halvmaraton, 26 km, Maraton, 52,195 km",
+        "distance_m": [
+            0,
+            5000,
+            10000,
+            21097,
+            26000,
+            42195,
+            52000
+        ],
+        "place": "Holmestrand, Vestfold og Telemark",
+        "latitude": 59.4899189,
+        "longitude": 10.315035,
+        "organizer": "",
+        "website": "/race-pages/holmestrand-maraton.html",
+        "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+        "county": null,
+        "id": "holmestrand-maraton_20240406_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+        "summary": "Bli med på Holmestrand Maraton - vårens vakreste sentrumsløp! Løpet er åpent for alle aldre og ferdighetsnivåer, med distanser fra 5 km til helmaraton. Vi tilbyr også et barneløp for de yngste. Ta med familien og nyt en spektakulær løpeopplevelse langs veiene i Holmestrand. Spar datoen lørdag 6. april 2024 for denne uforglemmelige begivenheten!",
+        "website_organizer": "https://www.holmestrandmaraton.no/",
+        "new_version": true
+    },
+    {
+        "date": "20240407.",
+        "type": "road",
+        "name": "Drammen 10K",
+        "distance": "0,6 km, 5 km, 10 km",
+        "distance_m": [
+            0,
+            5000,
+            10000
+        ],
+        "place": "Drammen, Buskerud",
+        "latitude": 59.7440738,
+        "longitude": 10.2044564,
+        "organizer": "",
+        "website": "/race-pages/drammen-10k.html",
+        "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+        "county": null,
+        "id": "drammen-10k_20240407_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+        "summary": "Bli med på Drammen10K - RUNDRM den 7. april 2024 for et spennende løpsarrangement for hele familien! Vi tilbyr løp i kategoriene barneløp, 5 km, 10 km og stafettløp på veiene i Drammen. Uansett om du er nybegynner eller erfaren løper, er dette arrangementet perfekt for deg å sette deg nye mål og utfordre deg selv. Ta del i den sosiale og morsomme løpeopplevelsen med venner, familie og løpeentusiaster!",
+        "website_organizer": "http://www.drammen10k.no/",
+        "new_version": true
+    },
+    {
+        "date": "20240407.",
+        "type": "road",
+        "name": "Fredrikstadløpet",
+        "distance": "0,5 km, 3 km, 5 km, Halvmaraton",
+        "distance_m": [
+            0,
+            3000,
+            5000,
+            21097
+        ],
+        "place": "Fredrikstad, Østfold",
+        "latitude": 59.22053689999999,
+        "longitude": 10.9347012,
+        "organizer": "",
+        "website": "/race-pages/fredrikstadlopet.html",
+        "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+        "county": null,
+        "id": "fredrikstadløpet_20240407_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+        "summary": "Fredrikstadløpet er et spennende veiløp som finner sted 7. april 2024. Vi inviterer løpere på alle nivåer til å delta i denne actionfylte begivenheten. Vi tilbyr distanser på 3 km, 5 km og halvmaraton. Dette veiløpet tar deltakerne gjennom de vakre gatene i Fredrikstad, og gir en flott mulighet til å oppleve byens sjarm mens man konkurrerer. Meld deg på i dag for en uforglemmelig løpeopplevelse!",
+        "website_organizer": "http://www.fredrikstadif.no/p/10596/fredrikstadlopet",
+        "new_version": true
+    },
+    {
+        "date": "20240408.",
+        "type": "road",
+        "name": "Necon Vinterkarusellen Bergen - løp 8",
+        "distance": "5 km, 10 km",
+        "distance_m": [
+            5000,
+            10000
+        ],
+        "place": "Bergen, Vestland",
+        "latitude": 60.39126279999999,
+        "longitude": 5.3220544,
+        "organizer": "",
+        "website": "/race-pages/necon-vinterkarusellen-bergen-lop-8.html",
+        "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+        "county": null,
+        "id": "necon-vinterkarusellen-bergen-løp-8_20240408_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+        "summary": "Bli med på et spennende løp gjennom byen vår! Uansett om du er nybegynner eller erfaren løper, så har vi løp for deg - enten 5 km eller 10 km på veiene våre. Det blir en energisk opplevelse for de som ønsker en personlig rekord eller bare ha det gøy. Meld deg på for å være med på dette uforglemmelige løpet!",
+        "website_organizer": "http://www.gneist.org/vinterkarusellen/",
+        "new_version": true
+    },
+    {
+        "date": "20240414.",
+        "type": "road",
+        "name": "Norgestesten",
+        "distance": "5 km, 10 km, Halvmaraton",
+        "distance_m": [
+            5000,
+            10000,
+            21097
+        ],
+        "place": "Ullensaker, Akershus",
+        "latitude": 60.1349136,
+        "longitude": 11.1637891,
+        "organizer": "",
+        "website": "/race-pages/norgestesten.html",
+        "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+        "county": null,
+        "id": "norgestesten_20240414_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+        "summary": "Norgestesten 2024 tilbyr distanser for løpere på alle nivåer - nybegynnere eller erfarne. Med 5 km, 10 km og halvmaraton på vei, kan løperne utfordre seg selv i vakker natur. Uansett om du vil slå personlig rekord, trene mot en maraton eller bare nyte å løpe, er dette arrangementet perfekt for deg!",
+        "website_organizer": "https://www.norgestesten.no/",
+        "new_version": true
+    },
+    {
+        "date": "20240414.",
+        "type": "road",
+        "name": "Halden Byløp",
+        "distance": "0,4 km, 0,8 km, 1,5 km, 5 km, 10 km",
+        "distance_m": [
+            0,
+            0,
+            1000,
+            5000,
+            10000
+        ],
+        "place": "Halden, Østfold",
+        "latitude": 59.13299639999999,
+        "longitude": 11.3874569,
+        "organizer": "",
+        "website": "/race-pages/halden-bylop.html",
+        "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+        "county": null,
+        "id": "halden-byløp_20240414_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+        "summary": "Velkommen til Halden Byløp! Vi tilbyr løypealternativer for alle aldre, fra 0 km til 10 km, gjennom byens sentrum og på Halden Stadion. Dette er et flott arrangement for hele familien, med aktiviteter og underholdning for både løpere og tilskuere. Besøk vår hjemmeside for mer informasjon, og bli med på en dag med løping og moro!",
+        "website_organizer": "https://www.haldenbylop.no/",
+        "new_version": true
+    },
+    {
+        "date": "20240427.",
+        "type": "road",
+        "name": "ASICS Sentrumsløpet",
+        "distance": "0,6 km, 0,8 km, 5 km, 10 km",
+        "distance_m": [
+            0,
+            0,
+            5000,
+            10000
+        ],
+        "place": "Oslo, Oslo",
+        "latitude": 59.984904,
+        "longitude": 10.7166776,
+        "organizer": "",
+        "website": "/race-pages/asics-sentrumslopet.html",
+        "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+        "county": null,
+        "id": "asics-sentrumsløpet_20240427_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+        "summary": "Bli med på ASICS Sentrumsløpet, et løp for alle nivåer og aldre! Vi tilbyr fire distanser, inkludert barneløp, 5 km, 10 km og sprint-kategori. Løpet tar deg gjennom byens sentrum, og uansett om du er nybegynner eller erfaren løper, er dette en flott mulighet til å utfordre deg selv og oppleve fellesskapet blant løperne. Meld deg på i dag og bli med på denne fantastiske opplevelsen!",
+        "website_organizer": "https://www.sentrumslopet.no/",
+        "new_version": true
+    },
+    {
+        "date": "20240504.",
+        "type": "road",
+        "name": "Steinsland Bygdemaraton",
+        "distance": "10 km, Halvmaraton, Maraton",
+        "distance_m": [
+            10000,
+            21097,
+            42195
+        ],
+        "place": "Birkenes, Agder",
+        "latitude": 58.4285861,
+        "longitude": 8.2152344,
+        "organizer": "",
+        "website": "/race-pages/steinsland-bygdemaraton.html",
+        "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+        "county": null,
+        "id": "steinsland-bygdemaraton_20240504_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+        "summary": "Hei løpere! Bli med på Steinlsand Bygdemaraton og opplev vakre omgivelser og utfordrende løypealternativer. Vi tilbyr distanser for alle nivåer, fra 10 km-løp til halvmaraton og maraton. Ta del i et veimaraton som tar deg gjennom småbyer, skog og langs kysten. Uansett om det er din første gang eller om du er en erfaren maratonløper, vil vi skape en minneverdig dag for deg. Kom og bli med oss på startstreken!",
+        "website_organizer": "https://oggerondt.org/",
+        "new_version": true
+    },
+    {
+        "date": "20240509.",
+        "type": "road",
+        "name": "Åsaneløpet",
+        "distance": "0,6 km, 5 km, 10 km",
+        "distance_m": [
+            0,
+            5000,
+            10000
+        ],
+        "place": "Bergen, Vestland",
+        "latitude": 60.39126279999999,
+        "longitude": 5.3220544,
+        "organizer": "",
+        "website": "/race-pages/asanelopet.html",
+        "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+        "county": null,
+        "id": "åsaneløpet_20240509_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+        "summary": "Bli med pÃ¥ Ã…sanelÃ¸pet, et familievennlig mosjonslÃ¸p i Ãsane! Vi tilbyr distanser pÃ¥ 5 km og 10 km, samt et barnelÃ¸p for de minste. Dette er en skikkelig lÃ¸psfest pÃ¥ veiene i Ãsane, perfekt for bÃ¥de nybegynnere og erfarne lÃ¸pere. FÃ¸lg oss pÃ¥ sosiale medier for oppdateringer og meld deg pÃ¥ for en minneverdig lÃ¸peopplevelse!",
+        "website_organizer": "http://asanelopet.no/",
+        "new_version": true
+    },
+    {
+        "date": "20240516.",
+        "type": "road",
+        "name": "Norgestesten",
+        "distance": "5 km, 10 km, Halvmaraton",
+        "distance_m": [
+            5000,
+            10000,
+            21097
+        ],
+        "place": "Ullensaker, Akershus",
+        "latitude": 60.1349136,
+        "longitude": 11.1637891,
+        "organizer": "",
+        "website": "/race-pages/norgestesten.html",
+        "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+        "county": null,
+        "id": "norgestesten_20240516_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+        "summary": "Bli med på Norgestesten 2024 - det eneste Kondis kvalitetsløpet! Velg mellom våre varierte distanser: 5 km, 10 km eller halvmaraton. Løpet vil gå langs veiene i nærområdet, og gir deg vakker natur og spennende løping. Uansett erfaringsnivå, alle er velkomne til å delta i dette uforglemmelige løpet. Kom og opplev den fantastiske atmosfæren sammen med oss!",
+        "website_organizer": "https://www.norgestesten.no/",
+        "new_version": true
+    }
+]

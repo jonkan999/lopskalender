@@ -1,6 +1,7 @@
 import requests
 import re
 from bs4 import BeautifulSoup
+from googlesearch import search
 def get_bing_search_results(query):
     try:
         # Replace spaces with hyphens in the query
@@ -11,6 +12,7 @@ def get_bing_search_results(query):
         print(bing_url)
         # Send a GET request to Bing
         response = requests.get(bing_url)
+        
         
         response.raise_for_status()  # Raise an HTTPError for bad responses
 
@@ -37,3 +39,10 @@ def get_bing_search_results(query):
 
 test = get_bing_search_results("Stockholm Halvmarathon")
 print(test)
+query="Grue Halvmaraton"
+print(f"Searching for '{query}'")
+results_generator = search(query, num_results=5)
+results_generator = search(query, num_results=5)
+# Convert the generator to a list
+urls = list(results_generator)
+print(urls)

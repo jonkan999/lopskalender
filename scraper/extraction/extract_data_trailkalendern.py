@@ -48,8 +48,9 @@ def main():
                 try:
                     distance_span = event.find("span", class_="evcal_event_subtitle")
                     distance_str = distance_span.text.strip()
-                    for distance_item in distance_str.split(", "):
-                        if "KM" in distance_str or "km" in distance_str or "k" in distance_str or "K" in distance_str:
+                    distance_str_list = distance_str.split(", ")
+                    for distance_item in distance_str_list:
+                        if "KM" in distance_item or "km" in distance_item or "k" in distance_item or "K" in distance_item:
                             if "," in distance_item:
                                 distance_item = distance_item.split(",")[0] #get first digit if fraction
                                 distances.append(int(distance_item)*1000)
@@ -58,9 +59,13 @@ def main():
                                     distances.append(int(distance_item[:-2])*1000)
                                 except:
                                     pass
-                        elif "MILES" in distance_str:
+                        elif distance_item == "Halvmaraton":
+                            distances.append(21097)
+                        elif distance_item == "Maraton":
+                            distances.append(42195)
+                        elif "MILES" in distance_item:
                             try:
-                                for match in re.findall(r"(\d+)\s*KM", distance_str):
+                                for match in re.findall(r"(\d+)\s*KM", distance_item):
                                     distances.append(int(match)*1609)
                             except:
                                 pass
@@ -88,7 +93,8 @@ def main():
                 website_ai_fallback = name + " " + distance_str
                 
                 race = Race(date = proper_date, type =  race_type,  name = name, distance = distance_str, distance_m = distances, place = place, organizer = organizer, website = website, src_url = url, website_ai_fallback = website_ai_fallback)
-                
+                print(name)
+                print(distances)
                 ### STANDARD ENDING ###
                 race.add_id('extract')
                 race_collection.add_race_if_doesnt_exist('extraction/sourced_races.json', race)

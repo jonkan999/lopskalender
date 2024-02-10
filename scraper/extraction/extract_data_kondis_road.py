@@ -8,6 +8,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 from selenium.common.exceptions import TimeoutException
 from scraper_package.race_classes import Race, RaceCollection
+import time
+import re
 
 def main():
     options = Options()
@@ -17,7 +19,7 @@ def main():
 
     subdomain = "kondis"
     url = "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1"
-    race_type = "road"
+    default_race_type = "road"
 
     race_collection = RaceCollection()
     
@@ -49,7 +51,7 @@ def main():
         html_content = driver.page_source
 
     # Close the browser
-    driver.quit()
+    # driver.quit()
 
     # Now you can use BeautifulSoup on the updated HTML content
     soup = BeautifulSoup(html_content, "html.parser")
@@ -63,6 +65,9 @@ def main():
         if tbody:
             # Iterate through each row (tr) in the tbody
             for row in tbody.find_all("tr"):
+                if row.find("img", alt="Kvalitetsløp") is None:
+                    continue  # Skip this row if the image is not found
+
                 # Extract date_text, name, place, and distance_str as before
                 date_text = row.select_one("td.mat-cell.cdk-cell.col-3.col-sm-2.d-flex.align-items-center.cdk-column-date.mat-column-date.ng-star-inserted > span.date.d-none.d-md-block").text.strip()
                 day, month_name, year = date_text.split(" ")[0], date_text.split(" ")[1], date_text.split(" ")[2]
@@ -92,30 +97,93 @@ def main():
                 # Create the proper_date string
                 proper_date = f"{year}{month_num}{day}"
                 name = row.select_one("td.mat-cell.cdk-cell.col-8.col-sm-6.col-md-4.col-lg-3.d-flex.align-items-center.cdk-column-name.mat-column-name.ng-star-inserted > a").text.strip()
-                place = row.select_one("td.mat-cell.cdk-cell.col-3.col-md-2.d-none.d-sm-flex.align-items-center.cdk-column-location.mat-column-location.ng-star-inserted > span").text.strip()
-                distance_str = row.select_one("td.mat-cell.cdk-cell.col-md-2.col-lg-3.d-none.d-md-flex.align-items-center.cdk-column-distances.mat-column-distances.ng-star-inserted > span").text.strip()
-                distance_m = 0
-                if distance_str.endswith("km"):
-                    try:
-                        distance_part=distance_str.split(" ")[0]
-                        distance_km = float(distance_part.split(",")[0])
-                        distance_m = int(distance_km * 1000)
-                    except ValueError:
-                        pass
-                #mappig out backyard ultras
                 print(name)
-                print(name.find("ackyard"))
+                place = row.select_one("td.mat-cell.cdk-cell.col-3.col-md-2.d-none.d-sm-flex.align-items-center.cdk-column-location.mat-column-location.ng-star-inserted > span").text.strip()
+                distance_str = ""
+                distances = []
+                try:
+                    distance_str = row.select_one("td.mat-cell.cdk-cell.col-md-2.col-lg-3.d-none.d-md-flex.align-items-center.cdk-column-distances.mat-column-distances.ng-star-inserted > span").text.strip()
+                    distance_str_list = distance_str.split(", ")
+                    for distance_item in distance_str_list:
+                        if "KM" in distance_item or "km" in distance_item or "k" in distance_item or "K" in distance_item:
+                            if "," in distance_item:
+                                distance_item = distance_item.split(",")[0] #get first digit if fraction
+                                distances.append(int(distance_item)*1000)
+                            else:
+                                try:
+                                    distances.append(int(distance_item[:-2])*1000)
+                                except:
+                                    pass
+                        elif distance_item == "Halvmaraton":
+                            distances.append(21097)
+                        elif distance_item == "Maraton":
+                            distances.append(42195)
+                        elif "MILES" in distance_item:
+                            try:
+                                for match in re.findall(r"(\d+)\s*KM", distance_item):
+                                    distances.append(int(match)*1609)
+                            except:
+                                pass
+                        else:
+                            try:
+                                distances.append(int(distance_item)*1000)
+                            except:
+                                pass
+                except: 
+                    pass
+                #mappig out backyard ultras
                 if name.find("ackyard") != -1:
                     distance_m = "backyard"
                     race_type = "backyard"
+                else:
+                    race_type = default_race_type
 
                 place = place.strip()
                 organizer = ""
                 website = ""
-                website_ai_fallback = name + " " + place + " " + distance_str
-                print(race_type)
-                print(name)
-                race = Race(date = proper_date, type =  race_type,  name = name, distance = distance_str, distance_m = [distance_m], place = place, organizer = organizer, website = website, src_url = url, website_ai_fallback = website_ai_fallback)
+                website_ai_fallback = name
+                # Extracting href from the anchor tag within the current row
+                race_href = row.select_one("td.mat-cell.cdk-cell.col-8.col-sm-6.col-md-4.col-lg-3.d-flex.align-items-center.cdk-column-name.mat-column-name.ng-star-inserted > a")['href']
+                print(distances)
+                # Creating the complete URL
+                full_race_url = "https://terminlista.kondis.no/" + race_href
+
+                # Using Selenium to visit the race page
+                driver.get(full_race_url)
+                container_element = None
+                try:
+                    # Find all container elements with the .container class
+                    container_elements = wait.until(
+                        EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".container"))
+                    )
+
+                    # Select the second container element from the list
+                    if len(container_elements) >= 2:
+                        container_element = container_elements[1]
+                        print("Second container element found")
+                        # Now you can use container_element for further operations
+                    else:
+                        print("Second container element not found")
+                except TimeoutException:
+                    print("Containers not found within 10 seconds")
+                # Find all anchor elements within the container
+                time.sleep(2)
+                print(f'container: {container_element}')
+                anchor_elements = wait.until(
+                        EC.presence_of_all_elements_located((By.TAG_NAME, "a"))
+                    )
+                # Iterate through anchor elements to find the one with text 'Hjemmeside'
+                hjemmeside_href = ""
+                print(anchor_elements)
+                for anchor_element in anchor_elements:
+                    print(anchor_element.text)
+                    if 'Hjemmeside' in anchor_element.text or 'Påmelding' in anchor_element.text:
+                        # Extract the href attribute
+                        hjemmeside_href = anchor_element.get_attribute("href")
+                        print(hjemmeside_href)
+                        break
+                website = hjemmeside_href
+                race = Race(date = proper_date, type =  race_type,  name = name, distance = distance_str, distance_m = distances, place = place, organizer = organizer, website = website, src_url = url, website_ai_fallback = website_ai_fallback)
                 # Check if race already exists but on other distance
                 appended = False
                 for prev_race in race_collection.races:

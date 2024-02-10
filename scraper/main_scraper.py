@@ -16,7 +16,7 @@ if __name__ == "__main__":
     untransformed_races.load_not_transformed_from_source_json()
     
     # Set a limit on the number of races to process at a time
-    max_races_to_process = 50
+    max_races_to_process = 20
     races_to_process = untransformed_races.races[:max_races_to_process]
     
     costometer = 0
