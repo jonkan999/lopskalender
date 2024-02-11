@@ -41,7 +41,7 @@ menu_items:
     url: "/kontakt.html"
   - id: "navAddRace"
     text: "Legg til løp"
-    url: "/legg-til-lopp.html"
+    url: "/legg-til-lop.html"
 
 main_header: "Norges mest komplette løpekalender for løpere"
 main_header_alternative: "Norges mest komplette løpekalender for løpere"
@@ -59,7 +59,7 @@ ending_header: "Mangler du ditt løp på kartet? Legg til
 
 add_race_button:
   id: "addRaceButton"
-  url: "/legg-til-lopp.html"
+  url: "/legg-til-lop.html"
   class: "add-race-button border-style"
   label: "Legg til løp"
 checkbox_mapping:

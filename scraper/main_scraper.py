@@ -23,19 +23,23 @@ if __name__ == "__main__":
     
     # Transform the selected races
     print(races_to_process)
-    for i, race in enumerate(races_to_process):
+    try:
+        for i, race in enumerate(races_to_process):
+            print(f"""
+            TRANSFORMING----------------------
+            ----------------------------------
+            {race["name"]}
+            RACES TRANSFORMED: {i + 1} / {max_races_to_process}
+            ----------------------------------
+            """)
+            transform_and_store_race(race.data, costometer, openai=True)
+        
         print(f"""
-        TRANSFORMING----------------------
+        DONE TRANSFORMING----------------------
         ----------------------------------
-        {race["name"]}
         RACES TRANSFORMED: {i + 1} / {max_races_to_process}
         ----------------------------------
         """)
-        transform_and_store_race(race.data, costometer, openai=True)
-    
-    print(f"""
-    DONE TRANSFORMING----------------------
-    ----------------------------------
-    RACES TRANSFORMED: {i + 1} / {max_races_to_process}
-    ----------------------------------
-    """)
+    except NameError:
+        print("No new races to process. Exiting...")
+        sys.exit()

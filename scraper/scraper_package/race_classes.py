@@ -185,6 +185,26 @@ class RaceCollection:
         else:
             self.append_or_create_json(f"extraction/sourced_races.json")
 
+    def exists_in_source(self, name, date, src_url):
+        # Load the source JSON data
+        self.load_from_source_json()
+        for race in self.races:
+            if (
+                race.data.get('date') == date
+                and race.data.get('name') == name
+                and race.data.get('src_url')[:-3] == src_url[:-3]
+            ):
+                print(race.data.get('name') + " already exists.")
+                return True
+            elif race.data.get('date') == date and (
+                SequenceMatcher(None, race.data.get('name'), name).ratio() > 0.5
+            ):
+                print(race.data.get('name') + " and " + name + " too similar.")
+                return True
+            
+    def clean_races(self):
+        self.races = []
+
     def add_race_if_doesnt_exist(self, races_json_path, new_race):
         # Load existing races from the collection
         existing_races = [race.data for race in self.races]
@@ -204,6 +224,10 @@ class RaceCollection:
         print(f"Race '{new_race.data['name']}' added to the collection.")
         return True
 
+    def clean_races(self):
+        self.races = []
+
+        # Check if
     def check_existing_race(self, event_data, existing_races):
         date, name, distance, src_url = (
             event_data['date'],
@@ -217,7 +241,7 @@ class RaceCollection:
                 race.get('date') == date
                 and race.get('name') == name
                 and race.get('distance') == distance
-                and race.get('src_url') == src_url
+                and race.get('src_url')[:-3] == src_url[:-3]
             ):
                 print(race.get('name') + " already exists.")
                 return True
