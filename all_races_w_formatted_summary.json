@@ -29,13 +29,11 @@
     "latitude": 60.15453719999999,
     "longitude": 11.4795506,
     "organizer": "",
-    "website": "/race-pages/vinterkarusellen-(romerike)-8.-lop-arnes.html",
+    "website": "http://www.lorenskogfil.no/arrangementer/vinterkarusellen",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
-    "county": null,
     "id": "vinterkarusellen-romerike-8-løp-årnes_20240215_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Vinterkarusellen 2023-2024 er tilbake på Romerike med løpekonkurranser gjennom vintermånedene. Med distanser som 3 km, er dette arrangementet perfekt for løpere på alle nivåer. Løpet foregår langs veiene i området, og gir deltakerne en mulighet til å oppleve det vakre vinterlandskapet. Bli med og utfordre deg selv, møt andre løpere og bli en del av løpefellesskapet på Romerike!",
-    "website_organizer": "http://www.lorenskogfil.no/arrangementer/vinterkarusellen",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240222.",
@@ -581,6 +579,28 @@
     "new_version": true
   },
   {
+    "date": "20240608.",
+    "type": "road",
+    "name": "Haugesunds Avis halvmaraton",
+    "distance": "5 km, Halvmaraton, Halvmaraton",
+    "distance_m": [
+      5000,
+      21097,
+      21097
+    ],
+    "place": "Haugesund, Rogaland",
+    "latitude": 59.41358100000001,
+    "longitude": 5.267986899999999,
+    "organizer": "",
+    "website": "/race-pages/haugesunds-avis-halvmaraton.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": null,
+    "id": "haugesunds-avis-halvmaraton_20240608_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "Bli med på vårt årlige løpsevent med distanser som passer for alle! Velg mellom 5 km, halvmaraton og helmaraton, alle på vei. Opplev vakre omgivelser og en utfordrende, men givende løype. Våre løypevakter og frivillige vil sørge for at du får en flott dag med løping, fellesskap og moro. Vi gleder oss til å se deg på startstreken!",
+    "website_organizer": "https://haugesundil.no/friidrett/stevner/haugesunds-avis-halvmaraton-mosjonslop/",
+    "new_version": true
+  },
+  {
     "date": "20240609.",
     "type": "road",
     "name": "Norgestesten",
@@ -912,6 +932,306 @@
     "id": "knarvikmila-halvmaraton_20240907_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på vår årlige løpekonkurranse! Vi tilbyr løyper på veier med flotte landskap, med distanser som passer for alle - enten du foretrekker en rask 5 km, en utfordrende 10 km, eller til og med et halvmaraton. Vårt erfarne team sørger for godt merkede løyper, drikkestasjoner og sikkerhet for deltakerne. Etter løpet venter god forpleining og premieutdeling. Utfordre deg selv og oppnå nye mål sammen med oss!",
     "website_organizer": "https://www.knarvikmila.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240908.",
+    "type": "road",
+    "name": "Drammen Halvmaraton",
+    "distance": "0,6 km, 5 km, Halvmaraton",
+    "distance_m": [
+      0,
+      5000,
+      21097
+    ],
+    "place": "Drammen, Buskerud",
+    "latitude": 59.7440738,
+    "longitude": 10.2044564,
+    "organizer": "",
+    "website": "/race-pages/drammen-halvmaraton.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": null,
+    "id": "drammen-halvmaraton_20240908_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "Bli med på Drammen Halvmaraton den 8. september 2024! Dette spennende løpeeventyret tar deg gjennom den lynraske 10 kilometers sløyfa to ganger. Uansett om du er en erfaren løper eller nybegynner, har vi distanser som passer for alle - inkludert minimaraton og 5 km gateløp. Opplev spenningen med å løpe i bymiljøet og utfordre deg selv til å nå nye personlige mål. Bli med oss for en dag fylt med fellesskap og motiverende løpeprestasjoner!",
+    "website_organizer": "http://www.drammenhalvmaraton.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240919.",
+    "type": "road",
+    "name": "Åsane løpskarusell  løp 6",
+    "distance": "5 km, 10 km",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Bergen, Vestland",
+    "latitude": 60.39126279999999,
+    "longitude": 5.3220544,
+    "organizer": "",
+    "website": "/race-pages/asane-lopskarusell-lop-6.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": null,
+    "id": "åsane-løpskarusell-løp-6_20240919_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "Bli med pÃ¥ vÃ¥r populÃ¦re Ã…sane LÃ¸pskarusell i 2024! Vi tilbyr 5 km og 10 km lÃ¸p pÃ¥ veiene i vÃ¥rt vakre nabolag. Dette er en flott mulighet til Ã¥ utfordre deg selv og sette nye personlige rekorder. Uansett om du er nybegynner eller erfaren lÃ¸per, har vÃ¥r lÃ¸pskarusell noe for alle. Meld deg pÃ¥ for en morsom og utfordrende dag med lÃ¸ping!",
+    "website_organizer": "https://aasane-lopskarusell.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240928.",
+    "type": "road",
+    "name": "PB Milå",
+    "distance": "5 km, 10 km",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Randaberg, Rogaland",
+    "latitude": 58.99967460000001,
+    "longitude": 5.6187068,
+    "organizer": "",
+    "website": "/race-pages/pb-mila.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": null,
+    "id": "pb-milå_20240928_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "PB Milå er et populært gateløp i Randaberg Sentrum, arrangert av Grødem Runners. Løpet har både 5 km og 10 km distanser, og foregår på veier i Randaberg og omkringliggende områder. Løypa er kontrollmålt og nasjonalt godkjent, og tiltrekker løpere i alle aldre og ferdighetsnivåer. Det er en flott mulighet til å oppleve vakker natur mens man konkurrerer. Kom og bli med på denne spennende løpeopplevelsen!",
+    "website_organizer": "https://www.xn--pbmil-qra.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240928.",
+    "type": "road",
+    "name": "Norgesløpet (inkl. UKI-karusellen - 6. løp) - inkl. NM 5 km",
+    "distance": "5 km, 10 km, Halvmaraton",
+    "distance_m": [
+      5000,
+      10000,
+      21097
+    ],
+    "place": "Ullensaker, Akershus",
+    "latitude": 60.1349136,
+    "longitude": 11.1637891,
+    "organizer": "",
+    "website": "/race-pages/norgeslopet-(inkl.-uki-karusellen-6.-lop)-inkl.-nm-5-km.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": null,
+    "id": "norgesløpet-inkl-uki-karusellen-6-løp-inkl-nm-5-km_20240928_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "Bli med på Norgesløpet 2024! Vi er tilbake på Jessheim lørdag 28. september med tre distanser: 5 km, 10 km og halvmaraton. Løypen vil gå på vei, og vi vil ha drikkestasjoner og profesjonell medisinsk hjelp under løpet. Meld deg på og bli med på en minneverdig løpsdag!",
+    "website_organizer": "https://www.norgeslopet.net/",
+    "new_version": true
+  },
+  {
+    "date": "20241010.",
+    "type": "road",
+    "name": "Åsane løpskarusell  løp 7",
+    "distance": "5 km, 10 km",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Bergen, Vestland",
+    "latitude": 60.39126279999999,
+    "longitude": 5.3220544,
+    "organizer": "",
+    "website": "/race-pages/asane-lopskarusell-lop-7.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": null,
+    "id": "åsane-løpskarusell-løp-7_20241010_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "Bli med på Asane Løpskarusell 2024! Konkurrer i 5 km og 10 km på vei og opplev spenningen av løping. Uansett nivå er dette løpet perfekt for deg. Bli med på ukentlige treningsøkter for å forberede deg. Meld deg på i dag og sikre deg en plass på startstreken!",
+    "website_organizer": "https://aasane-lopskarusell.no/",
+    "new_version": true
+  },
+  {
+    "date": "20241019.",
+    "type": "road",
+    "name": "Hytteplanmila - inkl. NM 10 km",
+    "distance": "10 km",
+    "distance_m": [
+      10000
+    ],
+    "place": "Hole, Buskerud",
+    "latitude": 60.01424939999999,
+    "longitude": 10.3522503,
+    "organizer": "",
+    "website": "/race-pages/hytteplanmila-inkl.-nm-10-km.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": null,
+    "id": "hytteplanmila-inkl-nm-10-km_20241019_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "Bli med på HYTTEPLANMILA 2024 - en av Norges mest spennende 10 km landeveisløp! Uansett om du er erfaren eller nybegynner, vil du oppleve vakre skoger og utfordrende terreng. Ikke gå glipp av denne fantastiske muligheten til å sette nye personlige rekorder ved å delta i en av Norges mest ikoniske landeveisløp. Vi gleder oss til å se deg ved startstreken!",
+    "website_organizer": "https://hytteplanmila.no/",
+    "new_version": true
+  },
+  {
+    "date": "20241026.",
+    "type": "road",
+    "name": "Fredrikstad Maraton",
+    "distance": "Maraton",
+    "distance_m": [
+      42195
+    ],
+    "place": "Fredrikstad, Østfold",
+    "latitude": 59.22053689999999,
+    "longitude": 10.9347012,
+    "organizer": "",
+    "website": "/race-pages/fredrikstad-maraton.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": null,
+    "id": "fredrikstad-maraton_20241026_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "Bli med på Fredrikstad Maraton, et fantastisk løp som tar deltakerne gjennom vakre omgivelser og pittoreske steder. Dette spennende arrangementet inkluderer maraton-distansen, og utfordrer både erfarne og nybegynnere løpere på veien. Dette løpet garanterer minner for livet og inspirasjon til å presse grensene dine og oppnå store ting.",
+    "website_organizer": "http://www.fredrikstadif.no/p/10600/fredrikstad-maraton",
+    "new_version": true
+  },
+  {
+    "date": "20241027.",
+    "type": "road",
+    "name": "Norgestesten",
+    "distance": "5 km, 10 km, Halvmaraton",
+    "distance_m": [
+      5000,
+      10000,
+      21097
+    ],
+    "place": "Ullensaker, Akershus",
+    "latitude": 60.1349136,
+    "longitude": 11.1637891,
+    "organizer": "",
+    "website": "/race-pages/norgestesten.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": null,
+    "id": "norgestesten_20241027_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "Bli med på Norgestesten 2024 - et av Norges mest spennende løp! Velg mellom 5 km, 10 km og Halvmarathon og nyt vakker natur og profesjonell organisering. Uansett om du er erfaren eller nybegynner, er det noe for alle. Vår løype foregår på vei og gir en rask og jevn løpeopplevelse. Bli med og opplev den fantastiske atmosfæren og den gode følelsen av å fullføre en løpsutfordring!",
+    "website_organizer": "https://www.norgestesten.no/",
+    "new_version": true
+  },
+  {
+    "date": "20241031.",
+    "type": "road",
+    "name": "Åsane løpskarusell  løp 8",
+    "distance": "5 km, 10 km",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Bergen, Vestland",
+    "latitude": 60.39126279999999,
+    "longitude": 5.3220544,
+    "organizer": "",
+    "website": "/race-pages/asane-lopskarusell-lop-8.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": null,
+    "id": "åsane-løpskarusell-løp-8_20241031_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "Bli med på vår årlige løpsserie! Vi arrangerer ukentlige treninger for både nybegynnere og erfarne løpere, og vi tilbyr distansene 5 km og 10 km på vei. Datoene for 2024 er allerede satt, så meld deg på nå for å sikre deg plass. Delta for å forbedre din løping, møte likesinnede og oppleve den fantastiske følelsen av å fullføre et løp. Kontakt oss for mer informasjon. Vi gleder oss til å se deg på startstreken!",
+    "website_organizer": "https://aasane-lopskarusell.no/",
+    "new_version": true
+  },
+  {
+    "date": "20241110.",
+    "type": "road",
+    "name": "Jessheim Vintermaraton",
+    "distance": "10 km, Halvmaraton, Maraton",
+    "distance_m": [
+      10000,
+      21097,
+      42195
+    ],
+    "place": "Ullensaker, Akershus",
+    "latitude": 60.1349136,
+    "longitude": 11.1637891,
+    "organizer": "",
+    "website": "/race-pages/jessheim-vintermaraton.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": null,
+    "id": "jessheim-vintermaraton_20241110_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "Bli med på Vintermaraton i Jessheim den 10. november 2024! Enten du er nybegynner eller erfaren løper, er dette årlige arrangementet noe for deg. Velg mellom 10 km, Halvmarathon eller Marathon- løpene, og nyt vakre vinterlandskap mens du konkurrerer på veiene. Meld deg på og opplev en energisk og støttende atmosfære mens du når dine løpemål. Vi ser frem til å ønske deg velkommen til denne fantastiske begivenheten!",
+    "website_organizer": "https://www.vintermaraton.no/",
+    "new_version": true
+  },
+  {
+    "date": "20250503.",
+    "type": "road",
+    "name": "Steinsland Bygdemaraton",
+    "distance": "10 km, Halvmaraton, Maraton",
+    "distance_m": [
+      10000,
+      21097,
+      42195
+    ],
+    "place": "Birkenes, Agder",
+    "latitude": 58.4285861,
+    "longitude": 8.2152344,
+    "organizer": "",
+    "website": "/race-pages/steinsland-bygdemaraton.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": null,
+    "id": "steinsland-bygdemaraton_20250503_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "Velkommen til Steinsland Bygdemaraton! Vårt løp feirer fellesskapet og utholdenheten til alle løpere. Vi tilbyr distanser for alle nivåer, inkludert 10 km, halvmaraton og maraton. Veiene rundt Steinsland gir en fantastisk løype gjennom naturen. Enten du er en erfaren løper eller nybegynner, oppfordrer vi deg til å bli med og teste dine egne grenser. Vi lover støtte og oppmuntring fra vårt dedikerte team. Du kan konkurrere om en topplassering eller bare fullføre for personlig fremgang. Vi gleder oss til å ønske deg velkommen til årets løp!",
+    "website_organizer": "https://oggerondt.org/",
+    "new_version": true
+  },
+  {
+    "date": "20260502.",
+    "type": "road",
+    "name": "Steinsland Bygdemaraton",
+    "distance": "10 km, Halvmaraton, Maraton",
+    "distance_m": [
+      10000,
+      21097,
+      42195
+    ],
+    "place": "Birkenes, Agder",
+    "latitude": 58.4285861,
+    "longitude": 8.2152344,
+    "organizer": "",
+    "website": "/race-pages/steinsland-bygdemaraton.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": null,
+    "id": "steinsland-bygdemaraton_20260502_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "Bli med på det årlige Steinlsand Bygdemaraton! Vi tilbyr 10 km, halvmaraton og helmaraton distanser på asfalterte veier, så uansett ferdighetsnivå kan du delta. Opplev vakre landskap og unik atmosfære, og få gleden av å krysse målstreken. Meld deg på i dag og bli med på dette spennende løpearrangementet!",
+    "website_organizer": "https://oggerondt.org/",
+    "new_version": true
+  },
+  {
+    "date": "20270501.",
+    "type": "road",
+    "name": "Steinsland Bygdemaraton",
+    "distance": "10 km, Halvmaraton, Maraton",
+    "distance_m": [
+      10000,
+      21097,
+      42195
+    ],
+    "place": "Birkenes, Agder",
+    "latitude": 58.4285861,
+    "longitude": 8.2152344,
+    "organizer": "",
+    "website": "/race-pages/steinsland-bygdemaraton.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": null,
+    "id": "steinsland-bygdemaraton_20270501_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "Velkommen til det årlige Steinsland Bygdemaraton! Vår spennende løp gir deg muligheten til å oppleve de fantastiske landskapene i Norge mens du deltar i en utfordrende løp. Vårt maraton inkluderer ulike kategorier og distanser, slik at deltakerne kan velge mellom 10 km, Halvmarathon eller Marathon. Vår nøye planlagte løype tar deg gjennom vakre veier og natur som vil gjøre hvert steg verdt det. Uansett om du er en erfaren løper eller nybegynner, er dette arrangementet perfekt for alle som leter etter en minneverdig løpsopplevelse. Så knyt på deg løpeskoene og bli med oss for en dag fylt med kameratskap, entusiasme og spenningen ved å krysse mållinjen. Vi ser frem til å se deg på Steinsland Bygdemaraton!",
+    "website_organizer": "https://oggerondt.org/",
+    "new_version": true
+  },
+  {
+    "date": "20280506.",
+    "type": "road",
+    "name": "Steinsland Bygdemaraton",
+    "distance": "10 km, Halvmaraton, Maraton",
+    "distance_m": [
+      10000,
+      21097,
+      42195
+    ],
+    "place": "Birkenes, Agder",
+    "latitude": 58.4285861,
+    "longitude": 8.2152344,
+    "organizer": "",
+    "website": "/race-pages/steinsland-bygdemaraton.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": null,
+    "id": "steinsland-bygdemaraton_20280506_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "Bli med på Steinsland Bygdemaraton i 2023! Løpet tar deg gjennom vakre landskap på asfalterte veier, og vi tilbyr distanser for alle nivåer; 10 km, halvmaraton og maraton. Uansett om du er nybegynner eller erfaren løper, er dette løpet perfekt for deg. Opplev naturen på en uforglemmelig løpetur og utfordre deg selv på Steinsland Bygdemaraton!",
+    "website_organizer": "https://www.facebook.com/Bygdemaraton/",
     "new_version": true
   }
 ]
