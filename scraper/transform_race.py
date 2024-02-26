@@ -85,14 +85,13 @@ def transform_and_store_race(race, costometer, openai=True):
         race["latitude"] = latitude
         race["longitude"] = longitude
 
-        if lang_val == "Swedish":
+        #if lang_val == "Swedish":
         # Get swedish counties for found coordinates
-            if latitude != 0:
-                race["county"] = transform_module.find_county(latitude, longitude)
-            else:
-                race["county"] = None
+        if latitude != 0:
+            race["county"] = transform_module.find_county(latitude, longitude)
         else:
             race["county"] = None
+
         #get id from races in staged_for_aproval
         staging_path="staged_for_approval.json"
         print("getting id from staged_for_approval")

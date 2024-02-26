@@ -25,9 +25,8 @@ import random
 from json.decoder import JSONDecodeError
 import pyproj
 
-
-# Load the Swedish county shapefile data
-counties = gpd.read_file("counties/Lan_Sweref99TM_region.shp")
+# Load the GeoJSON file
+gdf = gpd.read_file('counties/fylker.geojson')
 
 def remove_duplicate_words_in_string(string):
     iterable = string.split()
@@ -74,9 +73,6 @@ def process_url(url):
 
 # Define a function to find the county for a given latitude and longitude
 def find_county(lat, lon):
-    # Load the GeoJSON file
-    gdf = gpd.read_file('counties/fylker.geojson')
-
     # Define the point coordinates you want to map
     # Create a Point object from the point coordinates
     point_coords = (lat, lon)
@@ -103,7 +99,29 @@ def find_county(lat, lon):
         if row['geometry'].contains(point_transformed):
             return row['navn']
 
-    # If the point is not inside any polygon, return None
+    # If no mapping was found, try adjusting the latitude and longitude by ±0.5% and ±1%
+    for lat_adjust in [-0.05, 0, 0.05]:
+        for lon_adjust in [-0.05, 0, 0.05]:
+            new_lat = lat + lat_adjust
+            new_lon = lon + lon_adjust
+
+            # Define the point coordinates with the adjustments
+            new_point_coords = (new_lat, new_lon)
+            new_point = Point(new_point_coords)
+
+            # Transform the adjusted point coordinates to the target CRS
+            new_point_transformed = transformer.transform(new_point_coords[1], new_point_coords[0])
+
+            # Create a new Point object from the transformed adjusted coordinates
+            new_point_transformed = Point(new_point_transformed)
+
+            # Use the 'contains' method to check if the adjusted point falls within a polygon
+            # representing a region in Norway
+            for index, row in gdf.iterrows():
+                if row['geometry'].contains(new_point_transformed):
+                    return row['navn']
+
+    # If no mapping is found after all adjustments, return None
     return None
 
 def import_json(json_file):
@@ -162,7 +180,7 @@ def check_allowed_url_get_goog(disallowed_urls, query):
     try:
         # Using the googlesearch library to perform a search and get the results
         print(f"Searching for '{query}'")
-        results_generator = search("Vinterkarusellen (Romerike)  8. løp Årnes Nes, Akershus 3,1 km", num_results=5)
+        results_generator = search(query, num_results=5)
         # Convert the generator to a list
         urls = list(results_generator)
 

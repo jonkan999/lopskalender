@@ -4,8 +4,8 @@ import yaml
 from datetime import datetime
 
 def clean_filename(name):
-  name = name.replace('-', ' ').replace('/', '').replace('å', 'a').replace('ä', 'a').replace('ö', 'o').replace('Å', 'A').replace('Ä', 'A').replace('Ö', 'O').lower()
-  return '-'.join(name.split()).lower()
+    name = name.replace('-', ' ').replace('/', '').replace('å', 'a').replace('ä', 'a').replace('ö', 'o').replace('Å', 'A').replace('Ä', 'A').replace('Ø', 'O').lower().replace('ø', 'o').replace('ö', 'o')
+    return '-'.join(name.split()).lower()
 
 # Read the general configuration file
 with open("../collection_configuration/general_config.yaml", 'r', encoding='utf-8') as f:

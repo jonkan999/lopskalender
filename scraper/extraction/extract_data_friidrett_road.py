@@ -66,7 +66,7 @@ def main():
             else:
                 name = None
 
-        proper_date = item.get("data-date")
+        proper_date = item.get("data-date").replace("-", "")
         print(f"Data ID: {data_id}, Name: {name}, Proper Date: {proper_date}")
         
 
@@ -100,7 +100,7 @@ def main():
             EC.presence_of_all_elements_located((By.CLASS_NAME, "detail-list-row"))
         )
 
-        website = None
+        website = ""
         website_ai_fallback = name
         place = None
         organizer = None
@@ -120,11 +120,11 @@ def main():
                             website = webpage_element.get_attribute("href")
                             if website == "http:// " or website == "https:// " or website == "http://":
                                 print(f"No Webpage URL found for {data_id}")
-                                website = None
+                                website = ""
                             print(f"Webpage URL for {data_id}: {website}")
                         except:
                             print(f"No Webpage URL found for {data_id}")
-                            website = None
+                            website = ""
 
                     if text == "Sted:":
                         place = element.find_elements(By.CLASS_NAME, "text")[0].text
@@ -167,9 +167,9 @@ def main():
                             distances.append(int(distance_item[:-2])*1000)
                         except:
                             pass
-                elif distance_item == "Halvmaraton":
+                elif distance_item in ["Halvmaraton", "Half Marathon"]:
                     distances.append(21097)
-                elif distance_item == "Maraton":
+                elif distance_item in ["Maraton", "Marathon"]:
                     distances.append(42195)
                 elif "MILES" in distance_item:
                     try:

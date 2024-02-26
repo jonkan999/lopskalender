@@ -2400,5 +2400,87 @@
     "latitude": 59.7440738,
     "longitude": 10.2044564,
     "county": null
+  },
+
+  {
+    "date": "20240615",
+    "type": "road",
+    "name": "Frøylandsvatnet Rundt",
+    "distance": "16,6 km, 9,5 km",
+    "distance_m": [16000, 9000],
+    "place": "Time, Rogaland",
+    "organizer": "",
+    "website": "https://www.sportsidioten.no/resultater/froylandsvatnet-rundt-2023/",
+    "website_ai_fallback": "Frøylandsvatnet Rundt",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "created_date": "2024-02-24 22:15:40",
+    "updated_date": "2024-02-24 22:15:40",
+    "id": "frøylandsvatnet-rundt_20240615_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "extract_id": "a60d6a63-5da4-4554-9a98-be6aed49cc79",
+    "contents": {
+      "title": "Resultater Frøylandsvatnet Rundt 2023 - Sportsidioten.no",
+      "description": "Startlister og resultater fra Frøylandsvatnet Rundt 17. juni 2022.",
+      "h1": "Resultater Frøylandsvatnet Rundt 2023",
+      "p": [
+        "Startlister og resultater fra Frøylandsvatnet Rundt 17. juni 2022.",
+        "17. juni",
+        "Undheim – Rogaland",
+        "",
+        "10 km | 16,6 km"
+      ],
+      "h2": [
+        "Lignende saker",
+        "Frøylandsvatnet Rundt 2023",
+        "Siste resultater",
+        "Flere saker"
+      ],
+      "images": [],
+      "url": "https://www.sportsidioten.no/resultater/froylandsvatnet-rundt-2023/"
+    },
+    "race_categories": "16 km, 9 km",
+    "long_summary": "Frøylandsvatnet Rundt 2023 er endelig her, og vi er klare for en spektakulær dag med løping og fellesskap. Denne årlige begivenheten er kjent for å tiltrekke seg løpere fra hele landet, og i år er intet unntak. Med to ulike distanser å velge mellom – 16 km og 9 km – er det noe for alle, uansett ferdighetsnivå.\n\nLøpet går gjennom vakre omgivelser langs veiene rundt Frøylandsvatnet, og gir løpere en unik mulighet til å oppleve naturen mens de konkurrerer. Uavhengig av om man er en erfaren løper eller nybegynner, er atmosfæren alltid fylt med spenning og støtte fra medløpere og tilskuere.\n\nEtter løpet vil det være muligheter til å se resultatene fra både 16 km og 9 km distansene, og feire prestasjonene til alle deltakere. Vi kan ikke vente med å se dere alle på startstreken for en uforglemmelig dag med løping og samhold.",
+    "summary": "Frøylandsvatnet Rundt 2023 er her! Bli med på en uforglemmelig dag med løping og fellesskap. Med to distanser – 16 km og 9 km – passer løpet for alle, uansett ferdighetsnivå. Løpet går langs veiene rundt Frøylandsvatnet, og gir deg en fantastisk naturopplevelse. Etter løpet kan du feire prestasjonene sammen med oss. Meld deg på og bli med på årets løp!",
+    "ai_name_guess": "Frøylandsvatnet Løp",
+    "latitude": 59.1489544,
+    "longitude": 6.0143431,
+    "county": "Rogaland"
+  },
+  {
+    "date": "20240622",
+    "type": "road",
+    "name": "Knarvik Maraton - inkl. NM maraton",
+    "distance": "Halvmaraton, Maraton",
+    "distance_m": [21097, 42195],
+    "place": "Alver, Vestland",
+    "organizer": "",
+    "website": "https://www.knarvikmila.no/knarvikmaraton",
+    "website_ai_fallback": "Knarvik Maraton - inkl. NM maraton",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "created_date": "2024-02-24 22:15:43",
+    "updated_date": "2024-02-24 22:15:43",
+    "id": "knarvik-maraton-inkl-nm-maraton_20240622_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "extract_id": "26479b7c-1e60-4a18-8c93-807886475165",
+    "contents": {
+      "title": "NM Maraton 2024 — KnarvikMila / The Great Fjord Run",
+      "description": "NM Maraton 2024",
+      "h1": "Knarvik Maraton",
+      "p": [
+        "",
+        "Start og mål inne på Knarvik Stadion",
+        "Løpa går i trafikkfri trase rundt Knarvik Stadion.",
+        "Lørdag 22. juni 2024 arrangerer FIL AKS-77 i samarbeide med Knarvikmila NM Maraton for alle klasser (18 - veteran) i Knarvik. For å kunne delta på NM Maraton må ein vere medlem i eit friidrettslag. Påmeldinga startar fredag 1. desember og vert avluttar 12. juni.",
+        "NM i maraton er ein del av Knarvik Maraton. Alle kan delta på Knarvik Maraton. Det vert også arrangert ein halvmaraton under arrangementet."
+      ],
+      "h2": ["Maraton, halvmaraton og NM Maraton 2024 - lørdag 22. juni"],
+      "images": [],
+      "url": "https://www.knarvikmila.no/knarvikmaraton"
+    },
+    "race_categories": "Halvmarathon, Marathon",
+    "long_summary": "Hei løpere! Vi er glade for å kunngjøre NM Maraton 2024 - KnarvikMila / The Great Fjord Run som vil finne sted lørdag 22. juni. Dette er et løp med en nydelig utsikt over fjorden og en flott måte å utfordre deg selv på veien.\n\nVi tilbyr flere løpekategoriene, inkludert halvmaraton og maraton. Disse konkurransene vil gi deg muligheten til å teste utholdenheten din og oppleve den fantastiske naturen i området. Veiløpet vil være en kombinasjon av kupert terreng og flate strekninger, noe som gir en variert og utfordrende løpeopplevelse.\n\nEnten du er en erfaren maratonløper eller ønsker å prøve deg på halvmaraton for første gang, er dette løpet en flott mulighet til å sette deg selv på prøve og kanskje til og med sette personlige rekorder. Vi gleder oss til å se deg til NM Maraton 2024 - KnarvikMila / The Great Fjord Run!",
+    "summary": "Velkommen til NM Maraton 2024 - KnarvikMila / The Great Fjord Run! Bli med oss lørdag 22. juni for en fantastisk løpeopplevelse med nydelig utsikt over fjorden. Vi tilbyr halvmaraton og maratonløp, perfekt for erfarne løpere og de som vil prøve seg på lengre distanser. Dette blir en variert og utfordrende løypeopplevelse på vei. Vi ser frem til å se deg der!",
+    "ai_name_guess": "NM Fjordløpet 2024",
+    "latitude": 60.6221393,
+    "longitude": 5.1584647,
+    "county": "Vestland"
   }
 ]
