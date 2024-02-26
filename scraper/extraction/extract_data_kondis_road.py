@@ -222,17 +222,3 @@ if __name__ == "__main__":
     main()
 
 
-
-
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from bs4 import BeautifulSoup
-from selenium.common.exceptions import TimeoutException
-from scraper_package.race_classes import Race, RaceCollection
-import time
-import re
-
