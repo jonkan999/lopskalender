@@ -129,17 +129,17 @@ distance_units:
 
 county_label_text: "Alle fylker"
 county_mapping:
-  "Rogaland":"Rogaland"
-  "Vestfold og Telemark":"Vestfold og Telemark"
-  "Nordland":"Nordland"
-  "Agder":"Agder"
-  "Innlandet":"Innlandet"
-  "Møre og Romsdal":"Møre og Romsdal"
-  "Vestland":"Vestland"
-  "Oslo":"Oslo"
-  "Viken":"Viken"
-  "Trøndelag":"Trøndelag"
-  "Troms og Finnmark":"Troms og Finnmark"
+  "Rogaland": "Rogaland"
+  "Vestfold og Telemark": "Vestfold og Telemark"
+  "Nordland": "Nordland"
+  "Agder": "Agder"
+  "Innlandet": "Innlandet"
+  "Møre og Romsdal": "Møre og Romsdal"
+  "Vestland": "Vestland"
+  "Oslo": "Oslo"
+  "Viken": "Viken"
+  "Trøndelag": "Trøndelag"
+  "Troms og Finnmark": "Troms og Finnmark"
 
 category_label_text: "Løpkategori"
 category_mapping:

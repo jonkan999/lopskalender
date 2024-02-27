@@ -26,3 +26,8 @@ python update_main_list.py
 
 --- Update seo folders
 python update_seo_folders.py
+
+-- git ocmmand
+git add --all :!images.json
+git commit -m "adding new races"
+git push

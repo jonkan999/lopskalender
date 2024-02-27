@@ -38,113 +38,168 @@
   <priority>0.20</priority>
 </url>
 <url>
+  <loc>https://lopskalender.com/lan/rogaland/index.html</loc>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://lopskalender.com/lan/vestfold-og-telemark/index.html</loc>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://lopskalender.com/lan/nordland/index.html</loc>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://lopskalender.com/lan/agder/index.html</loc>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://lopskalender.com/lan/innlandet/index.html</loc>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://lopskalender.com/lan/more-og-romsdal/index.html</loc>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://lopskalender.com/lan/vestland/index.html</loc>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://lopskalender.com/lan/oslo/index.html</loc>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://lopskalender.com/lan/viken/index.html</loc>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://lopskalender.com/lan/trondelag/index.html</loc>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://lopskalender.com/lan/troms-og-finnmark/index.html</loc>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
   <loc>https://lopskalender.com/category/1500-meter/index.html</loc>
-  <lastmod>2024-02-04T14:19:49+00:00</lastmod>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
   <loc>https://lopskalender.com/category/3000-meter/index.html</loc>
-  <lastmod>2024-02-04T14:19:49+00:00</lastmod>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
   <loc>https://lopskalender.com/category/5000-meter/index.html</loc>
-  <lastmod>2024-02-04T14:19:49+00:00</lastmod>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
   <loc>https://lopskalender.com/category/10000-meter/index.html</loc>
-  <lastmod>2024-02-04T14:19:49+00:00</lastmod>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
   <loc>https://lopskalender.com/category/5-km/index.html</loc>
-  <lastmod>2024-02-04T14:19:49+00:00</lastmod>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
   <loc>https://lopskalender.com/category/10-km/index.html</loc>
-  <lastmod>2024-02-04T14:19:49+00:00</lastmod>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
-  <loc>https://lopskalender.com/category/mila-løp/index.html</loc>
-  <lastmod>2024-02-04T14:19:49+00:00</lastmod>
+  <loc>https://lopskalender.com/category/mila-lop/index.html</loc>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
   <loc>https://lopskalender.com/category/halvmaraton/index.html</loc>
-  <lastmod>2024-02-04T14:19:49+00:00</lastmod>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
   <loc>https://lopskalender.com/category/maraton/index.html</loc>
-  <lastmod>2024-02-04T14:19:49+00:00</lastmod>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
   <loc>https://lopskalender.com/category/backyard-ultra/index.html</loc>
-  <lastmod>2024-02-04T14:19:49+00:00</lastmod>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
-  <loc>https://lopskalender.com/category/ultraløp/index.html</loc>
-  <lastmod>2024-02-04T14:19:49+00:00</lastmod>
+  <loc>https://lopskalender.com/category/ultralop/index.html</loc>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
   <loc>https://lopskalender.com/category/50-miles/index.html</loc>
-  <lastmod>2024-02-04T14:19:49+00:00</lastmod>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
   <loc>https://lopskalender.com/category/100-miles/index.html</loc>
-  <lastmod>2024-02-04T14:19:49+00:00</lastmod>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
   <loc>https://lopskalender.com/category/200-miles/index.html</loc>
-  <lastmod>2024-02-04T14:19:49+00:00</lastmod>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
   <loc>https://lopskalender.com/category/50-km/index.html</loc>
-  <lastmod>2024-02-04T14:19:49+00:00</lastmod>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
   <loc>https://lopskalender.com/category/100-km/index.html</loc>
-  <lastmod>2024-02-04T14:19:49+00:00</lastmod>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
   <loc>https://lopskalender.com/category/stafett/index.html</loc>
-  <lastmod>2024-02-04T14:19:49+00:00</lastmod>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
   <loc>https://lopskalender.com/category/backyard-ultra/index.html</loc>
-  <lastmod>2024-02-04T14:19:49+00:00</lastmod>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
   <loc>https://lopskalender.com/category/terreng/index.html</loc>
-  <lastmod>2024-02-04T14:19:49+00:00</lastmod>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
-  <loc>https://lopskalender.com/category/fjelløp/index.html</loc>
-  <lastmod>2024-02-04T14:19:49+00:00</lastmod>
+  <loc>https://lopskalender.com/category/fjellop/index.html</loc>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
   <loc>https://lopskalender.com/category/vei/index.html</loc>
-  <lastmod>2024-02-04T14:19:49+00:00</lastmod>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
-  <loc>https://lopskalender.com/category/løpebane/index.html</loc>
-  <lastmod>2024-02-04T14:19:49+00:00</lastmod>
+  <loc>https://lopskalender.com/category/lopebane/index.html</loc>
+  <lastmod>2024-02-26T14:19:49+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
@@ -338,5 +393,165 @@
 </url><url>
   <loc>https://lopskalender.com/race-pages/drammen-halvmaraton</loc>
   <lastmod>2024-02-17T12:47:54.883920+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/froylandsvatnet-rundt</loc>
+  <lastmod>2024-02-26T22:16:21.320376+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/knarvik-maraton-inkl.-nm-maraton</loc>
+  <lastmod>2024-02-26T22:16:24.109419+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/totenvikalopet-2024</loc>
+  <lastmod>2024-02-27T17:04:48.130433+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/graabeinlopet</loc>
+  <lastmod>2024-02-27T17:04:50.475428+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/sparebank-1-vartdalsstranda-halvmaraton-2024</loc>
+  <lastmod>2024-02-27T17:04:52.668426+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/nidaros-lopefest-2024</loc>
+  <lastmod>2024-02-27T17:04:54.229424+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/nm-halvmaraton</loc>
+  <lastmod>2024-02-27T17:04:55.021437+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/norgestesten-lop-2</loc>
+  <lastmod>2024-02-27T17:04:55.940428+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/varslipplopet-2024</loc>
+  <lastmod>2024-02-27T17:04:57.753421+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/4625lopet</loc>
+  <lastmod>2024-02-27T17:04:57.795456+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/asanelopet-2024</loc>
+  <lastmod>2024-02-27T17:04:59.866422+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/perselopet-5km,-10km,-halvmaraton-9.mai</loc>
+  <lastmod>2024-02-27T17:05:02.648424+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/brurunden-kjell-halvarssons-minnelop-2024</loc>
+  <lastmod>2024-02-27T17:05:05.888446+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/tordenskioldslopet-2024</loc>
+  <lastmod>2024-02-27T17:05:07.340424+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/sunnhordland-lopsfest-2024</loc>
+  <lastmod>2024-02-27T17:05:08.244437+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/strandlopet</loc>
+  <lastmod>2024-02-27T17:05:09.480423+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/ulfstindmila</loc>
+  <lastmod>2024-02-27T17:05:13.276429+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/gatelop</loc>
+  <lastmod>2024-02-27T17:05:16.017421+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/asics-sentrumslopet-2024</loc>
+  <lastmod>2024-02-27T17:05:18.764425+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/fjordkraft-bergen-city-marathon-2024</loc>
+  <lastmod>2024-02-27T17:05:20.737422+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/fevik-halvmaraton-&amp;-5km</loc>
+  <lastmod>2024-02-27T17:05:22.742421+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/tronderjogg-2024</loc>
+  <lastmod>2024-02-27T17:05:24.032424+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/perselopet-5km,10km,-halvmaraton,-maraton-og-50km_var</loc>
+  <lastmod>2024-02-27T17:05:25.515425+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/romsdal-510halv</loc>
+  <lastmod>2024-02-27T17:05:27.108431+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/halden-bylop-2024</loc>
+  <lastmod>2024-02-27T17:05:27.967420+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/orasprinten-2024</loc>
+  <lastmod>2024-02-27T17:05:28.408425+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/nordlo-sentrumslopet</loc>
+  <lastmod>2024-02-27T17:05:30.596437+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/norgestesten-lop-1</loc>
+  <lastmod>2024-02-27T17:05:31.240423+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/kondiskarusellen-5.-lop</loc>
+  <lastmod>2024-02-27T17:05:42.062429+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/drammen10k-2024</loc>
+  <lastmod>2024-02-27T17:05:44.129425+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/h3-hamar-hoka-varlop-2024</loc>
+  <lastmod>2024-02-27T17:05:47.283423+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/lierlopet-3</loc>
+  <lastmod>2024-02-27T17:05:48.441426+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/tjomejoggen</loc>
+  <lastmod>2024-02-27T17:05:49.873425+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/industrilopet-2024</loc>
+  <lastmod>2024-02-27T17:05:50.806425+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/kondiskarusellen-4.-lop</loc>
+  <lastmod>2024-02-27T17:05:52.077424+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/orremila-2024</loc>
+  <lastmod>2024-02-27T17:05:53.194439+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/lierlopet-2</loc>
+  <lastmod>2024-02-27T17:05:55.189431+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/egersund-halvmaraton-mila</loc>
+  <lastmod>2024-02-27T17:05:57.625431+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/vinterkarusellen-6.-lop-mandal</loc>
+  <lastmod>2024-02-27T17:05:59.984427+00:00</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://lopskalender.com/race-pages/milæ</loc>
+  <lastmod>2024-02-27T17:06:00.391424+00:00</lastmod>
   <priority>0.8</priority>
 </url></urlset>

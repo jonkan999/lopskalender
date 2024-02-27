@@ -159,14 +159,20 @@ def main():
             #mapping distances to meters
             try:
                 if "KM" in distance_item or "km" in distance_item or "k" in distance_item or "K" in distance_item:
-                    if "," in distance_item:
-                        distance_item = distance_item.split(",")[0] #get first digit if fraction
-                        distances.append(int(distance_item)*1000)
-                    else:
-                        try:
-                            distances.append(int(distance_item[:-2])*1000)
-                        except:
-                            pass
+                    # Split distance_item on " " to separate potential number and distance unit
+                    parts = distance_item.split()
+                    for i in range(len(parts)):
+                        part = parts[i]
+                        if "," in part or "." in part:
+                            distance_item = distance_item.split(",")[0] #get first digit if fraction
+                            distances.append(int(distance_item)*1000)
+                            break #should not break here, this will cause the loop to only run once when it finds decimals but it should run for all elements
+                        elif part[-1] in ['k', 'K', 'm', 'M']:
+                            # Extract the number and multiply it by 1000
+                            if part[:-1].replace(",", "").replace(".", "").isdigit():
+                                distances.append(int(float(part[:-1].replace(",", "").replace(".", ""))*1000))
+                            elif parts[i-1].replace(",", "").replace(".", "").isdigit():
+                                distances.append(int(float(parts[i-1].replace(",", "").replace(".", ""))*1000))
                 elif distance_item in ["Halvmaraton", "Half Marathon"]:
                     distances.append(21097)
                 elif distance_item in ["Maraton", "Marathon"]:

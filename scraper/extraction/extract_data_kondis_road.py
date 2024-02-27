@@ -211,9 +211,9 @@ def main():
         else:
             print("Error: Could not retrieve source URL:" + url )
 
-        race_collection.append_or_create_source_json(subdomain)
-        race_collection.append_or_create_source_json()
-        print("Finished crawling " + url)
+    race_collection.append_or_create_source_json(subdomain)
+    race_collection.append_or_create_source_json()
+    print("Finished crawling " + url)
 
     # Close the browser
     driver.quit()
