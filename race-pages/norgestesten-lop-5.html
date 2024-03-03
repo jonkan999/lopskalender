@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+      re
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+
+    <script defer="" src="/js/pgJs.js"></script>
+
+    <link href="/css/pg-style.css" rel="stylesheet" />
+    <link href="/css/pg-queries.css" rel="stylesheet" />
+
+    <title>
+      Løpsside for Norgestesten løp 5 - 
+    </title>
+    <link rel="icon" href="/img/logo100px.jpg"" />
+    <meta name="description" content="Velkommen til Norgestesten 2024! Vårt sertifiserte Kondis kvalitetsløp tilbyr distanser på 5 km, 10 km og halvmaraton, slik at alle kan delta uavhengig av ferdighetsnivå. Vår vakre landeveisløype gir deg muligheten til å sette dine egne mål og kanskje til og med slå personlige rekorder. Enten du er nybegynner eller erfaren løper, vil Norgestesten være en fantastisk opplevelse for deg. Vi gleder oss til å se deg ved startstreken!" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="show-all-overlay" id="showAllOverlay"></div>
+    <button class="hide-grid" id="hideGrid">
+      <ion-icon name="close-outline" class="close-icon"></ion-icon>
+    </button>
+    <header class="header header-black section">
+      <div class="brand-box">
+        <a class="header-brand-name" href="/index.html">
+          <img
+            class="brand-box-small-image"
+            src="/img/logo.svg"
+            alt="Brand logo"
+        /></a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li>
+            <p class="category-link">
+              Løpsside for: Norgestesten løp 5
+            </p>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="venue-page" id="venuePage">
+        <div class="show-all-grid" id="showAllGrid">
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/norgestesten-lop-5_1.webp"
+              alt="image 1 for: Norgestesten løp 5"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/norgestesten-lop-5_2.webp"
+              alt="image 2 for: Norgestesten løp 5"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/norgestesten-lop-5_3.webp"
+              alt="image 3 for: Norgestesten løp 5"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/norgestesten-lop-5_4.webp"
+              alt="image 4 for: Norgestesten løp 5"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/norgestesten-lop-5_5.webp"
+              alt="image 5 for: Norgestesten løp 5"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/norgestesten-lop-5_6.webp"
+              alt="image 6 for: Norgestesten løp 5"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+        </div>
+        <div class="images-section section airy-margin" id="imageSection">
+          <div class="left-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/norgestesten-lop-5_1.webp"
+              alt="image 1 for: Norgestesten løp 5"
+            />
+            <div class="image-overlay"></div>
+          </div>
+          <div class="right-images-section">
+            <div class="top-right-image">
+              <img
+                class="image-inner-img"
+                src="/race-pages/img/norgestesten-lop-5_2.webp"
+                alt="image 2 for: Norgestesten løp 5"
+              />
+              <div class="image-overlay"></div>
+            </div>
+            <div class="bottom-right-images">
+              <div class="bottom-right-image">
+                <img
+                  class="image-inner-img"
+                  src="/race-pages/img/norgestesten-lop-5_3.webp"
+                  alt="image 3 for: Norgestesten løp 5"
+                />
+                <div class="image-overlay"></div>
+              </div>
+              <div class="bottom-right-image">
+                <img
+                  class="image-inner-img"
+                  src="/race-pages/img/norgestesten-lop-5_4.webp"
+                  alt="image 4 for: Norgestesten løp 5"
+                />
+                <div class="show-all-container" id="showAll">
+                  <div class="square-icon-container-container">
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                  </div>
+                  <div class="show-all-images-text">
+                    Vis alle
+                  </div>
+                  <div class="image-overlay"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info-container" id="infoContainer">
+          <!-- Venue Name -->
+          <h1 class="event-space-title">Norgestesten løp 5</h1>
+
+          <!-- Venue Address -->
+          <div class="adress-div">
+            <ion-icon
+              class="icon ion-ios-location-outline"
+              name="location-outline"
+            ></ion-icon>
+            <p class="event-space-address">Jessheim, NOR</p>
+          </div>
+
+          <!-- Highlights Container -->
+          <ul class="highlights-container">
+            <!-- Star Rating -->
+            <div class="highlight-stars">
+              <ion-icon
+                class="star-icon ion-ios-star-outline md hydrated"
+                name="star"
+                role="img"
+                aria-label="star"
+              ></ion-icon>
+              <a href="https://norgestesten.no/"
+                >Lenke til påmelding</a
+              >
+            </div>
+
+            <!-- Guests and Size Info -->
+            <li class="highlight-info desktop">
+              <ion-icon
+                class="highlight-icon ion-ios-analytics-outline"
+                name="analytics-outline"
+              ></ion-icon>
+              <p>
+                Distanse: 5 km, 10 km, Halvmaraton
+              </p>
+            </li>
+            <li class="highlight-info mobile full-row">
+              <ion-icon
+                class="highlight-icon ion-ios-analytics-outline"
+                name="analytics-outline"
+              ></ion-icon>
+              <p>
+                Distanse: 5 km, 10 km, Halvmaraton
+              </p>
+            </li>
+            <li class="highlight-info desktop">
+              <ion-icon
+                class="highlight-icon ion-ios-shapes-outline"
+                name="shapes-outline"
+              ></ion-icon>
+              <p>
+                Underlag: road
+              </p>
+            </li>
+
+            <!-- Food and Drink Info -->
+            <li class="highlight-info">
+              <ion-icon
+                class="highlight-icon ion-ios-navigate-circle-outline"
+                name="navigate-circle-outline"
+              ></ion-icon>
+              <p>
+                Sted: Jessheim, NOR
+              </p>
+            </li>
+            <li class="highlight-info second-col mobile">
+              <ion-icon
+                class="highlight-icon ion-ios-shapes-outline"
+                name="shapes-outline"
+              ></ion-icon>
+              <p>
+                Underlag: road
+              </p>
+            </li>
+            <li class="highlight-info">
+              <ion-icon
+                class="highlight-icon ion-ios-calendar-clear-outline"
+                name="calendar-clear-outline"
+              ></ion-icon>
+              <p>
+                Dato: 20240818
+              </p>
+            </li>
+            <div class="highlight-star-mobile second-col">
+              <ion-icon
+                class="star-icon ion-ios-star-outline md hydrated"
+                name="star"
+                role="img"
+                aria-label="star"
+              ></ion-icon>
+              <a class="highlight-link" href="https://norgestesten.no/"
+                >Länk till anmälan</a
+              >
+            </div>
+          </ul>
+
+          <!-- Calendar and Mail Template Containers -->
+          <div class="subsection-split-container">
+            <!-- Description Container -->
+            <div class="description-container">
+              <h2>Om løpet:</h2>
+              <div class="disclaimer-box">
+                <p>All info på denne siden er basert på åpen kildekode. Vi gjør vårt beste for å holde den oppdatert, men
+kan ikke garantere at alt er korrekt. Ser du noen feil, vennligst kontakt oss på 
+<a href="/kontakt.html">kontakt</a> så retter vi det så snart som mulig.
+</p>
+              </div>
+              <p class="venue-description">
+                Vi ønsker deg velkommen til Norgestesten, et sertifisert Kondis kvalitetsløp som vil finne sted i 2024. Dette løpet har en løpskalender som passer for alle, uansett nivå og erfaring. Med kategorier/distanser inkludert 5 km, 10 km og halvmaraton, er det en mulighet for alle å delta og utfordre seg selv på veien.
+
+Norgestesten er et landeveisløp som vil gi deg muligheten til å utfordre deg selv, sette personlige mål og kanskje til og med prøve å slå din personlige rekord. Med vakker natur og støttende medarbeidere, vil du bli oppmuntret og motivert til å fullføre løpet uansett hvilken distanse du velger å delta i. Uansett om du er en erfaren løper eller nybegynner, vil Norgestesten være en fantastisk opplevelse for deg, og vi ser frem til å se deg ved startstreken!
+              </p>
+              <h3>Detaljert informasjon:</h3>
+              <ul>
+                
+                <li>
+                  Distanse: 5 km, 10 km, Halvmaraton
+                </li>
+                
+                <li>
+                  Underlag: road
+                </li>
+                
+                <li>
+                  Sted: Jessheim, NOR
+                </li>
+                
+                <li>
+                  Dato: 20240818
+                </li>
+                 
+                <li>
+                  Løpskategorier: 5 km, 10 km, Halvmarathon
+                </li>
+                
+                <li>
+                  Fylke: Viken
+                </li>
+                
+                <li>
+                  Arrangør: Ullensaker/Kisa IL
+                </li>
+                
+              </ul>
+              <h3>Lenke til arrangørens nettside:</h3>
+              <a class="venue-price" href="https://norgestesten.no/">
+                https://norgestesten.no/
+              </a>
+            </div>
+
+            <div class="subsection-right-split-container">
+              <div
+                data-mapboxCenter="[11.169393, 60.14758189999999]"
+                data-mapboxcenter="[]"
+                class="map-container mapboxgl-map"
+                id="mapboxContainer"
+              ></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rest of your HTML content -->
+      </section>
+      <div id="errorMessage" class="error-message"></div>
+    </main>
+  </body>
+</html>

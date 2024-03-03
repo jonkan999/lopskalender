@@ -96,9 +96,13 @@ def main():
         detail_url = f"https://live.eqtiming.com/{data_id}#eventinfo"
         driver.get(detail_url)
         # Use a WebDriverWait to wait for the detail page to load
-        detail_row_elements = WebDriverWait(driver, 10).until(
-            EC.presence_of_all_elements_located((By.CLASS_NAME, "detail-list-row"))
-        )
+        try:
+            detail_row_elements = WebDriverWait(driver, 10).until(
+                EC.presence_of_all_elements_located((By.CLASS_NAME, "detail-list-row"))
+            )
+        except:
+            print(f"Element not found, aborting and continuing from the next iteration")
+            continue
 
         website = ""
         website_ai_fallback = name
@@ -140,12 +144,21 @@ def main():
             # If the timeout is reached, print a message
             print(f"error searching for info for {data_id}")
 
-        # Find the element with class 'row eventinfo-race'
-        race_info_box = driver.find_element(By.CLASS_NAME, "row.eventinfo-race")
+        # Find the element with class 'row eventinfo
+        try:
+            
+            race_info_box = driver.find_element(By.CLASS_NAME, "row.eventinfo-race")
+        except:
+            print(f"Element not found, aborting and continuing from the next iteration")
+            continue
 
         # Find the elements with class 'row' inside the race_element
-        distance_elements_box = race_info_box.find_element(By.CLASS_NAME, "row")
-        distance_elements = distance_elements_box.find_elements(By.TAG_NAME, "div")
+        try:
+            distance_elements_box = race_info_box.find_element(By.CLASS_NAME, "row")
+            distance_elements = distance_elements_box.find_elements(By.TAG_NAME, "div")
+        except:
+            print("Error finding distance elements")
+            continue
         
         # Iterate through the row_elements and get the text in their h3 elements
         distances = []

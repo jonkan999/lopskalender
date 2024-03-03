@@ -102,13 +102,11 @@
     "latitude": 58.0276808,
     "longitude": 7.4533303,
     "organizer": "Kristiansand Løpeklubb",
-    "website": "/race-pages/vinterkarusellen-6.-lop-mandal.html",
+    "website": "https://www.eqtiming.com/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Agder",
     "id": "vinterkarusellen-6-løp-mandal_20240302_httpsliveeqtimingcom",
     "summary": "Bli med på vår årlige løpekonkurranse! Uansett om du er nybegynner eller erfaren løper, har vi noe for alle. Vi tilbyr to hoveddistanse: 3km og 10km på vei. Vår løype gir en flott mulighet til å nyte naturen mens du konkurrerer. Arrangementet er åpent for alle aldre og ferdighetsnivåer, så ta med familie og venner for en morsom dag sammen! Meld deg på i dag for å bli med på en dag fylt med løping, moro og fellesskap!",
-    "website_organizer": "https://www.eqtiming.com/",
-    "new_version": true
+    "county": "Agder"
   },
   {
     "date": "20240302",
@@ -123,13 +121,11 @@
     "latitude": 58.4514216,
     "longitude": 5.9998032,
     "organizer": "Egersunds Idrettsklubb",
-    "website": "/race-pages/egersund-halvmaraton-mila.html",
+    "website": "https://img5.custompublish.com/getfile.php/5131050.1495.taip7tn7ssmazj/Egersund_HM_2023_resultater.pdf?return=www.kondis.no",
     "src_url": "https://live.eqtiming.com",
-    "county": "Rogaland",
     "id": "egersund-halvmaraton-mila_20240302_httpsliveeqtimingcom",
     "summary": "Kom og bli med på årets store løpsarrangement! Vi tilbyr spennende løyper for løpere i alle aldre og ferdighetsnivåer, inkludert en halvmaraton på 21 km og en 10 km løype. Begge løypene følger asfalterte veier og passer perfekt for en flott løpeopplevelse. Det vil være underholdning og mat- og drikkeboder langs løypene, og alle deltakere vil få en flott medalje og t-skjorte som minne om deres prestasjon. Meld deg på nå og bli med på denne spennende løpefesten!",
-    "website_organizer": "https://img5.custompublish.com/getfile.php/5131050.1495.taip7tn7ssmazj/Egersund_HM_2023_resultater.pdf?return=www.kondis.no",
-    "new_version": true
+    "county": "Rogaland"
   },
   {
     "date": "20240303",
@@ -1944,6 +1940,48 @@
     "new_version": true
   },
   {
+    "date": "20240727",
+    "type": "road",
+    "name": "Hornindalsvatnet Maraton 2024",
+    "distance": "Maraton, Halvmaraton, 10 km",
+    "distance_m": [
+      10000,
+      21097,
+      42195
+    ],
+    "place": "Hornindal Idrettspark, NOR",
+    "latitude": 61.9808219,
+    "longitude": 6.5151697,
+    "organizer": "Hornindal IL",
+    "website": "/race-pages/hornindalsvatnet-maraton-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Møre og Romsdal",
+    "id": "hornindalsvatnet-maraton-2024_20240727_httpsliveeqtimingcom",
+    "summary": "Bli med på Hornindalsvatnet maraton lørdag 27. juli 2024! Velg mellom 10 km, halvmaraton eller helmaraton, og konkurrer individuelt eller som del av et lag. Dette er en veiløp som gir deg muligheten til å nyte den fantastiske naturen rundt Hornindalsvatnet mens du løper. Flotte sponsoravtaler sørger for fine premier og en flott opplevelse. Dette er en perfekt mulighet til å teste ferdighetene dine eller bare nyte en flott dag med løping og fellesskap. Vi gleder oss til å se deg på startstreken!",
+    "website_organizer": "http://iahaugen.no/maraton/",
+    "new_version": true
+  },
+  {
+    "date": "20240804",
+    "type": "road",
+    "name": "Perseløpet 5km, 10km, halvmaraton  4 aug",
+    "distance": "5km, 10km, Halvmaraton",
+    "distance_m": [
+      21097
+    ],
+    "place": "Ås skole, Hammerås, Eidsvoll, NOR",
+    "latitude": 60.32970019999999,
+    "longitude": 11.2158667,
+    "organizer": "Feiring IL",
+    "website": "/race-pages/perselopet-5km,-10km,-halvmaraton-4-aug.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "perseløpet-5km-10km-halvmaraton-4-aug_20240804_httpsliveeqtimingcom",
+    "summary": "Bli med på Perseløpet, et spennende løp som passer for løpere på alle ferdighetsnivåer. Vår årlige halvmaraton tar deg gjennom vakre landskap på veiene. Arrangementet har god stemning, støtte fra tilskuere, og premier til alle deltakere. Bli med og sett din personlige beste tid på veiene i år!",
+    "website_organizer": "http://www.xn--perselpet-q8a.com/",
+    "new_version": true
+  },
+  {
     "date": "20240805.",
     "type": "road",
     "name": "Head Energy Sommerkarusellen - 4. løp",
@@ -1962,6 +2000,49 @@
     "id": "head-energy-sommerkarusellen-4-løp_20240805_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på årets løpekonkurranse i Oslo! Vi arrangerer 5 km og 10 km distanser langs flotte asfalterte løyper. Uansett om du er nybegynner eller erfaren løper, vil vi se deg ved startstreken! Kom og opplev spenningen og gleden av å konkurrere i vårt flotte løp.",
     "website_organizer": "http://www.gneist.org/sommerkarusellen/",
+    "new_version": true
+  },
+  {
+    "date": "20240807",
+    "type": "road",
+    "name": "Orkland Energimila 2024",
+    "distance": "5 km, 10 km",
+    "distance_m": [
+      4000,
+      5000,
+      10000,
+      10000
+    ],
+    "place": "Orkanger, NOR",
+    "latitude": 63.2999528,
+    "longitude": 9.846820000000001,
+    "organizer": "Orkanger IF - Friidrett",
+    "website": "/race-pages/orkland-energimila-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Trøndelag",
+    "id": "orkland-energimila-2024_20240807_httpsliveeqtimingcom",
+    "summary": "Bli med på Orkland Energimila 2023 - et spennende løp som tar deg gjennom vakre omgivelser og pittoreske landskap. Velg mellom fire distanser - 4 km, 5 km, 10 km og 10 km - på veier som gir deg en flott mulighet til å sette personlige rekorder. Etter løpet kan du slappe av, mingle med andre løpere og nyte deilige forfriskninger. Uansett nivå, er dette en opplevelse du ikke vil gå glipp av!",
+    "website_organizer": "https://www.orkanger-if.no/home/orkland-energimila-2023/",
+    "new_version": true
+  },
+  {
+    "date": "20240810",
+    "type": "road",
+    "name": "Bodø Run Festival 2024",
+    "distance": "Sport1 5 km, AN mila, Nordasfalt Halvmaraton, Etapper - AN mila",
+    "distance_m": [
+      5000
+    ],
+    "place": null,
+    "latitude": 67.2840117,
+    "longitude": 14.3819409,
+    "organizer": null,
+    "website": "/race-pages/bodo-run-festival-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Nordland",
+    "id": "bodø-run-festival-2024_20240810_httpsliveeqtimingcom",
+    "summary": "Bodø Run Festival er en spennende løpsfest som finner sted 12. august 2023 i Bodø sentrum. Løperne kan velge mellom 5 km, mila eller halvmaraton. Dette asfaltløpet har en flat løypeprofil som gir en god løpsopplevelse. Marker kalenderen din for Bodø Run Festival 10. august 2024, og bli med på en morsom og spennende løpsdag!",
+    "website_organizer": "https://bodorunfestival.no/",
     "new_version": true
   },
   {
@@ -1984,6 +2065,24 @@
     "id": "milæ_20240810_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "\"Bli med på vårt årlige løpsarrangement! Alle nivåer og aldre er velkommen til å delta i våre 0 km, 5 km og 10 km veiløp. Løypen gir nydelig utsikt over naturen og er designet for å utfordre alle løpere. Vi tilbyr assistanse under løpet og ser frem til å se samfunnet konkurrere i denne morsomme og spennende begivenheten. Vi sees ved startstreken!\"",
     "website_organizer": "https://signup.eqtiming.com/?Event=vkbil",
+    "new_version": true
+  },
+  {
+    "date": "20240817",
+    "type": "road",
+    "name": "SAMI MARATON 2024",
+    "distance": "VårEnergi MILA, 10K, RUN4FUN, 5 km trim, HALVMARATON, MARATON",
+    "distance_m": [],
+    "place": "Tanabru og omegn (Start Per Fokstadgeaidnu 60), NOR",
+    "latitude": 70.1986934,
+    "longitude": 28.1918712,
+    "organizer": "Sirma IL",
+    "website": "/race-pages/sami-maraton-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Troms og Finnmark",
+    "id": "sami-maraton-2024_20240817_httpsliveeqtimingcom",
+    "summary": "Opplev den vakre naturen i Deatnu-Tana og delta på Sámi Maraton! Vårt løp tilbyr distanser for alle, inkludert hel- og halvmaraton, samt 10 km og 5 km løp. Alle løypene er på vei, og løpet har bronsestempel fra NFIFs kvalitetsstempelordning. Sikre deg en morsom og utfordrende løpsopplevelse i trygge omgivelser. Vi sees ved løpsstart!",
+    "website_organizer": "https://samimaraton.no/",
     "new_version": true
   },
   {
@@ -2011,6 +2110,46 @@
     "new_version": true
   },
   {
+    "date": "20240818",
+    "type": "road",
+    "name": "Norgestesten løp 5",
+    "distance": "5 km, 10 km, Halvmaraton",
+    "distance_m": [
+      5000,
+      10000,
+      21097
+    ],
+    "place": "Jessheim, NOR",
+    "latitude": 60.14758189999999,
+    "longitude": 11.169393,
+    "organizer": "Ullensaker/Kisa IL",
+    "website": "/race-pages/norgestesten-lop-5.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "norgestesten-løp-5_20240818_httpsliveeqtimingcom",
+    "summary": "Velkommen til Norgestesten 2024! Vårt sertifiserte Kondis kvalitetsløp tilbyr distanser på 5 km, 10 km og halvmaraton, slik at alle kan delta uavhengig av ferdighetsnivå. Vår vakre landeveisløype gir deg muligheten til å sette dine egne mål og kanskje til og med slå personlige rekorder. Enten du er nybegynner eller erfaren løper, vil Norgestesten være en fantastisk opplevelse for deg. Vi gleder oss til å se deg ved startstreken!",
+    "website_organizer": "https://norgestesten.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240818",
+    "type": "road",
+    "name": "LyngenMila",
+    "distance": "Omgang 1",
+    "distance_m": [],
+    "place": "Lyngen, NOR",
+    "latitude": 69.763092,
+    "longitude": 20.4646186,
+    "organizer": "Lyngen/Karnes IL",
+    "website": "/race-pages/lyngenmila.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Troms og Finnmark",
+    "id": "lyngenmila_20240818_httpsliveeqtimingcom",
+    "summary": "Velkommen til årets løp! Vi tilbyr distansene 5 km, 10 km og halvmaraton, perfekt for løpere på alle nivåer. Løypen går på vei, og gir deg mulighet til å nyte vakre omgivelser mens du løper. Ta med familie og venner for å heie på, det blir en fantastisk dag med gode prestasjoner og muligheten til å møte nye løpevenner. Vi gleder oss til å se deg i startområdet!",
+    "website_organizer": "https://www.webscorer.com/race?raceid=325190&live=1",
+    "new_version": true
+  },
+  {
     "date": "20240819.",
     "type": "road",
     "name": "Head Energy Sommerkarusellen - 5. løp",
@@ -2029,6 +2168,26 @@
     "id": "head-energy-sommerkarusellen-5-løp_20240819_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på vår årlige løpekonkurranse langs en vakker vei! Velg mellom 5 km og 10 km, og bli med enten individuelt eller som en del av et lag. Dette arrangementet passer for løpere i alle aldre og ferdighetsnivåer, og vi lover en energisk atmosfære og god stemning. Uansett om du løper for å slå personlige rekorder eller bare for moro skyld, vil du garantert få en flott opplevelse. Vi gleder oss til å se deg på startstreken!",
     "website_organizer": "http://www.gneist.org/sommerkarusellen/",
+    "new_version": true
+  },
+  {
+    "date": "20240821",
+    "type": "road",
+    "name": "BIP løpet-2024",
+    "distance": "BIP-løpet 5 km",
+    "distance_m": [
+      5000
+    ],
+    "place": "Rud, Bærum, NOR",
+    "latitude": 59.9080707,
+    "longitude": 10.4927845,
+    "organizer": "Tyrving IL",
+    "website": "/race-pages/bip-lopet-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "bip-løpet-2024_20240821_httpsliveeqtimingcom",
+    "summary": "Bli med på en spennende løpebegivenhet midt i hjertet av Norge! Vår 5 km landeveis løp er designet for å samle løpere på alle nivåer for å oppleve gleden av å løpe i vakre omgivelser. Uansett om du er en erfaren idrettsutøver eller nybegynner som ønsker å utfordre deg selv, er dette løpet for deg. Løypa tar deltakerne gjennom vakre veier med fantastisk natur. Det blir blanding av flate strekninger og lette stigninger, perfekt for å teste fart og utholdenhet. Vi vil også ha aktiviteter og forfriskninger tilgjengelig ved start- og mållinjen for en uforglemmelig opplevelse. Så om du vil sette ny personlig rekord eller bare nyte en avslappet løpetur, har vårt 5 km landeveisløp noe for alle. Gjør deg klar til å snøre løpeskoene og bli med på en minneverdig løpedag i Norge.",
+    "website_organizer": "https://m.facebook.com/iltyrvingfriidrett/?locale=ps_AF",
     "new_version": true
   },
   {
@@ -2075,6 +2234,28 @@
     "new_version": true
   },
   {
+    "date": "20240831",
+    "type": "road",
+    "name": "Stavanger Marathon 2024",
+    "distance": "Maraton, Halvmaraton, 5 km",
+    "distance_m": [
+      42195,
+      21097,
+      5000
+    ],
+    "place": "Stavanger, NOR",
+    "latitude": 58.9699756,
+    "longitude": 5.7331073,
+    "organizer": "GTI Friidrettsklubb",
+    "website": "/race-pages/stavanger-marathon-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Rogaland",
+    "id": "stavanger-marathon-2024_20240831_httpsliveeqtimingcom",
+    "summary": "Bli med på årets løpshendelse med distanser som maraton, halvmaraton og 5 km. Løpet foregår på veiene i nærområdet og passer for alle aldre og ferdighetsnivåer. Vårt erfarne team vil sørge for at du har alt du trenger for å lykkes. Uansett om du er en erfaren maratonløper eller nybegynner, så har vi noe for alle. Bli med oss for en fantastisk dag med løping!",
+    "website_organizer": "https://stavangermarathon.no/",
+    "new_version": true
+  },
+  {
     "date": "20240831.",
     "type": "road",
     "name": "Stavanger Marathon",
@@ -2099,6 +2280,48 @@
     "new_version": true
   },
   {
+    "date": "20240901",
+    "type": "road",
+    "name": "Norgestesten løp 6",
+    "distance": "5 km, 10 km, Halvmaraton",
+    "distance_m": [
+      5000,
+      10000,
+      21097
+    ],
+    "place": "Jessheim, NOR",
+    "latitude": 60.14758189999999,
+    "longitude": 11.169393,
+    "organizer": "Ullensaker/Kisa IL",
+    "website": "/race-pages/norgestesten-lop-6.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "norgestesten-løp-6_20240901_httpsliveeqtimingcom",
+    "summary": "Norgestesten er det ultimale løpet for løpere på alle nivåer med distanser på 5 km, 10 km og halvmaraton. Løypen går langs veiene og gir utfordringer samtidig som du kan nyte naturen og støtte fra tilskuere. Uansett om du er erfaren eller nybegynner, er Norgestesten stedet å teste deg selv og nå dine mål. Bli med på denne utrolige opplevelsen og bli inspirert til å bli den beste løperen du kan være!",
+    "website_organizer": "https://norgestesten.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240901",
+    "type": "road",
+    "name": "Perseløpet 5km, 10km, halvmaraton  1.sept",
+    "distance": "5km, 10km, Halvmaraton",
+    "distance_m": [
+      21097
+    ],
+    "place": "Ås skole, Hammerås, Eidsvoll, NOR",
+    "latitude": 60.32970019999999,
+    "longitude": 11.2158667,
+    "organizer": "Feiring IL",
+    "website": "/race-pages/perselopet-5km,-10km,-halvmaraton-1.sept.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "perseløpet-5km-10km-halvmaraton-1sept_20240901_httpsliveeqtimingcom",
+    "summary": "Bli med på Perseløpets spennende løpsarrangement med halvmaraton-distanse! Vår veibane gir en jevn og komfortabel overflate som passer for løpere i alle ferdighetsnivåer. Våre erfarne arrangører veileder deg gjennom løypen for å sikre at du har en trygg og morsom løpeopplevelse. Bli med på vår kommende lød og opplev gleden av å konkurrere på veien sammen med andre løpere!",
+    "website_organizer": "http://www.xn--perselpet-q8a.com/",
+    "new_version": true
+  },
+  {
     "date": "20240901.",
     "type": "road",
     "name": "Norgestesten",
@@ -2118,6 +2341,62 @@
     "id": "norgestesten_20240901_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Kom og delta i Norgestesten 2024! Vi tilbyr sertifiserte Kondis kvalitetsløp på veier, med vakre omgivelser og ulike distanser som passer for alle nivåer. Enten du foretrekker 5 km, 10 km eller halvmaraton, er dette løpet for deg. Uansett om du er en erfaren løper eller nybegynner, vil vårt løp garantere en trygg og morsom opplevelse for alle. Vi gleder oss til å se deg på startlinjen!",
     "website_organizer": "https://www.norgestesten.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240904",
+    "type": "road",
+    "name": "Bykarusellen 2024 Perseløp 3 (4. september 5 km)",
+    "distance": "5km",
+    "distance_m": [],
+    "place": "Bergen, NOR",
+    "latitude": 60.39126279999999,
+    "longitude": 5.3220544,
+    "organizer": "Gular, IL",
+    "website": "/race-pages/bykarusellen-2024-perselop-3-(4.-september-5-km).html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Vestland",
+    "id": "bykarusellen-2024-perseløp-3-4-september-5-km_20240904_httpsliveeqtimingcom",
+    "summary": "Bykarusellen arrangeres i Bergen med det siste løpet den 20. september. Vi har fått tillatelse til å arrangere løpet til tross for en PLIVO-øvelse samme uke. Løpet vil inkludere 5 km og 10 km distanser, og vil ta deltakerne gjennom vakre omgivelser i Bergen. Vi ser frem til å se alle deltakerne på veien!",
+    "website_organizer": "http://www.bykarusellen.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240906",
+    "type": "road",
+    "name": "Knarvikmila 2024",
+    "distance": "10 km, Naturmila Familie, Halvmarathon, Naturmila",
+    "distance_m": [
+      10000
+    ],
+    "place": "Knarvik Stadion, NOR",
+    "latitude": 60.55197519999999,
+    "longitude": 5.2874269,
+    "organizer": "Fil Aks-77",
+    "website": "/race-pages/knarvikmila-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Vestland",
+    "id": "knarvikmila-2024_20240906_httpsliveeqtimingcom",
+    "summary": "Velkommen til KnarvikMila 2024 - The Great Fjord Run! Bli med på en spennende og vakker løype på 10 km, som tar deg fra Fløyen til Knarvik. Start mellom kl 09:30 og 10:00. I tillegg til løpet vil arrangementet inneholde konferanser, seminar, konsertar, messe og et familiearrangement. Vi gleder oss til å ønske løpere, støttespillere og familier velkommen til en fantastisk dag med spenning og god stemning! Bli med og bli en del av denne flotte løpeopplevelsen på vei!",
+    "website_organizer": "http://www.knarvikmila.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240907",
+    "type": "road",
+    "name": "Smili 2024",
+    "distance": "Omgang 1",
+    "distance_m": [],
+    "place": "Sogndal, NOR",
+    "latitude": 61.2272256,
+    "longitude": 7.0992124,
+    "organizer": "Sogndal IL",
+    "website": "/race-pages/smili-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Vestland",
+    "id": "smili-2024_20240907_httpsliveeqtimingcom",
+    "summary": "Vi er glade for å kunngjøre SMILS 2024, den årlige løpekonferansen for eksperter innen mikro- og nanofluidikk. Med løpskategorier/distanser på 5 km, 10 km og halvmaraton, vil arrangementene foregå på vei. Dette er en flott mulighet for unge forskere til å forbedre presentasjonsevnen sin, og løperne kan forvente en utfordrende løype og et stort fellesskap av støttende løpere.",
+    "website_organizer": "https://www.gu.se/fysik/smils-2024",
     "new_version": true
   },
   {
@@ -2171,6 +2450,44 @@
     "new_version": true
   },
   {
+    "date": "20240908",
+    "type": "road",
+    "name": "Drammen halvmaraton 2024",
+    "distance": "Omgang 1",
+    "distance_m": [],
+    "place": ", NOR",
+    "latitude": 59.7440738,
+    "longitude": 10.2044564,
+    "organizer": "Sturla IF",
+    "website": "/race-pages/drammen-halvmaraton-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "drammen-halvmaraton-2024_20240908_httpsliveeqtimingcom",
+    "summary": "Velkommen til Drammen Halvmaraton – et spektakulært løpeeventyr som tar deg gjennom den lynraske 10 kilometer sløyfa, to ganger! Dette roadraced eventet, som finner sted 8. september, 2024, vil gi deltakerne valget mellom minimaraton, 5K og halvmaraton kategorier. Kom og bli med på dette fantastiske løpet gjennom vakre omgivelser i Drammen!",
+    "website_organizer": "https://rundrm.no/nb/drammen-halvmaraton/",
+    "new_version": true
+  },
+  {
+    "date": "20240908",
+    "type": "road",
+    "name": "Bybaneløpet 2024",
+    "distance": "Bybaneløpet 10 km",
+    "distance_m": [
+      10000
+    ],
+    "place": "Nesttun - Bergen, NOR",
+    "latitude": 60.31583259999999,
+    "longitude": 5.3481219,
+    "organizer": "Fana IL",
+    "website": "/race-pages/bybanelopet-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Vestland",
+    "id": "bybaneløpet-2024_20240908_httpsliveeqtimingcom",
+    "summary": "Bergensbaneløpet er en årlig stafett der studenter fra BI og NHH konkurrerer om å være den raskeste til fots over fjellet. Stafetten går annenhvert år fra Oslo-Bergen og Bergen-Oslo. En av løpekategoriene er 10 km på vei. Dette er en flott mulighet for studentene til å vise fysisk styrke og utholdenhet, og det arrangeres av dedikerte stafettkomiteer. De som deltar i 10 km-løpet vil oppleve en utfordrende, men givende konkurranse på veien.",
+    "website_organizer": "https://bergensbanelopet.no/om/",
+    "new_version": true
+  },
+  {
     "date": "20240908.",
     "type": "road",
     "name": "Drammen Halvmaraton",
@@ -2193,6 +2510,64 @@
     "new_version": true
   },
   {
+    "date": "20240914",
+    "type": "road",
+    "name": "Fjordkraft Bergen City Milen 2024",
+    "distance": "Omgang 1",
+    "distance_m": [],
+    "place": ", NOR",
+    "latitude": 60.39126279999999,
+    "longitude": 5.3220544,
+    "organizer": "Viking, TIF",
+    "website": "/race-pages/fjordkraft-bergen-city-milen-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Vestland",
+    "id": "fjordkraft-bergen-city-milen-2024_20240914_httpsliveeqtimingcom",
+    "summary": "Bergen City Marathon arrangeres i Bergen sentrum den 14. september 2024. Løpet inkluderer distanser som 10 km, og er egnet for løpere på alle nivåer. Løpet foregår på vei og gir deltakerne muligheten til å nyte den vakre utsikten i Bergen. Alle deltakere ønskes velkommen til å delta og oppleve den spesielle atmosfæren i byen.",
+    "website_organizer": "https://www.bergencitymarathon.no/bergen-city-milen/",
+    "new_version": true
+  },
+  {
+    "date": "20240915",
+    "type": "road",
+    "name": "Perseløpet 5km, 10km, halvmaraton  15.sept",
+    "distance": "5km, 10km, Halvmaraton",
+    "distance_m": [
+      21097
+    ],
+    "place": "Ås skole, Hammerås, Eidsvoll, NOR",
+    "latitude": 60.32970019999999,
+    "longitude": 11.2158667,
+    "organizer": "Feiring IL",
+    "website": "/race-pages/perselopet-5km,-10km,-halvmaraton-15.sept.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "perseløpet-5km-10km-halvmaraton-15sept_20240915_httpsliveeqtimingcom",
+    "summary": "Bli med på Perseløpet, et spennende løp som inkluderer en halvmaraton-distansen og vil foregå på veier i vakre omgivelser. Dette løpet er perfekt for løpere som ønsker en utfordring og nyte flott natur mens de konkurrerer. Bli med og opplev en unik løpeopplevelse mens du tester dine egne ferdigheter. Velkommen til Perseløpet!",
+    "website_organizer": "http://www.xn--perselpet-q8a.com/",
+    "new_version": true
+  },
+  {
+    "date": "20240915",
+    "type": "road",
+    "name": "Lina Roindt 2024",
+    "distance": "10,8 km",
+    "distance_m": [
+      10000
+    ],
+    "place": "Rindal, NOR",
+    "latitude": 63.05674190000001,
+    "longitude": 9.212157699999999,
+    "organizer": "Rindal IL",
+    "website": "/race-pages/lina-roindt-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Trøndelag",
+    "id": "lina-roindt-2024_20240915_httpsliveeqtimingcom",
+    "summary": "Årets Lina Roindt-løp var en kjempe suksess! Maria Wågan satte ny løyperekord, og vi takker alle deltakere, frivillige og samarbeidspartnere. Løpet inkluderte en 10 km landeveisløype som tiltrakk seg løpere i alle aldre og ferdighetsnivåer. Vi gleder oss til å ønske alle velkommen tilbake til neste års løp og fortsette å skape inspirerende løpsopplevelser sammen! Takk til alle som gjorde årets løp så fantastisk!",
+    "website_organizer": "https://www.rindalil.no/lina-roindt.284873.no.html",
+    "new_version": true
+  },
+  {
     "date": "20240919.",
     "type": "road",
     "name": "Åsane løpskarusell  løp 6",
@@ -2211,6 +2586,129 @@
     "id": "åsane-løpskarusell-løp-6_20240919_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med pÃ¥ vÃ¥r populÃ¦re Ã…sane LÃ¸pskarusell i 2024! Vi tilbyr 5 km og 10 km lÃ¸p pÃ¥ veiene i vÃ¥rt vakre nabolag. Dette er en flott mulighet til Ã¥ utfordre deg selv og sette nye personlige rekorder. Uansett om du er nybegynner eller erfaren lÃ¸per, har vÃ¥r lÃ¸pskarusell noe for alle. Meld deg pÃ¥ for en morsom og utfordrende dag med lÃ¸ping!",
     "website_organizer": "https://aasane-lopskarusell.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240921",
+    "type": "road",
+    "name": "BMW Oslo Maraton 2024",
+    "distance": "Maraton, Halvmaraton, 10 for Grete",
+    "distance_m": [
+      21097,
+      21097,
+      42195,
+      42195
+    ],
+    "place": "Oslo, NOR",
+    "latitude": 59.9138688,
+    "longitude": 10.7522454,
+    "organizer": "Sportsklubben Vidar",
+    "website": "/race-pages/bmw-oslo-maraton-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Oslo",
+    "id": "bmw-oslo-maraton-2024_20240921_httpsliveeqtimingcom",
+    "summary": "Bli med på Norges største gateløp, BMW Oslo Maraton! Vår årlige maraton tiltrekker seg tusenvis av løpere fra hele verden for å konkurrere i halvmaraton og maraton. Løpet gir deltakerne en unik opplevelse ved å løpe i Oslos ikoniske gater. Vi har også arrangementer og aktiviteter for alle aldre og ferdighetsnivåer, inkludert Sportyløpene og SportyCamp for barn og unge. Meld deg på for en uforglemmelig opplevelse i Oslo!",
+    "website_organizer": "https://oslomaraton.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240921",
+    "type": "road",
+    "name": "Romsdal 5/10/halv/hel",
+    "distance": "5 km, 10 km, Halvmaraton, Maraton",
+    "distance_m": [
+      5000,
+      10000,
+      21097,
+      42195
+    ],
+    "place": "Hustadvika, NOR",
+    "latitude": 62.98444929999999,
+    "longitude": 6.9705698,
+    "organizer": "Molde og Omegn IF",
+    "website": "/race-pages/romsdal-510halvhel.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Møre og Romsdal",
+    "id": "romsdal-510halvhel_20240921_httpsliveeqtimingcom",
+    "summary": "Planlegger du å delta i løp i Romsdal i 2024? Vi arrangerer 5 km, 10 km, halvmaraton og maratonløp på landeveiene våre. Hold deg oppdatert på våre sosiale medier for mer informasjon om de spennende løpene som kommer!",
+    "website_organizer": "https://www.romsdal510halv.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240925",
+    "type": "road",
+    "name": "Bykarusellen 2024 Perseløp 4 (25. september 5 & 10 km)",
+    "distance": "5km, 10km",
+    "distance_m": [],
+    "place": "Bergen, NOR",
+    "latitude": 60.39126279999999,
+    "longitude": 5.3220544,
+    "organizer": "Gular, IL",
+    "website": "/race-pages/bykarusellen-2024-perselop-4-(25.-september-5-&-10-km).html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Vestland",
+    "id": "bykarusellen-2024-perseløp-4-25-september-5-10-km_20240925_httpsliveeqtimingcom",
+    "summary": "Vi er glade for å kunngjøre at det siste løpet i årets Bykarusellen vil gå som planlagt den 20. september. Uansett om du foretrekker en rask 5 kilometer eller en utfordrende halvmaraton, har vi noe for alle. Løpet vil foregå på veiene rundt om i byen, så sleng på deg løpeskoene og bli med oss for å avslutte årets Bykarusellen på en positiv og aktiv måte!",
+    "website_organizer": "http://www.bykarusellen.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240928",
+    "type": "road",
+    "name": "PB Milå 2024",
+    "distance": "PB Milå, Sentrum Rundt Barneløp, PB 5 km",
+    "distance_m": [
+      5000
+    ],
+    "place": "Randaberg, NOR",
+    "latitude": 58.99967460000001,
+    "longitude": 5.6187068,
+    "organizer": "Grødem Runners",
+    "website": "/race-pages/pb-mila-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Rogaland",
+    "id": "pb-milå-2024_20240928_httpsliveeqtimingcom",
+    "summary": "PB Milå er et av Kondis Kvalitetsarrangement gateløp som arrangeres av Grødem Runners i Randaberg Sentrum. Vi tilbyr en 10 km løype kontrollmålt og nasjonalt godkjent, samt en 5 km løype for de som ønsker en litt kortere utfordring. Konkurransen inkluderer løpskategorier for både erfarne løpere og nybegynnere. Velkommen til en fantastisk dag fylt med løping, fellesskap og moro på veien!",
+    "website_organizer": "http://www.xn--pbmil-qra.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240928",
+    "type": "road",
+    "name": "Norgesløpet 2024",
+    "distance": "10km, Ida Eides Minneløp 5 KM, Halvmaraton",
+    "distance_m": [
+      5000,
+      21097
+    ],
+    "place": "Jessheim - Ullensaker, NOR",
+    "latitude": 60.14758189999999,
+    "longitude": 11.169393,
+    "organizer": "Ullensaker/Kisa IL",
+    "website": "/race-pages/norgeslopet-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "norgesløpet-2024_20240928_httpsliveeqtimingcom",
+    "summary": "Bli med på en spennende løpeopplevelse under Norgesløpet den 28. september 2024 i Jessheim! Uansett om du er en erfaren løper eller nettopp har begynt, har denne hendelsen noe for alle. Med løpekategorier som inkluderer 5 km og halvmaraton, kan deltakerne velge den distansen som passer deres form og mål. Løpet vil foregå på en naturskjønn veibane, og vil gi løperne fantastisk utsikt og en krevende, men belønnende rute. Vi gleder oss til å ønske alle deltakere velkommen til denne minneverdige hendelsen. Med over 18 000 bilder tatt under løpet, vil du ha mange minner å se tilbake på. Så knyt på deg joggeskoene, samle venner og familie, og bli med oss for en dag fylt med vennlig konkurranse og en følelse av prestasjon. Enten du sikter på en personlig rekord eller bare ønsker å nyte en morsom løpetur, lover Norgesløpet å bli en hendelse å huske. Vi gleder oss til å se deg i mål!",
+    "website_organizer": "http://www.norgeslopet.net/",
+    "new_version": true
+  },
+  {
+    "date": "20240928",
+    "type": "road",
+    "name": "Torvikbukt rundt 2024",
+    "distance": "Torvikbukt Rundt, Torvikbukt Rundt 5,5 km",
+    "distance_m": [],
+    "place": "Torvikbukt, NOR",
+    "latitude": 62.943692,
+    "longitude": 7.8572805,
+    "organizer": "Torvikbukt IL",
+    "website": "/race-pages/torvikbukt-rundt-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Møre og Romsdal",
+    "id": "torvikbukt-rundt-2024_20240928_httpsliveeqtimingcom",
+    "summary": "Velkommen til den 51. utgaven av Torvikbukt rundt! Vi har distanser for alle, fra nybegynnere til erfarne løpere, enten du foretrekker en 5 kilometer joggetur eller en halvmaraton utfordring. Løpet går på vei, slik at løperne kan nyte naturen mens de konkurrerer. Etter løpet kan du feire med familie og venner. Bli med på en fantastisk dag med løping og fellesskap!",
+    "website_organizer": "http://torvikbukt.no/",
     "new_version": true
   },
   {
@@ -2257,6 +2755,27 @@
     "new_version": true
   },
   {
+    "date": "20241006",
+    "type": "road",
+    "name": "Perseløpet  5km,10km, halvmaraton, maraton og 50km_høst",
+    "distance": "Maraton, 50km, Halvmaraton",
+    "distance_m": [
+      42195,
+      21097
+    ],
+    "place": "Ås skole, Hammerås, Eidsvoll, NOR",
+    "latitude": 60.32970019999999,
+    "longitude": 11.2158667,
+    "organizer": "Feiring IL",
+    "website": "/race-pages/perselopet-5km,10km,-halvmaraton,-maraton-og-50km_host.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "perseløpet-5km10km-halvmaraton-maraton-og-50km_høst_20241006_httpsliveeqtimingcom",
+    "summary": "Bli med på Perseløpet, et spennende løp gjennom vakre omgivelser i vår by. Med både maraton og halvmaraton distanser, har vi noe for alle. Opplev naturskjønn utsikt og bylivet mens du løper. Uansett om du er erfaren eller nybegynner, er dette løpet for deg. Bli med på en dag med adrenalinpumpende løping og fellesskap med andre løpere. Velkommen til en uforglemmelig opplevelse!",
+    "website_organizer": "http://www.xn--perselpet-q8a.com/",
+    "new_version": true
+  },
+  {
     "date": "20241010.",
     "type": "road",
     "name": "Åsane løpskarusell  løp 7",
@@ -2275,6 +2794,26 @@
     "id": "åsane-løpskarusell-løp-7_20241010_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på Asane Løpskarusell 2024! Konkurrer i 5 km og 10 km på vei og opplev spenningen av løping. Uansett nivå er dette løpet perfekt for deg. Bli med på ukentlige treningsøkter for å forberede deg. Meld deg på i dag og sikre deg en plass på startstreken!",
     "website_organizer": "https://aasane-lopskarusell.no/",
+    "new_version": true
+  },
+  {
+    "date": "20241019",
+    "type": "road",
+    "name": "Hytteplanmila NM 10 km Gateløp",
+    "distance": "Omgang 1",
+    "distance_m": [
+      10000
+    ],
+    "place": "Trongmoen, NOR",
+    "latitude": 60.0917246,
+    "longitude": 10.2346026,
+    "organizer": "Holeværingen IL",
+    "website": "/race-pages/hytteplanmila-nm-10-km-gatelop.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "hytteplanmila-nm-10-km-gateløp_20241019_httpsliveeqtimingcom",
+    "summary": "Hytteløpet er en årlig løpebegivenhet i Oslo med distanser på 10 km og 2 km. Arrangementet har individuelle og lagkategorier og tar sikte på å tiltrekke løpere på alle ferdighetsnivåer. Løpet har en flott og rask løype som er veldig populær. Det er et veiløp, og løperne blir utfordret til å oppnå personlige rekorder samtidig som sikkerheten opprettholdes. Dette løpet gir en minneverdig opplevelse og en flott mulighet til å tilpasse seg terreng og kjøre teknikker.",
+    "website_organizer": "http://www.hytteplanmila.no/",
     "new_version": true
   },
   {
@@ -2315,6 +2854,28 @@
     "id": "fredrikstad-maraton_20241026_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på Fredrikstad Maraton, et fantastisk løp som tar deltakerne gjennom vakre omgivelser og pittoreske steder. Dette spennende arrangementet inkluderer maraton-distansen, og utfordrer både erfarne og nybegynnere løpere på veien. Dette løpet garanterer minner for livet og inspirasjon til å presse grensene dine og oppnå store ting.",
     "website_organizer": "http://www.fredrikstadif.no/p/10600/fredrikstad-maraton",
+    "new_version": true
+  },
+  {
+    "date": "20241027",
+    "type": "road",
+    "name": "Norgestesten løp 7",
+    "distance": "5 km, 10 km, Halvmaraton",
+    "distance_m": [
+      5000,
+      10000,
+      21097
+    ],
+    "place": "Jessheim, NOR",
+    "latitude": 60.14758189999999,
+    "longitude": 11.169393,
+    "organizer": "Ullensaker/Kisa IL",
+    "website": "/race-pages/norgestesten-lop-7.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "norgestesten-løp-7_20241027_httpsliveeqtimingcom",
+    "summary": "Velkommen til Norgestesten 2024! Vi tilbyr tre løpedistanser for alle nivåer: 5 km, 10 km og halvmaraton. Løypene tar deg gjennom vakre omgivelser og er veiløp, så alle er velkomne. Bli med på et inspirerende og minneverdig løp i en vennlig og støttende atmosfære. Vi gleder oss til å ønske deg velkommen!",
+    "website_organizer": "https://norgestesten.no/",
     "new_version": true
   },
   {
@@ -2380,6 +2941,26 @@
     "id": "jessheim-vintermaraton_20241110_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på Vintermaraton i Jessheim den 10. november 2024! Enten du er nybegynner eller erfaren løper, er dette årlige arrangementet noe for deg. Velg mellom 10 km, Halvmarathon eller Marathon- løpene, og nyt vakre vinterlandskap mens du konkurrerer på veiene. Meld deg på og opplev en energisk og støttende atmosfære mens du når dine løpemål. Vi ser frem til å ønske deg velkommen til denne fantastiske begivenheten!",
     "website_organizer": "https://www.vintermaraton.no/",
+    "new_version": true
+  },
+  {
+    "date": "20250104",
+    "type": "road",
+    "name": "PolarNight Marathon 2025",
+    "distance": "Half Marathon, Mørketidsmila (10km), Mørketidstrimmen (5km), Ishavskraft Marathon",
+    "distance_m": [
+      21097
+    ],
+    "place": "Tromsø, NOR",
+    "latitude": 69.6492047,
+    "longitude": 18.9553238,
+    "organizer": "TUIL Tromsdalen Friidrett",
+    "website": "/race-pages/polarnight-marathon-2025.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Troms og Finnmark",
+    "id": "polarnight-marathon-2025_20250104_httpsliveeqtimingcom",
+    "summary": "Bli med på det spektakulære Midnight Sun Marathon i Tromsø og løp under midnattssolen! Vårt løp arrangerer en rekke spennende løp, inkludert halvmarathon på vei, som gir deg muligheten til å oppleve den vakre arktiske naturen mens du konkurrerer på en utfordrende, men likevel tilgjengelig distanse. Uansett om du er erfaren eller nybegynner, vil vårt arrangement gi deg en minneverdig opplevelse mens du løper gjennom de fantastiske landskapene i Tromsø. Kom og bli med!",
+    "website_organizer": "http://www.msm.no/",
     "new_version": true
   },
   {
