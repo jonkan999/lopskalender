@@ -15,10 +15,10 @@ from transform_race import transform_and_store_race
 
 def run_all_scraper_scripts():
     extract_data_friidrett_terrain.main()
-    extract_data_friidrett_trail.main()
+    #extract_data_friidrett_trail.main()
     extract_data_kondis_road.main()
     extract_data_friidrett_road.main()
-    extract_data_friidrett_relay.main()
+    #extract_data_friidrett_relay.main()
 
 if __name__ == "__main__":
     try:

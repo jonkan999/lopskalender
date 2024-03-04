@@ -204,6 +204,12 @@ def main():
                         pass
             except:
                 print(f"Error parsing distance {distance_item}")
+        
+        # for terrain races continue if we dont get any distances
+        if len(distances) == 0:
+            print(f"Error parsing distance for {data_id}")
+            continue
+           
         distance_str = distance_str[:-2] #remove last comma and space
         print("---------------------")
         print(f"date = {proper_date}, type = {default_race_type}, name = {name}, distance = {distance_str}, distance_m = {distances}, place = {place}, organizer = {organizer}, website = {website}, src_url = {url}, website_ai_fallback = {website_ai_fallback}")

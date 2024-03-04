@@ -39,7 +39,7 @@ def get_bing_search_results(query):
 
 test = get_bing_search_results("Stockholm Halvmarathon")
 print(test)
-query="Grue Halvmaraton"
+query="Heim Halvmaraton 2024"
 print(f"Searching for '{query}'")
 results_generator = search(query, num_results=5)
 results_generator = search(query, num_results=5)

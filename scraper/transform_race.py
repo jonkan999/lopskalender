@@ -3,7 +3,7 @@ from scraper_package import transform_module
 from configuration.keys import GOOGLE_GEOCODING_API_KEY as goog_access_token
 from configuration.keys import OPENAI_KEY as openai_access_token
 from scraper_package.race_classes import Race, RaceCollection
-from configuration.vars import lang_val, lang_code
+from configuration.vars import lang_val, lang_code, custom_search_cx, lr
 
 def transform_and_store_race(race, costometer, openai=True):
     try:
@@ -21,7 +21,7 @@ def transform_and_store_race(race, costometer, openai=True):
             return race
         # Get website if not allowed or missing
         print("getting website")
-        race["website"] = transform_module.check_allowed_url(race["website"], race["website_ai_fallback"])
+        race["website"] = transform_module.check_allowed_url(race["website"], race["website_ai_fallback"], goog_access_token, custom_search_cx, lr)
         #race["website"] = transform_module.check_allowed_url_get_goog(race["website"], race["website_ai_fallback"])
         #race["website"] = transform_module.check_allowed_url_get_bing(race["website"], race["website_ai_fallback"])
         print("done getting website")
