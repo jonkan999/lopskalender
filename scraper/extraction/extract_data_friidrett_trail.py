@@ -31,7 +31,7 @@ def main():
 
     today = '20'+datetime.date.today().strftime("%y-%m-%d")
     base_url = "https://live.eqtiming.com"
-    url = f"{base_url}/?fullscreen=true&scroll=true&sportIds=17&organizationId=18&theme=nfif&showlevel=false&validated=true&locale=no&minDate={today}#eventlist"
+    url = f"{base_url}/?fullscreen=true&scroll=true&sportIds=18&organizationId=17&theme=nfif&showlevel=false&validated=true&locale=no&minDate={today}#eventlist"
     default_race_type = "trail"
 
     #race_collection = RaceCollection()
@@ -41,9 +41,14 @@ def main():
     # Wait for JavaScript to load and possibly generate the button
     wait = WebDriverWait(driver, 5)  # Maximum wait time is 5 seconds
     # Wait for the first item with the class 'eventlist-container-item' to appear
-    wait.until(
-        EC.presence_of_element_located((By.CLASS_NAME, "eventlist-container-item"))
-    )
+    try:
+        wait.until(
+            EC.presence_of_element_located((By.CLASS_NAME, "eventlist-container-item"))
+        )
+    except TimeoutException:
+        print("Could not load eventlist container. Aborting.")
+        driver.quit()
+        return
 
     soup = BeautifulSoup(driver.page_source, "html.parser")
 
@@ -155,8 +160,11 @@ def main():
 
         # Find the elements with class 'row' inside the race_element
         try:
-            distance_elements_box = race_info_box.find_element(By.CLASS_NAME, "row")
-            distance_elements = distance_elements_box.find_elements(By.TAG_NAME, "div")
+            distance_elements_rows = race_info_box.find_elements(By.CLASS_NAME, "row")
+            distance_elements = []
+            for row in distance_elements_rows:
+                div_elements = row.find_elements(By.TAG_NAME, "div")
+                distance_elements.extend(div_elements)
         except:
             print("Error finding distance elements")
             continue
@@ -164,6 +172,8 @@ def main():
         # Iterate through the row_elements and get the text in their h3 elements
         distances = []
         distance_str = ""
+        print(f"Extracting distance from these distance elements for {data_id}:")
+        print(distance_elements)
         for row in distance_elements:
             h3_element = row.find_element(By.TAG_NAME, "h3")
             distance_item = h3_element.text
@@ -183,10 +193,12 @@ def main():
                             break #should not break here, this will cause the loop to only run once when it finds decimals but it should run for all elements
                         elif part[-1] in ['k', 'K', 'm', 'M']:
                             # Extract the number and multiply it by 1000
-                            if part[:-1].replace(",", "").replace(".", "").isdigit():
-                                distances.append(int(float(part[:-1].replace(",", "").replace(".", ""))*1000))
-                            elif parts[i-1].replace(",", "").replace(".", "").isdigit():
-                                distances.append(int(float(parts[i-1].replace(",", "").replace(".", ""))*1000))
+                            reduced_part = part[:-1].replace(",", "").replace(".", "").replace("km", "").replace("KM", "").replace("K", "").replace("k", "")
+                            reduced_parts = parts[i-1].replace(",", "").replace(".", "").replace("km", "").replace("KM", "").replace("K", "").replace("k", "")
+                            if reduced_part.isdigit():
+                                distances.append(int(float(reduced_part)*1000))
+                            elif reduced_parts.isdigit():
+                                distances.append(int(float(reduced_parts)*1000))
                 elif distance_item in ["Halvmaraton", "Half Marathon"]:
                     distances.append(21097)
                 elif distance_item in ["Maraton", "Marathon"]:
@@ -204,6 +216,12 @@ def main():
                         pass
             except:
                 print(f"Error parsing distance {distance_item}")
+        
+        # for trail races continue if we dont get any distances
+        if len(distances) == 0:
+            print(f"Error parsing distance for {data_id}")
+            continue
+
         distance_str = distance_str[:-2] #remove last comma and space
         print("---------------------")
         print(f"date = {proper_date}, type = {default_race_type}, name = {name}, distance = {distance_str}, distance_m = {distances}, place = {place}, organizer = {organizer}, website = {website}, src_url = {url}, website_ai_fallback = {website_ai_fallback}")

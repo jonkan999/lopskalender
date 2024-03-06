@@ -27,7 +27,6 @@ def google_custom_search(query, api_key, cx, num_results=5, lr = "lang_no"):
     return None
 
 # Define the API key and Programmable Search Engine ID (cx)
-api_key = "AIzaSyAux3xaUfbq0cMaroMgM3RiLrCcuUOc0H4"  # Replace with your actual API key
 cx = "34c01900926914b73"  # Replace with your actual cx ID
 
 # Define the query

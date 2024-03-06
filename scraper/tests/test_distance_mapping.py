@@ -11,20 +11,22 @@ def extract_distance(distances, distance_item):
                 break #should not break here, this will cause the loop to only run once when it finds decimals but it should run for all elements
             elif part[-1] in ['k', 'K', 'm', 'M']:
                 # Extract the number and multiply it by 1000
-                if part[:-1].replace(",", "").replace(".", "").isdigit():
-                    distances.append(int(float(part[:-1].replace(",", "").replace(".", ""))*1000))
-                elif parts[i-1].replace(",", "").replace(".", "").isdigit():
-                    distances.append(int(float(parts[i-1].replace(",", "").replace(".", ""))*1000))
+                reduced_part = part[:-1].replace(",", "").replace(".", "").replace("km", "").replace("KM", "").replace("K", "").replace("k", "")
+                reduced_parts = parts[i-1].replace(",", "").replace(".", "").replace("km", "").replace("KM", "").replace("K", "").replace("k", "")
+                if reduced_part.isdigit():
+                    distances.append(int(float(reduced_part)*1000))
+                elif reduced_parts.isdigit():
+                    distances.append(int(float(reduced_parts)*1000))
 
 
 def test_extract_distance():
     distances = []
 
     # Test with a single valid distance item
-    distance_item = "10k"
+    distance_item = "10km"
     extract_distance(distances, distance_item)
-    assert distances == [10000]
     print(distances)
+    assert distances == [10000]
     distances = []
     # Test with multiple valid distance items
     distance_item = "10k 20 km 5K"

@@ -18,7 +18,8 @@ if __name__ == "__main__":
     # Set a limit on the number of races to process at a time
     max_races_to_process = 50
     races_to_process = untransformed_races.races[:max_races_to_process]
-    
+
+    max_races_to_process = min(max_races_to_process, len(races_to_process))
     costometer = 0
     
     # Transform the selected races

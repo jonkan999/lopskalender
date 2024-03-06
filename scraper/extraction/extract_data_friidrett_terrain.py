@@ -152,11 +152,13 @@ def main():
             print(f"Element not found, aborting and continuing from the next iteration")
             continue
         
-
         # Find the elements with class 'row' inside the race_element
         try:
-            distance_elements_box = race_info_box.find_element(By.CLASS_NAME, "row")
-            distance_elements = distance_elements_box.find_elements(By.TAG_NAME, "div")
+            distance_elements_rows = race_info_box.find_elements(By.CLASS_NAME, "row")
+            distance_elements = []
+            for row in distance_elements_rows:
+                div_elements = row.find_elements(By.TAG_NAME, "div")
+                distance_elements.extend(div_elements)
         except:
             print("Error finding distance elements")
             continue
@@ -164,9 +166,11 @@ def main():
         # Iterate through the row_elements and get the text in their h3 elements
         distances = []
         distance_str = ""
+        print(f"Extracting distance from these distance elements for {data_id}:")
         for row in distance_elements:
             h3_element = row.find_element(By.TAG_NAME, "h3")
             distance_item = h3_element.text
+            print(f"Distance item: {distance_item}")
             # Convert the list to a comma-separated string
             distance_str += f"{distance_item}, "
             #print(f"Text in h3 element: {text}")
@@ -183,10 +187,12 @@ def main():
                             break #should not break here, this will cause the loop to only run once when it finds decimals but it should run for all elements
                         elif part[-1] in ['k', 'K', 'm', 'M']:
                             # Extract the number and multiply it by 1000
-                            if part[:-1].replace(",", "").replace(".", "").isdigit():
-                                distances.append(int(float(part[:-1].replace(",", "").replace(".", ""))*1000))
-                            elif parts[i-1].replace(",", "").replace(".", "").isdigit():
-                                distances.append(int(float(parts[i-1].replace(",", "").replace(".", ""))*1000))
+                            reduced_part = part[:-1].replace(",", "").replace(".", "").replace("km", "").replace("KM", "").replace("K", "").replace("k", "")
+                            reduced_parts = parts[i-1].replace(",", "").replace(".", "").replace("km", "").replace("KM", "").replace("K", "").replace("k", "")
+                            if reduced_part.isdigit():
+                                distances.append(int(float(reduced_part)*1000))
+                            elif reduced_parts.isdigit():
+                                distances.append(int(float(reduced_parts)*1000))
                 elif distance_item in ["Halvmaraton", "Half Marathon"]:
                     distances.append(21097)
                 elif distance_item in ["Maraton", "Marathon"]:

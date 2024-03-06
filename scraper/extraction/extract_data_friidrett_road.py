@@ -154,8 +154,11 @@ def main():
 
         # Find the elements with class 'row' inside the race_element
         try:
-            distance_elements_box = race_info_box.find_element(By.CLASS_NAME, "row")
-            distance_elements = distance_elements_box.find_elements(By.TAG_NAME, "div")
+            distance_elements_rows = race_info_box.find_elements(By.CLASS_NAME, "row")
+            distance_elements = []
+            for row in distance_elements_rows:
+                div_elements = row.find_elements(By.TAG_NAME, "div")
+                distance_elements.extend(div_elements)
         except:
             print("Error finding distance elements")
             continue
@@ -182,10 +185,12 @@ def main():
                             break #should not break here, this will cause the loop to only run once when it finds decimals but it should run for all elements
                         elif part[-1] in ['k', 'K', 'm', 'M']:
                             # Extract the number and multiply it by 1000
-                            if part[:-1].replace(",", "").replace(".", "").isdigit():
-                                distances.append(int(float(part[:-1].replace(",", "").replace(".", ""))*1000))
-                            elif parts[i-1].replace(",", "").replace(".", "").isdigit():
-                                distances.append(int(float(parts[i-1].replace(",", "").replace(".", ""))*1000))
+                            reduced_part = part[:-1].replace(",", "").replace(".", "").replace("km", "").replace("KM", "").replace("K", "").replace("k", "")
+                            reduced_parts = parts[i-1].replace(",", "").replace(".", "").replace("km", "").replace("KM", "").replace("K", "").replace("k", "")
+                            if reduced_part.isdigit():
+                                distances.append(int(float(reduced_part)*1000))
+                            elif reduced_parts.isdigit():
+                                distances.append(int(float(reduced_parts)*1000))
                 elif distance_item in ["Halvmaraton", "Half Marathon"]:
                     distances.append(21097)
                 elif distance_item in ["Maraton", "Marathon"]:
@@ -203,6 +208,12 @@ def main():
                         pass
             except:
                 print(f"Error parsing distance {distance_item}")
+
+                # for terrain races continue if we dont get any distances
+        if len(distances) == 0:
+            print(f"Error parsing distance for {data_id}")
+            continue
+
         distance_str = distance_str[:-2] #remove last comma and space
         print("---------------------")
         print(f"date = {proper_date}, type = {default_race_type}, name = {name}, distance = {distance_str}, distance_m = {distances}, place = {place}, organizer = {organizer}, website = {website}, src_url = {url}, website_ai_fallback = {website_ai_fallback}")

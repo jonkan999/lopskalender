@@ -308,6 +308,27 @@
     "new_version": true
   },
   {
+    "date": "20240406",
+    "type": "terrain",
+    "name": "Mortenløpene 2024 - KM Terrengløp Rogaland",
+    "distance": "Terrengløp barneløype 325m, Terrengløp mini 700m, Terrengløp mini2 1.020 m, Terrengløp kort løype 2,3 km, Terrengløp lang løype 5 km, Lang løype 2 runder 10 km",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Njåskogen, NOR",
+    "latitude": 58.7520822,
+    "longitude": 5.6912682,
+    "organizer": "Gjesdal IL",
+    "website": "/race-pages/mortenlopene-2024-km-terrenglop-rogaland.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Rogaland",
+    "id": "mortenløpene-2024-km-terrengløp-rogaland_20240406_httpsliveeqtimingcom",
+    "summary": "Gjesdal idrettslag inviterer til Mortenløpene 2024 med Kretsmesterskap i Terrengløp den 6. april kl. 13:00 på Njåskogen, Bryne. Vi tilbyr løyper på 5 km og 10 km gjennom variert terreng og utfordrende stier. Løpet er åpent for løpere på alle nivåer, og vi oppfordrer alle til å delta for en dag med løpeglede og utfordring i vakker natur.",
+    "website_organizer": "http://www.gjesdal-il.com/?page_id=321",
+    "new_version": true
+  },
+  {
     "date": "20240406.",
     "type": "road",
     "name": "Holmestrand maraton",
@@ -1013,6 +1034,24 @@
     "id": "tordenskioldsløpet-2024_20240507_httpsliveeqtimingcom",
     "summary": "Bli med på Tordenskioldløpet 2024 den 7. mai på Lade idrettsanlegg i Trondheim! Vi har løpskategorier for alle nivåer, inkludert 5 km, 10 km og halvmaraton, alt på veiene rundt Trondheim. Registrer deg nå for en minneverdig opplevelse på veien!",
     "website_organizer": "https://allevents.in/trondheim/tordenskioldl%C3%B8pet-2024/200024725411125",
+    "new_version": true
+  },
+  {
+    "date": "20240509",
+    "type": "road",
+    "name": "Land Løpskarusell 2 - 2024",
+    "distance": "Land Løpskarusell",
+    "distance_m": [],
+    "place": null,
+    "latitude": 0,
+    "longitude": 0,
+    "organizer": null,
+    "website": "/race-pages/land-lopskarusell-2-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": null,
+    "id": "land-løpskarusell-2-2024_20240509_httpsliveeqtimingcom",
+    "summary": "Velkommen til årets løpekonkurranse! Vi inviterer løpere i alle aldre og evner til å delta i vår spennende hendelse. Vi tilbyr distanser som inkluderer 5K, 10K og halvmaratonløp. Dette løpet passer for alle, enten du er nybegynner eller erfaren løper. Det vil være en fantastisk dag med fysisk aktivitet, fellesskap og konkurranse. Meld deg på i dag og bli med på dette fantastiske løpseventyret!",
+    "website_organizer": "https://www.eqtiming.com/",
     "new_version": true
   },
   {
@@ -1731,6 +1770,27 @@
     "new_version": true
   },
   {
+    "date": "20240610",
+    "type": "road",
+    "name": "Gauldalsløpet 2024",
+    "distance": "5 km, 10 km, Barneløp",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Lundamo, NOR",
+    "latitude": 63.1519495,
+    "longitude": 10.2845172,
+    "organizer": "Lundamo IL",
+    "website": "/race-pages/gauldalslopet-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Trøndelag",
+    "id": "gauldalsløpet-2024_20240610_httpsliveeqtimingcom",
+    "summary": "Goldagan og Goldagsløpet er tilbake fra 19. til 21. juli 2024. Årets arrangement blir enda bedre med den nye Smedvegen som har åpnet, noe som gir et mer åpent sentrum. Deltakerne kan glede seg til den gode, gamle Goldagen-atmosfæren med tivoli og livlig stemning i gågata. Butikkene flytter ut, og hele sentrumsgata blir omgjort til et levende marked. løpet tilbyr en rekke forskjellige distanser, inkludert 5 km og 10 km. Løypene tar deltakerne gjennom byen og gir en flott opplevelse av området. Goldagsløpet er en veiløp med variert terreng, som lar løperne utfordre seg selv og nyte den vakre naturen som omgir byen. Dette blir definitivt et løp du ikke vil gå glipp av!",
+    "website_organizer": "https://www.golinfo.no/goldagan-2024/",
+    "new_version": true
+  },
+  {
     "date": "20240615",
     "type": "road",
     "name": "Anton Sport Sommerløpet",
@@ -1986,6 +2046,28 @@
   {
     "date": "20240703",
     "type": "road",
+    "name": "Romsdal 5/10/halv",
+    "distance": "5 km, 10 km, Halvmaraton",
+    "distance_m": [
+      5000,
+      10000,
+      21097
+    ],
+    "place": "Hustadvika, NOR",
+    "latitude": 62.98444929999999,
+    "longitude": 6.9705698,
+    "organizer": "Molde og Omegn IF",
+    "website": "/race-pages/romsdal-510halv.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Møre og Romsdal",
+    "id": "romsdal-510halv_20240703_httpsliveeqtimingcom",
+    "summary": "Bli med på Romsdal 5/10/half løpet vårt søndag 21. april 2023! Løpsstart kl 12:00 for alle klasser. Påmelding åpner en måned før løpet. Velg mellom 5 km, 10 km eller halvmarathon. Løpet går på veiene i vakre Romsdal-regionen. Informasjon om 2024 datoen kommer snart. Vi gleder oss til å se deg der!",
+    "website_organizer": "https://www.romsdal510halv.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240703",
+    "type": "road",
     "name": "Sjøvegan minimaraton",
     "distance": "",
     "distance_m": [],
@@ -2145,6 +2227,26 @@
     "id": "orkland-energimila-2024_20240807_httpsliveeqtimingcom",
     "summary": "Bli med på Orkland Energimila 2023 - et spennende løp som tar deg gjennom vakre omgivelser og pittoreske landskap. Velg mellom fire distanser - 4 km, 5 km, 10 km og 10 km - på veier som gir deg en flott mulighet til å sette personlige rekorder. Etter løpet kan du slappe av, mingle med andre løpere og nyte deilige forfriskninger. Uansett nivå, er dette en opplevelse du ikke vil gå glipp av!",
     "website_organizer": "https://www.orkanger-if.no/home/orkland-energimila-2023/",
+    "new_version": true
+  },
+  {
+    "date": "20240810",
+    "type": "terrain",
+    "name": "Trysilmila 2024",
+    "distance": "Trysilmila 10km, 6,5 km, Trim uten tidtaking, barneløp",
+    "distance_m": [
+      6000
+    ],
+    "place": "Østby i Trysil, NOR",
+    "latitude": 61.2539236,
+    "longitude": 12.5267561,
+    "organizer": "Østby IL",
+    "website": "/race-pages/trysilmila-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Innlandet",
+    "id": "trysilmila-2024_20240810_httpsliveeqtimingcom",
+    "summary": "Bli med på Trysilmila den 10. august 2024 i Østby, Trysil. Løypene på 6,5 og 10 km passer for alle nivåer, med og uten tidtaking. Vi har også et eget barneløp. Dette terrengløpet er en del av Trysil-dobbelen og vi gleder oss til å se deg der!",
+    "website_organizer": "https://www.trysil.com/A/Ostby-IL/trysilmila/",
     "new_version": true
   },
   {
@@ -2356,6 +2458,26 @@
     "new_version": true
   },
   {
+    "date": "20240825",
+    "type": "terrain",
+    "name": "Klempheia rundt 2024",
+    "distance": "11 km",
+    "distance_m": [
+      11000
+    ],
+    "place": "Kulørn - Kyrksæterøra, NOR",
+    "latitude": 63.28960230000001,
+    "longitude": 9.0840689,
+    "organizer": "Kyrksæterøra IL",
+    "website": "/race-pages/klempheia-rundt-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Trøndelag",
+    "id": "klempheia-rundt-2024_20240825_httpsliveeqtimingcom",
+    "summary": "Bli med på 40-årsjubileet til Klempheia Rundt arrangert av Kyrksæterøra Idrettslag! Løpet tar deg gjennom en vakker 11 km løype med utfordrende terreng og variert natur. Uansett om du er nybegynner eller erfaren løper, vil du finne en passende utfordring for deg. Bli med og opplev den fantastiske naturen i området mens du feirer løpets lange historie med idrettsglede.",
+    "website_organizer": "https://kil.as/34571/2827/36136-37261.html",
+    "new_version": true
+  },
+  {
     "date": "20240831",
     "type": "road",
     "name": "Stavanger Marathon 2024",
@@ -2505,6 +2627,27 @@
   },
   {
     "date": "20240907",
+    "type": "terrain",
+    "name": "Finnskogløpet 2024",
+    "distance": "Finnskogløpet 10K, Finnskogløpet 5K, Finnskogløpet Mini (0-5år), Finnskogløpet Mini (6-10år)",
+    "distance_m": [
+      10000,
+      5000
+    ],
+    "place": "Lunderseter, NOR",
+    "latitude": 60.2979947,
+    "longitude": 12.2760913,
+    "organizer": "Lunderseter IL",
+    "website": "/race-pages/finnskoglopet-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Innlandet",
+    "id": "finnskogløpet-2024_20240907_httpsliveeqtimingcom",
+    "summary": "Bli med på årets Finnskogløpet, arrangert av Lunderseter IL! Vi arrangerer løpet via Strava, slik at du kan løpe de utfordrende 10 km og 5 km løypene når det passer for deg. Uansett om du er nybegynner eller erfaren løper, vil du oppleve vakker natur og terreng. Meld deg på og bli med på denne flotte muligheten til å utfordre deg selv og være en del av fellesskapet!",
+    "website_organizer": "https://www.lunderseteril.no/events/finnskoglopet/",
+    "new_version": true
+  },
+  {
+    "date": "20240907",
     "type": "road",
     "name": "Smili 2024",
     "distance": "Omgang 1",
@@ -2519,6 +2662,27 @@
     "id": "smili-2024_20240907_httpsliveeqtimingcom",
     "summary": "Vi er glade for å kunngjøre SMILS 2024, den årlige løpekonferansen for eksperter innen mikro- og nanofluidikk. Med løpskategorier/distanser på 5 km, 10 km og halvmaraton, vil arrangementene foregå på vei. Dette er en flott mulighet for unge forskere til å forbedre presentasjonsevnen sin, og løperne kan forvente en utfordrende løype og et stort fellesskap av støttende løpere.",
     "website_organizer": "https://www.gu.se/fysik/smils-2024",
+    "new_version": true
+  },
+  {
+    "date": "20240907",
+    "type": "terrain",
+    "name": "Harstad Summits Trail Marathon 2024",
+    "distance": "Maraton, Halvmaraton, 12km",
+    "distance_m": [
+      42195,
+      21097
+    ],
+    "place": "Harstad, NOR",
+    "latitude": 68.7986342,
+    "longitude": 16.5414503,
+    "organizer": "IK Hind",
+    "website": "/race-pages/harstad-summits-trail-marathon-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Troms og Finnmark",
+    "id": "harstad-summits-trail-marathon-2024_20240907_httpsliveeqtimingcom",
+    "summary": "Bli med på Harstad Summits Trail Marathon, en utfordrende løpeopplevelse i naturen rundt Harstad. Vi tilbyr både Trail Marathon og Trail Halvmarathon distanser, begge på variert terreng for en spennende løpeopplevelse. Utforsk vakre skogsløyper, utfordrende stigninger og spennende nedoverbakker. Dette er et unikt løp som vil teste dine ferdigheter og utholdenhet samtidig som du nyter fantastisk utsikt. Vi gleder oss til å ønske deg velkommen til dette eventyret!",
+    "website_organizer": "https://www.facebook.com/p/Harstad-Summits-Trail-Marathon-100057524895011/",
     "new_version": true
   },
   {
@@ -2629,6 +2793,27 @@
     "id": "drammen-halvmaraton_20240908_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på Drammen Halvmaraton den 8. september 2024! Dette spennende løpeeventyret tar deg gjennom den lynraske 10 kilometers sløyfa to ganger. Uansett om du er en erfaren løper eller nybegynner, har vi distanser som passer for alle - inkludert minimaraton og 5 km gateløp. Opplev spenningen med å løpe i bymiljøet og utfordre deg selv til å nå nye personlige mål. Bli med oss for en dag fylt med fellesskap og motiverende løpeprestasjoner!",
     "website_organizer": "http://www.drammenhalvmaraton.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240914",
+    "type": "terrain",
+    "name": "Voldsløkka Rundt - Løp 3",
+    "distance": "6 km, 1 km barneløp",
+    "distance_m": [
+      6000,
+      1000
+    ],
+    "place": "Oslo, NOR",
+    "latitude": 59.9138688,
+    "longitude": 10.7522454,
+    "organizer": "Kamp/Vestheim IF",
+    "website": "/race-pages/voldslokka-rundt-lop-3.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Oslo",
+    "id": "voldsløkka-rundt-løp-3_20240914_httpsliveeqtimingcom",
+    "summary": "Velkommen til Voldsløkka Rundt - Et løp for alle! Dette spennende løpet tilbyr 6 lettløpte kilometer i den vakre og varierte løypa rundt Voldsløkka. Vi har også et 1 km barneløp for de yngste deltakerne. Dette løpet er en del av vår løpskalender for 2024, og vi tror det vil være en uforglemmelig opplevelse for alle som deltar. Vi oppfordrer alle til å delta og nyte den fantastiske atmosfæren og vakre naturen rundt Voldsløkka. Vi ser frem til å ønske deg velkommen til dette spennende løpet!",
+    "website_organizer": "https://voldslokkarundt.no/",
     "new_version": true
   },
   {
@@ -3032,6 +3217,49 @@
     "new_version": true
   },
   {
+    "date": "20241012",
+    "type": "terrain",
+    "name": "Voldsløkka Rundt - Løp 4",
+    "distance": "6 km, 1 km barneløp",
+    "distance_m": [
+      6000,
+      1000
+    ],
+    "place": "Oslo, NOR",
+    "latitude": 59.9138688,
+    "longitude": 10.7522454,
+    "organizer": "Kamp/Vestheim IF",
+    "website": "/race-pages/voldslokka-rundt-lop-4.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Oslo",
+    "id": "voldsløkka-rundt-løp-4_20241012_httpsliveeqtimingcom",
+    "summary": "Bli med på Voldsløkka Rundt - Et løp for alle i vakker natur! 6 km terrengløp for alle ferdighetsnivåer og 1 km barneløp. En flott dag med aktiviteter for hele familien i 2024. Sett av datoen og bli med på dette inkluderende arrangementet. Vi sees på Voldsløkka Rundt!",
+    "website_organizer": "https://voldslokkarundt.no/",
+    "new_version": true
+  },
+  {
+    "date": "20241012",
+    "type": "terrain",
+    "name": "Furumomila 2024",
+    "distance": "Furumomila 1,5 km, Furumomila 5 km, Furumomila 10 km, Turmarsj 10 km trim",
+    "distance_m": [
+      5000,
+      10000,
+      10000
+    ],
+    "place": "Furumo Idrettspark, NOR",
+    "latitude": 59.93660879999999,
+    "longitude": 9.9639662,
+    "organizer": "Modum Friidrettsklubb",
+    "website": "/race-pages/furumomila-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "furumomila-2024_20241012_httpsliveeqtimingcom",
+    "summary": "Kjære løpere! Snart er det tid for Furumomila 2023. Startnummer hentes ved klubbhuset før start, så vær der i god tid. Vi har distanser på 5 km, 10 km og 10 km terrengløp. Uansett nivå, det er en distanse for deg. Det blir en flott opplevelse og premieutdeling. Vi gleder oss til å se deg på Furumomila 2023!",
+    "website_organizer": "http://www.furumomila.no/",
+    "new_version": true
+  },
+  {
     "date": "20241019",
     "type": "road",
     "name": "Hytteplanmila NM 10 km Gateløp",
@@ -3192,6 +3420,27 @@
     "id": "barfrostløpet-2024_20241102_httpsliveeqtimingcom",
     "summary": "Velkommen til årets Sirbmá VS terminliste! Vi er glade for å kunngjøre vår 5 km løype, perfekt for løpere i alle ferdighetsnivåer. Vår veilik vil utfordre deltakerne til å presse sine grenser, og nyte vakre omgivelser. Vi garanterer en godt organisert og profesjonelt gjennomført løpsopplevelse, med støtte fra dedikerte frivillige. Uansett om du er en erfaren løper eller nybegynner, er dette løpet en flott mulighet til å sette deg selv på prøve. Vi håper å se deg der!",
     "website_organizer": "https://www.sirbma.no/boduvalastallanfriidrett/terminliste/",
+    "new_version": true
+  },
+  {
+    "date": "20241109",
+    "type": "terrain",
+    "name": "Morothon 2024",
+    "distance": "20 km - Morothon, 10 km - Kortmoro",
+    "distance_m": [
+      20000,
+      10000
+    ],
+    "place": "Søgne, NOR",
+    "latitude": 58.0907773,
+    "longitude": 7.785741400000001,
+    "organizer": "Søgne IL",
+    "website": "/race-pages/morothon-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Agder",
+    "id": "morothon-2024_20241109_httpsliveeqtimingcom",
+    "summary": "Morothon er et utfordrende terrengløp på Sørlandet med en historie som strekker seg over 32 år. Arrangementet tilbyr løpere to distanser å velge mellom - enten 20 km eller 10 km i vakker og krevende natur. Uansett ferdighetsnivå, er Morothon en unik mulighet til å teste egne grenser og oppleve spenningen av terrengløp. Bli med på en uforglemmelig løpsopplevelse i Sørlandets vakre natur!",
+    "website_organizer": "http://www.morothon.no/",
     "new_version": true
   },
   {
