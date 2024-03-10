@@ -156,13 +156,11 @@
     "latitude": 58.77882439999999,
     "longitude": 5.623686000000001,
     "organizer": "Undheim IL",
-    "website": "/race-pages/orremila-2024.html",
+    "website": "http://www.orreil.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Rogaland",
     "id": "orremilå-2024_20240309_httpsliveeqtimingcom",
     "summary": "Bli med på Orre idrettslag sitt årlige landeveisløp! Vi har distanser for alle, enten du er erfaren eller nybegynner. Velg mellom 10 km og 5 km, og nyt en trygg løype med dedikert personale. Uansett om du vil slå personlig rekord eller bare ha det gøy, er dette løpet for deg. Ikke gå glipp av fellesskapet og glede av å delta!",
-    "website_organizer": "http://www.orreil.no/",
-    "new_version": true
+    "county": "Rogaland"
   },
   {
     "date": "20240309.",
@@ -176,13 +174,11 @@
     "latitude": 59.923799,
     "longitude": 10.9541825,
     "organizer": "",
-    "website": "/race-pages/vinterkarusellen-(romerike)-10.-lop-lorenskog.html",
+    "website": "http://www.lorenskogfil.no/arrangementer/vinterkarusellen",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
-    "county": null,
     "id": "vinterkarusellen-romerike-10-løp-lørenskog_20240309_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Velkommen til Vinterkarusellen på Romerike! Bli med på vårt populære vinterarrangement for sesongen 2023-2024. Vi tilbyr ulike distanser og ønsker løpere i alle aldre og ferdighetsnivåer velkommen. En favorittdistanse er 5 km på vei. Sett deg personlige mål og bli med på en morsom og utfordrende løpsopplevelse. Meld deg på Vinterkarusellen på Romerike 2023-2024 nå!",
-    "website_organizer": "http://www.lorenskogfil.no/arrangementer/vinterkarusellen",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240314.",
@@ -833,6 +829,28 @@
     "id": "asics-sentrumsløpet_20240427_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Bli med på ASICS Sentrumsløpet, et løp for alle nivåer og aldre! Vi tilbyr fire distanser, inkludert barneløp, 5 km, 10 km og sprint-kategori. Løpet tar deg gjennom byens sentrum, og uansett om du er nybegynner eller erfaren løper, er dette en flott mulighet til å utfordre deg selv og oppleve fellesskapet blant løperne. Meld deg på i dag og bli med på denne fantastiske opplevelsen!",
     "website_organizer": "https://www.sentrumslopet.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240428",
+    "type": "terrain",
+    "name": "Strailøpet",
+    "distance": "1 km barneløp, 5 km terrengløp, 10 km terrengløp",
+    "distance_m": [
+      1000,
+      5000,
+      10000
+    ],
+    "place": "Lysløypa på strai, NOR",
+    "latitude": 58.1859872,
+    "longitude": 7.919112799999999,
+    "organizer": "Kristiansand Løpeklubb",
+    "website": "/race-pages/strailopet.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Agder",
+    "id": "strailøpet_20240428_httpsliveeqtimingcom",
+    "summary": "Bli med på Strailøpet i Kristiansand arrangert av Torridal idrettslag! Dette spennende terrengløpet tilbyr løpere i alle aldre og ferdighetsnivåer en vakker og utfordrende løype, med distanser på 1 km, 5 km og 10 km. Uansett erfaring kan alle delta og teste sine styrke og utholdenhet på varierte underlag og høydeforskjeller. Meld deg på og opplev naturen på sitt beste!",
+    "website_organizer": "https://www.facebook.com/profile.php?id=61556489063727",
     "new_version": true
   },
   {
@@ -2897,6 +2915,27 @@
   },
   {
     "date": "20240921",
+    "type": "terrain",
+    "name": "Hvalermila 2024",
+    "distance": "5KM, 10KM",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Skjærhalden, Hvaler, NOR",
+    "latitude": 59.0252588,
+    "longitude": 11.0368498,
+    "organizer": "Hvaler IL",
+    "website": "/race-pages/hvalermila-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "hvalermila-2024_20240921_httpsliveeqtimingcom",
+    "summary": "Bli med på Hvalermila i vakker kystnatur på Hvaler i sommer! Dette terrengløpet tilbyr distansene 5 km, 10 km og et barneløp, slik at alle kan delta og nyte løpingen i dette nydelige landskapet. Opplev en løpsfest i fantastisk natur kun halvannen time sør for Oslo. Vi gleder oss til å ønske deg velkommen til denne flotte opplevelsen!",
+    "website_organizer": "https://www.hvalermila.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240921",
     "type": "road",
     "name": "Flyplassmila 2024 (Stord Lufthamn)",
     "distance": "5km, 10km",
@@ -3297,6 +3336,27 @@
     "id": "hytteplanmila-inkl-nm-10-km_20241019_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på HYTTEPLANMILA 2024 - en av Norges mest spennende 10 km landeveisløp! Uansett om du er erfaren eller nybegynner, vil du oppleve vakre skoger og utfordrende terreng. Ikke gå glipp av denne fantastiske muligheten til å sette nye personlige rekorder ved å delta i en av Norges mest ikoniske landeveisløp. Vi gleder oss til å se deg ved startstreken!",
     "website_organizer": "https://hytteplanmila.no/",
+    "new_version": true
+  },
+  {
+    "date": "20241020",
+    "type": "terrain",
+    "name": "Gjesdal Trailrun 2024",
+    "distance": "Kort løype uten tidtakning, Lang løype uten tidtakning, Barneløp, 6km, 10km",
+    "distance_m": [
+      6000,
+      10000
+    ],
+    "place": "Ålgård, NOR",
+    "latitude": 58.7650356,
+    "longitude": 5.8542288,
+    "organizer": "Gjesdal IL",
+    "website": "/race-pages/gjesdal-trailrun-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Rogaland",
+    "id": "gjesdal-trailrun-2024_20241020_httpsliveeqtimingcom",
+    "summary": "Bli med på Gjesdal Trailrun, et terrengløp med start og mål på Solås på Ålgård. Velg mellom 6 km og 10 km distanser og utfordre deg selv i vakker natur nordøst for anlegget. Dette løpet passer både erfarne løpere og nybegynnere som vil oppleve flotte stier og fjellandskap. Vi ønsker alle terrengløpere velkommen til Gjesdal Trailrun!",
+    "website_organizer": "https://www.gjesdal-il.com/friidrett/arrangementer/gjesdal-trailrun/",
     "new_version": true
   },
   {
