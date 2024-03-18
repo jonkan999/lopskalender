@@ -192,13 +192,11 @@
     "latitude": 60.39126279999999,
     "longitude": 5.3220544,
     "organizer": "",
-    "website": "/race-pages/asane-lopskarusell-lop-4.html",
+    "website": "https://aasane-lopskarusell.no/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
-    "county": null,
     "id": "åsane-løpskarusell-løp-4_20240314_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Bli med på årlig Åsane Løpskarusell - en spennende løpsserie for alle nivåer! Vårt løp har flate og raske veier og passer for erfarne løpere og nybegynnere. Vi tilbyr ukentlige treninger og støtte for alle som vil delta. Meld deg på i dag og opplev fellesskap og morsomme løpeopplevelser. Velg mellom ulike distanser, inkludert 5 km. Vi gleder oss til å se deg på startstreken!",
-    "website_organizer": "https://aasane-lopskarusell.no/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240316",
@@ -213,13 +211,11 @@
     "latitude": 58.15991189999999,
     "longitude": 8.0182064,
     "organizer": "Kristiansand Løpeklubb",
-    "website": "/race-pages/kondiskarusellen-4.-lop.html",
+    "website": "https://m.facebook.com/photo.php?fbid=838016054994900&set=a.502632215199954&type=3&locale=nb_NO",
     "src_url": "https://live.eqtiming.com",
-    "county": "Agder",
     "id": "kondiskarusellen-4-løp_20240316_httpsliveeqtimingcom",
     "summary": "Bli med på årets mest spennende løpsarrangement! Vår årlige løpsbegivenhet, langs vakre veier og stier, tilbyr løpere i alle aldre og ferdighetsnivåer en unik mulighet til å utfordre seg selv. Vi tilbyr 5 km og 10 km løp, slik at alle kan velge den distansen som passer best. Målet vårt er å skape en inkluderende atmosfære der alle kan oppleve gleden ved å krysse målstreken. Uansett erfaring, bli med oss og opplev lidenskapen for løping!",
-    "website_organizer": "https://m.facebook.com/photo.php?fbid=838016054994900&set=a.502632215199954&type=3&locale=nb_NO",
-    "new_version": true
+    "county": "Agder"
   },
   {
     "date": "20240316",
@@ -234,13 +230,11 @@
     "latitude": 59.7634085,
     "longitude": 5.4878801,
     "organizer": "Stord IL",
-    "website": "/race-pages/industrilopet-2024.html",
+    "website": "https://www.stordfriidrett.no/nyhende/industrilopet-2024",
     "src_url": "https://live.eqtiming.com",
-    "county": "Vestland",
     "id": "industriløpet-2024_20240316_httpsliveeqtimingcom",
     "summary": "Bli med på Industriløpet 2024 arrangert av Stord IL Friidrett! Vi tilbyr 5 km og 10 km løp på veiene i vårt vakre lokalsamfunn. Uansett om du er nybegynner eller erfaren løper, er dette løpet perfekt for deg. Bli med og nyt den pittoreske utsikten mens du konkurrerer mot andre løpere. En flott mulighet til å tilbringe en aktiv og givende dag med familie, venner og løpeentusiaster både lokalt og fra andre steder. Vi ser frem til å ønske deg velkommen til dette spennende løpet!",
-    "website_organizer": "https://www.stordfriidrett.no/nyhende/industrilopet-2024",
-    "new_version": true
+    "county": "Vestland"
   },
   {
     "date": "20240318.",
@@ -829,6 +823,29 @@
     "id": "asics-sentrumsløpet_20240427_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Bli med på ASICS Sentrumsløpet, et løp for alle nivåer og aldre! Vi tilbyr fire distanser, inkludert barneløp, 5 km, 10 km og sprint-kategori. Løpet tar deg gjennom byens sentrum, og uansett om du er nybegynner eller erfaren løper, er dette en flott mulighet til å utfordre deg selv og oppleve fellesskapet blant løperne. Meld deg på i dag og bli med på denne fantastiske opplevelsen!",
     "website_organizer": "https://www.sentrumslopet.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240427.",
+    "type": "road",
+    "name": "Torghatten Maraton",
+    "distance": "3,6 km, 10 km, Halvmaraton, Maraton",
+    "distance_m": [
+      3000,
+      10000,
+      21097,
+      42195
+    ],
+    "place": "Brønnøy, Nordland",
+    "latitude": 65.4735577,
+    "longitude": 12.2077354,
+    "organizer": "",
+    "website": "/race-pages/torghatten-maraton.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+    "county": "Nordland",
+    "id": "torghatten-maraton_20240427_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+    "summary": "Bli med på Torghatten Maraton i den vakre Helgeland skjærgården! Vi tilbyr en spektakulær løpsopplevelse med variert terreng og fantastisk natur. Våre løyper inkluderer 3 km, 10 km, halvmaraton og maraton, og passer for løpere på alle nivåer. Dette løpsarrangementet er veileder godkjent og tilbyr en givende opplevelse for alle. Velkommen til en minneverdig maraton midt i Norge!",
+    "website_organizer": "https://www.runagain.com/sv/run/Torghatten_Maraton",
     "new_version": true
   },
   {
@@ -1618,6 +1635,26 @@
     "new_version": true
   },
   {
+    "date": "20240604.",
+    "type": "road",
+    "name": "Romerike Løpskarusell løp 3 Nebbursvollen, Lillestrøm",
+    "distance": "5 km",
+    "distance_m": [
+      5000
+    ],
+    "place": "Lillestrøm, Viken",
+    "latitude": 59.9559696,
+    "longitude": 11.0503785,
+    "organizer": "",
+    "website": "/race-pages/romerike-lopskarusell-lop-3-nebbursvollen,-lillestrom.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": "Viken",
+    "id": "romerike-løpskarusell-løp-3-nebbursvollen-lillestrøm_20240604_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "Bli med på Nebbursvollen-racet, et utfordrende 5 km landveisløp i vakre omgivelser. Uansett erfaring eller ferdighetsnivå er du velkommen til å delta og oppleve en variert og spennende løype med flotte utsikter. Vi tilbyr forfriskninger underveis og et inkluderende arrangement for alle deltakere. Ta kontakt for mer informasjon. Vi gleder oss til å se deg på startstreken!",
+    "website_organizer": "https://oa.bedriftsidretten.no/p/65679/loypekart-nebbursvollen",
+    "new_version": true
+  },
+  {
     "date": "20240605",
     "type": "road",
     "name": "OBOS Fornebuløpet 2024",
@@ -1892,6 +1929,27 @@
     "id": "head-energy-sommerkarusellen-2-løp_20240617_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Velkommen til årets løp! Vi har løyper for alle nivåer, inkludert 5 km og 10 km gjennom bygatene. Uansett om du er nybegynner eller erfaren løper, har vi noe for alle. Bli med oss for en fantastisk dag fylt med spenning og fellesskap. Etter løpet kan du feire med andre deltakere. Vi gleder oss til å se deg!",
     "website_organizer": "http://www.gneist.org/sommerkarusellen/",
+    "new_version": true
+  },
+  {
+    "date": "20240621.",
+    "type": "road",
+    "name": "Skagerrakmila",
+    "distance": "0,5 km, 10 km",
+    "distance_m": [
+      0,
+      10000
+    ],
+    "place": "Arendal, Agder",
+    "latitude": 58.4617568,
+    "longitude": 8.7724499,
+    "organizer": "",
+    "website": "/race-pages/skagerrakmila.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": "Agder",
+    "id": "skagerrakmila_20240621_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "Bli med på vårt årlige løp! Vi tilbyr to kategorier, 0 km og 10 km, begge langs veien. Våre ruter gir flott utsikt og en utfordrende opplevelse for løpere på alle nivåer. Uansett om du er nybegynner eller erfaren, vil dette løpet gi deg en fantastisk opplevelse. Vi ser frem til å se deg ved startstreken! Lykke til!",
+    "website_organizer": "https://www.skagerrakmila.com/",
     "new_version": true
   },
   {
@@ -3548,6 +3606,28 @@
     "new_version": true
   },
   {
+    "date": "20241231.",
+    "type": "road",
+    "name": "Nyttårsløpet Tønsberg",
+    "distance": "0,5 km, 5 km, 10 km",
+    "distance_m": [
+      0,
+      5000,
+      10000
+    ],
+    "place": "Tønsberg, Vestfold og Telemark",
+    "latitude": 59.26756990000001,
+    "longitude": 10.4075608,
+    "organizer": "",
+    "website": "/race-pages/nyttarslopet-tonsberg.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=3",
+    "county": "Vestfold og Telemark",
+    "id": "nyttårsløpet-tønsberg_20241231_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page3",
+    "summary": "Hei! Bli med på Nyttårsløpet 2023 og avslutt året på en sunn og aktiv måte. Vi tilbyr distanser på 0 km, 5 km og 10 km, slik at alle kan delta. Løpet foregår på vei, og du vil få oppleve byens stemning under løpet. Bli med og kickstart det nye året med en morsom utfordring!",
+    "website_organizer": "https://nyttarslop.no/",
+    "new_version": true
+  },
+  {
     "date": "20250104",
     "type": "road",
     "name": "PolarNight Marathon 2025",
@@ -3565,6 +3645,27 @@
     "id": "polarnight-marathon-2025_20250104_httpsliveeqtimingcom",
     "summary": "Bli med på det spektakulære Midnight Sun Marathon i Tromsø og løp under midnattssolen! Vårt løp arrangerer en rekke spennende løp, inkludert halvmarathon på vei, som gir deg muligheten til å oppleve den vakre arktiske naturen mens du konkurrerer på en utfordrende, men likevel tilgjengelig distanse. Uansett om du er erfaren eller nybegynner, vil vårt arrangement gi deg en minneverdig opplevelse mens du løper gjennom de fantastiske landskapene i Tromsø. Kom og bli med!",
     "website_organizer": "http://www.msm.no/",
+    "new_version": true
+  },
+  {
+    "date": "20250111",
+    "type": "road",
+    "name": "HOKA Solastranden Halvmaraton 2025",
+    "distance": "Hoka Solastranden halvmaraton, Hoka Solastranden 10 km, Hoka Solastranden 5 km, Hoka Solastranden Trippelen",
+    "distance_m": [
+      10000,
+      5000
+    ],
+    "place": "Sola Strand Hotel, NOR",
+    "latitude": 0,
+    "longitude": 0,
+    "organizer": "Spirit Friidrettsklubb",
+    "website": "/race-pages/hoka-solastranden-halvmaraton-2025.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": null,
+    "id": "hoka-solastranden-halvmaraton-2025_20250111_httpsliveeqtimingcom",
+    "summary": "Bli med på det spennende Hoka Solastranden Halvmaraton den 11. januar 2025! Dette løpet tilbyr distanser for alle nivåer, inkludert 10 km og 5 km på veien. Uansett om du er erfaren eller nybegynner, har vi noe for alle. Registrer deg på nettstedet vårt og bli med på vinterens mest spennende løp!",
+    "website_organizer": "http://www.solastrandenhalvmaraton.no/",
     "new_version": true
   },
   {
