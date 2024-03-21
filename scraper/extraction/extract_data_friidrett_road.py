@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 from selenium.common.exceptions import TimeoutException
 from scraper_package.race_classes import Race, RaceCollection
 import time
-import datetime
+from datetime import datetime
 import re
 
 def remove_years_and_spaces(input_string):
