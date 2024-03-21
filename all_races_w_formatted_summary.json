@@ -249,13 +249,11 @@
     "latitude": 60.39126279999999,
     "longitude": 5.3220544,
     "organizer": "",
-    "website": "/race-pages/necon-vinterkarusellen-bergen-lop-7.html",
+    "website": "http://www.gneist.org/vinterkarusellen/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
-    "county": null,
     "id": "necon-vinterkarusellen-bergen-løp-7_20240318_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Bli med på vårt årlige løpearrangement med 5 km og 10 km distanser på veiene i lokalsamfunnet. Uansett om du er erfaren eller nybegynner, vil vårt løp gi deg en flott opplevelse med godt merkede løyper, vannstasjoner og profesjonell tidtaking. Etter løpet kan du feire sammen med andre løpere. Sett deg selv på prøve og nyt løping og fellesskapet! Vi sees på startstreken!",
-    "website_organizer": "http://www.gneist.org/vinterkarusellen/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240321",
@@ -680,6 +678,28 @@
     "id": "halden-byløp_20240421_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Velkommen til Halden Byløp! Vi tilbyr løyper på 0 km, 1 km, 5 km og 10 km som passer for alle aldre og ferdighetsnivåer. Løpet gir en vakker løpeopplevelse i sentrum av byen, og vi tilbyr også kortere løyper for barn og ungdom på Halden Stadion. Vi holder deg oppdatert gjennom sosiale medier og nettstedet vårt, og ønsker både erfarne løpere og nybegynnere velkommen til en dag med mosjon, mestring og moro. Vi gleder oss til å se deg på løpsdagen!",
     "website_organizer": "https://www.haldenbylop.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240421.",
+    "type": "road",
+    "name": "Florømila Rett Vest",
+    "distance": "2 km, 5 km, 10 km",
+    "distance_m": [
+      2000,
+      5000,
+      10000
+    ],
+    "place": "Kinn, Vestland",
+    "latitude": 61.56535359999999,
+    "longitude": 4.9195228,
+    "organizer": "",
+    "website": "/race-pages/floromila-rett-vest.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+    "county": "Vestland",
+    "id": "florømila-rett-vest_20240421_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+    "summary": "Bli med på Florømila Rett Vest i Flora, Norge den 23. april 2023! Velg mellom tre distanser: 2 km, 5 km og 10 km, alle på vei. Enten du er nybegynner eller erfaren løper, er dette løpet for deg. Meld deg på for en morsom og utfordrende løpeopplevelse! Besøk Ahotu-nettstedet for mer informasjon. Vi håper å se deg der!",
+    "website_organizer": "https://www.ahotu.com/event/floromila-rett-vest",
     "new_version": true
   },
   {
@@ -1206,6 +1226,26 @@
     "id": "vårslippløpet-2024_20240511_httpsliveeqtimingcom",
     "summary": "Bli med på Vasaloppets vinteruke 2024! Velg blant 14 spennende løp som alle ender ved Vasaloppets målportal i Mora, inkludert det 100. Vasaloppet. Dette inkluderer Barnens Vasalopp for de som er 3-10 år og Hemmavasan for de som vil løpe hjemme. Vi tilbyr løp for alle nivåer og aldre, fra 5 km for mosjonister og nybegynnere til lengre løp for erfarne løpere. Uansett ferdighetsnivå, er det et løp for deg! Ta utfordringen og opplev den unike atmosfæren i Vasaloppets vinteruke. Meld deg på nå!",
     "website_organizer": "https://www.vasaloppet.se/nyheter/vasaloppets-vintervecka-2024-en-snabbguide-lopp-for-lopp/",
+    "new_version": true
+  },
+  {
+    "date": "20240515",
+    "type": "terrain",
+    "name": "KM Terrengløp 2024",
+    "distance": "1 km, 1.8 km, 2.6 km",
+    "distance_m": [
+      1000
+    ],
+    "place": "Kalnes Friidrettsstadion, NOR",
+    "latitude": 59.31794739999999,
+    "longitude": 11.026757,
+    "organizer": "Sarpsborg IL",
+    "website": "/race-pages/km-terrenglop-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "km-terrengløp-2024_20240515_httpsliveeqtimingcom",
+    "summary": "Hei alle løpere! Bli med på KM Terrengløp arrangert av Gjesdal Idrettslag. Dette spennende løpet vil ha løyper for alle aldersgrupper og ferdighetsnivåer, inkludert 1 km løyper. Terrenget vil gi en ekte utfordring mens du nyter den vakre naturen i Gjesdal kommune. Påmelding er nå åpen, så ikke gå glipp av sjansen til å være med!",
+    "website_organizer": "https://www.gjesdal-il.com/events/km-terrenglop/",
     "new_version": true
   },
   {
@@ -1932,6 +1972,26 @@
     "new_version": true
   },
   {
+    "date": "20240619",
+    "type": "terrain",
+    "name": "Oddvar Helleruds minneløp",
+    "distance": "10 km, Barneløp",
+    "distance_m": [
+      10000
+    ],
+    "place": "Formolaupet 29, NOR",
+    "latitude": 59.9400451,
+    "longitude": 9.930167899999999,
+    "organizer": "Vestre Spone IF",
+    "website": "/race-pages/oddvar-helleruds-minnelop.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "oddvar-helleruds-minneløp_20240619_httpsliveeqtimingcom",
+    "summary": "Velkommen til vår årlige løpskonkurranse! I år inkluderer vi en spennende 10 km løype som tar deg gjennom variert terreng og utfordrende stier. Konkurrer i distanseløping, terrengløping og mer. Uansett nivå, vil løpet vårt utfordre og belønne deg. Vi gleder oss til å se deg på startstreken!",
+    "website_organizer": "http://www.vsponeif.no/",
+    "new_version": true
+  },
+  {
     "date": "20240621.",
     "type": "road",
     "name": "Skagerrakmila",
@@ -2197,6 +2257,27 @@
     "id": "perseløpet-ultra_20240706_httpsliveeqtimingcom",
     "summary": "Perseløpet er et spennende løp for løpere på alle nivåer, med distanser som 5 km, 10 km og halvmaraton. Løpet vil finne sted på veiene, og vil være åpent for alle aldersgrupper. Dette blir en flott mulighet til å nyte vakker natur og oppnå personlige rekorder. Vi gleder oss til å ønske alle løpere velkommen til en dag med løping og fellesskap!",
     "website_organizer": "http://www.xn--perselpet-q8a.com/",
+    "new_version": true
+  },
+  {
+    "date": "20240707",
+    "type": "terrain",
+    "name": "Jomfrulandsløpet 2024",
+    "distance": "10 km, 5 km, Trim",
+    "distance_m": [
+      10000,
+      5000
+    ],
+    "place": "Jomfruland , NOR",
+    "latitude": 58.8428406,
+    "longitude": 9.566408299999999,
+    "organizer": "Kragerø IF Friidrett",
+    "website": "/race-pages/jomfrulandslopet-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Vestfold og Telemark",
+    "id": "jomfrulandsløpet-2024_20240707_httpsliveeqtimingcom",
+    "summary": "Kom og delta i årets terrengløp med distansene 10 km og 5 km! Uansett nivå vil vår varierte løype gi deg en utfordrende opplevelse med stier, skog og åpne områder. Vi ønsker alle velkommen til en inkluderende og morsom løpeopplevelse! Lykke til!",
+    "website_organizer": "http://www.kragerovgs.no/kif/jomfruland.html",
     "new_version": true
   },
   {
@@ -2699,6 +2780,26 @@
     "id": "knarvikmila-2024_20240906_httpsliveeqtimingcom",
     "summary": "Velkommen til KnarvikMila 2024 - The Great Fjord Run! Bli med på en spennende og vakker løype på 10 km, som tar deg fra Fløyen til Knarvik. Start mellom kl 09:30 og 10:00. I tillegg til løpet vil arrangementet inneholde konferanser, seminar, konsertar, messe og et familiearrangement. Vi gleder oss til å ønske løpere, støttespillere og familier velkommen til en fantastisk dag med spenning og god stemning! Bli med og bli en del av denne flotte løpeopplevelsen på vei!",
     "website_organizer": "http://www.knarvikmila.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240907",
+    "type": "terrain",
+    "name": "Olasheiløpet",
+    "distance": "Olasheiløpet 3km, Olasheiløpet 9,5km, Olasheiløpet 15,8km",
+    "distance_m": [
+      3000
+    ],
+    "place": ", NOR",
+    "latitude": 0,
+    "longitude": 0,
+    "organizer": "Lillesand IL",
+    "website": "/race-pages/olasheilopet.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": null,
+    "id": "olasheiløpet_20240907_httpsliveeqtimingcom",
+    "summary": "Bli med på Olasheiløpet 2021 - et årlig løp som finner sted den første lørdagen i september. Dette spennende løpet inkluderer ulike distanser, inkludert en 3 km rute, som passer for løpere i alle aldre og ferdighetsnivåer. Løpet foregår i variert terreng og gir en utfordrende og spennende løpeopplevelse. Samle familie og venner for en dag med moro og sunn aktivitet. Uansett erfaring, er Olasheiløpet en fantastisk mulighet til å delta i et energisk og inkluderende løp. Vi ser frem til å ønske deg velkommen til årets spennende arrangement!",
+    "website_organizer": "https://www.lillesandil.no/next/p/60896/olasheilopet",
     "new_version": true
   },
   {

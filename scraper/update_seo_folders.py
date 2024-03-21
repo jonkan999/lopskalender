@@ -47,6 +47,7 @@ for county, county_value in config["county_mapping"].items():
     content = content.replace(string_to_replace, string_to_replace_with)
     content = content.replace(config["title_find"], config["seo_county_title"] % county_value)
     content = content.replace(config["description"], config["seo_county_description"] % county_value)
+    content = content.replace(config["main_header"], config["seo_county_main_header"] % county_value)
     file.seek(0)
     file.write(content)
     file.truncate()

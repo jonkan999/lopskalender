@@ -45,6 +45,7 @@ menu_items:
 
 main_header: "Norges mest komplette løpekalender for løpere"
 main_header_alternative: "Norges mest komplette løpekalender for løpere"
+seo_county_main_header: "Norges mest omfattende løpekalender for løp i %s"
 main_subheader: "Her lister vi opp alle Norges løp og mosjonsløp i 2024.
   Filtrer frem ditt neste 10 km mosjonsløp, halvmaraton eller backyard
   ultra."
