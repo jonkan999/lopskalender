@@ -269,13 +269,11 @@
     "latitude": 59.1105777,
     "longitude": 10.4025994,
     "organizer": "Tjøme Løpeklubb",
-    "website": "/race-pages/tjomejoggen.html",
+    "website": "https://tjome-lopeklubb.no/tjomejoggen/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Vestfold og Telemark",
     "id": "tjømejoggen_20240321_httpsliveeqtimingcom",
     "summary": "Velkommen til Tjømejoggen! Vi inviterer deg til vårt årlige løp som tilbyr tre distanser: 10 km, 5 km og 2 km - alt på vei. Uansett om du er erfaren eller nybegynner, er det en løype for deg. Bli med på vakker natur og test dine ferdigheter. Alle aldre og ferdighetsnivåer oppfordres til å delta for en flott opplevelse. Vi gleder oss til å se deg på startstreken!",
-    "website_organizer": "https://tjome-lopeklubb.no/tjomejoggen/",
-    "new_version": true
+    "county": "Vestfold og Telemark"
   },
   {
     "date": "20240324",
@@ -287,13 +285,11 @@
     "latitude": 59.8842148,
     "longitude": 10.2227981,
     "organizer": "Nærsnes Løpeklubb",
-    "website": "/race-pages/lierlopet-3.html",
+    "website": "https://secure.onreg.com/onreg2/front/step1.php?id=6305&skipinfo=true",
     "src_url": "https://live.eqtiming.com",
-    "county": "Viken",
     "id": "lierløpet-3_20240324_httpsliveeqtimingcom",
     "summary": "Bli med på Lierløpet den 3. november 2024! Vi tilbyr 5 km, 10 km og halvmaraton løp, alle på vei for en rask og jevn løpeopplevelse. Uansett om du er nybegynner eller erfaren, er det et løp for deg. Vi legger vekt på en trygg og inkluderende atmosfære for alle deltakere, så meld deg på i dag og ta del i denne spennende løpebegivenheten!",
-    "website_organizer": "https://secure.onreg.com/onreg2/front/step1.php?id=6305&skipinfo=true",
-    "new_version": true
+    "county": "Viken"
   },
   {
     "date": "20240406",
@@ -463,6 +459,27 @@
     "id": "kondiskarusellen-5-løp_20240409_httpsliveeqtimingcom",
     "summary": "Bli med på Kondiskarusellen 2023/2024! Vi inviterer løpere i alle aldre og ferdighetsnivåer til å delta i vår spennende løpsserie med 5 km og 10 km distanser. Ta utfordringen på vakre veier og bygater for en gøy og utfordrende løpsopplevelse. Enten du er erfaren eller nybegynner, så er dette løpet perfekt for deg. Registrer deg nå for en uforglemmelig løpsopplevelse på veiene!",
     "website_organizer": "https://kondiskarusellen.no/kondiskarusellen-2023-2024",
+    "new_version": true
+  },
+  {
+    "date": "20240413",
+    "type": "terrain",
+    "name": "KM Terrengløp  S&Fj 2024",
+    "distance": "KM Terrengløp 13-14år, KM Terrengløp 15-16år, KM Terrengløp 1800m (17/18/jr/KS/vet.>65), KM Terrengløp 3600m Menn 23-64år",
+    "distance_m": [
+      1800000,
+      3600000
+    ],
+    "place": "Sandane, NOR",
+    "latitude": 61.77644600000001,
+    "longitude": 6.216160599999999,
+    "organizer": "Fjellhug/Vereide IL",
+    "website": "/race-pages/km-terrenglop-s&fj-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Vestland",
+    "id": "km-terrengløp-sfj-2024_20240413_httpsliveeqtimingcom",
+    "summary": "Vi beklager, men årets terrengløp er avlyst på grunn av uforutsette omstendigheter. Løpet skulle inkludere kategorier som trail ultramaraton og terrengløp. Vi håper å kunne arrangere løpet igjen i fremtiden og beklager ulempen dette medfører. Takk for forståelsen.",
+    "website_organizer": "https://www.fjellhugvereide.no/blog/post/185254/km-terrenglop-avlyst",
     "new_version": true
   },
   {
@@ -2159,6 +2176,32 @@
     "new_version": true
   },
   {
+    "date": "20240629.",
+    "type": "road",
+    "name": "Unionsmarathon",
+    "distance": "0,42 km, 1 km, 2 km, 4 km, 10 km, Halvmaraton, Maraton",
+    "distance_m": [
+      0,
+      1000,
+      2000,
+      4000,
+      10000,
+      21097,
+      42195
+    ],
+    "place": "Aurskog-Høland, Akershus",
+    "latitude": 59.7942688,
+    "longitude": 11.5774607,
+    "organizer": "",
+    "website": "/race-pages/unionsmarathon.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": "Viken",
+    "id": "unionsmarathon_20240629_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "Bli med på Unionsmarathon Rømskog! Vi tilbyr løpsdistanser for alle nivåer, fra 0 km for de minste til maraton for de mest erfarne løperne. Vår løype langs veiene i Rømskog-regionen passer både nybegynnere og erfarne løpere. Sikkerhet og støtte er vårt fokus, og vi gleder oss til å se deg ved startstreken. Bli med oss for en dag fylt med løpespenning, fellesskap og naturskjønn utsikt!",
+    "website_organizer": "https://www.instagram.com/unionsmarathon/",
+    "new_version": true
+  },
+  {
     "date": "20240701.",
     "type": "road",
     "name": "Head Energy Sommerkarusellen - 3. løp",
@@ -2260,6 +2303,30 @@
     "new_version": true
   },
   {
+    "date": "20240706.",
+    "type": "road",
+    "name": "Jølster Maraton",
+    "distance": "4,2 km, 5 km, 10 km, Halvmaraton, Maraton",
+    "distance_m": [
+      4000,
+      5000,
+      10000,
+      21097,
+      42195
+    ],
+    "place": "Sunnfjord, Vestland",
+    "latitude": 61.46804530000001,
+    "longitude": 6.1601254,
+    "organizer": "",
+    "website": "/race-pages/jolster-maraton.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": "Vestland",
+    "id": "jølster-maraton_20240706_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "Bli med på Jølster Maraton 6. juli 2024! Vi har distanser for alle - 4 km, 5 km, 10 km, halvmaraton og maraton. Uansett om du er erfaren eller løper med familien, er dette arrangementet for deg. Ta turen til vakre Jølster og bli med på en fantastisk løpsopplevelse på veiene våre. Vi gleder oss til å se deg der!",
+    "website_organizer": "https://jolster-maraton.no/",
+    "new_version": true
+  },
+  {
     "date": "20240707",
     "type": "terrain",
     "name": "Jomfrulandsløpet 2024",
@@ -2278,6 +2345,26 @@
     "id": "jomfrulandsløpet-2024_20240707_httpsliveeqtimingcom",
     "summary": "Kom og delta i årets terrengløp med distansene 10 km og 5 km! Uansett nivå vil vår varierte løype gi deg en utfordrende opplevelse med stier, skog og åpne områder. Vi ønsker alle velkommen til en inkluderende og morsom løpeopplevelse! Lykke til!",
     "website_organizer": "http://www.kragerovgs.no/kif/jomfruland.html",
+    "new_version": true
+  },
+  {
+    "date": "20240713.",
+    "type": "road",
+    "name": "Kvasshovden Opp",
+    "distance": "7,5 km",
+    "distance_m": [
+      7000
+    ],
+    "place": "Ulvik, Vestland",
+    "latitude": 60.5692306,
+    "longitude": 6.916875099999999,
+    "organizer": "",
+    "website": "/race-pages/kvasshovden-opp.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": "Vestland",
+    "id": "kvasshovden-opp_20240713_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "Bli med på vårt årlige 7 km landeveisløp! Dette løpet passer for løpere på alle nivåer, enten du er erfaren eller bare liker å løpe. Vi tilbyr individuelle, familie- og gruppekategorier, slik at alle kan delta. Meld deg på i dag for å teste ferdighetene dine og ha det gøy med andre løpere på vakre landeveier.",
+    "website_organizer": "https://kvasshovdenopp.no/",
     "new_version": true
   },
   {
@@ -2320,6 +2407,29 @@
     "id": "hornindalsvatnet-maraton-2024_20240727_httpsliveeqtimingcom",
     "summary": "Bli med på Hornindalsvatnet maraton lørdag 27. juli 2024! Velg mellom 10 km, halvmaraton eller helmaraton, og konkurrer individuelt eller som del av et lag. Dette er en veiløp som gir deg muligheten til å nyte den fantastiske naturen rundt Hornindalsvatnet mens du løper. Flotte sponsoravtaler sørger for fine premier og en flott opplevelse. Dette er en perfekt mulighet til å teste ferdighetene dine eller bare nyte en flott dag med løping og fellesskap. Vi gleder oss til å se deg på startstreken!",
     "website_organizer": "http://iahaugen.no/maraton/",
+    "new_version": true
+  },
+  {
+    "date": "20240727.",
+    "type": "road",
+    "name": "Hornindalsvatnet Maraton",
+    "distance": "4,22 km, 10 km, Halvmaraton, Maraton",
+    "distance_m": [
+      4000,
+      10000,
+      21097,
+      42195
+    ],
+    "place": "Volda, Møre og Romsdal",
+    "latitude": 62.1452551,
+    "longitude": 6.0747977,
+    "organizer": "",
+    "website": "/race-pages/hornindalsvatnet-maraton.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": "Møre og Romsdal",
+    "id": "hornindalsvatnet-maraton_20240727_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "Bli med på Hornindalsvatnet maraton - et spennende løp i det vakre Hornindalsvatnet-området! Vi tilbyr fire distanser: 4 km, 10 km, halvmaraton og maraton, designet for alle nivåer av løpere. Løpet foregår på vei og gir deg muligheten til å utfordre deg selv og nyte naturen rundt deg. Etter løpet blir det feiring med mat og musikk. Bli med på en minneverdig dag med løping og fellesskap!",
+    "website_organizer": "https://www.facebook.com/events/hornindal-idrettspark/hornindalsvatnet-maraton/1465434233749310/",
     "new_version": true
   },
   {
@@ -2892,6 +3002,49 @@
   {
     "date": "20240907.",
     "type": "road",
+    "name": "KK-mila",
+    "distance": "5 km, 10 km",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Oslo, Oslo",
+    "latitude": 59.9138688,
+    "longitude": 10.7522454,
+    "organizer": "",
+    "website": "/race-pages/kk-mila.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=3",
+    "county": "Oslo",
+    "id": "kk-mila_20240907_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page3",
+    "summary": "Velkommen til KK-mila, Norges hyggeligste jenteløp! Bli med oss på en fantastisk dag med løping, moro og nye vennskap. Velg mellom 5 km og 10 km distansen og opplev en flott atmosfære og feststemning. Påmeldingsavgiften er kun 645 kr per person frem til 30. april, eller 595 kr per person ved gruppepåmelding (4 eller flere). Alle deltakere vil motta en flott goodiebag som takk for deltakelsen. Bli med på løpeglede i flotte omgivelser!",
+    "website_organizer": "https://www.kkmila.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240907.",
+    "type": "road",
+    "name": "Hedersløpet",
+    "distance": "5 km, 5 km, 10 km",
+    "distance_m": [
+      5000,
+      5000,
+      10000
+    ],
+    "place": "Oslo, Oslo",
+    "latitude": 59.9138688,
+    "longitude": 10.7522454,
+    "organizer": "",
+    "website": "/race-pages/hederslopet.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=3",
+    "county": "Oslo",
+    "id": "hedersløpet_20240907_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page3",
+    "summary": "Bli med på Hedersløpet 2024! Vi inviterer løpere fra hele landet til å delta i vår årlige løpekonkurranse. Vi har tre løpekategorier: 5 km, 5 km og 10 km på vei. Uansett om du er nybegynner eller erfaren, har vi en løype for deg. Bli med på en morsom dag med løping og fellesskap!",
+    "website_organizer": "https://www.hederslopet.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240907.",
+    "type": "road",
     "name": "Knarvikmila Halvmaraton",
     "distance": "Halvmaraton",
     "distance_m": [
@@ -3009,6 +3162,30 @@
     "id": "fjordkraft-bergen-city-milen-2024_20240914_httpsliveeqtimingcom",
     "summary": "Bergen City Marathon arrangeres i Bergen sentrum den 14. september 2024. Løpet inkluderer distanser som 10 km, og er egnet for løpere på alle nivåer. Løpet foregår på vei og gir deltakerne muligheten til å nyte den vakre utsikten i Bergen. Alle deltakere ønskes velkommen til å delta og oppleve den spesielle atmosfæren i byen.",
     "website_organizer": "https://www.bergencitymarathon.no/bergen-city-milen/",
+    "new_version": true
+  },
+  {
+    "date": "20240914.",
+    "type": "road",
+    "name": "Grimstad Maraton",
+    "distance": "1 km, 5 km, 10 km, Halvmaraton, Halvmaraton",
+    "distance_m": [
+      1000,
+      5000,
+      10000,
+      21097,
+      21097
+    ],
+    "place": "Grimstad, Agder",
+    "latitude": 58.3421402,
+    "longitude": 8.594457000000002,
+    "organizer": "",
+    "website": "/race-pages/grimstad-maraton.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=3",
+    "county": "Agder",
+    "id": "grimstad-maraton_20240914_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page3",
+    "summary": "Grimstad Maraton er tilbake for 2024! Vi har løpsdagen 14. september med de samme klassene, distansene og deltakeravgiftene som i fjor. Vi tilbyr distanser for alle aldre og ferdighetsnivåer, inkludert 1 km, 5 km, 10 km, Halvmarathon og Halvmarathon. Deltakerne vil konkurrere på veier og oppleve den naturskjønne skjønnheten til Grimstad. Vi tilbyr også en \"familiepakke\" for 3-5 personer til en pris på 1000 kr. Kom og bli med på en dag med fellesskap, aktivitet og sunn konkurranse med Grimstad Maraton i 2024!",
+    "website_organizer": "https://www.grimstadmaraton.no/",
     "new_version": true
   },
   {
@@ -3704,6 +3881,28 @@
     "id": "jessheim-vintermaraton_20241110_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på Vintermaraton i Jessheim den 10. november 2024! Enten du er nybegynner eller erfaren løper, er dette årlige arrangementet noe for deg. Velg mellom 10 km, Halvmarathon eller Marathon- løpene, og nyt vakre vinterlandskap mens du konkurrerer på veiene. Meld deg på og opplev en energisk og støttende atmosfære mens du når dine løpemål. Vi ser frem til å ønske deg velkommen til denne fantastiske begivenheten!",
     "website_organizer": "https://www.vintermaraton.no/",
+    "new_version": true
+  },
+  {
+    "date": "20241116.",
+    "type": "road",
+    "name": "Karmøy Maraton",
+    "distance": "10 km, Halvmaraton, Maraton",
+    "distance_m": [
+      10000,
+      21097,
+      42195
+    ],
+    "place": "Karmøy, Rogaland",
+    "latitude": 59.2823064,
+    "longitude": 5.2801756,
+    "organizer": "",
+    "website": "/race-pages/karmoy-maraton.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=3",
+    "county": "Rogaland",
+    "id": "karmøy-maraton_20241116_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page3",
+    "summary": "Bli med på Karmøy Maraton 17. november 2018! Delta i en veiløpt maraton med tre distanser å velge mellom: 10 km, halvmaraton og helmaraton. Uansett nivå, har vi noe for alle. Opplev vikingkulturen og en fin løpsopplevelse på hyggelig asfalt. Vi sees til en dag med løping og moro!",
+    "website_organizer": "http://www.karmoymaraton.no/",
     "new_version": true
   },
   {
