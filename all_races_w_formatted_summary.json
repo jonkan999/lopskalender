@@ -551,6 +551,27 @@
     "new_version": true
   },
   {
+    "date": "20240417",
+    "type": "road",
+    "name": "Bykarusellen 2024 Perseløp 1 (17. april 5 & 10 km)",
+    "distance": "5km, 10km",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Bergen, NOR",
+    "latitude": 60.39126279999999,
+    "longitude": 5.3220544,
+    "organizer": "Gular, IL",
+    "website": "/race-pages/bykarusellen-2024-perselop-1-(17.-april-5-&-10-km).html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Vestland",
+    "id": "bykarusellen-2024-perseløp-1-17-april-5-10-km_20240417_httpsliveeqtimingcom",
+    "summary": "Bykarusellen avslutter sesongen med et storslått løp 20. september. Til tross for den pågående PLIVO-øvelsen, vil løpet gå som planlagt. Vi tilbyr både 5 km og 10 km distanser på vei. Meld deg på og bli med på denne spennende avslutningen på årets Bykarusellen!",
+    "website_organizer": "http://www.bykarusellen.no/",
+    "new_version": true
+  },
+  {
     "date": "20240420",
     "type": "road",
     "name": "Nordlo Sentrumsløpet",
@@ -1405,6 +1426,29 @@
     "id": "sparebank-1-vartdalsstranda-halvmaraton-2024_20240525_httpsliveeqtimingcom",
     "summary": "Velkommen til årets løp i vår vakre by! Vi er glade for å kunngjøre at årets løp vil inkludere en 10 km distanse langs veiene i byen. Løpet starter og avsluttes på byens torg, og løperne vil oppleve vakker arkitektur og natur underveis. Meld deg på enten du er erfaren eller nybegynner løper - vi ønsker å fremme fellesskap og fysisk aktivitet. Vi ser frem til å se deg ved startstreken!",
     "website_organizer": "https://m.facebook.com/story.php/?story_fbid=673413738304274&id=100069069616672",
+    "new_version": true
+  },
+  {
+    "date": "20240525.",
+    "type": "road",
+    "name": "Sandefjordsløpet",
+    "distance": "0,3 km, 0,8 km, 5 km, 10 km",
+    "distance_m": [
+      0,
+      0,
+      5000,
+      10000
+    ],
+    "place": "Sandefjord, Vestfold",
+    "latitude": 59.1313095,
+    "longitude": 10.2165948,
+    "organizer": "",
+    "website": "/race-pages/sandefjordslopet.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": "Vestfold og Telemark",
+    "id": "sandefjordsløpet_20240525_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "Bli med på Sandefjordsløpet lørdag 25. mai 2024! Løpet er åpent for alle nivåer og vi tilbyr distansene 5 km og 10 km. Løypa tar deg gjennom de vakre gatene i Sandefjord, og uansett om du er nybegynner eller erfaren løper, er dette en flott mulighet til å utfordre deg selv og nyte den herlige atmosfæren. Bli med og opplev den støttende oppmuntringen fra tilskuerne og følelsen av å krysse mållinjen etter en flott løpeopplevelse!",
+    "website_organizer": "https://www.sandefjordslopet.no/",
     "new_version": true
   },
   {
@@ -3635,6 +3679,29 @@
     "new_version": true
   },
   {
+    "date": "20241013.",
+    "type": "road",
+    "name": "RE-MILA",
+    "distance": "0,6 km, 2,5 km, 5 km, 10 km",
+    "distance_m": [
+      0,
+      2000,
+      5000,
+      10000
+    ],
+    "place": "Tønsberg, Vestfold og Telemark",
+    "latitude": 59.26756990000001,
+    "longitude": 10.4075608,
+    "organizer": "",
+    "website": "/race-pages/re-mila.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=3",
+    "county": "Vestfold og Telemark",
+    "id": "re-mila_20241013_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page3",
+    "summary": "Bli med på vårt årlige løpsarrangement med fire distanser: 0 km, 2 km, 5 km og 10 km. Dette løpet foregår på veier så vær forberedt på asfalt. Vi sørger for godt merkede løyper, vannstasjoner og sikkerhet for alle deltakere. Uansett ferdighetsnivå er du velkommen til å delta - fra nybegynnere til erfarne løpere. Bli med oss for en dag med moro, sunn konkurranse og feiring av en aktiv livsstil!",
+    "website_organizer": "http://www.runremila.com/",
+    "new_version": true
+  },
+  {
     "date": "20241019",
     "type": "road",
     "name": "Hytteplanmila NM 10 km Gateløp",
@@ -3966,6 +4033,28 @@
     "id": "hoka-solastranden-halvmaraton-2025_20250111_httpsliveeqtimingcom",
     "summary": "Bli med på det spennende Hoka Solastranden Halvmaraton den 11. januar 2025! Dette løpet tilbyr distanser for alle nivåer, inkludert 10 km og 5 km på veien. Uansett om du er erfaren eller nybegynner, har vi noe for alle. Registrer deg på nettstedet vårt og bli med på vinterens mest spennende løp!",
     "website_organizer": "http://www.solastrandenhalvmaraton.no/",
+    "new_version": true
+  },
+  {
+    "date": "20250406.",
+    "type": "road",
+    "name": "Drammen 10K",
+    "distance": "0,6 km, 5 km, 10 km",
+    "distance_m": [
+      0,
+      5000,
+      10000
+    ],
+    "place": "Drammen, Buskerud",
+    "latitude": 59.7440738,
+    "longitude": 10.2044564,
+    "organizer": "",
+    "website": "/race-pages/drammen-10k.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=3",
+    "county": "Viken",
+    "id": "drammen-10k_20250406_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page3",
+    "summary": "Bli med på Drammen10K – Norges raskeste 10 kilometers løp! Opplev en lett-løpt trasé med kun 22 høydemeter i Drammen sentrum. Uansett om du er en rutinert løper eller nybegynner, vil du finne den perfekte distansen for deg blant alternativene på 10 km, 5 km og Stafett. Dette løpet gir deg sjansen til å utfordre deg selv og oppleve den fantastiske stemningen i løpsmiljøet. Sett av datoen 7. april 2024 og bli med på dette ikoniske løpet!",
+    "website_organizer": "http://www.drammen10k.no/",
     "new_version": true
   },
   {

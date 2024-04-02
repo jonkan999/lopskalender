@@ -33,7 +33,7 @@ class PageGenerator:
       shutil.copy(source, destination)
   
   def clean_filename(self):
-    name = self.json_data["name"].replace('-', ' ').replace('/', '').replace('å', 'a').replace('ä', 'a').replace('ö', 'o').replace('Å', 'A').replace('Ä', 'A').replace('Ø', 'O').lower().replace('ø', 'o').replace('ö', 'o')
+    name = self.json_data["name"].replace('-', ' ').replace('/', '').replace('å', 'a').replace('ä', 'a').replace('ö', 'o').replace('Å', 'A').replace('Ä', 'A').replace('Ø', 'O').lower().replace('ø', 'o').replace('ö', 'o').replace('ß', 'ss').replace('ü', 'u').replace('Ü', 'U').replace('"', '').replace("'", "").lower()
     return '-'.join(name.split()).lower()
   
   def save_webp_image(self, base64_data, output_path):
