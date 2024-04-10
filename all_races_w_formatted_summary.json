@@ -304,13 +304,11 @@
     "latitude": 58.7520822,
     "longitude": 5.6912682,
     "organizer": "Gjesdal IL",
-    "website": "/race-pages/mortenlopene-2024-km-terrenglop-rogaland.html",
+    "website": "http://www.gjesdal-il.com/?page_id=321",
     "src_url": "https://live.eqtiming.com",
-    "county": "Rogaland",
     "id": "mortenløpene-2024-km-terrengløp-rogaland_20240406_httpsliveeqtimingcom",
     "summary": "Gjesdal idrettslag inviterer til Mortenløpene 2024 med Kretsmesterskap i Terrengløp den 6. april kl. 13:00 på Njåskogen, Bryne. Vi tilbyr løyper på 5 km og 10 km gjennom variert terreng og utfordrende stier. Løpet er åpent for løpere på alle nivåer, og vi oppfordrer alle til å delta for en dag med løpeglede og utfordring i vakker natur.",
-    "website_organizer": "http://www.gjesdal-il.com/?page_id=321",
-    "new_version": true
+    "county": "Rogaland"
   },
   {
     "date": "20240406.",
@@ -330,13 +328,11 @@
     "latitude": 59.4899189,
     "longitude": 10.315035,
     "organizer": "",
-    "website": "/race-pages/holmestrand-maraton.html",
+    "website": "https://www.holmestrandmaraton.no/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
-    "county": null,
     "id": "holmestrand-maraton_20240406_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Bli med på Holmestrand Maraton - vårens vakreste sentrumsløp! Løpet er åpent for alle aldre og ferdighetsnivåer, med distanser fra 5 km til helmaraton. Vi tilbyr også et barneløp for de yngste. Ta med familien og nyt en spektakulær løpeopplevelse langs veiene i Holmestrand. Spar datoen lørdag 6. april 2024 for denne uforglemmelige begivenheten!",
-    "website_organizer": "https://www.holmestrandmaraton.no/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240407",
@@ -348,13 +344,11 @@
     "latitude": 59.7440738,
     "longitude": 10.2044564,
     "organizer": "Sturla IF",
-    "website": "/race-pages/drammen10k-2024.html",
+    "website": "https://www.instagram.com/drammen10k/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Viken",
     "id": "drammen10k-2024_20240407_httpsliveeqtimingcom",
     "summary": "Hei og velkommen til Drammen10K! Bli med på vårt årlige løp som tar deg gjennom byen og flotte omgivelser, med utsikt over elven. Vi tilbyr 10K og 5K løyper, åpent for alle aldre og evner. Kom og bli med oss for en morsom og utfordrende dag med løping på vei!",
-    "website_organizer": "https://www.instagram.com/drammen10k/",
-    "new_version": true
+    "county": "Viken"
   },
   {
     "date": "20240407",
@@ -366,13 +360,11 @@
     "latitude": 60.7945331,
     "longitude": 11.0679977,
     "organizer": "Hamar IL",
-    "website": "/race-pages/h3-hamar-hoka-varlop-2024.html",
+    "website": "https://www.h3hamar.no/varlop/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Innlandet",
     "id": "h3-hamar-hoka-vårløp-2024_20240407_httpsliveeqtimingcom",
     "summary": "Vi er glade for å kunngjøre H3 Hamar HOKA Vårløp 23. juni 2018. Vi ønsker alle velkommen til å delta i dette løpet uansett nivå. Løpet inkluderer en 10km og et halvmaraton (21km) som tar deltakerne gjennom det vakre landskapet i Hamar. Dette er en flott mulighet for løpere å utfordre seg selv på veiene i Hamar.",
-    "website_organizer": "https://www.h3hamar.no/varlop/",
-    "new_version": true
+    "county": "Innlandet"
   },
   {
     "date": "20240407.",
@@ -389,13 +381,11 @@
     "latitude": 59.22053689999999,
     "longitude": 10.9347012,
     "organizer": "",
-    "website": "/race-pages/fredrikstadlopet.html",
+    "website": "http://www.fredrikstadif.no/p/10596/fredrikstadlopet",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
-    "county": null,
     "id": "fredrikstadløpet_20240407_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Fredrikstadløpet er et spennende veiløp som finner sted 7. april 2024. Vi inviterer løpere på alle nivåer til å delta i denne actionfylte begivenheten. Vi tilbyr distanser på 3 km, 5 km og halvmaraton. Dette veiløpet tar deltakerne gjennom de vakre gatene i Fredrikstad, og gir en flott mulighet til å oppleve byens sjarm mens man konkurrerer. Meld deg på i dag for en uforglemmelig løpeopplevelse!",
-    "website_organizer": "http://www.fredrikstadif.no/p/10596/fredrikstadlopet",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240407.",
@@ -411,13 +401,11 @@
     "latitude": 59.7440738,
     "longitude": 10.2044564,
     "organizer": "",
-    "website": "/race-pages/drammen-10k.html",
+    "website": "http://www.drammen10k.no/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
-    "county": null,
     "id": "drammen-10k_20240407_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Bli med på Drammen10K - RUNDRM den 7. april 2024 for et spennende løpsarrangement for hele familien! Vi tilbyr løp i kategoriene barneløp, 5 km, 10 km og stafettløp på veiene i Drammen. Uansett om du er nybegynner eller erfaren løper, er dette arrangementet perfekt for deg å sette deg nye mål og utfordre deg selv. Ta del i den sosiale og morsomme løpeopplevelsen med venner, familie og løpeentusiaster!",
-    "website_organizer": "http://www.drammen10k.no/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240408.",
@@ -432,13 +420,11 @@
     "latitude": 60.39126279999999,
     "longitude": 5.3220544,
     "organizer": "",
-    "website": "/race-pages/necon-vinterkarusellen-bergen-lop-8.html",
+    "website": "http://www.gneist.org/vinterkarusellen/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
-    "county": null,
     "id": "necon-vinterkarusellen-bergen-løp-8_20240408_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Bli med på et spennende løp gjennom byen vår! Uansett om du er nybegynner eller erfaren løper, så har vi løp for deg - enten 5 km eller 10 km på veiene våre. Det blir en energisk opplevelse for de som ønsker en personlig rekord eller bare ha det gøy. Meld deg på for å være med på dette uforglemmelige løpet!",
-    "website_organizer": "http://www.gneist.org/vinterkarusellen/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240409",
@@ -453,12 +439,31 @@
     "latitude": 58.15991189999999,
     "longitude": 8.0182064,
     "organizer": "Kristiansand Løpeklubb",
-    "website": "/race-pages/kondiskarusellen-5.-lop.html",
+    "website": "https://kondiskarusellen.no/kondiskarusellen-2023-2024",
     "src_url": "https://live.eqtiming.com",
-    "county": "Agder",
     "id": "kondiskarusellen-5-løp_20240409_httpsliveeqtimingcom",
     "summary": "Bli med på Kondiskarusellen 2023/2024! Vi inviterer løpere i alle aldre og ferdighetsnivåer til å delta i vår spennende løpsserie med 5 km og 10 km distanser. Ta utfordringen på vakre veier og bygater for en gøy og utfordrende løpsopplevelse. Enten du er erfaren eller nybegynner, så er dette løpet perfekt for deg. Registrer deg nå for en uforglemmelig løpsopplevelse på veiene!",
-    "website_organizer": "https://kondiskarusellen.no/kondiskarusellen-2023-2024",
+    "county": "Agder"
+  },
+  {
+    "date": "20240413",
+    "type": "road",
+    "name": "Mulismilen 2024",
+    "distance": "5km, 10km",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Fjellveien ved Badstuen, NOR",
+    "latitude": 60.3998271,
+    "longitude": 5.3314776,
+    "organizer": "Varegg Fleridrett",
+    "website": "/race-pages/mulismilen-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Vestland",
+    "id": "mulismilen-2024_20240413_httpsliveeqtimingcom",
+    "summary": "Bli med på Mulismilen 2024 lørdag 13. april! Dette er et av Bergens eldste mosjonsløp, og vi inviterer deg til å delta. Løpet tilbyr to distanser - 5 km og 10 km - og foregår på vei. Vår mål er å samle løpeentusiaster og gi alle en minneverdig dag med god mosjon og konkurranseånd. Uansett om du er erfaren eller nybegynner, oppfordrer vi deg til å være med på denne spennende løpehendelsen.",
+    "website_organizer": "https://varegg.no/ski-friidrett/mulismilen-2024",
     "new_version": true
   },
   {
@@ -1267,6 +1272,26 @@
     "new_version": true
   },
   {
+    "date": "20240514",
+    "type": "terrain",
+    "name": "KM Terrengløp 2024",
+    "distance": "1 km, 1.8 km, 2.6 km",
+    "distance_m": [
+      1000
+    ],
+    "place": "Kalnes Friidrettsstadion, NOR",
+    "latitude": 59.31794739999999,
+    "longitude": 11.026757,
+    "organizer": "Sarpsborg IL",
+    "website": "/race-pages/km-terrenglop-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "km-terrengløp-2024_20240514_httpsliveeqtimingcom",
+    "summary": "Bli med på KM Terrengløp arrangert av Gjesdal Idrettslag! Vi tilbyr løypekategorier for alle nivåer, inkludert 1 km terrengløp som passer for både erfarne løpere og de som ønsker å prøve seg på en kort distanse. Meld deg på i dag for å sikre din plass i dette spennende løpet!",
+    "website_organizer": "https://www.gjesdal-il.com/events/km-terrenglop/",
+    "new_version": true
+  },
+  {
     "date": "20240515",
     "type": "terrain",
     "name": "KM Terrengløp 2024",
@@ -1284,6 +1309,27 @@
     "id": "km-terrengløp-2024_20240515_httpsliveeqtimingcom",
     "summary": "Hei alle løpere! Bli med på KM Terrengløp arrangert av Gjesdal Idrettslag. Dette spennende løpet vil ha løyper for alle aldersgrupper og ferdighetsnivåer, inkludert 1 km løyper. Terrenget vil gi en ekte utfordring mens du nyter den vakre naturen i Gjesdal kommune. Påmelding er nå åpen, så ikke gå glipp av sjansen til å være med!",
     "website_organizer": "https://www.gjesdal-il.com/events/km-terrenglop/",
+    "new_version": true
+  },
+  {
+    "date": "20240515",
+    "type": "road",
+    "name": "Nybrottkarusellen, 1. løp",
+    "distance": "1 km, 5 km",
+    "distance_m": [
+      1000,
+      5000
+    ],
+    "place": "Øverlands Minde, Stjørdal, NOR",
+    "latitude": 63.47404049999999,
+    "longitude": 10.9299839,
+    "organizer": "IL Nybrott",
+    "website": "/race-pages/nybrottkarusellen,-1.-lop.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Trøndelag",
+    "id": "nybrottkarusellen-1-løp_20240515_httpsliveeqtimingcom",
+    "summary": "Bli med på Nybrottkarusellen, et årlig løp i Stjørdal siden 1978. Velg mellom 1 km eller 5 km distanse og bli med på en vennlig og sosial løpsopplevelse. Løpet følger veier for en klassisk løpsopplevelse og passer for løpere i alle ferdighetsnivåer. Bli med og opplev den spennende atmosfæren i vakre Stjørdal!",
+    "website_organizer": "https://www.facebook.com/nybrottkarusellen/?locale=nb_NO",
     "new_version": true
   },
   {
@@ -1986,6 +2032,26 @@
     "id": "frøylandsvatnet-rundt_20240615_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Frøylandsvatnet Rundt 2023 er her! Bli med på en uforglemmelig dag med løping og fellesskap. Med to distanser – 16 km og 9 km – passer løpet for alle, uansett ferdighetsnivå. Løpet går langs veiene rundt Frøylandsvatnet, og gir deg en fantastisk naturopplevelse. Etter løpet kan du feire prestasjonene sammen med oss. Meld deg på og bli med på årets løp!",
     "website_organizer": "https://www.sportsidioten.no/resultater/froylandsvatnet-rundt-2023/",
+    "new_version": true
+  },
+  {
+    "date": "20240615",
+    "type": "road",
+    "name": "Arnarsonmila 2024",
+    "distance": "Arnarsonmila 10 km",
+    "distance_m": [
+      10000
+    ],
+    "place": "Askvoll/Fjaler, NOR",
+    "latitude": 61.2920048,
+    "longitude": 5.3396677,
+    "organizer": "Dale IL",
+    "website": "/race-pages/arnarsonmila-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Vestland",
+    "id": "arnarsonmila-2024_20240615_httpsliveeqtimingcom",
+    "summary": "Velkommen til årets maratonløp! Vår fellesskapsopplevelse inkluderer flere løpsdistanser, inkludert vår 10 km landeveisløp. Uansett om du er en erfaren løper eller nybegynner, er dette arrangementet for alle. Bli med på en minneverdig opplevelse med vakre stier og veier, hvor du kan sette nye mål og knuse personlige rekorder. Bli en del av fellesskapet og push deg selv til å nå dine egne løpemål. Vi ser frem til å se deg i startlinjen!",
+    "website_organizer": "https://m.facebook.com/profile.php?id=248556955154472",
     "new_version": true
   },
   {
@@ -2835,6 +2901,27 @@
     "new_version": true
   },
   {
+    "date": "20240831.",
+    "type": "road",
+    "name": "Kodalmila",
+    "distance": "5 km, 10 km",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Sandefjord, Vestfold og Telemark",
+    "latitude": 59.1313095,
+    "longitude": 10.2165948,
+    "organizer": "",
+    "website": "/race-pages/kodalmila.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
+    "county": "Vestfold og Telemark",
+    "id": "kodalmila_20240831_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
+    "summary": "Klar for å løpe? Sandefjords Blad inviterer deg til å delta i den spennende årlige Kodalmila-løpet, med både 5 km og 10 km landveisløp. Uansett erfaringsnivå, er alle løpere velkomne til å ta utfordringen i vakre Sandefjord. Løpet vil også dekke aktuelle temaer, og vil bli presentert i vår eAvis. Ta del i dette unike og berikende løpet og bli med på en minneverdig opplevelse!",
+    "website_organizer": "https://www.sb.no/kodalmila/",
+    "new_version": true
+  },
+  {
     "date": "20240901",
     "type": "road",
     "name": "Norgestesten løp 6",
@@ -3555,6 +3642,27 @@
     "id": "norgesløpet-inkl-uki-karusellen-6-løp-inkl-nm-5-km_20240928_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på Norgesløpet 2024! Vi er tilbake på Jessheim lørdag 28. september med tre distanser: 5 km, 10 km og halvmaraton. Løypen vil gå på vei, og vi vil ha drikkestasjoner og profesjonell medisinsk hjelp under løpet. Meld deg på og bli med på en minneverdig løpsdag!",
     "website_organizer": "https://www.norgeslopet.net/",
+    "new_version": true
+  },
+  {
+    "date": "20240929",
+    "type": "road",
+    "name": "Nybrottkarusellen, 4. løp",
+    "distance": "2 km, 10 km",
+    "distance_m": [
+      2000,
+      10000
+    ],
+    "place": "Øverlands Minde, Stjørdal, NOR",
+    "latitude": 63.47404049999999,
+    "longitude": 10.9299839,
+    "organizer": "IL Nybrott",
+    "website": "/race-pages/nybrottkarusellen,-4.-lop.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Trøndelag",
+    "id": "nybrottkarusellen-4-løp_20240929_httpsliveeqtimingcom",
+    "summary": "Bli med på årets Nybrottkarusellen i Stjørdal! Vi tilbyr to distanser - 2 km og 10 km - begge på veiene i Stjørdal. Uansett erfaring, er det en løype for deg. Opplev flott løping i vakker natur og utfordre deg selv. Etter løpet venter god stemning og sosialt samvær. Bli med på en flott løpeopplevelse for alle!",
+    "website_organizer": "https://www.facebook.com/nybrottkarusellen/?locale=nb_NO",
     "new_version": true
   },
   {

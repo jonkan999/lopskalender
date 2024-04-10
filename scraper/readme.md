@@ -3,6 +3,11 @@
 scraper\venv\Scripts\Activate.ps1
 cd scraper
 
+or:
+scraper\venv\Scripts\Activate.ps1
+cd scraper
+python main_scraper.py
+
 These files are meant to run in the order:
 
 -- Main scraper script that scrapes content from source pages, compares to previous loads, stores new races, transforms new races and puts them up for staging.
