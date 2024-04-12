@@ -2855,6 +2855,29 @@
     "new_version": true
   },
   {
+    "date": "20240828",
+    "type": "terrain",
+    "name": "KM terrengløp 2024 - lang løype",
+    "distance": "Rustad-runden 1,3 km, KM terrengløp - 2 km, KM terrengløp - 4 km, KM terrengløp - 6 km, KM terrengløp - 8 km",
+    "distance_m": [
+      2000,
+      4000,
+      6000,
+      8000
+    ],
+    "place": "Skullerud Idrettsanlegg, NOR",
+    "latitude": 59.8642714,
+    "longitude": 10.8474953,
+    "organizer": "Rustad IL",
+    "website": "/race-pages/km-terrenglop-2024-lang-loype.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Oslo",
+    "id": "km-terrengløp-2024-lang-løype_20240828_httpsliveeqtimingcom",
+    "summary": "Bli med på KM i Terrengløp arrangert av Rustad IL Langrenn! Vi har løyper for alle nivåer, inkludert 2 km, 4 km, 6 km og 8 km. Dette løpet utfordrer deg på stier og terreng, samtidig som du nyter naturen. Ta med familie og venner for å heie, det blir underholdning og aktiviteter for alle. Enten du konkurrerer eller bare vil ha det gøy, vil dette løpet gi deg en minneverdig opplevelse. Toppidrettsutøvere og motionister i skjønn forening - vi gleder oss til å se deg på startstreken!",
+    "website_organizer": "https://www.langrenn.rustad-idrettslag.no/?page_id=214",
+    "new_version": true
+  },
+  {
     "date": "20240831",
     "type": "road",
     "name": "Stavanger Marathon 2024",
