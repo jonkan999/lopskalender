@@ -14,7 +14,7 @@ class Race:
             "type": type,
             "name": name,
             "distance": distance,
-            "distance_m": distance_m,
+            "distance_m": sorted(list(set(distance_m))), # Remove duplicates and sort the list in ascending order
             "place": place,
             "organizer": organizer,
             "website": website,

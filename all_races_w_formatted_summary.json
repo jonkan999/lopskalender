@@ -458,13 +458,11 @@
     "latitude": 60.3998271,
     "longitude": 5.3314776,
     "organizer": "Varegg Fleridrett",
-    "website": "/race-pages/mulismilen-2024.html",
+    "website": "https://varegg.no/ski-friidrett/mulismilen-2024",
     "src_url": "https://live.eqtiming.com",
-    "county": "Vestland",
     "id": "mulismilen-2024_20240413_httpsliveeqtimingcom",
     "summary": "Bli med på Mulismilen 2024 lørdag 13. april! Dette er et av Bergens eldste mosjonsløp, og vi inviterer deg til å delta. Løpet tilbyr to distanser - 5 km og 10 km - og foregår på vei. Vår mål er å samle løpeentusiaster og gi alle en minneverdig dag med god mosjon og konkurranseånd. Uansett om du er erfaren eller nybegynner, oppfordrer vi deg til å være med på denne spennende løpehendelsen.",
-    "website_organizer": "https://varegg.no/ski-friidrett/mulismilen-2024",
-    "new_version": true
+    "county": "Vestland"
   },
   {
     "date": "20240413",
@@ -479,13 +477,11 @@
     "latitude": 61.77644600000001,
     "longitude": 6.216160599999999,
     "organizer": "Fjellhug/Vereide IL",
-    "website": "/race-pages/km-terrenglop-s&fj-2024.html",
+    "website": "https://www.fjellhugvereide.no/blog/post/185254/km-terrenglop-avlyst",
     "src_url": "https://live.eqtiming.com",
-    "county": "Vestland",
     "id": "km-terrengløp-sfj-2024_20240413_httpsliveeqtimingcom",
     "summary": "Vi beklager, men årets terrengløp er avlyst på grunn av uforutsette omstendigheter. Løpet skulle inkludere kategorier som trail ultramaraton og terrengløp. Vi håper å kunne arrangere løpet igjen i fremtiden og beklager ulempen dette medfører. Takk for forståelsen.",
-    "website_organizer": "https://www.fjellhugvereide.no/blog/post/185254/km-terrenglop-avlyst",
-    "new_version": true
+    "county": "Vestland"
   },
   {
     "date": "20240414",
@@ -501,13 +497,11 @@
     "latitude": 60.14758189999999,
     "longitude": 11.169393,
     "organizer": "Ullensaker/Kisa IL",
-    "website": "/race-pages/norgestesten-lop-1.html",
+    "website": "https://norgestesten.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Viken",
     "id": "norgestesten-løp-1_20240414_httpsliveeqtimingcom",
     "summary": "Velkommen til Norgestesten 2024! Vår sertifiserte Kondis-kvalitetsløp vil finne sted neste år og tilbyr distanser for alle - 5 km, 10 km og halvmaraton. Løpet vil foregå på veier som gir deg mulighet til å nyte vakker natur og oppleve den energiske atmosfæren med andre løpere. Uansett om du er nybegynner eller erfaren løper, har vi noe for deg. Bli med oss og test dine grenser!",
-    "website_organizer": "https://norgestesten.no/",
-    "new_version": true
+    "county": "Viken"
   },
   {
     "date": "20240414.",
@@ -525,13 +519,11 @@
     "latitude": 59.13299639999999,
     "longitude": 11.3874569,
     "organizer": "",
-    "website": "/race-pages/halden-bylop.html",
+    "website": "https://www.haldenbylop.no/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
-    "county": null,
     "id": "halden-byløp_20240414_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Velkommen til Halden Byløp! Vi tilbyr løypealternativer for alle aldre, fra 0 km til 10 km, gjennom byens sentrum og på Halden Stadion. Dette er et flott arrangement for hele familien, med aktiviteter og underholdning for både løpere og tilskuere. Besøk vår hjemmeside for mer informasjon, og bli med på en dag med løping og moro!",
-    "website_organizer": "https://www.haldenbylop.no/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240414.",
@@ -547,13 +539,11 @@
     "latitude": 60.1349136,
     "longitude": 11.1637891,
     "organizer": "",
-    "website": "/race-pages/norgestesten.html",
+    "website": "https://www.norgestesten.no/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
-    "county": null,
     "id": "norgestesten_20240414_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Norgestesten 2024 tilbyr distanser for løpere på alle nivåer - nybegynnere eller erfarne. Med 5 km, 10 km og halvmaraton på vei, kan løperne utfordre seg selv i vakker natur. Uansett om du vil slå personlig rekord, trene mot en maraton eller bare nyte å løpe, er dette arrangementet perfekt for deg!",
-    "website_organizer": "https://www.norgestesten.no/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240417",
@@ -568,13 +558,11 @@
     "latitude": 60.39126279999999,
     "longitude": 5.3220544,
     "organizer": "Gular, IL",
-    "website": "/race-pages/bykarusellen-2024-perselop-1-(17.-april-5-&-10-km).html",
+    "website": "http://www.bykarusellen.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Vestland",
     "id": "bykarusellen-2024-perseløp-1-17-april-5-10-km_20240417_httpsliveeqtimingcom",
     "summary": "Bykarusellen avslutter sesongen med et storslått løp 20. september. Til tross for den pågående PLIVO-øvelsen, vil løpet gå som planlagt. Vi tilbyr både 5 km og 10 km distanser på vei. Meld deg på og bli med på denne spennende avslutningen på årets Bykarusellen!",
-    "website_organizer": "http://www.bykarusellen.no/",
-    "new_version": true
+    "county": "Vestland"
   },
   {
     "date": "20240420",
@@ -586,13 +574,11 @@
     "latitude": 59.41358100000001,
     "longitude": 5.267986899999999,
     "organizer": "Haugesund Triatlonklubb",
-    "website": "/race-pages/nordlo-sentrumslopet.html",
+    "website": "http://sentrumslopethaugesund.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Rogaland",
     "id": "nordlo-sentrumsløpet_20240420_httpsliveeqtimingcom",
     "summary": "Bli med på vår årlige løpekonkurranse i hjertet av Norge! Vi har distanser og kategorier for løpere i alle aldre og ferdighetsnivåer, inkludert 5 km, 10 km og halvmaraton, alle på asfalt. Enten du er nybegynner eller erfaren løper, er dette løpet for deg. Meld deg på i dag og nyt en fantastisk løpeopplevelse i vakker natur!",
-    "website_organizer": "http://sentrumslopethaugesund.no/",
-    "new_version": true
+    "county": "Rogaland"
   },
   {
     "date": "20240420",
@@ -607,13 +593,11 @@
     "latitude": 59.9138688,
     "longitude": 10.7522454,
     "organizer": "Kamp/Vestheim IF",
-    "website": "/race-pages/voldslokka-rundt-lop-1.html",
+    "website": "https://voldslokkarundt.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Oslo",
     "id": "voldsløkka-rundt-løp-1_20240420_httpsliveeqtimingcom",
     "summary": "Hei løpere! Bli med på Voldsløkka Rundt, et løp for alle nivåer av løpere. Vi tilbyr en 6 km lang løype rundt Voldsløløkka og et 1 km langt barneløp. Løypa går gjennom variert terreng og lover en utfordrende og morsom opplevelse. Bli med og få hele familien med på en flott dag med løping og aktivitet!",
-    "website_organizer": "https://voldslokkarundt.no/",
-    "new_version": true
+    "county": "Oslo"
   },
   {
     "date": "20240421",
@@ -628,13 +612,11 @@
     "latitude": 59.13299639999999,
     "longitude": 11.3874569,
     "organizer": "Halden IL",
-    "website": "/race-pages/halden-bylop-2024.html",
+    "website": "http://halden-il.idrettenonline.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Viken",
     "id": "halden-byløp-2024_20240421_httpsliveeqtimingcom",
     "summary": "Vi inviterer deg til Halden ILs årlige løp! Dette året vil arrangementet finne sted lørdag 21. mars kl 18:00 på HIL-huset. Løpet er åpent for alle nivåer, med distansene 5 km og 10 km på veier. Vi tilbyr profesjonell organisering, flotte premier og en vennlig atmosfære. Uansett erfaring, ønsker vi deg velkommen til å delta i vårt fantastiske løp. Vi ser frem til å se deg ved startstreken!",
-    "website_organizer": "http://halden-il.idrettenonline.no/",
-    "new_version": true
+    "county": "Viken"
   },
   {
     "date": "20240421",
@@ -649,13 +631,11 @@
     "latitude": 60.32970019999999,
     "longitude": 11.2158667,
     "organizer": "Feiring IL",
-    "website": "/race-pages/perselopet-5km,10km,-halvmaraton,-maraton-og-50km_var.html",
+    "website": "http://www.xn--perselpet-q8a.com/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Viken",
     "id": "perseløpet-5km10km-halvmaraton-maraton-og-50km_vår_20240421_httpsliveeqtimingcom",
     "summary": "Bli med på årets Perseløpet! Vi tilbyr maraton og halvmaraton rundt vår vakre by. Opplev den fantastiske atmosfæren og utfordre deg selv. Dette er løp på veiene du ikke vil gå glipp av!",
-    "website_organizer": "http://www.xn--perselpet-q8a.com/",
-    "new_version": true
+    "county": "Viken"
   },
   {
     "date": "20240421",
@@ -671,13 +651,11 @@
     "latitude": 62.98444929999999,
     "longitude": 6.9705698,
     "organizer": "Molde og Omegn IF",
-    "website": "/race-pages/romsdal-510halv.html",
+    "website": "https://www.romsdal510halv.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Møre og Romsdal",
     "id": "romsdal-510halv_20240421_httpsliveeqtimingcom",
     "summary": "Vi er glade for å kunngjøre at Romsdal løp vil bli holdt i 2024 med løpene inkludert på veiene i Romsdal. Disse inkluderer distansene 5 km, 10 km og halvmaraton. Terminlista vil bli kunngjort senere. Vi ser frem til å ønske løpere velkommen og dele mer informasjon når alt er klart. Det er noe for alle, så utfordre deg selv og velg en distanse som passer for deg!",
-    "website_organizer": "https://www.romsdal510halv.no/",
-    "new_version": true
+    "county": "Møre og Romsdal"
   },
   {
     "date": "20240421",
@@ -691,13 +669,11 @@
     "latitude": 63.28960230000001,
     "longitude": 9.0840689,
     "organizer": "Kyrksæterøra IL",
-    "website": "/race-pages/orasprinten-2024.html",
+    "website": "https://kil.as/34571/2829/36134-27830.html",
     "src_url": "https://live.eqtiming.com",
-    "county": "Trøndelag",
     "id": "ørasprinten-2024_20240421_httpsliveeqtimingcom",
     "summary": "\"Årets Ørasprinten i Knallvær! på Kyrksæterøra var en stor suksess med flott vær, gode prestasjoner og høy trivsel blant deltakerne. Løpere i ulike aldersgrupper og ferdighetsnivåer deltok i veiløpet på 5 km, og opplevde en fantastisk atmosfære. Arrangementet var trygt og velorganisert, og alle deltakerne satte stor pris på innsatsen til arrangørene og frivillige. Vi ser allerede frem til neste års gateløp!\"",
-    "website_organizer": "https://kil.as/34571/2829/36134-27830.html",
-    "new_version": true
+    "county": "Trøndelag"
   },
   {
     "date": "20240421.",
@@ -715,13 +691,11 @@
     "latitude": 59.13299639999999,
     "longitude": 11.3874569,
     "organizer": "",
-    "website": "/race-pages/halden-bylop.html",
+    "website": "https://www.haldenbylop.no/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
-    "county": "Viken",
     "id": "halden-byløp_20240421_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Velkommen til Halden Byløp! Vi tilbyr løyper på 0 km, 1 km, 5 km og 10 km som passer for alle aldre og ferdighetsnivåer. Løpet gir en vakker løpeopplevelse i sentrum av byen, og vi tilbyr også kortere løyper for barn og ungdom på Halden Stadion. Vi holder deg oppdatert gjennom sosiale medier og nettstedet vårt, og ønsker både erfarne løpere og nybegynnere velkommen til en dag med mosjon, mestring og moro. Vi gleder oss til å se deg på løpsdagen!",
-    "website_organizer": "https://www.haldenbylop.no/",
-    "new_version": true
+    "county": "Viken"
   },
   {
     "date": "20240421.",
@@ -737,13 +711,11 @@
     "latitude": 61.56535359999999,
     "longitude": 4.9195228,
     "organizer": "",
-    "website": "/race-pages/floromila-rett-vest.html",
+    "website": "https://www.ahotu.com/event/floromila-rett-vest",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
-    "county": "Vestland",
     "id": "florømila-rett-vest_20240421_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Bli med på Florømila Rett Vest i Flora, Norge den 23. april 2023! Velg mellom tre distanser: 2 km, 5 km og 10 km, alle på vei. Enten du er nybegynner eller erfaren løper, er dette løpet for deg. Meld deg på for en morsom og utfordrende løpeopplevelse! Besøk Ahotu-nettstedet for mer informasjon. Vi håper å se deg der!",
-    "website_organizer": "https://www.ahotu.com/event/floromila-rett-vest",
-    "new_version": true
+    "county": "Vestland"
   },
   {
     "date": "20240423",
@@ -1292,6 +1264,27 @@
     "new_version": true
   },
   {
+    "date": "20240514",
+    "type": "road",
+    "name": "Kanada rundt",
+    "distance": "6 km Aktive, 12 km Aktive, 6 km Trim, 12 km Trim",
+    "distance_m": [
+      6000,
+      12000
+    ],
+    "place": "Sylling, NOR",
+    "latitude": 59.8947884,
+    "longitude": 10.2832073,
+    "organizer": "Sportsklubben Kraft",
+    "website": "/race-pages/kanada-rundt.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "kanada-rundt_20240514_httpsliveeqtimingcom",
+    "summary": "Bli med på den 42. utgaven av Kanada Rundt løpsdagen den 14. mai i Sylling! Dette årlige arrangementet har vært en tradisjon siden 1981, og i år har vi 6 km og 12 km løyper designet for alle erfarne og nybegynnere løpere. Opplev vakre omgivelser og festlig stemning etter løpet. Bli med oss for en fantastisk dag fylt med løpeglede!",
+    "website_organizer": "https://www.kanadarundt.com/",
+    "new_version": true
+  },
+  {
     "date": "20240515",
     "type": "terrain",
     "name": "KM Terrengløp 2024",
@@ -1374,6 +1367,26 @@
     "id": "norgestesten_20240516_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Bli med på Norgestesten 2024 - det eneste Kondis kvalitetsløpet! Velg mellom våre varierte distanser: 5 km, 10 km eller halvmaraton. Løpet vil gå langs veiene i nærområdet, og gir deg vakker natur og spennende løping. Uansett erfaringsnivå, alle er velkomne til å delta i dette uforglemmelige løpet. Kom og opplev den fantastiske atmosfæren sammen med oss!",
     "website_organizer": "https://www.norgestesten.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240523",
+    "type": "road",
+    "name": "Perseløpet 3km 24.mai",
+    "distance": "3km",
+    "distance_m": [
+      3000
+    ],
+    "place": "Ås skole, Hammerås, Eidsvoll, NOR",
+    "latitude": 60.32970019999999,
+    "longitude": 11.2158667,
+    "organizer": "Feiring IL",
+    "website": "/race-pages/perselopet-3km-24.mai.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "perseløpet-3km-24mai_20240523_httpsliveeqtimingcom",
+    "summary": "Bli med på Perseløpet, et spennende løp som finner sted på veiene i vår vakre by. Vi tilbyr en 3 km distanse som passer for løpere i alle aldre og ferdighetsnivåer. Løpet tar deg gjennom byens gater og vil være en fantastisk mulighet til å teste dine ferdigheter og konkurrere med likesinnede. Bli med og opplev den unike atmosfæren av en road race! Vi gleder oss til å ønske løpere velkomne til Perseløpet og er sikre på at det blir en fantastisk dag for alle som deltar.",
+    "website_organizer": "http://www.xn--perselpet-q8a.com/",
     "new_version": true
   },
   {
@@ -1759,6 +1772,27 @@
     "id": "rekordmila-2024_20240602_httpsliveeqtimingcom",
     "summary": "Bli med på vårens raskeste eventyr på Rekordmila 2024 i vakre Oslo! Uansett om du er en erfaren maratonløper eller nybegynner, har vi løyper for alle ferdighetsnivåer. Velg mellom 5 km og 10 km på veiene i Oslo og opplev en fin løpetur med et støttende miljø. Slå personlige rekorder, skap minner og bli med på vårens raskeste eventyr!",
     "website_organizer": "http://rekordmila.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240603",
+    "type": "road",
+    "name": "Gauldalsløpet 2024",
+    "distance": "5 km, 10 km, Barneløp, 2.5 km Mosjon, 5 km mosjon",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Lundamo, NOR",
+    "latitude": 63.1519495,
+    "longitude": 10.2845172,
+    "organizer": "Lundamo IL",
+    "website": "/race-pages/gauldalslopet-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Trøndelag",
+    "id": "gauldalsløpet-2024_20240603_httpsliveeqtimingcom",
+    "summary": "Vi er glade for å invitere deg til Gauldalsløpet 2024 arrangert av Lundamo IL - Friidrett. Bli med på en spennende løpeopplevelse på 5 km eller 10 km distansen i vakre omgivelser. Uansett om du er nybegynner eller erfaren løper, vil dette løpet gi deg en flott mulighet til å utfordre deg selv. Meld deg på innen 03.06.2024 kl 20.00 og bli med på en hyggelig dag med likesinnede deltakere!",
+    "website_organizer": "https://www.lundamoil.no/next/events/p/1000107237/gauldalslopet-2024",
     "new_version": true
   },
   {
