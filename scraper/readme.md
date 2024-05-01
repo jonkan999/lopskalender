@@ -36,3 +36,11 @@ python update_seo_folders.py
 git add --all :!images.json
 git commit -m "adding new races"
 git push
+
+python generate_pages.py
+python update_current_races.py
+python update_main_list.py
+python update_seo_folders.py
+git add --all :!images.json
+git commit -m "adding new races"
+git push

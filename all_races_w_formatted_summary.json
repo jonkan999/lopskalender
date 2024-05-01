@@ -731,13 +731,11 @@
     "latitude": 63.4305149,
     "longitude": 10.3950528,
     "organizer": "Strindheim IL",
-    "website": "/race-pages/tronderjogg-2024.html",
+    "website": "https://www.facebook.com/tronderjogg/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Trøndelag",
     "id": "trønderjogg-2024_20240423_httpsliveeqtimingcom",
     "summary": "Trønderjogg i Trondheim er et populært mosjonsløp som arrangeres 25. april 2023. Løpet inkluderer 5 km, 5 km og 10 km distanser på vei, og passer for løpere i alle aldre og ferdighetsnivåer. Det vil være en flott mulighet til å slå personlige rekorder og nyte en aktiv dag utendørs i vakre Trondheim. Sørg for å ta med venner og familie og bli med på denne spennende løpsdagen!",
-    "website_organizer": "https://www.facebook.com/tronderjogg/",
-    "new_version": true
+    "county": "Trøndelag"
   },
   {
     "date": "20240427",
@@ -752,13 +750,11 @@
     "latitude": 58.3771327,
     "longitude": 8.6768614,
     "organizer": "Idrettslaget Express",
-    "website": "/race-pages/fevik-halvmaraton-&-5km.html",
+    "website": "https://ilexpress.no/2024/01/08/fevik-halvmaraton-og-5-km-med-bornelob-27-april-2024/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Agder",
     "id": "fevik-halvmaraton-5km_20240427_httpsliveeqtimingcom",
     "summary": "Bli med på en spennende løpedag på Fevik stadion lørdag 27. april! Vi arrangerer halvmaraton for 19. gang og Fevik 5 km for tredje gang. Løypa er kontrollmålt, rask og lettløpt, og passer for både erfarne løpere og debutanter. Dette arrangementet er for alle, uansett løpetempo! Vi ønsker å skape en morsom dag for alle deltakere, og vi gleder oss til å se deg på startstreken. Meld deg på i kategorien 5 km eller halvmaraton, og få med deg en uforglemmelig løpsopplevelse!",
-    "website_organizer": "https://ilexpress.no/2024/01/08/fevik-halvmaraton-og-5-km-med-bornelob-27-april-2024/",
-    "new_version": true
+    "county": "Agder"
   },
   {
     "date": "20240427",
@@ -772,13 +768,11 @@
     "latitude": 58.9699756,
     "longitude": 5.7331073,
     "organizer": "IL Skjalg",
-    "website": "/race-pages/siddislopet-den-gule-banken-lopet.html",
+    "website": "https://www.siddislopet.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Rogaland",
     "id": "siddisløpet-den-gule-banken-løpet_20240427_httpsliveeqtimingcom",
     "summary": "Bli med på årets løpsfest Siddisløpet rundt Stokkavannet i Stavanger siste helgen i april! Dette terrengløpet tilbyr en flott utfordring og vakker natur. I år feirer vi 40. gang arrangementet finner sted, og vi har distanser som passer for alle - inkludert 8 km løp og barneløpet Siddisspretten på 600 meter. Bli med og opplev den herlige atmosfæren denne løpsfesten skaper!",
-    "website_organizer": "https://www.siddislopet.no/",
-    "new_version": true
+    "county": "Rogaland"
   },
   {
     "date": "20240427",
@@ -790,13 +784,11 @@
     "latitude": 59.9138688,
     "longitude": 10.7522454,
     "organizer": "Idrottslaget i BUL",
-    "website": "/race-pages/asics-sentrumslopet-2024.html",
+    "website": "https://sentrumslopet.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Oslo",
     "id": "asics-sentrumsløpet-2024_20240427_httpsliveeqtimingcom",
     "summary": "Ta utfordringen og bli med på ASICS Sentrumsløpet! Vi tilbyr 10 km og 5 km distanser for de som vil teste seg på lengre løp, sprintløp for de som foretrekker raskere løp, samt et barneløp. Dette veiløpet tar deg med gjennom byens sentrum og gir deg en unik løpeopplevelse. Meld deg på nå og bli med på denne minneverdige begivenheten!",
-    "website_organizer": "https://sentrumslopet.no/",
-    "new_version": true
+    "county": "Oslo"
   },
   {
     "date": "20240427",
@@ -808,13 +800,11 @@
     "latitude": 60.39126279999999,
     "longitude": 5.3220544,
     "organizer": "Viking, TIF",
-    "website": "/race-pages/fjordkraft-bergen-city-marathon-2024.html",
+    "website": "https://www.bergencitymarathon.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Vestland",
     "id": "fjordkraft-bergen-city-marathon-2024_20240427_httpsliveeqtimingcom",
     "summary": "Bergen City Marathon 2024 er et spektakulært maratonarrangement i vakre omgivelser. Løpet inkluderer hel- og halvmaraton, samt en 10 km og 5 km løype, som passer for løpere på alle ferdighetsnivåer. Veiene vil være stengt for trafikk, og løperne kan nyte en trygg og spennende løpeopplevelse. Bli med på dette eventyret gjennom vår vakre by!",
-    "website_organizer": "https://www.bergencitymarathon.no/",
-    "new_version": true
+    "county": "Vestland"
   },
   {
     "date": "20240427.",
@@ -829,13 +819,11 @@
     "latitude": 58.3421402,
     "longitude": 8.594457000000002,
     "organizer": "",
-    "website": "/race-pages/fevik-halvmaraton-og-5-km.html",
+    "website": "https://ilexpress.no/friidrett/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
-    "county": null,
     "id": "fevik-halvmaraton-og-5-km_20240427_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Bli med på den årlige Friidrett – IL Express løpekonkurransen den 27. april 2024! Arrangementet inkluderer et spennende halvmaraton og en 5 km løype, samt et morsomt børneløp. Løypen vil være på vei og tar deg gjennom vakre Fevik-området. Dette er en perfekt mulighet for alle aldre og ferdigheter til å delta i en flott løpekonkurranse og skape gode minner. Velkommen til en fantastisk dag med løping og sosialt samvær!",
-    "website_organizer": "https://ilexpress.no/friidrett/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240427.",
@@ -852,13 +840,11 @@
     "latitude": 59.984904,
     "longitude": 10.7166776,
     "organizer": "",
-    "website": "/race-pages/asics-sentrumslopet.html",
+    "website": "https://www.sentrumslopet.no/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
-    "county": null,
     "id": "asics-sentrumsløpet_20240427_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Bli med på ASICS Sentrumsløpet, et løp for alle nivåer og aldre! Vi tilbyr fire distanser, inkludert barneløp, 5 km, 10 km og sprint-kategori. Løpet tar deg gjennom byens sentrum, og uansett om du er nybegynner eller erfaren løper, er dette en flott mulighet til å utfordre deg selv og oppleve fellesskapet blant løperne. Meld deg på i dag og bli med på denne fantastiske opplevelsen!",
-    "website_organizer": "https://www.sentrumslopet.no/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240427.",
@@ -875,13 +861,11 @@
     "latitude": 65.4735577,
     "longitude": 12.2077354,
     "organizer": "",
-    "website": "/race-pages/torghatten-maraton.html",
+    "website": "https://www.runagain.com/sv/run/Torghatten_Maraton",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
-    "county": "Nordland",
     "id": "torghatten-maraton_20240427_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Bli med på Torghatten Maraton i den vakre Helgeland skjærgården! Vi tilbyr en spektakulær løpsopplevelse med variert terreng og fantastisk natur. Våre løyper inkluderer 3 km, 10 km, halvmaraton og maraton, og passer for løpere på alle nivåer. Dette løpsarrangementet er veileder godkjent og tilbyr en givende opplevelse for alle. Velkommen til en minneverdig maraton midt i Norge!",
-    "website_organizer": "https://www.runagain.com/sv/run/Torghatten_Maraton",
-    "new_version": true
+    "county": "Nordland"
   },
   {
     "date": "20240428",
@@ -897,13 +881,11 @@
     "latitude": 58.1859872,
     "longitude": 7.919112799999999,
     "organizer": "Kristiansand Løpeklubb",
-    "website": "/race-pages/strailopet.html",
+    "website": "https://www.facebook.com/profile.php?id=61556489063727",
     "src_url": "https://live.eqtiming.com",
-    "county": "Agder",
     "id": "strailøpet_20240428_httpsliveeqtimingcom",
     "summary": "Bli med på Strailøpet i Kristiansand arrangert av Torridal idrettslag! Dette spennende terrengløpet tilbyr løpere i alle aldre og ferdighetsnivåer en vakker og utfordrende løype, med distanser på 1 km, 5 km og 10 km. Uansett erfaring kan alle delta og teste sine styrke og utholdenhet på varierte underlag og høydeforskjeller. Meld deg på og opplev naturen på sitt beste!",
-    "website_organizer": "https://www.facebook.com/profile.php?id=61556489063727",
-    "new_version": true
+    "county": "Agder"
   },
   {
     "date": "20240428",
@@ -917,13 +899,11 @@
     "latitude": 60.330338,
     "longitude": 5.076067099999999,
     "organizer": "Modum Friidrettsklubb",
-    "website": "/race-pages/furumo-terrenglop.html",
+    "website": "https://modumfik.no/?page_id=156",
     "src_url": "https://live.eqtiming.com",
-    "county": "Vestland",
     "id": "furumo-terrengløp_20240428_httpsliveeqtimingcom",
     "summary": "Bli med på vår årlige løpekonkurranse i vakre Norge! Vår terrengløpskonkurranse tilbyr distanser som 3 km, designet for løpere på alle ferdighetsnivåer. Utforsk variert terreng og naturskjønne landskap mens du tester ferdighetene dine. Uansett om du er en erfaren løper eller nybegynner, har vi en kategori for deg. Bli med oss for en morsom og utfordrende løpsopplevelse!",
-    "website_organizer": "https://modumfik.no/?page_id=156",
-    "new_version": true
+    "county": "Vestland"
   },
   {
     "date": "20240430",
@@ -935,13 +915,11 @@
     "latitude": 62.1964945,
     "longitude": 6.1339752,
     "organizer": "Ørsta IL friidrett",
-    "website": "/race-pages/gatelop.html",
+    "website": "https://no.wikipedia.org/wiki/Gatel%C3%B8p",
     "src_url": "https://live.eqtiming.com",
-    "county": "Møre og Romsdal",
     "id": "gateløp_20240430_httpsliveeqtimingcom",
     "summary": "Bli med på vårt spennende Gateløp med distanser på 5 km, 10 km og halvmaraton. Utforsk byens gater og landskap mens du konkurrerer i dette landeveisløpet. Uansett om du er nybegynner eller erfaren løper, har vi en distanse for deg. Meld deg på for en utfordrende og underholdende løpsopplevelse!",
-    "website_organizer": "https://no.wikipedia.org/wiki/Gatel%C3%B8p",
-    "new_version": true
+    "county": "Møre og Romsdal"
   },
   {
     "date": "20240501",
@@ -1345,6 +1323,28 @@
     "id": "norgestesten-løp-2_20240516_httpsliveeqtimingcom",
     "summary": "Bli med på Norgestesten 2024! Dette Kondis-løpet tilbyr 5 km, 10 km og halvmaraton distanser, og passer for alle typer løpere. Opplev vakre landskap langs veiene i Norge og få støtte fra frivillige og tilskuere underveis. Uansett om du er nybegynner eller erfaren, vil Norgestesten gi deg en uforglemmelig løpeopplevelse.",
     "website_organizer": "https://norgestesten.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240516",
+    "type": "road",
+    "name": "16. mai-joggen 2024",
+    "distance": "5 km, 10 km, 3 km, Barneløp",
+    "distance_m": [
+      3000,
+      5000,
+      10000
+    ],
+    "place": "Tverrelvdalen, NOR",
+    "latitude": 69.9453794,
+    "longitude": 23.4060025,
+    "organizer": "Tverrelvdalen IL",
+    "website": "/race-pages/16.-mai-joggen-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Troms og Finnmark",
+    "id": "16-mai-joggen-2024_20240516_httpsliveeqtimingcom",
+    "summary": "Bli med på 16. mai-marsj og løpsfest i Alta kommune, Finnmark den 16. mai 2023! Vi har løpsdistanser på 3 km, 5 km og 10 km på vei, som passer for løpere i alle aldre og evner. Det blir mat, drikke og underholdning, så alle kan ha en flott tid. Vi oppmuntrer alle til å delta for en dag med løping, fellesskap og moro i Tverrelvdalen!",
+    "website_organizer": "https://fb.me/e/40RZeiaxS",
     "new_version": true
   },
   {
@@ -2070,6 +2070,26 @@
   },
   {
     "date": "20240615",
+    "type": "terrain",
+    "name": "Birkebeinerløpet 21km",
+    "distance": "Birkebeinerløpet, HalvBirken løp, UltraBirken løp, Birken Fjellmaraton, Birken 5 km, UngdomsBirken løp, BarneBirken løp",
+    "distance_m": [
+      5000
+    ],
+    "place": "Lillehammer, NOR",
+    "latitude": 61.1152713,
+    "longitude": 10.4662306,
+    "organizer": "Rena IL",
+    "website": "/race-pages/birkebeinerlopet-21km.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Innlandet",
+    "id": "birkebeinerløpet-21km_20240615_httpsliveeqtimingcom",
+    "summary": "Birkebeinerløpet er et terrengløp på 21 km med start på Birkebeineren Skistadion og målgang ved Håkons Hall på Lillehammer. I tillegg til hovedløpet tilbyr vi en 5 km løype for de som ønsker en kortere distanse. Dette løpet er perfekt for løpere som elsker vakker natur og utfordrende terreng. Vi ønsker løpere i alle aldre og ferdighetsnivåer velkommen til å delta i denne vakre og utfordrende løpsopplevelsen. Følg med på vår Instagram-konto for mer informasjon og inspirasjon!",
+    "website_organizer": "https://sjusjoenopplevelser.no/tur/birkebeinerlopet-21-km/",
+    "new_version": true
+  },
+  {
+    "date": "20240615",
     "type": "road",
     "name": "Arnarsonmila 2024",
     "distance": "Arnarsonmila 10 km",
@@ -2317,6 +2337,28 @@
     "id": "norgestesten_20240625_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på Norgestesten 2024 - et sertifisert Kondis kvalitetsløp med 5 km, 10 km og halvmaraton distanser. Vårt løp gir løpere på alle nivåer en uforglemmelig opplevelse på veier som passer perfekt for løping. Vi ønsker å skape en positiv og inkluderende atmosfære der alle kan oppnå personlige mål. Bli med oss for en dag med sunn konkurranse, fellesskap og utrolige løpeopplevelser!",
     "website_organizer": "https://www.norgestesten.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240628",
+    "type": "road",
+    "name": "Perseløpet  ultra",
+    "distance": "50km, 100km, Maraton",
+    "distance_m": [
+      42195,
+      50000,
+      100000
+    ],
+    "place": "Ås skole, Hammerås, Eidsvoll, NOR",
+    "latitude": 60.32970019999999,
+    "longitude": 11.2158667,
+    "organizer": "Feiring IL",
+    "website": "/race-pages/perselopet-ultra.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "perseløpet-ultra_20240628_httpsliveeqtimingcom",
+    "summary": "Bli med på Perseløpet, et årlig løp med maraton, ultramaraton og halvmaraton distanser. Uansett om du er en erfaren løper eller nybegynner, har vi noe for deg. Løpet foregår på vei, så du kan forvente jevnt underlag for maksimal ytelse. Meld deg på i dag for en minneverdig løpeopplevelse!",
+    "website_organizer": "http://www.xn--perselpet-q8a.com/",
     "new_version": true
   },
   {
@@ -2700,6 +2742,26 @@
     "id": "milæ_20240810_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "\"Bli med på vårt årlige løpsarrangement! Alle nivåer og aldre er velkommen til å delta i våre 0 km, 5 km og 10 km veiløp. Løypen gir nydelig utsikt over naturen og er designet for å utfordre alle løpere. Vi tilbyr assistanse under løpet og ser frem til å se samfunnet konkurrere i denne morsomme og spennende begivenheten. Vi sees ved startstreken!\"",
     "website_organizer": "https://signup.eqtiming.com/?Event=vkbil",
+    "new_version": true
+  },
+  {
+    "date": "20240817",
+    "type": "road",
+    "name": "Fløymila 2024",
+    "distance": "Fløymila, Fløy 5 km, Barneløpet, Dobbel",
+    "distance_m": [
+      5000
+    ],
+    "place": "Flekkerøy, NOR",
+    "latitude": 58.0692274,
+    "longitude": 7.9939876,
+    "organizer": "Flekkerøy Løpeklubb",
+    "website": "/race-pages/floymila-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Agder",
+    "id": "fløymila-2024_20240817_httpsliveeqtimingcom",
+    "summary": "Bli med på Fløymila - et populært mosjonsløp på Flekkerøy med 5 km løype for de som elsker road races! Uansett om du er erfaren løper eller nybegynner, er dette en flott mulighet til å sette nye personlige rekorder og nyte den gode følelsen av å krysse mållinjen. Meld deg på i dag og få en minnerik løpeopplevelse!",
+    "website_organizer": "https://www.facebook.com/floymila",
     "new_version": true
   },
   {
