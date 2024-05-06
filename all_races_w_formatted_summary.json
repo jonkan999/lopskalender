@@ -931,13 +931,11 @@
     "latitude": 0,
     "longitude": 0,
     "organizer": "Idrettslaget Ulfstind",
-    "website": "/race-pages/ulfstindmila.html",
+    "website": "https://www.facebook.com/264672513635412/posts/resultat-fra-ulfstindmila/1741408489295133/",
     "src_url": "https://live.eqtiming.com",
-    "county": null,
     "id": "ulfstindmila_20240501_httpsliveeqtimingcom",
     "summary": "Takk for deltakelsen i årets Ulfstindmila! Vi hadde flotte løyper på 5 km og 10 km gjennom vakre omgivelser. Fra ivrige nybegynnere til erfarne løpere, vi så imponerende styrke og utholdenhet. Tusen takk til alle deltakere, frivillige og støttespillere for å gjøre arrangementet til en suksess. Vi gleder oss til å se dere igjen neste år!",
-    "website_organizer": "https://www.facebook.com/264672513635412/posts/resultat-fra-ulfstindmila/1741408489295133/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240501",
@@ -951,13 +949,11 @@
     "latitude": 60.4577642,
     "longitude": 12.0604581,
     "organizer": "Grue IL",
-    "website": "/race-pages/grue-halvmaraton.html",
+    "website": "https://gruehalvmaraton.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Innlandet",
     "id": "grue-halvmaraton_20240501_httpsliveeqtimingcom",
     "summary": "Kom og bli med på Norges raskeste halvmaratontrasé i Grue kommune den 1. mai 2024! Vårt løp gir deg en spennende og utfordrende rute gjennom vakker natur. Dessverre er halvmaraton og 10 km allerede utsolgt, og vi har ingen venteliste tilgjengelig. Start treningen og gjør deg klar for en uforglemmelig opplevelse på veien!",
-    "website_organizer": "https://gruehalvmaraton.no/",
-    "new_version": true
+    "county": "Innlandet"
   },
   {
     "date": "20240501",
@@ -969,13 +965,11 @@
     "latitude": 68.873836,
     "longitude": 17.841933,
     "organizer": "Salangen IF - Friidrett",
-    "website": "/race-pages/strandlopet.html",
+    "website": "https://www.facebook.com/events/salangshallen/strandl%C3%B8pet/2772397499711032/?locale=da_DK",
     "src_url": "https://live.eqtiming.com",
-    "county": "Troms og Finnmark",
     "id": "strandløpet_20240501_httpsliveeqtimingcom",
     "summary": "Bli med på årets Strandløpet i Sjøvegan, Troms! Dette spennende løpet finner sted den 23. september 2020 og tilbyr både en 5 km og 10 km løype, perfekt for løpere på alle nivåer. Løpet foregår på asfaltveiene i området, og gir deltakerne en flott mulighet til å nyte naturen mens de konkurrerer. Bli med for en uforglemmelig løpeopplevelse i vakre omgivelser!",
-    "website_organizer": "https://www.facebook.com/events/salangshallen/strandl%C3%B8pet/2772397499711032/?locale=da_DK",
-    "new_version": true
+    "county": "Troms og Finnmark"
   },
   {
     "date": "20240501.",
@@ -992,13 +986,11 @@
     "latitude": 60.4490066,
     "longitude": 12.1271282,
     "organizer": "",
-    "website": "/race-pages/grue-halvmaraton.html",
+    "website": "https://gruehalvmaraton.no/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
-    "county": null,
     "id": "grue-halvmaraton_20240501_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Grue Halvmaraton er Norges raskeste veisløp og et av de mest populære løpene i landet. Vår neste løp vil finne sted 1. mai 2024, og vil tiltrekke seg løpere fra hele Norge og internasjonalt. Velg blant 1 km, 5 km, 10 km og halvmaraton. Løypen er designet for å gi en rask og utfordrende opplevelse med flotte veier og vakker natur. Påmelding er åpen for 10 km løpet. Bli med på dette spennende løpet og opplev den fantastiske atmosfæren og støtten fra andre løpere! Vi ser frem til å ønske deg velkommen til Grue Halvmaraton 2024!",
-    "website_organizer": "https://gruehalvmaraton.no/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240504",
@@ -1014,13 +1006,11 @@
     "latitude": 59.7806971,
     "longitude": 5.500206500000001,
     "organizer": "Stord IL",
-    "website": "/race-pages/sunnhordland-lopsfest-2024.html",
+    "website": "https://www.sunnhordlandmaraton.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Vestland",
     "id": "sunnhordland-løpsfest-2024_20240504_httpsliveeqtimingcom",
     "summary": "Bli med på Sunnhordland maraton 2024 lørdag 4. mai og delta i halvmaraton, 10 km, eller 5 km løp i vakre Leirvik sentrum. Arrangementet har også et barneløp for de yngste. Opplev den vakre naturen i Sunnhordland mens du utfordrer deg selv i en trygg og profesjonell setting.",
-    "website_organizer": "https://www.sunnhordlandmaraton.no/",
-    "new_version": true
+    "county": "Vestland"
   },
   {
     "date": "20240504.",
@@ -1036,13 +1026,11 @@
     "latitude": 58.4285861,
     "longitude": 8.2152344,
     "organizer": "",
-    "website": "/race-pages/steinsland-bygdemaraton.html",
+    "website": "https://oggerondt.org/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
-    "county": null,
     "id": "steinsland-bygdemaraton_20240504_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Hei løpere! Bli med på Steinlsand Bygdemaraton og opplev vakre omgivelser og utfordrende løypealternativer. Vi tilbyr distanser for alle nivåer, fra 10 km-løp til halvmaraton og maraton. Ta del i et veimaraton som tar deg gjennom småbyer, skog og langs kysten. Uansett om det er din første gang eller om du er en erfaren maratonløper, vil vi skape en minneverdig dag for deg. Kom og bli med oss på startstreken!",
-    "website_organizer": "https://oggerondt.org/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240504.",
@@ -1058,13 +1046,11 @@
     "latitude": 60.3003945,
     "longitude": 9.9808541,
     "organizer": "",
-    "website": "/race-pages/schjongs5ern.html",
+    "website": "https://www.facebook.com/femmern",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
-    "county": null,
     "id": "schjongs5ern_20240504_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Bli med på Schjongs5er'n arranger av Foreningen Schjongsløpene! Deltakere i alle aldre kan glede seg til å konkurrere i både 1 km, 10 km og 5 km løyper på vei. Dette er en flott mulighet for erfarne løpere og nybegynnere til å utfordre seg selv og oppleve en flott løpeopplevelse sammen med andre. Etter løpet er det mat, drikke og underholdning for alle. Velkommen til et hyggelig løpearrangement!",
-    "website_organizer": "https://www.facebook.com/femmern",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240507",
@@ -1793,6 +1779,27 @@
     "id": "gauldalsløpet-2024_20240603_httpsliveeqtimingcom",
     "summary": "Vi er glade for å invitere deg til Gauldalsløpet 2024 arrangert av Lundamo IL - Friidrett. Bli med på en spennende løpeopplevelse på 5 km eller 10 km distansen i vakre omgivelser. Uansett om du er nybegynner eller erfaren løper, vil dette løpet gi deg en flott mulighet til å utfordre deg selv. Meld deg på innen 03.06.2024 kl 20.00 og bli med på en hyggelig dag med likesinnede deltakere!",
     "website_organizer": "https://www.lundamoil.no/next/events/p/1000107237/gauldalslopet-2024",
+    "new_version": true
+  },
+  {
+    "date": "20240603.",
+    "type": "road",
+    "name": "Head Energy Sommerkarusellen - 1. løp",
+    "distance": "5 km, 10 km",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Bergen, Vestland",
+    "latitude": 60.39126279999999,
+    "longitude": 5.3220544,
+    "organizer": "",
+    "website": "/race-pages/head-energy-sommerkarusellen-1.-lop.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+    "county": "Vestland",
+    "id": "head-energy-sommerkarusellen-1-løp_20240603_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+    "summary": "Bli med på vårt årlige landeveisløp! Vi inviterer løpere i alle aldre og ferdighetsnivåer til å delta i vår 5 km og 10 km løp. Dette arrangementet feirer fellesskapet og fremmer sunn livsstil. Uansett om du er erfaren eller nybegynner, vil vi gi deg en trygg og spennende opplevelse. Ta med familie og venner og bli med på dette løpet for å skape flotte minner og nye mål! Vi gleder oss til å se deg ved startlinjen!",
+    "website_organizer": "http://www.gneist.org/sommerkarusellen/",
     "new_version": true
   },
   {
