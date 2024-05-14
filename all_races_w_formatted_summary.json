@@ -1062,13 +1062,11 @@
     "latitude": 63.4305149,
     "longitude": 10.3950528,
     "organizer": "Freidig",
-    "website": "/race-pages/tordenskioldslopet-2024.html",
+    "website": "https://allevents.in/trondheim/tordenskioldl%C3%B8pet-2024/200024725411125",
     "src_url": "https://live.eqtiming.com",
-    "county": "Trøndelag",
     "id": "tordenskioldsløpet-2024_20240507_httpsliveeqtimingcom",
     "summary": "Bli med på Tordenskioldløpet 2024 den 7. mai på Lade idrettsanlegg i Trondheim! Vi har løpskategorier for alle nivåer, inkludert 5 km, 10 km og halvmaraton, alt på veiene rundt Trondheim. Registrer deg nå for en minneverdig opplevelse på veien!",
-    "website_organizer": "https://allevents.in/trondheim/tordenskioldl%C3%B8pet-2024/200024725411125",
-    "new_version": true
+    "county": "Trøndelag"
   },
   {
     "date": "20240509",
@@ -1080,13 +1078,11 @@
     "latitude": 0,
     "longitude": 0,
     "organizer": null,
-    "website": "/race-pages/land-lopskarusell-2-2024.html",
+    "website": "https://www.eqtiming.com/",
     "src_url": "https://live.eqtiming.com",
-    "county": null,
     "id": "land-løpskarusell-2-2024_20240509_httpsliveeqtimingcom",
     "summary": "Velkommen til årets løpekonkurranse! Vi inviterer løpere i alle aldre og evner til å delta i vår spennende hendelse. Vi tilbyr distanser som inkluderer 5K, 10K og halvmaratonløp. Dette løpet passer for alle, enten du er nybegynner eller erfaren løper. Det vil være en fantastisk dag med fysisk aktivitet, fellesskap og konkurranse. Meld deg på i dag og bli med på dette fantastiske løpseventyret!",
-    "website_organizer": "https://www.eqtiming.com/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240509",
@@ -1100,13 +1096,11 @@
     "latitude": 60.32970019999999,
     "longitude": 11.2158667,
     "organizer": "Feiring IL",
-    "website": "/race-pages/perselopet-5km,-10km,-halvmaraton-9.mai.html",
+    "website": "http://www.xn--perselpet-q8a.com/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Viken",
     "id": "perseløpet-5km-10km-halvmaraton-9mai_20240509_httpsliveeqtimingcom",
     "summary": "Bli med på Perseløpet, et spennende vei-løp for løpere på alle nivåer. Vi tilbyr en halvmaraton-distansen, perfekt for de som ønsker å teste sin utholdenhet i vakre omgivelser. Uansett om du er erfaren eller nybegynner, så er dette løpet for deg. Kle deg riktig, fyll opp vannflasken, og bli med på Perseløpet!",
-    "website_organizer": "http://www.xn--perselpet-q8a.com/",
-    "new_version": true
+    "county": "Viken"
   },
   {
     "date": "20240509",
@@ -1121,13 +1115,11 @@
     "latitude": 60.4654542,
     "longitude": 5.3234055,
     "organizer": "Norna-Salhus IL",
-    "website": "/race-pages/asanelopet-2024.html",
+    "website": "https://asanelopet.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Vestland",
     "id": "åsaneløpet-2024_20240509_httpsliveeqtimingcom",
     "summary": "Velkommen til vårt årlige løpsarrangement! Vi tilbyr to spennende løpealternativer på 5 km og 10 km veiløp. Vår rute går langs flotte veier og vil gi deltakerne en fantastisk mulighet til å sette nye personlige rekorder. Sikkerheten til deltakerne er vår høyeste prioritet, og vi ønsker å skape en positiv atmosfære for alle uavhengig av ferdighetsnivå. Meld deg på og bli med oss for en flott løpsopplevelse!",
-    "website_organizer": "https://asanelopet.no/",
-    "new_version": true
+    "county": "Vestland"
   },
   {
     "date": "20240509",
@@ -1139,13 +1131,11 @@
     "latitude": 64.4662906,
     "longitude": 11.4955928,
     "organizer": "Namdal løpeklubb",
-    "website": "/race-pages/brurunden-kjell-halvarssons-minnelop-2024.html",
+    "website": "https://www.namdal-lopeklubb.no/kjell-halvorsons-minnelop",
     "src_url": "https://live.eqtiming.com",
-    "county": "Trøndelag",
     "id": "brurunden-kjell-halvarssons-minneløp-2024_20240509_httpsliveeqtimingcom",
     "summary": "Kjell Halvarssons minneløp arrangeres av Namdal Løpeklubb og er dedikert til minnet om Kjell Halvarsson, en lidenskapelig løper i Namdal. Løpet inkluderer distanser fra 5 km til halvmaraton, og konkurransen vil foregå på veier som tar løperne gjennom den vakre naturen i Namdal. Alle aldre og ferdighetsnivåer er velkomne til dette arrangementet som fremmer fellesskap, helse og lidenskapen for løping.",
-    "website_organizer": "https://www.namdal-lopeklubb.no/kjell-halvorsons-minnelop",
-    "new_version": true
+    "county": "Trøndelag"
   },
   {
     "date": "20240509.",
@@ -1161,13 +1151,11 @@
     "latitude": 60.39126279999999,
     "longitude": 5.3220544,
     "organizer": "",
-    "website": "/race-pages/asanelopet.html",
+    "website": "http://asanelopet.no/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
-    "county": null,
     "id": "åsaneløpet_20240509_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Bli med pÃ¥ Ã…sanelÃ¸pet, et familievennlig mosjonslÃ¸p i Ãsane! Vi tilbyr distanser pÃ¥ 5 km og 10 km, samt et barnelÃ¸p for de minste. Dette er en skikkelig lÃ¸psfest pÃ¥ veiene i Ãsane, perfekt for bÃ¥de nybegynnere og erfarne lÃ¸pere. FÃ¸lg oss pÃ¥ sosiale medier for oppdateringer og meld deg pÃ¥ for en minneverdig lÃ¸peopplevelse!",
-    "website_organizer": "http://asanelopet.no/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240511",
@@ -1179,13 +1167,11 @@
     "latitude": 58.0692274,
     "longitude": 7.9939876,
     "organizer": "Flekkerøy Løpeklubb",
-    "website": "/race-pages/4625lopet.html",
+    "website": "http://4625lopet.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Agder",
     "id": "4625løpet_20240511_httpsliveeqtimingcom",
     "summary": "Bli med på 4625lopet og velg mellom ulike distanser som passer for alle! Vi tilbyr barneløp, 5 km, 10 km og halvmaraton på veiene våre. Dette er en flott mulighet til å oppleve byen vår på en ny måte. Uansett om du er nybegynner eller erfaren løper, vil du finne en rute som passer for deg. Meld deg på og delta i denne inkluderende og inspirerende løpeopplevelsen!",
-    "website_organizer": "http://4625lopet.no/",
-    "new_version": true
+    "county": "Agder"
   },
   {
     "date": "20240511",
@@ -1199,13 +1185,11 @@
     "latitude": 70.1986934,
     "longitude": 28.1918712,
     "organizer": "Sirma IL",
-    "website": "/race-pages/varslipplopet-2024.html",
+    "website": "https://www.vasaloppet.se/nyheter/vasaloppets-vintervecka-2024-en-snabbguide-lopp-for-lopp/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Troms og Finnmark",
     "id": "vårslippløpet-2024_20240511_httpsliveeqtimingcom",
     "summary": "Bli med på Vasaloppets vinteruke 2024! Velg blant 14 spennende løp som alle ender ved Vasaloppets målportal i Mora, inkludert det 100. Vasaloppet. Dette inkluderer Barnens Vasalopp for de som er 3-10 år og Hemmavasan for de som vil løpe hjemme. Vi tilbyr løp for alle nivåer og aldre, fra 5 km for mosjonister og nybegynnere til lengre løp for erfarne løpere. Uansett ferdighetsnivå, er det et løp for deg! Ta utfordringen og opplev den unike atmosfæren i Vasaloppets vinteruke. Meld deg på nå!",
-    "website_organizer": "https://www.vasaloppet.se/nyheter/vasaloppets-vintervecka-2024-en-snabbguide-lopp-for-lopp/",
-    "new_version": true
+    "county": "Troms og Finnmark"
   },
   {
     "date": "20240514",
@@ -2916,6 +2900,27 @@
     "new_version": true
   },
   {
+    "date": "20240824",
+    "type": "road",
+    "name": "Drøbakløpet 2024",
+    "distance": "Drøbakløpet 10km, Drøbakløpet 5km, Barneløpet",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Drøbak, NOR",
+    "latitude": 59.6633327,
+    "longitude": 10.6307414,
+    "organizer": "Drøbak-Frogn IL",
+    "website": "/race-pages/drobaklopet-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "drøbakløpet-2024_20240824_httpsliveeqtimingcom",
+    "summary": "Bli med på det første Drøbakløpet den 24. august arrangert av DFI! Vi ønsker løpere i alle kategorier velkommen til å løpe 5 km eller 10 km på vei. Bli med uansett om du er erfaren eller nybegynner, og være en del av det inkluderende og vennlige løpemiljøet vårt i vakre Drøbak. Vi gleder oss til å se deg starte løpet med stil!",
+    "website_organizer": "https://drobaklopet.no/",
+    "new_version": true
+  },
+  {
     "date": "20240824.",
     "type": "road",
     "name": "Mandalsmaraton",
@@ -2935,6 +2940,26 @@
     "id": "mandalsmaraton_20240824_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på Mandalsmaraton den 24.08.2024! Opplev Norges sydligste og nest eldste maraton i vakre omgivelser. Vi tilbyr løypedistanser for alle, inkludert 10 km, halvmaraton og maraton. Uansett erfaring eller mål, er alle velkomne til å delta på dette fellesskapsløpet. Løpet tar deg gjennom sentrumsgatene og Furulunden friområde, med musikk og engasjert publikum for en fantastisk løpsopplevelse på landeveien.",
     "website_organizer": "https://mandalsmaraton.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240825",
+    "type": "terrain",
+    "name": "Disirunden",
+    "distance": "10 km Langløype",
+    "distance_m": [
+      10000
+    ],
+    "place": "2114 Disenå, NOR",
+    "latitude": 60.2066675,
+    "longitude": 11.6415677,
+    "organizer": "Disenå Idrettslag",
+    "website": "/race-pages/disirunden.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Innlandet",
+    "id": "disirunden_20240825_httpsliveeqtimingcom",
+    "summary": "Velkommen til vår årlige 10 km terrengløp! Dette løpet er en flott mulighet for erfarne og nybegynnere til å prøve seg på en krevende, men vakker løype. Vi oppfordrer deltakere til å sette seg realistiske mål og forberede seg grundig. Premier vil bli gitt til de raskeste løperne i hver kategori. Vi ser frem til å ønske dere velkommen!",
+    "website_organizer": "https://m.facebook.com/permalink.php?story_fbid=5533230856740622&id=162704403793321",
     "new_version": true
   },
   {
