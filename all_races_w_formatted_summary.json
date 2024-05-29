@@ -1337,13 +1337,11 @@
     "latitude": 0,
     "longitude": 0,
     "organizer": "Sturla IF",
-    "website": "/race-pages/markakarusellen-5-km-(forste)-var-24.html",
+    "website": "http://ski.sturla.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": null,
     "id": "markakarusellen-5-km-første-vår-24_20240521_httpsliveeqtimingcom",
     "summary": "Bli med på skirenn for barneskoleelever arrangert av Sturla IF! Vi inviterer 2.-4. klassinger til å delta i skitrening hver torsdag fra uke 41. Startdato er torsdag 13. oktober på Spiralen. Det vil være en 5 km terrengløype tilgjengelig under markakarusellen, egnet for alle nivåer. Vi oppfordrer alle barneskoleelever med interesse for langrenn til å melde seg på og være med på dette spennende skirennet.",
-    "website_organizer": "http://ski.sturla.no/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240523",
@@ -1357,13 +1355,11 @@
     "latitude": 60.32970019999999,
     "longitude": 11.2158667,
     "organizer": "Feiring IL",
-    "website": "/race-pages/perselopet-3km-24.mai.html",
+    "website": "http://www.xn--perselpet-q8a.com/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Viken",
     "id": "perseløpet-3km-24mai_20240523_httpsliveeqtimingcom",
     "summary": "Bli med på Perseløpet, et spennende løp som finner sted på veiene i vår vakre by. Vi tilbyr en 3 km distanse som passer for løpere i alle aldre og ferdighetsnivåer. Løpet tar deg gjennom byens gater og vil være en fantastisk mulighet til å teste dine ferdigheter og konkurrere med likesinnede. Bli med og opplev den unike atmosfæren av en road race! Vi gleder oss til å ønske løpere velkomne til Perseløpet og er sikre på at det blir en fantastisk dag for alle som deltar.",
-    "website_organizer": "http://www.xn--perselpet-q8a.com/",
-    "new_version": true
+    "county": "Viken"
   },
   {
     "date": "20240525",
@@ -1375,13 +1371,11 @@
     "latitude": 0,
     "longitude": 0,
     "organizer": null,
-    "website": "/race-pages/graabeinlopet.html",
+    "website": "https://www.graabeinloepet.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": null,
     "id": "graabeinløpet_20240525_httpsliveeqtimingcom",
     "summary": "Bli med på HJEM - graabeinloepet.no! Dette spennende løpet tar deg med på en eventyrlig reise gjennom vakre landskap på veiene i Norge. Vi tilbyr løypealternativer fra 5k til halvmaraton, perfekt for både erfarne løpere og nybegynnere. Opplev gleden ved å løpe på vei og utfordre deg selv mens du nyter det vakre landskapet. Velkommen til en fantastisk løpsdag!",
-    "website_organizer": "https://www.graabeinloepet.no/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240525",
@@ -1393,13 +1387,11 @@
     "latitude": 58.3280356,
     "longitude": 8.2320685,
     "organizer": "Birkenes IL",
-    "website": "/race-pages/nm-halvmaraton.html",
+    "website": "https://bylopet.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Agder",
     "id": "nm-halvmaraton_20240525_httpsliveeqtimingcom",
     "summary": "Velkommen til BYLØPET i Skien sentrum den 1. juni 2024! Alle løpere, uansett nivå, er invitert til å delta på dette spennende veisløpet. Vi tilbyr distanser på 5 km, 10 km og halvmaraton, og legger vekt på trygghet og en hyggelig opplevelse. Bli med og opplev den lokale kulturen og atmosfæren mens du konkurrerer på veiene rundt Skien!",
-    "website_organizer": "https://bylopet.no/",
-    "new_version": true
+    "county": "Agder"
   },
   {
     "date": "20240525",
@@ -1414,13 +1406,11 @@
     "latitude": 59.9138688,
     "longitude": 10.7522454,
     "organizer": "Kamp/Vestheim IF",
-    "website": "/race-pages/voldslokka-rundt-lop-2.html",
+    "website": "https://voldslokkarundt.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Oslo",
     "id": "voldsløkka-rundt-løp-2_20240525_httpsliveeqtimingcom",
     "summary": "Bli med på Voldsløkka Rundt 2024! Et spennende løp for alle aldre med en variert 6 km løype. Vi har også et 1 km barneløp for de yngste løperne. Opplev en dag fylt med løping og fellesskap i spennende terreng rundt Voldsløkka.",
-    "website_organizer": "https://voldslokkarundt.no/",
-    "new_version": true
+    "county": "Oslo"
   },
   {
     "date": "20240525",
@@ -1435,13 +1425,11 @@
     "latitude": 60.39319579999999,
     "longitude": 5.339618,
     "organizer": "Strindheim IL",
-    "website": "/race-pages/nidaros-lopefest-2024.html",
+    "website": "https://nidaroslopefest.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Vestland",
     "id": "nidaros-løpefest-2024_20240525_httpsliveeqtimingcom",
     "summary": "Bli med på Nidaros Løpefest den 3. juni 2023! Vi tilbyr et spennende 10 km gateløp for erfarne løpere, samt et 5 km løp perfekt for nybegynnere. Begge løpene vil ta deg gjennom de vakre gatene i Trondheim, og det vil være en flott måte å oppleve byen på. Dette veiløpet har en flott atmosfære og god støtte langs løypa. Meld deg på i dag og vær med på denne spennende begivenheten!",
-    "website_organizer": "https://nidaroslopefest.no/",
-    "new_version": true
+    "county": "Vestland"
   },
   {
     "date": "20240525",
@@ -1455,13 +1443,11 @@
     "latitude": 62.3004178,
     "longitude": 6.0821867,
     "organizer": "Ørsta IL",
-    "website": "/race-pages/sparebank-1-vartdalsstranda-halvmaraton-2024.html",
+    "website": "https://m.facebook.com/story.php/?story_fbid=673413738304274&id=100069069616672",
     "src_url": "https://live.eqtiming.com",
-    "county": "Møre og Romsdal",
     "id": "sparebank-1-vartdalsstranda-halvmaraton-2024_20240525_httpsliveeqtimingcom",
     "summary": "Velkommen til årets løp i vår vakre by! Vi er glade for å kunngjøre at årets løp vil inkludere en 10 km distanse langs veiene i byen. Løpet starter og avsluttes på byens torg, og løperne vil oppleve vakker arkitektur og natur underveis. Meld deg på enten du er erfaren eller nybegynner løper - vi ønsker å fremme fellesskap og fysisk aktivitet. Vi ser frem til å se deg ved startstreken!",
-    "website_organizer": "https://m.facebook.com/story.php/?story_fbid=673413738304274&id=100069069616672",
-    "new_version": true
+    "county": "Møre og Romsdal"
   },
   {
     "date": "20240525.",
@@ -1478,13 +1464,11 @@
     "latitude": 59.1313095,
     "longitude": 10.2165948,
     "organizer": "",
-    "website": "/race-pages/sandefjordslopet.html",
+    "website": "https://www.sandefjordslopet.no/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
-    "county": "Vestfold og Telemark",
     "id": "sandefjordsløpet_20240525_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på Sandefjordsløpet lørdag 25. mai 2024! Løpet er åpent for alle nivåer og vi tilbyr distansene 5 km og 10 km. Løypa tar deg gjennom de vakre gatene i Sandefjord, og uansett om du er nybegynner eller erfaren løper, er dette en flott mulighet til å utfordre deg selv og nyte den herlige atmosfæren. Bli med og opplev den støttende oppmuntringen fra tilskuerne og følelsen av å krysse mållinjen etter en flott løpeopplevelse!",
-    "website_organizer": "https://www.sandefjordslopet.no/",
-    "new_version": true
+    "county": "Vestfold og Telemark"
   },
   {
     "date": "20240525.",
@@ -1499,13 +1483,11 @@
     "latitude": 65.3076968,
     "longitude": 12.1671958,
     "organizer": "",
-    "website": "/race-pages/somnamile.html",
+    "website": "https://www.somnamile.no/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
-    "county": null,
     "id": "sømnamile_20240525_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Bli med på Sømnamile, Norges vakreste løpekonkurranse! Vi har to distanser å velge mellom - 5 km og 10 km - og begge tar deg gjennom vakker natur og utfordrende terreng langs kysten på Helgeland. Dette er en rask og spennende løype, perfekt for løpere i alle kategorier. Skynd deg å melde deg på og bli med på denne minneverdige arrangementet!",
-    "website_organizer": "https://www.somnamile.no/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240526",
@@ -1519,13 +1501,11 @@
     "latitude": 60.65260079999999,
     "longitude": 10.9355468,
     "organizer": "Skreia IL",
-    "website": "/race-pages/totenvikalopet-2024.html",
+    "website": "https://www.facebook.com/totenvikalopet",
     "src_url": "https://live.eqtiming.com",
-    "county": "Innlandet",
     "id": "totenvikaløpet-2024_20240526_httpsliveeqtimingcom",
     "summary": "Bli med på det populære Totenvikaløpet i Skreia! Løpet tiltrekker løpere på alle nivåer og byr på en flott utsikt mot Mjøsa. Vi tilbyr flere distanser, inkludert 10 km, slik at alle kan finne en utfordring som passer. Dette terrengløpet passer for folk som liker fart og spenning, og ønsker å teste utholdenheten sin. Bli med og sett deg nye mål i vakre omgivelser!",
-    "website_organizer": "https://www.facebook.com/totenvikalopet",
-    "new_version": true
+    "county": "Innlandet"
   },
   {
     "date": "20240526.",
@@ -1539,13 +1519,11 @@
     "latitude": 59.984904,
     "longitude": 10.7166776,
     "organizer": "",
-    "website": "/race-pages/grefsenkollen-opp.html",
+    "website": "https://www.grefsenkollenopp.no/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
-    "county": null,
     "id": "grefsenkollen-opp_20240526_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Kom bli med på Grefsenkollen opp i Oslo i 2024! Dette spennende motbakkeløpet har distanser for alle, inkludert 4 km. Løpet er perfekt for å teste styrke og utholdenhet på veiene opp til Grefsenkollen. Bli med enten du er nybegynner eller erfaren løper, og opplev en flott dag med konkurranse og fellesskap med fantastisk utsikt over Oslo fra toppen av kollen.",
-    "website_organizer": "https://www.grefsenkollenopp.no/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240529",
@@ -1583,6 +1561,28 @@
     "id": "bykarusellen-2024-perseløp-2-24-mai-5-km_20240529_httpsliveeqtimingcom",
     "summary": "Bykarusellen siste løp går som planlagt den 20. september med ulike kategorier/distanser inkludert 5 km-løp, 10 km-løp og barneløp. Løpet vil foregå på veier og veier langs ruten. Vi håper å se mange ivrige løpere og ønsker alle deltakerne lykke til!",
     "website_organizer": "http://www.bykarusellen.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240529",
+    "type": "road",
+    "name": "Dalajoggen vår 2024",
+    "distance": "5 km, 10 km, 3 km, Barneløp",
+    "distance_m": [
+      3000,
+      5000,
+      10000
+    ],
+    "place": "Tverrelvdalen, NOR",
+    "latitude": 69.9453794,
+    "longitude": 23.4060025,
+    "organizer": "Tverrelvdalen IL",
+    "website": "/race-pages/dalajoggen-var-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Troms og Finnmark",
+    "id": "dalajoggen-vår-2024_20240529_httpsliveeqtimingcom",
+    "summary": "Hei løpere! Bli med på 16. mai-løpsfesten vår i Alta kommune, Finnmark. Vi inviterer deg til å delta i 3 km, 5 km eller 10 km vei-løp. Uansett erfaring - det er en kategori for deg. Ta med familie og venner og bli med på denne festlige dagen. Vi gleder oss til å se deg på startlinjen!",
+    "website_organizer": "https://fb.me/e/40RZeiaxS",
     "new_version": true
   },
   {
@@ -1878,6 +1878,28 @@
     "new_version": true
   },
   {
+    "date": "20240606",
+    "type": "terrain",
+    "name": "Gaular Løpskarusell, Langeland, 6. juni 2024",
+    "distance": "Barneløp t.o.m 12 år, 3 km, 5 km, 10 km (2 x 5 km)",
+    "distance_m": [
+      3000,
+      5000,
+      10000
+    ],
+    "place": "Lan, NOR",
+    "latitude": 61.3451287,
+    "longitude": 5.7575052,
+    "organizer": "Gaular IL",
+    "website": "/race-pages/gaular-lopskarusell,-langeland,-6.-juni-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Vestland",
+    "id": "gaular-løpskarusell-langeland-6-juni-2024_20240606_httpsliveeqtimingcom",
+    "summary": "Gaular Løpskarusell 2023 er her! Vi inviterer løpere i alle aldre og nivåer til å bli med på seks løp i løpet av året. Vi tilbyr løp i varierende terreng, inkludert 3 km, 5 km og 10 km distanser. Enten du er nybegynner eller erfaren, vil dette være en flott mulighet til å utfordre deg selv og kanskje sette nye personlige rekorder. Vi gleder oss til å se deg på startstreken!",
+    "website_organizer": "https://www.facebook.com/gaularlop/",
+    "new_version": true
+  },
+  {
     "date": "20240606.",
     "type": "road",
     "name": "Kollentrappa",
@@ -1982,6 +2004,27 @@
     "new_version": true
   },
   {
+    "date": "20240609",
+    "type": "terrain",
+    "name": "Trollheimsløpet 2024",
+    "distance": "1 km, 6 km",
+    "distance_m": [
+      1000,
+      6000
+    ],
+    "place": "Rindal Sentrum, NOR",
+    "latitude": 63.05674190000001,
+    "longitude": 9.212157699999999,
+    "organizer": "Rindal IL",
+    "website": "/race-pages/trollheimslopet-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Trøndelag",
+    "id": "trollheimsløpet-2024_20240609_httpsliveeqtimingcom",
+    "summary": "Trollheimsløpet 2024 arrangeres av Rindal IL den 9. juni. Vi tilbyr spennende løyper for løpere i alle kategorier, enten du er erfaren eller nybegynner. Velg mellom 1 km og 6 km løp med variert terreng. Det blir også aktiviteter for hele familien og mat- og drikkestasjoner langs løypene. Bli med på en morsom dag med løping og fellesskap!",
+    "website_organizer": "https://www.rindalil.no/trollheimsloepet-arrangeres-for-48-gang-9-juni-2024.6668342-154882.html",
+    "new_version": true
+  },
+  {
     "date": "20240609.",
     "type": "road",
     "name": "Norgestesten",
@@ -2021,6 +2064,28 @@
     "id": "gauldalsløpet-2024_20240610_httpsliveeqtimingcom",
     "summary": "Goldagan og Goldagsløpet er tilbake fra 19. til 21. juli 2024. Årets arrangement blir enda bedre med den nye Smedvegen som har åpnet, noe som gir et mer åpent sentrum. Deltakerne kan glede seg til den gode, gamle Goldagen-atmosfæren med tivoli og livlig stemning i gågata. Butikkene flytter ut, og hele sentrumsgata blir omgjort til et levende marked. løpet tilbyr en rekke forskjellige distanser, inkludert 5 km og 10 km. Løypene tar deltakerne gjennom byen og gir en flott opplevelse av området. Goldagsløpet er en veiløp med variert terreng, som lar løperne utfordre seg selv og nyte den vakre naturen som omgir byen. Dette blir definitivt et løp du ikke vil gå glipp av!",
     "website_organizer": "https://www.golinfo.no/goldagan-2024/",
+    "new_version": true
+  },
+  {
+    "date": "20240612",
+    "type": "terrain",
+    "name": "Dala-terrengløp 2024",
+    "distance": "5 km, 10 km, 3 km, Barneløp",
+    "distance_m": [
+      3000,
+      5000,
+      10000
+    ],
+    "place": "Tverrelvdalen, NOR",
+    "latitude": 69.9453794,
+    "longitude": 23.4060025,
+    "organizer": "Tverrelvdalen IL",
+    "website": "/race-pages/dala-terrenglop-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Troms og Finnmark",
+    "id": "dala-terrengløp-2024_20240612_httpsliveeqtimingcom",
+    "summary": "Bli med på 16 Mai-marsj og Løpsfest i Alta, Finnmark den 16. mai 2023! Velg mellom 3 km, 5 km og 10 km løyper i vakker natur. Dette arrangementet passer for alle aldre og ferdighetsnivåer, og det blir en feststemning med ulike aktiviteter. Bli med på en spennende dag med løping og samfunn!",
+    "website_organizer": "https://fb.me/e/40RZeiaxS",
     "new_version": true
   },
   {
@@ -2126,6 +2191,27 @@
     "id": "sommerløpet_20240615_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på Sommerløpet 2024 i Kristiansand den 15. juni! Vi tilbyr fire løypedistanser: 1 km, 5 km, 10 km og halvmaraton, så det er noe for alle. Løpet tar deg med på en vakker reise gjennom byen på veiene, og enten du er nybegynner eller erfaren løper, lover vi en flott opplevelse. Bli med og delta i dette spennende arrangementet med andre løpere!",
     "website_organizer": "https://www.facebook.com/sommerlopet",
+    "new_version": true
+  },
+  {
+    "date": "20240617",
+    "type": "terrain",
+    "name": "Fjellkjøsdilten 2024",
+    "distance": "10 km, 7 km",
+    "distance_m": [
+      7000,
+      10000
+    ],
+    "place": "Glimt Stadion, NOR",
+    "latitude": 0,
+    "longitude": 0,
+    "organizer": "U & IL Glimt",
+    "website": "/race-pages/fjellkjosdilten-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": null,
+    "id": "fjellkjøsdilten-2024_20240617_httpsliveeqtimingcom",
+    "summary": "Bli med på vår årlige terrengløpskonkurranse i vakre omgivelser med variert terreng og utfordrende stier. Velg mellom to distanser, enten 7 km eller 10 km, og utfordre deg selv uansett erfaring og ferdighetsnivå. Opplev en unik dag med vakker natur og en inkluderende atmosfære. Dette løpet er en givende opplevelse for alle, så bli med og test dine grenser i naturen!",
+    "website_organizer": "https://uilglimt.no/",
     "new_version": true
   },
   {
@@ -3053,6 +3139,27 @@
     "new_version": true
   },
   {
+    "date": "20240827",
+    "type": "terrain",
+    "name": "Sørkedalsløpet 2024",
+    "distance": "3 km, 11 km",
+    "distance_m": [
+      3000,
+      11000
+    ],
+    "place": "Sørkedalen, NOR",
+    "latitude": 60.0169434,
+    "longitude": 10.6122838,
+    "organizer": "Sørkedalens IF",
+    "website": "/race-pages/sorkedalslopet-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Oslo",
+    "id": "sørkedalsløpet-2024_20240827_httpsliveeqtimingcom",
+    "summary": "Bli med på Sørkedalsløpet, et terrengløp i Nordmarka! Velg mellom 3 km og 11 km distanser og utforsk vakre skogsstier i variert terreng. Dette utfordrende løpet passer for alle løpere, fra nybegynnere til erfarne. Meld deg på i dag for å teste deg selv og oppleve en flott natur!",
+    "website_organizer": "http://www.sorkedalslopet.no/",
+    "new_version": true
+  },
+  {
     "date": "20240828",
     "type": "terrain",
     "name": "KM terrengløp 2024 - lang løype",
@@ -3222,6 +3329,28 @@
     "id": "bykarusellen-2024-perseløp-3-4-september-5-km_20240904_httpsliveeqtimingcom",
     "summary": "Bykarusellen arrangeres i Bergen med det siste løpet den 20. september. Vi har fått tillatelse til å arrangere løpet til tross for en PLIVO-øvelse samme uke. Løpet vil inkludere 5 km og 10 km distanser, og vil ta deltakerne gjennom vakre omgivelser i Bergen. Vi ser frem til å se alle deltakerne på veien!",
     "website_organizer": "http://www.bykarusellen.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240904",
+    "type": "road",
+    "name": "Dalajoggen høst 2024",
+    "distance": "5 km, 10 km, 3 km, Barneløp",
+    "distance_m": [
+      3000,
+      5000,
+      10000
+    ],
+    "place": "Tverrelvdalen, NOR",
+    "latitude": 69.9453794,
+    "longitude": 23.4060025,
+    "organizer": "Tverrelvdalen IL",
+    "website": "/race-pages/dalajoggen-host-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Troms og Finnmark",
+    "id": "dalajoggen-høst-2024_20240904_httpsliveeqtimingcom",
+    "summary": "Bli med på Løpsfest- 16 Mai-marsj i Alta kommune! Dette løpsarrangementet, arrangert av Langrennsbygda Tverrelvdalen, tilbyr distanser på 3 km, 5 km og 10 km på veien. Uansett om du er nybegynner eller erfaren løper, vil du få en flott løpsopplevelse i vakre omgivelser. Ikke gå glipp av denne muligheten til å delta og bli en del av lokalsamfunnet rundt om i Tverrelvdalen. Vi sees der!",
+    "website_organizer": "https://fb.me/e/40RZeiaxS",
     "new_version": true
   },
   {
@@ -4406,6 +4535,28 @@
     "id": "steinsland-bygdemaraton_20250503_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Velkommen til Steinsland Bygdemaraton! Vårt løp feirer fellesskapet og utholdenheten til alle løpere. Vi tilbyr distanser for alle nivåer, inkludert 10 km, halvmaraton og maraton. Veiene rundt Steinsland gir en fantastisk løype gjennom naturen. Enten du er en erfaren løper eller nybegynner, oppfordrer vi deg til å bli med og teste dine egne grenser. Vi lover støtte og oppmuntring fra vårt dedikerte team. Du kan konkurrere om en topplassering eller bare fullføre for personlig fremgang. Vi gleder oss til å ønske deg velkommen til årets løp!",
     "website_organizer": "https://oggerondt.org/",
+    "new_version": true
+  },
+  {
+    "date": "20250524.",
+    "type": "road",
+    "name": "Sømnamile",
+    "distance": "0,6 km, 5 km, 10 km",
+    "distance_m": [
+      0,
+      5000,
+      10000
+    ],
+    "place": "Sømna, Nordland",
+    "latitude": 65.3076968,
+    "longitude": 12.1671958,
+    "organizer": "",
+    "website": "/race-pages/somnamile.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=3",
+    "county": "Nordland",
+    "id": "sømnamile_20250524_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page3",
+    "summary": "Bli med på den vakre og utfordrende Sømnamile løypa på Helgeland! Uansett om du er nybegynner eller erfaren løper, har vi distanser for alle - 0 km, 5 km og 10 km på landeveien. Opplev fantastisk natur og en spektakulær kystutsikt. Meld deg på nå og bli med på dette raske løpet i vakre omgivelser!",
+    "website_organizer": "https://www.somnamile.no/",
     "new_version": true
   },
   {
