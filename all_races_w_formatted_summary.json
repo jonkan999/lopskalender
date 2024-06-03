@@ -1537,13 +1537,11 @@
     "latitude": 59.7440738,
     "longitude": 10.2044564,
     "organizer": "Sturla IF",
-    "website": "/race-pages/jentebolgen.html",
+    "website": "https://www.facebook.com/jentebolgen.drammen/?locale=sv_SE",
     "src_url": "https://live.eqtiming.com",
-    "county": "Viken",
     "id": "jentebølgen_20240529_httpsliveeqtimingcom",
     "summary": "Jentebølgen Drammen er et av Norges største mosjonistløp for jenter i alle aldre. Løpet har vært arrangert i 25 år og er populært for både erfarne løpere og nybegynnere. Deltakerne kan velge mellom en 5 km distanse som går på veiene i Drammen kommune. Det er en flott mulighet for jenter å utfordre seg selv, slå personlige rekorder og ha det gøy i flott atmosfære med andre løpsentusiaster.",
-    "website_organizer": "https://www.facebook.com/jentebolgen.drammen/?locale=sv_SE",
-    "new_version": true
+    "county": "Viken"
   },
   {
     "date": "20240529",
@@ -1555,13 +1553,11 @@
     "latitude": 60.39126279999999,
     "longitude": 5.3220544,
     "organizer": "Gular, IL",
-    "website": "/race-pages/bykarusellen-2024-perselop-2-(24.-mai-5-km).html",
+    "website": "http://www.bykarusellen.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Vestland",
     "id": "bykarusellen-2024-perseløp-2-24-mai-5-km_20240529_httpsliveeqtimingcom",
     "summary": "Bykarusellen siste løp går som planlagt den 20. september med ulike kategorier/distanser inkludert 5 km-løp, 10 km-løp og barneløp. Løpet vil foregå på veier og veier langs ruten. Vi håper å se mange ivrige løpere og ønsker alle deltakerne lykke til!",
-    "website_organizer": "http://www.bykarusellen.no/",
-    "new_version": true
+    "county": "Vestland"
   },
   {
     "date": "20240529",
@@ -1577,13 +1573,11 @@
     "latitude": 69.9453794,
     "longitude": 23.4060025,
     "organizer": "Tverrelvdalen IL",
-    "website": "/race-pages/dalajoggen-var-2024.html",
+    "website": "https://fb.me/e/40RZeiaxS",
     "src_url": "https://live.eqtiming.com",
-    "county": "Troms og Finnmark",
     "id": "dalajoggen-vår-2024_20240529_httpsliveeqtimingcom",
     "summary": "Hei løpere! Bli med på 16. mai-løpsfesten vår i Alta kommune, Finnmark. Vi inviterer deg til å delta i 3 km, 5 km eller 10 km vei-løp. Uansett erfaring - det er en kategori for deg. Ta med familie og venner og bli med på denne festlige dagen. Vi gleder oss til å se deg på startlinjen!",
-    "website_organizer": "https://fb.me/e/40RZeiaxS",
-    "new_version": true
+    "county": "Troms og Finnmark"
   },
   {
     "date": "20240601",
@@ -1597,13 +1591,11 @@
     "latitude": 58.0692274,
     "longitude": 7.9939876,
     "organizer": "Flekkerøy Løpeklubb",
-    "website": "/race-pages/floymila-2024.html",
+    "website": "https://www.facebook.com/floymila",
     "src_url": "https://live.eqtiming.com",
-    "county": "Agder",
     "id": "fløymila-2024_20240601_httpsliveeqtimingcom",
     "summary": "Bli med på Fløymila, et spennende mosjonsløp på Flekkerøy med 5 km distanse. Dette familievennlige arrangementet byr på en flott løpeopplevelse for løpere i alle aldre og ferdighetsnivåer. Løpet tar deg gjennom vakker natur og gir deg muligheten til å slå din personlige rekord. Bli med og skap gode minner i en morsom og utfordrende konkurranse!",
-    "website_organizer": "https://www.facebook.com/floymila",
-    "new_version": true
+    "county": "Agder"
   },
   {
     "date": "20240601",
@@ -1619,13 +1611,11 @@
     "latitude": 60.40017469999999,
     "longitude": 5.319935,
     "organizer": "Fyllingen IL",
-    "website": "/race-pages/sommernattslopet_2024.html",
+    "website": "https://www.sommernattslopet.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Vestland",
     "id": "sommernattsløpet_2024_20240601_httpsliveeqtimingcom",
     "summary": "Bli med på årets Sommernattsløp i Bergen, Trondheim og Oslo! Velg mellom 5 km, 10 km og halvmaraton distanser, og opplev en spennende løpekonkurranse i byenes raskeste løyper. Uansett om du er nybegynner eller erfaren løper, vil Sommernattsløpet ha noe for alle. Meld deg på i dag og bli med på dette populære arrangementet på veiene i byene!",
-    "website_organizer": "https://www.sommernattslopet.no/",
-    "new_version": true
+    "county": "Vestland"
   },
   {
     "date": "20240601.",
@@ -1640,13 +1630,11 @@
     "latitude": 60.39126279999999,
     "longitude": 5.3220544,
     "organizer": "",
-    "website": "/race-pages/head-energy-sommerkarusellen-1.-lop.html",
+    "website": "http://www.gneist.org/sommerkarusellen/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
-    "county": null,
     "id": "head-energy-sommerkarusellen-1-løp_20240601_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Velkommen til vår årlige løpekonkurranse! Vi har to hovedkategorier: en 5 km- og en 10 km-løp, som vil følge godt merkede, asfalterte veier. Dette er en flott mulighet for løpere i alle aldre og ferdighetsnivåer til å utfordre seg selv. Etter løpet vil det være en feststemning med musikk, matboder og aktiviteter for alle å nyte. Bli med oss for en dag med løping og fellesskap!",
-    "website_organizer": "http://www.gneist.org/sommerkarusellen/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240601.",
@@ -1664,13 +1652,11 @@
     "latitude": 61.24876390000001,
     "longitude": 8.896504199999999,
     "organizer": "",
-    "website": "/race-pages/fjellmaraton.html",
+    "website": "https://fjellmaraton.no/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
-    "county": null,
     "id": "fjellmaraton_20240601_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på Fjellmaraton lørdag 1. juni 2024! Vi har distanser for alle: 1 km, 7 km, 10 km, halvmaraton og helmaraton. Vår løype tar deg gjennom vakker natur med veier og stier. Alle er velkomne, uansett erfaringsnivå. Vi lover en trygg, godt organisert og utfordrende løpsopplevelse, med støtte fra medløpere og tilskuere. Vi gleder oss til å se deg på startstreken!",
-    "website_organizer": "https://fjellmaraton.no/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240602",
@@ -1682,13 +1668,11 @@
     "latitude": 59.6684913,
     "longitude": 10.7619658,
     "organizer": "Ås IL",
-    "website": "/race-pages/arungen-rundt.html",
+    "website": "https://m.facebook.com/arungenrundt/followers/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Viken",
     "id": "årungen-rundt_20240602_httpsliveeqtimingcom",
     "summary": "Bli med på vårt årlige løperace og velg mellom 5 km, 10 km eller halvmaraton. Løpet foregår på veiene i vakre omgivelser og er perfekt for løpere på alle nivåer. Sett deg selv på prøve og bli en del av denne spennende og energiske begivenheten. Vi ser frem til en minneverdig dag fylt med sportslig prestasjon på veiene.",
-    "website_organizer": "https://m.facebook.com/arungenrundt/followers/",
-    "new_version": true
+    "county": "Viken"
   },
   {
     "date": "20240602",
@@ -1703,13 +1687,11 @@
     "latitude": 60.14758189999999,
     "longitude": 11.169393,
     "organizer": "Ullensaker/Kisa IL",
-    "website": "/race-pages/jessheim-halvmaraton-2024.html",
+    "website": "https://www.jessheimhalvmaraton.no/blank-1",
     "src_url": "https://live.eqtiming.com",
-    "county": "Viken",
     "id": "jessheim-halvmaraton-2024_20240602_httpsliveeqtimingcom",
     "summary": "Vi er begeistret for å kunngjøre Jessheimhalvmaratonen i 2024! Dette spennende løpet vil tilby to distanser - halvmaraton og 5 km - og tar løpere med på en vakker reise gjennom Jessheim og omkringliggende områder. Uansett ferdighetsnivå er alle velkomne til å delta og oppleve en unik løpsdag med fellesskap. Sett av datoen allerede nå og start treningen for denne spennende landeveisfesten!",
-    "website_organizer": "https://www.jessheimhalvmaraton.no/blank-1",
-    "new_version": true
+    "county": "Viken"
   },
   {
     "date": "20240602",
@@ -1721,13 +1703,11 @@
     "latitude": 61.4448131,
     "longitude": 7.458155,
     "organizer": null,
-    "website": "/race-pages/lustralopet-2024.html",
+    "website": "http://www.lusteril.no/lustralopet/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Vestland",
     "id": "lustraløpet-2024_20240602_httpsliveeqtimingcom",
     "summary": "Lustraløpet arrangeres av Luster Idrettslag og tilbyr en flott landeveisløpopplevelse over 10 km, med en kortere trimklasse på 3.5 km. Dette løpet passer for alle nivåer og aldre, enten du liker konkurranse eller bare ønsker å nyte en fin løpetur. Bli med oss for en morsom og trygg løpsopplevelse!",
-    "website_organizer": "http://www.lusteril.no/lustralopet/",
-    "new_version": true
+    "county": "Vestland"
   },
   {
     "date": "20240602",
@@ -1742,13 +1722,11 @@
     "latitude": 63.3117075,
     "longitude": 10.1863673,
     "organizer": "Børsa IL",
-    "website": "/race-pages/rekordmila-2024.html",
+    "website": "http://rekordmila.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Trøndelag",
     "id": "rekordmila-2024_20240602_httpsliveeqtimingcom",
     "summary": "Bli med på vårens raskeste eventyr på Rekordmila 2024 i vakre Oslo! Uansett om du er en erfaren maratonløper eller nybegynner, har vi løyper for alle ferdighetsnivåer. Velg mellom 5 km og 10 km på veiene i Oslo og opplev en fin løpetur med et støttende miljø. Slå personlige rekorder, skap minner og bli med på vårens raskeste eventyr!",
-    "website_organizer": "http://rekordmila.no/",
-    "new_version": true
+    "county": "Trøndelag"
   },
   {
     "date": "20240603",
@@ -3183,6 +3161,27 @@
     "new_version": true
   },
   {
+    "date": "20240829",
+    "type": "road",
+    "name": "BDO Mila Nordmøre",
+    "distance": "10km Utfordreren, Mosjonsmila 10km, Minimila 5km, Micromila",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Nordmøre, NOR",
+    "latitude": 63.143251,
+    "longitude": 8.4053572,
+    "organizer": "IL Norodd",
+    "website": "/race-pages/bdo-mila-nordmore.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Trøndelag",
+    "id": "bdo-mila-nordmøre_20240829_httpsliveeqtimingcom",
+    "summary": "BDO-Mila er et årlig terrengløp som passer perfekt for alle, uansett erfaring eller ferdighetsnivå. Løpet foregår på veier og tilbyr 5 km og 10 km distanser. Deltakerne kan velge å konkurrere på tid eller bare nyte løpet uten prestasjonspress. Det blir arrangert i flere norske byer i 2024, og vi ønsker å skape en inspirerende og inkluderende opplevelse for løpere på alle nivåer.",
+    "website_organizer": "https://www.bdo.no/nb-no/om-bdo-nb/samarbeid/bdo-mila",
+    "new_version": true
+  },
+  {
     "date": "20240831",
     "type": "road",
     "name": "Stavanger Marathon 2024",
@@ -4535,6 +4534,27 @@
     "id": "steinsland-bygdemaraton_20250503_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Velkommen til Steinsland Bygdemaraton! Vårt løp feirer fellesskapet og utholdenheten til alle løpere. Vi tilbyr distanser for alle nivåer, inkludert 10 km, halvmaraton og maraton. Veiene rundt Steinsland gir en fantastisk løype gjennom naturen. Enten du er en erfaren løper eller nybegynner, oppfordrer vi deg til å bli med og teste dine egne grenser. Vi lover støtte og oppmuntring fra vårt dedikerte team. Du kan konkurrere om en topplassering eller bare fullføre for personlig fremgang. Vi gleder oss til å ønske deg velkommen til årets løp!",
     "website_organizer": "https://oggerondt.org/",
+    "new_version": true
+  },
+  {
+    "date": "20250524",
+    "type": "road",
+    "name": "Nidaros Løpefest 2025",
+    "distance": "10 km, 5 km",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Skansen, NOR",
+    "latitude": 60.39319579999999,
+    "longitude": 5.339618,
+    "organizer": "Strindheim IL",
+    "website": "/race-pages/nidaros-lopefest-2025.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Vestland",
+    "id": "nidaros-løpefest-2025_20250524_httpsliveeqtimingcom",
+    "summary": "Bli med på Nidaros Løpefest den 25. mai 2024! Velg mellom 5 km og 10 km gateløp, og utforsk vakre Nidaros mens du utfordrer deg selv. Uansett om du er nybegynner eller erfaren løper, vil våre løp gi deg en flott opplevelse og fantastiske minner. Ikke gå glipp av denne muligheten til å bli en del av Nidaros Løpefest!",
+    "website_organizer": "https://nidaroslopefest.no/",
     "new_version": true
   },
   {
