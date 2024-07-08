@@ -2310,13 +2310,11 @@
     "latitude": 60.14758189999999,
     "longitude": 11.169393,
     "organizer": "Ullensaker/Kisa IL",
-    "website": "/race-pages/norgestesten-lop-4.html",
+    "website": "https://norgestesten.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Viken",
     "id": "norgestesten-løp-4_20240625_httpsliveeqtimingcom",
     "summary": "Bli med på Norgestesten 2024 - et sertifisert Kondis-kvalitetsløp med distanser på 5 km, 10 km og halvmaraton. Uansett om du er nybegynner eller erfaren løper, har vi en kategori for deg. Vår nøye planlagte løype kombinerer utfordringer med vakker natur og en flott atmosfære. Bli med på en opplevelse du sent vil glemme!",
-    "website_organizer": "https://norgestesten.no/",
-    "new_version": true
+    "county": "Viken"
   },
   {
     "date": "20240625.",
@@ -2332,13 +2330,11 @@
     "latitude": 60.1349136,
     "longitude": 11.1637891,
     "organizer": "",
-    "website": "/race-pages/norgestesten.html",
+    "website": "https://www.norgestesten.no/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
-    "county": null,
     "id": "norgestesten_20240625_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på Norgestesten 2024 - et sertifisert Kondis kvalitetsløp med 5 km, 10 km og halvmaraton distanser. Vårt løp gir løpere på alle nivåer en uforglemmelig opplevelse på veier som passer perfekt for løping. Vi ønsker å skape en positiv og inkluderende atmosfære der alle kan oppnå personlige mål. Bli med oss for en dag med sunn konkurranse, fellesskap og utrolige løpeopplevelser!",
-    "website_organizer": "https://www.norgestesten.no/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240628",
@@ -2354,13 +2350,11 @@
     "latitude": 60.32970019999999,
     "longitude": 11.2158667,
     "organizer": "Feiring IL",
-    "website": "/race-pages/perselopet-ultra.html",
+    "website": "http://www.xn--perselpet-q8a.com/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Viken",
     "id": "perseløpet-ultra_20240628_httpsliveeqtimingcom",
     "summary": "Bli med på Perseløpet, et årlig løp med maraton, ultramaraton og halvmaraton distanser. Uansett om du er en erfaren løper eller nybegynner, har vi noe for deg. Løpet foregår på vei, så du kan forvente jevnt underlag for maksimal ytelse. Meld deg på i dag for en minneverdig løpeopplevelse!",
-    "website_organizer": "http://www.xn--perselpet-q8a.com/",
-    "new_version": true
+    "county": "Viken"
   },
   {
     "date": "20240629",
@@ -2376,13 +2370,11 @@
     "latitude": 60.32970019999999,
     "longitude": 11.2158667,
     "organizer": "Feiring IL",
-    "website": "/race-pages/perselopet-ultra.html",
+    "website": "http://www.xn--perselpet-q8a.com/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Viken",
     "id": "perseløpet-ultra_20240629_httpsliveeqtimingcom",
     "summary": "Bli med på Perseløpet, et utfordrende løp rundt Persesjøen i vakre omgivelser. Vi tilbyr distanser for alle ferdighetsnivåer, fra maraton til ultramaraton. Med krevende bakker og raske strekninger, er dette løpet perfekt for å sette personlige rekorder og teste utholdenheten. Uansett om du er erfaren løper eller nybegynner, vil Perseløpet være en opplevelse du aldri vil glemme. Vi ser frem til å se deg ved startstreken!",
-    "website_organizer": "http://www.xn--perselpet-q8a.com/",
-    "new_version": true
+    "county": "Viken"
   },
   {
     "date": "20240629.",
@@ -2402,13 +2394,11 @@
     "latitude": 59.7942688,
     "longitude": 11.5774607,
     "organizer": "",
-    "website": "/race-pages/unionsmarathon.html",
+    "website": "https://www.instagram.com/unionsmarathon/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
-    "county": "Viken",
     "id": "unionsmarathon_20240629_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på Unionsmarathon Rømskog! Vi tilbyr løpsdistanser for alle nivåer, fra 0 km for de minste til maraton for de mest erfarne løperne. Vår løype langs veiene i Rømskog-regionen passer både nybegynnere og erfarne løpere. Sikkerhet og støtte er vårt fokus, og vi gleder oss til å se deg ved startstreken. Bli med oss for en dag fylt med løpespenning, fellesskap og naturskjønn utsikt!",
-    "website_organizer": "https://www.instagram.com/unionsmarathon/",
-    "new_version": true
+    "county": "Viken"
   },
   {
     "date": "20240701.",
@@ -2423,13 +2413,11 @@
     "latitude": 60.39126279999999,
     "longitude": 5.3220544,
     "organizer": "",
-    "website": "/race-pages/head-energy-sommerkarusellen-3.-lop.html",
+    "website": "http://www.gneist.org/sommerkarusellen/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
-    "county": null,
     "id": "head-energy-sommerkarusellen-3-løp_20240701_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Vi ønsker å invitere deg til vår årlige løpeserie på vei, som består av 5 km og 10 km distanser. Vår løype tar deg gjennom vakre omgivelser, og vi ønsker å oppmuntre til deltagelse uansett ferdighet eller erfaring. Vi ser frem til å se deg der!",
-    "website_organizer": "http://www.gneist.org/sommerkarusellen/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240703",
@@ -2445,13 +2433,11 @@
     "latitude": 62.98444929999999,
     "longitude": 6.9705698,
     "organizer": "Molde og Omegn IF",
-    "website": "/race-pages/romsdal-510halv.html",
+    "website": "https://www.romsdal510halv.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Møre og Romsdal",
     "id": "romsdal-510halv_20240703_httpsliveeqtimingcom",
     "summary": "Bli med på Romsdal 5/10/half løpet vårt søndag 21. april 2023! Løpsstart kl 12:00 for alle klasser. Påmelding åpner en måned før løpet. Velg mellom 5 km, 10 km eller halvmarathon. Løpet går på veiene i vakre Romsdal-regionen. Informasjon om 2024 datoen kommer snart. Vi gleder oss til å se deg der!",
-    "website_organizer": "https://www.romsdal510halv.no/",
-    "new_version": true
+    "county": "Møre og Romsdal"
   },
   {
     "date": "20240703",
@@ -2463,13 +2449,11 @@
     "latitude": 68.872627,
     "longitude": 17.8526431,
     "organizer": "Salangen IF - Friidrett",
-    "website": "/race-pages/sjovegan-minimaraton.html",
+    "website": "https://www.salangen.kommune.no/sifoesil-karusellen-2023.6599613-399591.html",
     "src_url": "https://live.eqtiming.com",
-    "county": "Troms og Finnmark",
     "id": "sjøvegan-minimaraton_20240703_httpsliveeqtimingcom",
     "summary": "Velkommen til SIF/ØSIL-karusellen 2023 i Salangen! Fem mosjonsløp på ulike steder, inkludert terreng-, skogsløp og grusløp av ulike lengder. Uansett nivå og erfaring, vil du finne noe for deg. Vakker natur og variert terreng venter på vei. Bli med på årets mest spennende løpskarusell i Salangen!",
-    "website_organizer": "https://www.salangen.kommune.no/sifoesil-karusellen-2023.6599613-399591.html",
-    "new_version": true
+    "county": "Troms og Finnmark"
   },
   {
     "date": "20240706",
@@ -2485,13 +2469,11 @@
     "latitude": 0,
     "longitude": 0,
     "organizer": "Holmsbu IF",
-    "website": "/race-pages/rodtangen-rundt-2024.html",
+    "website": "http://www.holmsbuif.no/blog/post/100536/rodtangen-rundt---2017",
     "src_url": "https://live.eqtiming.com",
-    "county": null,
     "id": "rødtangen-rundt-2024_20240706_httpsliveeqtimingcom",
     "summary": "Bli med på Rødtangen Rundt - 2018! Vi tilbyr tre ulike distanser: 4 km, 10 km, og 15 km, som passer for både nybegynnere og erfarne løpere. Løpet vil ta deg gjennom variert terreng, fra skogstier til åpne sletter. Opplev naturen og samholdet blant andre løpere i vakre Rødtangen. Vi ønsker å tilby en flott opplevelse for alle, uansett nivå. Vi ser frem til å se deg der!",
-    "website_organizer": "http://www.holmsbuif.no/blog/post/100536/rodtangen-rundt---2017",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240706",
@@ -2503,13 +2485,11 @@
     "latitude": 60.32970019999999,
     "longitude": 11.2158667,
     "organizer": "Feiring IL",
-    "website": "/race-pages/perselopet-ultra.html",
+    "website": "http://www.xn--perselpet-q8a.com/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Viken",
     "id": "perseløpet-ultra_20240706_httpsliveeqtimingcom",
     "summary": "Perseløpet er et spennende løp for løpere på alle nivåer, med distanser som 5 km, 10 km og halvmaraton. Løpet vil finne sted på veiene, og vil være åpent for alle aldersgrupper. Dette blir en flott mulighet til å nyte vakker natur og oppnå personlige rekorder. Vi gleder oss til å ønske alle løpere velkommen til en dag med løping og fellesskap!",
-    "website_organizer": "http://www.xn--perselpet-q8a.com/",
-    "new_version": true
+    "county": "Viken"
   },
   {
     "date": "20240706.",
@@ -2527,13 +2507,11 @@
     "latitude": 61.46804530000001,
     "longitude": 6.1601254,
     "organizer": "",
-    "website": "/race-pages/jolster-maraton.html",
+    "website": "https://jolster-maraton.no/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
-    "county": "Vestland",
     "id": "jølster-maraton_20240706_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på Jølster Maraton 6. juli 2024! Vi har distanser for alle - 4 km, 5 km, 10 km, halvmaraton og maraton. Uansett om du er erfaren eller løper med familien, er dette arrangementet for deg. Ta turen til vakre Jølster og bli med på en fantastisk løpsopplevelse på veiene våre. Vi gleder oss til å se deg der!",
-    "website_organizer": "https://jolster-maraton.no/",
-    "new_version": true
+    "county": "Vestland"
   },
   {
     "date": "20240707",
@@ -2548,13 +2526,11 @@
     "latitude": 58.8428406,
     "longitude": 9.566408299999999,
     "organizer": "Kragerø IF Friidrett",
-    "website": "/race-pages/jomfrulandslopet-2024.html",
+    "website": "http://www.kragerovgs.no/kif/jomfruland.html",
     "src_url": "https://live.eqtiming.com",
-    "county": "Vestfold og Telemark",
     "id": "jomfrulandsløpet-2024_20240707_httpsliveeqtimingcom",
     "summary": "Kom og delta i årets terrengløp med distansene 10 km og 5 km! Uansett nivå vil vår varierte løype gi deg en utfordrende opplevelse med stier, skog og åpne områder. Vi ønsker alle velkommen til en inkluderende og morsom løpeopplevelse! Lykke til!",
-    "website_organizer": "http://www.kragerovgs.no/kif/jomfruland.html",
-    "new_version": true
+    "county": "Vestfold og Telemark"
   },
   {
     "date": "20240713.",
@@ -2640,6 +2616,27 @@
     "new_version": true
   },
   {
+    "date": "20240727",
+    "type": "road",
+    "name": "Salmarmila 2024",
+    "distance": "5 km uten tid, 10 km uten tid, 5 km på tid, 10 km på tid",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Finnsnes, NOR",
+    "latitude": 69.232038,
+    "longitude": 17.9808555,
+    "organizer": "Senja Ski",
+    "website": "/race-pages/salmarmila-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Troms og Finnmark",
+    "id": "salmarmila-2024_20240727_httpsliveeqtimingcom",
+    "summary": "Den årlige løpssesongen på Family Sports Club nærmer seg! Vi inviterer alle til en fantastisk dag med løping, fellesskap og glede. Vårt løp vil inneholde 5 km og 10 km løp på veier og stier rundt klubben, med vakker natur og frisk luft. Uansett ferdighetsnivå, vil dette løpet være en flott mulighet til å sette seg nye mål og nyte en aktiv dag med familie og venner. Vi ønsker alle deltakere en fantastisk dag og husk å nyt hvert skritt!",
+    "website_organizer": "https://www.facebook.com/fscfinnsnes/posts/-hipp-hipp-%C3%B8nsker-dere-en-super-feiring-av-det-fine-landet-v%C3%A5rt-kos-dere-masse-o/959961126139597/",
+    "new_version": true
+  },
+  {
     "date": "20240727.",
     "type": "road",
     "name": "Hornindalsvatnet Maraton",
@@ -2701,6 +2698,27 @@
     "id": "head-energy-sommerkarusellen-4-løp_20240805_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på årets løpekonkurranse i Oslo! Vi arrangerer 5 km og 10 km distanser langs flotte asfalterte løyper. Uansett om du er nybegynner eller erfaren løper, vil vi se deg ved startstreken! Kom og opplev spenningen og gleden av å konkurrere i vårt flotte løp.",
     "website_organizer": "http://www.gneist.org/sommerkarusellen/",
+    "new_version": true
+  },
+  {
+    "date": "20240807",
+    "type": "road",
+    "name": "Perseløpet 5km, 10km 7.aug",
+    "distance": "5km, 10km",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Ås skole, Hammerås, Eidsvoll, NOR",
+    "latitude": 60.32970019999999,
+    "longitude": 11.2158667,
+    "organizer": "Feiring IL",
+    "website": "/race-pages/perselopet-5km,-10km-7.aug.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "perseløpet-5km-10km-7aug_20240807_httpsliveeqtimingcom",
+    "summary": "Bli med på Perseløpet, et spennende løp som tilbyr to distanser: 5 km og 10 km. Løpet vil finne sted langs veiene og vil starte og avslutte ved en vakker lokal park. Deltakere vil motta flotte medaljer, og premier vil bli gitt til de beste i hver kategori. Både erfarne løpere og nybegynnere er velkomne til å delta for en minneverdig dag med sunn konkurranse og spenning. Meld deg på i dag for en flott løpsopplevelse!",
+    "website_organizer": "http://www.xn--perselpet-q8a.com/",
     "new_version": true
   },
   {
@@ -2824,6 +2842,29 @@
     "id": "sami-maraton-2024_20240817_httpsliveeqtimingcom",
     "summary": "Opplev den vakre naturen i Deatnu-Tana og delta på Sámi Maraton! Vårt løp tilbyr distanser for alle, inkludert hel- og halvmaraton, samt 10 km og 5 km løp. Alle løypene er på vei, og løpet har bronsestempel fra NFIFs kvalitetsstempelordning. Sikre deg en morsom og utfordrende løpsopplevelse i trygge omgivelser. Vi sees ved løpsstart!",
     "website_organizer": "https://samimaraton.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240817.",
+    "type": "road",
+    "name": "Christian Frederik-løpet",
+    "distance": "0,704 km, 1,408 km, 5 km, 10 km",
+    "distance_m": [
+      0,
+      1000,
+      5000,
+      10000
+    ],
+    "place": "Moss, Viken",
+    "latitude": 59.42604910000001,
+    "longitude": 10.6985069,
+    "organizer": "",
+    "website": "/race-pages/christian-frederik-lopet.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+    "county": "Viken",
+    "id": "christian-frederik-løpet_20240817_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+    "summary": "Velkommen til CF-Løpet 2024! Vi inviterer løpere i alle aldre og ferdighetsnivåer til å delta i vårt landeveis-løp. Vi tilbyr fire forskjellige distanser: 0 km, 1 km, 5 km og 10 km, slik at alle kan finne en passende rute. Bli med oss for en dag med fysisk aktivitet, utfordringer og personlig utvikling. Vi ser frem til å ønske deg velkommen til CF-Løpet 2024!",
+    "website_organizer": "https://www.cf-lopet.no/",
     "new_version": true
   },
   {
@@ -4496,6 +4537,28 @@
     "new_version": true
   },
   {
+    "date": "20250503",
+    "type": "road",
+    "name": "Perseløpet  ultra",
+    "distance": "50km, 100km, Maraton",
+    "distance_m": [
+      42195,
+      50000,
+      100000
+    ],
+    "place": "Ørbekk, Eidsvoll, NOR",
+    "latitude": 60.4245599,
+    "longitude": 11.2501978,
+    "organizer": "Feiring IL",
+    "website": "/race-pages/perselopet-ultra.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "perseløpet-ultra_20250503_httpsliveeqtimingcom",
+    "summary": "Bli med på Perseløpet, en spennende løpekonkurranse for erfarne og nybegynner løpere! Vi tilbyr maraton, ultramaraton og ultramaraton på veibasert terreng. Registrer deg og utfordre deg selv i vakker natur med Perseløpet.",
+    "website_organizer": "http://www.xn--perselpet-q8a.com/",
+    "new_version": true
+  },
+  {
     "date": "20250503.",
     "type": "road",
     "name": "Steinsland Bygdemaraton",
@@ -4515,6 +4578,28 @@
     "id": "steinsland-bygdemaraton_20250503_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Velkommen til Steinsland Bygdemaraton! Vårt løp feirer fellesskapet og utholdenheten til alle løpere. Vi tilbyr distanser for alle nivåer, inkludert 10 km, halvmaraton og maraton. Veiene rundt Steinsland gir en fantastisk løype gjennom naturen. Enten du er en erfaren løper eller nybegynner, oppfordrer vi deg til å bli med og teste dine egne grenser. Vi lover støtte og oppmuntring fra vårt dedikerte team. Du kan konkurrere om en topplassering eller bare fullføre for personlig fremgang. Vi gleder oss til å ønske deg velkommen til årets løp!",
     "website_organizer": "https://oggerondt.org/",
+    "new_version": true
+  },
+  {
+    "date": "20250521",
+    "type": "road",
+    "name": "OBOS Fornebuløpet 2025",
+    "distance": "3 km, 5 km, 10 km, Barneløp, Fornebutrippelen",
+    "distance_m": [
+      3000,
+      5000,
+      10000
+    ],
+    "place": ", NOR",
+    "latitude": 0,
+    "longitude": 0,
+    "organizer": "Tyrving IL",
+    "website": "/race-pages/obos-fornebulopet-2025.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": null,
+    "id": "obos-fornebuløpet-2025_20250521_httpsliveeqtimingcom",
+    "summary": "Bli med på OBOS Fornebuløpet 2025 den 21. mai for å feire vårt 15-års jubileum! Vi tilbyr tre distanser: 3 km, 5 km og 10 km veilløp som passer for alle aldre og ferdighetsnivåer. Bli med og opplev vakre omgivelser, sunn aktivitet og motta en flott løpe-trøye. Ta del i festlighetene og gjør dagen til en minneverdig opplevelse full av glede og fantastisk løping!",
+    "website_organizer": "http://www.fornebulopet.no/",
     "new_version": true
   },
   {
@@ -4579,6 +4664,49 @@
     "id": "anton-sport-sommerløpet-2025_20250607_httpsliveeqtimingcom",
     "summary": "Velkommen til Anton Sport Sommerløpet! Vi tilbyr to løpsdistanser, 3 km og 5 km, langs asfalterte veier gjennom vakre landskaper. Uansett om du er erfaren eller nybegynner, har vi noe for alle. Ta på deg løpeskoene, utfordre deg selv og nyt denne fantastiske sommerlige løpeopplevelsen med Anton Sport!",
     "website_organizer": "https://www.instagram.com/sommerlopet/?hl=en",
+    "new_version": true
+  },
+  {
+    "date": "20250614",
+    "type": "road",
+    "name": "Byløpet 2025",
+    "distance": "10 km, 10 km trim, Halvmaraton, 5 km, 5 km trim, Framerunners",
+    "distance_m": [
+      5000,
+      10000,
+      21097
+    ],
+    "place": "Skien, NOR",
+    "latitude": 59.2089131,
+    "longitude": 9.605752599999999,
+    "organizer": "Gjerpen Idrettsforening",
+    "website": "/race-pages/bylopet-2025.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Vestfold og Telemark",
+    "id": "byløpet-2025_20250614_httpsliveeqtimingcom",
+    "summary": "Delta på årets BYLØPET i Skien sentrum lørdag 14. juni 2025! Velg mellom 5 km, 10 km eller halvmaraton-løpene som går langs veiene i vakre omgivelser. Enten du er nybegynner eller erfaren løper, er dette løpet for deg. Familier og venner kan også glede seg til arrangement og underholdning mens de støtter deltakerne. Bli med på en flott dag med fellesskap, prestasjon og glede!",
+    "website_organizer": "https://bylopet.no/",
+    "new_version": true
+  },
+  {
+    "date": "20250621",
+    "type": "road",
+    "name": "Kristinaløpet 2025",
+    "distance": "Kristinaløpet 10km, Kristinaløpet 5km, Kristinaløpet Trim",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Tønsberg, NOR",
+    "latitude": 59.26756990000001,
+    "longitude": 10.4075608,
+    "organizer": "Tønsberg Friidrettsklubb",
+    "website": "/race-pages/kristinalopet-2025.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Vestfold og Telemark",
+    "id": "kristinaløpet-2025_20250621_httpsliveeqtimingcom",
+    "summary": "Velkommen til årets løp arrangert av Tønsberg Friidrettsklubb! Vi vil ha to distanser: 5 km og 10 km på vei. Start og mål vil være i Gunnarsbøparken, og løypa vil gå gjennom naturskjønne omgivelser i Tønsberg-området. Etter løpet vil alle deltakere få en deltakermedalje som en påskjønnelse. Etter målgang oppfordrer vi alle til å møtes i Funksjonærteltet for en forfriskning og sosialt samvær. Lykke til, og takk for deres støtte!",
+    "website_organizer": "http://www.tfik.no/",
     "new_version": true
   },
   {

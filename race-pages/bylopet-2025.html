@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+      re
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+
+    <script defer="" src="/js/pgJs.js"></script>
+
+    <link href="/css/pg-style.css" rel="stylesheet" />
+    <link href="/css/pg-queries.css" rel="stylesheet" />
+
+    <title>
+      Løpsside for Byløpet 2025 - 
+    </title>
+    <link rel="icon" href="/img/logo100px.jpg"" />
+    <meta name="description" content="Delta på årets BYLØPET i Skien sentrum lørdag 14. juni 2025! Velg mellom 5 km, 10 km eller halvmaraton-løpene som går langs veiene i vakre omgivelser. Enten du er nybegynner eller erfaren løper, er dette løpet for deg. Familier og venner kan også glede seg til arrangement og underholdning mens de støtter deltakerne. Bli med på en flott dag med fellesskap, prestasjon og glede!" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="show-all-overlay" id="showAllOverlay"></div>
+    <button class="hide-grid" id="hideGrid">
+      <ion-icon name="close-outline" class="close-icon"></ion-icon>
+    </button>
+    <header class="header header-black section">
+      <div class="brand-box">
+        <a class="header-brand-name" href="/index.html">
+          <img
+            class="brand-box-small-image"
+            src="/img/logo.svg"
+            alt="Brand logo"
+        /></a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li>
+            <p class="category-link">
+              Løpsside for: Byløpet 2025
+            </p>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="venue-page" id="venuePage">
+        <div class="show-all-grid" id="showAllGrid">
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/bylopet-2025_1.webp"
+              alt="image 1 for: Byløpet 2025"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/bylopet-2025_2.webp"
+              alt="image 2 for: Byløpet 2025"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/bylopet-2025_3.webp"
+              alt="image 3 for: Byløpet 2025"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/bylopet-2025_4.webp"
+              alt="image 4 for: Byløpet 2025"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/bylopet-2025_5.webp"
+              alt="image 5 for: Byløpet 2025"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/bylopet-2025_6.webp"
+              alt="image 6 for: Byløpet 2025"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+        </div>
+        <div class="images-section section airy-margin" id="imageSection">
+          <div class="left-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/bylopet-2025_1.webp"
+              alt="image 1 for: Byløpet 2025"
+            />
+            <div class="image-overlay"></div>
+          </div>
+          <div class="right-images-section">
+            <div class="top-right-image">
+              <img
+                class="image-inner-img"
+                src="/race-pages/img/bylopet-2025_2.webp"
+                alt="image 2 for: Byløpet 2025"
+              />
+              <div class="image-overlay"></div>
+            </div>
+            <div class="bottom-right-images">
+              <div class="bottom-right-image">
+                <img
+                  class="image-inner-img"
+                  src="/race-pages/img/bylopet-2025_3.webp"
+                  alt="image 3 for: Byløpet 2025"
+                />
+                <div class="image-overlay"></div>
+              </div>
+              <div class="bottom-right-image">
+                <img
+                  class="image-inner-img"
+                  src="/race-pages/img/bylopet-2025_4.webp"
+                  alt="image 4 for: Byløpet 2025"
+                />
+                <div class="show-all-container" id="showAll">
+                  <div class="square-icon-container-container">
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                  </div>
+                  <div class="show-all-images-text">
+                    Vis alle
+                  </div>
+                  <div class="image-overlay"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info-container" id="infoContainer">
+          <!-- Venue Name -->
+          <h1 class="event-space-title">Byløpet 2025</h1>
+
+          <!-- Venue Address -->
+          <div class="adress-div">
+            <ion-icon
+              class="icon ion-ios-location-outline"
+              name="location-outline"
+            ></ion-icon>
+            <p class="event-space-address">Skien, NOR</p>
+          </div>
+
+          <!-- Highlights Container -->
+          <ul class="highlights-container">
+            <!-- Star Rating -->
+            <div class="highlight-stars">
+              <ion-icon
+                class="star-icon ion-ios-star-outline md hydrated"
+                name="star"
+                role="img"
+                aria-label="star"
+              ></ion-icon>
+              <a href="https://bylopet.no/"
+                >Lenke til påmelding</a
+              >
+            </div>
+
+            <!-- Guests and Size Info -->
+            <li class="highlight-info desktop">
+              <ion-icon
+                class="highlight-icon ion-ios-analytics-outline"
+                name="analytics-outline"
+              ></ion-icon>
+              <p>
+                Distanse: 5 km, 10 km, Halvmaraton
+              </p>
+            </li>
+            <li class="highlight-info mobile full-row">
+              <ion-icon
+                class="highlight-icon ion-ios-analytics-outline"
+                name="analytics-outline"
+              ></ion-icon>
+              <p>
+                Distanse: 5 km, 10 km, Halvmaraton
+              </p>
+            </li>
+            <li class="highlight-info desktop">
+              <ion-icon
+                class="highlight-icon ion-ios-shapes-outline"
+                name="shapes-outline"
+              ></ion-icon>
+              <p>
+                Underlag: road
+              </p>
+            </li>
+
+            <!-- Food and Drink Info -->
+            <li class="highlight-info">
+              <ion-icon
+                class="highlight-icon ion-ios-navigate-circle-outline"
+                name="navigate-circle-outline"
+              ></ion-icon>
+              <p>
+                Sted: Skien, NOR
+              </p>
+            </li>
+            <li class="highlight-info second-col mobile">
+              <ion-icon
+                class="highlight-icon ion-ios-shapes-outline"
+                name="shapes-outline"
+              ></ion-icon>
+              <p>
+                Underlag: road
+              </p>
+            </li>
+            <li class="highlight-info">
+              <ion-icon
+                class="highlight-icon ion-ios-calendar-clear-outline"
+                name="calendar-clear-outline"
+              ></ion-icon>
+              <p>
+                Dato: 20250614
+              </p>
+            </li>
+            <div class="highlight-star-mobile second-col">
+              <ion-icon
+                class="star-icon ion-ios-star-outline md hydrated"
+                name="star"
+                role="img"
+                aria-label="star"
+              ></ion-icon>
+              <a class="highlight-link" href="https://bylopet.no/"
+                >Länk till anmälan</a
+              >
+            </div>
+          </ul>
+
+          <!-- Calendar and Mail Template Containers -->
+          <div class="subsection-split-container">
+            <!-- Description Container -->
+            <div class="description-container">
+              <h2>Om løpet:</h2>
+              <div class="disclaimer-box">
+                <p>All info på denne siden er basert på åpen kildekode. Vi gjør vårt beste for å holde den oppdatert, men
+kan ikke garantere at alt er korrekt. Ser du noen feil, vennligst kontakt oss på 
+<a href="/kontakt.html">kontakt</a> så retter vi det så snart som mulig.
+</p>
+              </div>
+              <p class="venue-description">
+                Velkommen til årets BYLØPET - en spennende løpebegivenhet som finner sted i Skien sentrum. Løpet vil bli arrangert lørdag 14. juni 2025, og vil inkludere tre ulike distanser: 5 km, 10 km og halvmaraton. Alle løpene vil foregå på veier, og løpere vil ha muligheten til å oppleve vakre utsikter og utfordrende løpeforhold mens de konkurrerer.
+
+Uansett om du er en erfaren løper eller nybegynner, har BYLØPET noe for alle. Det vil være start- og mållinjer i Skien sentrum, ved Arkaden, og deltakerne vil bli oppfordret til å nyte den hjertevarmende atmosfæren og støtte og oppmuntre hverandre gjennom hele løpet. Det vil også være arrangement og underholdning for familie og venner, så alle er velkomne til å delta i denne flotte løpefesten.
+
+Vi ser frem til å ønske løpere i alle aldre og evner velkommen til BYLØPET, hvor fellesskap, prestasjon og glede står i sentrum. Vi håper du vil bli med oss for en fantastisk dag med løping, sosialt samvær og moro!
+              </p>
+              <h3>Detaljert informasjon:</h3>
+              <ul>
+                
+                <li>
+                  Distanse: 5 km, 10 km, Halvmaraton
+                </li>
+                
+                <li>
+                  Underlag: road
+                </li>
+                
+                <li>
+                  Sted: Skien, NOR
+                </li>
+                
+                <li>
+                  Dato: 20250614
+                </li>
+                 
+                <li>
+                  Løpskategorier: 5 km, 10 km, Halvmarathon
+                </li>
+                
+                <li>
+                  Fylke: Vestfold og Telemark
+                </li>
+                
+                <li>
+                  Arrangør: Gjerpen Idrettsforening
+                </li>
+                
+              </ul>
+              <h3>Lenke til arrangørens nettside:</h3>
+              <a class="venue-price" href="https://bylopet.no/">
+                https://bylopet.no/
+              </a>
+            </div>
+
+            <div class="subsection-right-split-container">
+              <div
+                data-mapboxCenter="[9.605752599999999, 59.2089131]"
+                data-mapboxcenter="[]"
+                class="map-container mapboxgl-map"
+                id="mapboxContainer"
+              ></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rest of your HTML content -->
+      </section>
+      <div id="errorMessage" class="error-message"></div>
+    </main>
+  </body>
+</html>
