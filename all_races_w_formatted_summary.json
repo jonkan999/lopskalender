@@ -2544,13 +2544,11 @@
     "latitude": 60.5692306,
     "longitude": 6.916875099999999,
     "organizer": "",
-    "website": "/race-pages/kvasshovden-opp.html",
+    "website": "https://kvasshovdenopp.no/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
-    "county": "Vestland",
     "id": "kvasshovden-opp_20240713_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på vårt årlige 7 km landeveisløp! Dette løpet passer for løpere på alle nivåer, enten du er erfaren eller bare liker å løpe. Vi tilbyr individuelle, familie- og gruppekategorier, slik at alle kan delta. Meld deg på i dag for å teste ferdighetene dine og ha det gøy med andre løpere på vakre landeveier.",
-    "website_organizer": "https://kvasshovdenopp.no/",
-    "new_version": true
+    "county": "Vestland"
   },
   {
     "date": "20240714",
@@ -2564,13 +2562,11 @@
     "latitude": 63.0174839,
     "longitude": 8.3296221,
     "organizer": "Bøfjord IL",
-    "website": "/race-pages/blafjellopet-2024.html",
+    "website": "https://fb.me/e/1phlhUU9n",
     "src_url": "https://live.eqtiming.com",
-    "county": "Møre og Romsdal",
     "id": "blåfjelløpet-2024_20240714_httpsliveeqtimingcom",
     "summary": "Bli med på Blåfjelløpet i Surnadals kommune i Møre og Romsdal søndag 9. juli 2310. Dette terrengløpet tilbyr en utfordrende 10 km løype i vakre omgivelser. Ulike distanser og kategorier er tilgjengelige for alle typer løpere. Bli med på dette spennende løpet og opplev norsk natur mens du utfordrer deg selv!",
-    "website_organizer": "https://fb.me/e/1phlhUU9n",
-    "new_version": true
+    "county": "Møre og Romsdal"
   },
   {
     "date": "20240725",
@@ -2746,6 +2742,27 @@
   },
   {
     "date": "20240810",
+    "type": "road",
+    "name": "Kondiskarusellen 10. august 2024",
+    "distance": "5 km, 10 km",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Kristiansand, NOR",
+    "latitude": 58.15991189999999,
+    "longitude": 8.0182064,
+    "organizer": "Kristiansand Løpeklubb",
+    "website": "/race-pages/kondiskarusellen-10.-august-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Agder",
+    "id": "kondiskarusellen-10-august-2024_20240810_httpsliveeqtimingcom",
+    "summary": "Bli med på løp i Kondiskarusellen lørdag 10. august! Velg mellom 5 km eller 10 km på veiene. Det spiller ingen rolle om du er nybegynner eller erfaren - det er noe for alle! Registrering er åpen nå, så bli med på en dag fylt med løpeglede og moro. Ta med venner og familie og meld deg på for en minneverdig opplevelse. Kontakt post@kondisfabrikken.no for mer informasjon. Vi gleder oss til å se deg på startstreken!",
+    "website_organizer": "http://www.kondiskarusellen.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240810",
     "type": "terrain",
     "name": "Trysilmila 2024",
     "distance": "Trysilmila 10km, 6,5 km, Trim uten tidtaking, barneløp",
@@ -2824,6 +2841,27 @@
     "id": "fløymila-2024_20240817_httpsliveeqtimingcom",
     "summary": "Bli med på Fløymila - et populært mosjonsløp på Flekkerøy med 5 km løype for de som elsker road races! Uansett om du er erfaren løper eller nybegynner, er dette en flott mulighet til å sette nye personlige rekorder og nyte den gode følelsen av å krysse mållinjen. Meld deg på i dag og få en minnerik løpeopplevelse!",
     "website_organizer": "https://www.facebook.com/floymila",
+    "new_version": true
+  },
+  {
+    "date": "20240817",
+    "type": "road",
+    "name": "Bluesløpet",
+    "distance": "5km, 10km",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Notodden, NOR",
+    "latitude": 59.5592778,
+    "longitude": 9.2628376,
+    "organizer": "Snøgg Friidrett",
+    "website": "/race-pages/blueslopet.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Vestfold og Telemark",
+    "id": "bluesløpet_20240817_httpsliveeqtimingcom",
+    "summary": "Velkommen til løpsarrangementet \"Se til Notodden\"! Vi arrangerer 5 km og 10 km løp langs veien. Dette spennende arrangementet finner sted den 1. august 2024 i Telemark, Norge. Uansett erfaringsnivå, er dette den perfekte muligheten til å utfordre deg selv og oppleve den vakre naturen i Telemark. Vi gleder oss til å ønske løpere velkommen fra hele Norge for en minneverdig opplevelse.",
+    "website_organizer": "https://www.facebook.com/events/idrettshallen-notodden-videreg%C3%A5ende-skole-heddalsvegen-4-3674-notodden-norge/se-til-notodden-2024-finn-din-dr%C3%B8mmejobb-eller-skap-din-egen/483865244203947/?locale=uk_UA",
     "new_version": true
   },
   {
@@ -4057,6 +4095,27 @@
   {
     "date": "20241005",
     "type": "road",
+    "name": "Kondiskarusellen 5. oktober",
+    "distance": "5 km, 10 km",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Kristiansand, NOR",
+    "latitude": 58.15991189999999,
+    "longitude": 8.0182064,
+    "organizer": "Kristiansand Løpeklubb",
+    "website": "/race-pages/kondiskarusellen-5.-oktober.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Agder",
+    "id": "kondiskarusellen-5-oktober_20241005_httpsliveeqtimingcom",
+    "summary": "Bli med på det spennende løpet i Kondiskarusellen lørdag 10. august! Vi tilbyr 5 km og 10 km på vei, så enten du er erfaren eller nybegynner, er dette en flott mulighet til å utfordre deg selv og nyte løpeglede sammen med andre. Startskuddet går på et vakkert løpeområde, så meld deg på nå for en uforglemmelig opplevelse! For mer informasjon, kontakt oss på post@kondisfabrikken.no. Vi gleder oss til å se deg der!",
+    "website_organizer": "http://www.kondiskarusellen.no/",
+    "new_version": true
+  },
+  {
+    "date": "20241005",
+    "type": "road",
     "name": "Gloppen Halvmaraton 2024",
     "distance": "Gloppen Halvmaraton 2024",
     "distance_m": [],
@@ -4112,6 +4171,28 @@
     "id": "åsane-løpskarusell-løp-7_20241010_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på Asane Løpskarusell 2024! Konkurrer i 5 km og 10 km på vei og opplev spenningen av løping. Uansett nivå er dette løpet perfekt for deg. Bli med på ukentlige treningsøkter for å forberede deg. Meld deg på i dag og sikre deg en plass på startstreken!",
     "website_organizer": "https://aasane-lopskarusell.no/",
+    "new_version": true
+  },
+  {
+    "date": "20241012",
+    "type": "terrain",
+    "name": "Terrengløpet Mila 2024",
+    "distance": "8,1 km, Mosjon 5km/8.1km, 2,6 KM, 500 meter, 900 meter, 1,7 km",
+    "distance_m": [
+      1000,
+      2000,
+      8000
+    ],
+    "place": "Trøgstad, NOR",
+    "latitude": 59.6530047,
+    "longitude": 11.3225439,
+    "organizer": "Trøgstad SK - Ski",
+    "website": "/race-pages/terrenglopet-mila-2024.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "terrengløpet-mila-2024_20241012_httpsliveeqtimingcom",
+    "summary": "Vi gleder oss til å ønske deg velkommen til Terrengløpet MILA i Trøgstad! Med 675 liker på Facebook og 17 besøkende i fjor, er dette et populært arrangement for løpere i området. Vi tilbyr 1 km, 2 km og 8 km distanser, alle med terrengløp, så det er noe for alle nivåer av løpere. Hold øye med nettstedet for påmelding i august. Vi ser frem til å se deg der!",
+    "website_organizer": "https://www.facebook.com/terrenglopetmila/?locale=nb_NO",
     "new_version": true
   },
   {

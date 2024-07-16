@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+      re
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+
+    <script defer="" src="/js/pgJs.js"></script>
+
+    <link href="/css/pg-style.css" rel="stylesheet" />
+    <link href="/css/pg-queries.css" rel="stylesheet" />
+
+    <title>
+      Løpsside for Kondiskarusellen 10. august 2024 - 
+    </title>
+    <link rel="icon" href="/img/logo100px.jpg"" />
+    <meta name="description" content="Bli med på løp i Kondiskarusellen lørdag 10. august! Velg mellom 5 km eller 10 km på veiene. Det spiller ingen rolle om du er nybegynner eller erfaren - det er noe for alle! Registrering er åpen nå, så bli med på en dag fylt med løpeglede og moro. Ta med venner og familie og meld deg på for en minneverdig opplevelse. Kontakt post@kondisfabrikken.no for mer informasjon. Vi gleder oss til å se deg på startstreken!" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="show-all-overlay" id="showAllOverlay"></div>
+    <button class="hide-grid" id="hideGrid">
+      <ion-icon name="close-outline" class="close-icon"></ion-icon>
+    </button>
+    <header class="header header-black section">
+      <div class="brand-box">
+        <a class="header-brand-name" href="/index.html">
+          <img
+            class="brand-box-small-image"
+            src="/img/logo.svg"
+            alt="Brand logo"
+        /></a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li>
+            <p class="category-link">
+              Løpsside for: Kondiskarusellen 10. august 2024
+            </p>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="venue-page" id="venuePage">
+        <div class="show-all-grid" id="showAllGrid">
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/kondiskarusellen-10.-august-2024_1.webp"
+              alt="image 1 for: Kondiskarusellen 10. august 2024"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/kondiskarusellen-10.-august-2024_2.webp"
+              alt="image 2 for: Kondiskarusellen 10. august 2024"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/kondiskarusellen-10.-august-2024_3.webp"
+              alt="image 3 for: Kondiskarusellen 10. august 2024"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/kondiskarusellen-10.-august-2024_4.webp"
+              alt="image 4 for: Kondiskarusellen 10. august 2024"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/kondiskarusellen-10.-august-2024_5.webp"
+              alt="image 5 for: Kondiskarusellen 10. august 2024"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/kondiskarusellen-10.-august-2024_6.webp"
+              alt="image 6 for: Kondiskarusellen 10. august 2024"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+        </div>
+        <div class="images-section section airy-margin" id="imageSection">
+          <div class="left-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/kondiskarusellen-10.-august-2024_1.webp"
+              alt="image 1 for: Kondiskarusellen 10. august 2024"
+            />
+            <div class="image-overlay"></div>
+          </div>
+          <div class="right-images-section">
+            <div class="top-right-image">
+              <img
+                class="image-inner-img"
+                src="/race-pages/img/kondiskarusellen-10.-august-2024_2.webp"
+                alt="image 2 for: Kondiskarusellen 10. august 2024"
+              />
+              <div class="image-overlay"></div>
+            </div>
+            <div class="bottom-right-images">
+              <div class="bottom-right-image">
+                <img
+                  class="image-inner-img"
+                  src="/race-pages/img/kondiskarusellen-10.-august-2024_3.webp"
+                  alt="image 3 for: Kondiskarusellen 10. august 2024"
+                />
+                <div class="image-overlay"></div>
+              </div>
+              <div class="bottom-right-image">
+                <img
+                  class="image-inner-img"
+                  src="/race-pages/img/kondiskarusellen-10.-august-2024_4.webp"
+                  alt="image 4 for: Kondiskarusellen 10. august 2024"
+                />
+                <div class="show-all-container" id="showAll">
+                  <div class="square-icon-container-container">
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                  </div>
+                  <div class="show-all-images-text">
+                    Vis alle
+                  </div>
+                  <div class="image-overlay"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info-container" id="infoContainer">
+          <!-- Venue Name -->
+          <h1 class="event-space-title">Kondiskarusellen 10. august 2024</h1>
+
+          <!-- Venue Address -->
+          <div class="adress-div">
+            <ion-icon
+              class="icon ion-ios-location-outline"
+              name="location-outline"
+            ></ion-icon>
+            <p class="event-space-address">Kristiansand, NOR</p>
+          </div>
+
+          <!-- Highlights Container -->
+          <ul class="highlights-container">
+            <!-- Star Rating -->
+            <div class="highlight-stars">
+              <ion-icon
+                class="star-icon ion-ios-star-outline md hydrated"
+                name="star"
+                role="img"
+                aria-label="star"
+              ></ion-icon>
+              <a href="http://www.kondiskarusellen.no/"
+                >Lenke til påmelding</a
+              >
+            </div>
+
+            <!-- Guests and Size Info -->
+            <li class="highlight-info desktop">
+              <ion-icon
+                class="highlight-icon ion-ios-analytics-outline"
+                name="analytics-outline"
+              ></ion-icon>
+              <p>
+                Distanse: 5 km, 10 km
+              </p>
+            </li>
+            <li class="highlight-info mobile full-row">
+              <ion-icon
+                class="highlight-icon ion-ios-analytics-outline"
+                name="analytics-outline"
+              ></ion-icon>
+              <p>
+                Distanse: 5 km, 10 km
+              </p>
+            </li>
+            <li class="highlight-info desktop">
+              <ion-icon
+                class="highlight-icon ion-ios-shapes-outline"
+                name="shapes-outline"
+              ></ion-icon>
+              <p>
+                Underlag: road
+              </p>
+            </li>
+
+            <!-- Food and Drink Info -->
+            <li class="highlight-info">
+              <ion-icon
+                class="highlight-icon ion-ios-navigate-circle-outline"
+                name="navigate-circle-outline"
+              ></ion-icon>
+              <p>
+                Sted: Kristiansand, NOR
+              </p>
+            </li>
+            <li class="highlight-info second-col mobile">
+              <ion-icon
+                class="highlight-icon ion-ios-shapes-outline"
+                name="shapes-outline"
+              ></ion-icon>
+              <p>
+                Underlag: road
+              </p>
+            </li>
+            <li class="highlight-info">
+              <ion-icon
+                class="highlight-icon ion-ios-calendar-clear-outline"
+                name="calendar-clear-outline"
+              ></ion-icon>
+              <p>
+                Dato: 20240810
+              </p>
+            </li>
+            <div class="highlight-star-mobile second-col">
+              <ion-icon
+                class="star-icon ion-ios-star-outline md hydrated"
+                name="star"
+                role="img"
+                aria-label="star"
+              ></ion-icon>
+              <a class="highlight-link" href="http://www.kondiskarusellen.no/"
+                >Länk till anmälan</a
+              >
+            </div>
+          </ul>
+
+          <!-- Calendar and Mail Template Containers -->
+          <div class="subsection-split-container">
+            <!-- Description Container -->
+            <div class="description-container">
+              <h2>Om løpet:</h2>
+              <div class="disclaimer-box">
+                <p>All info på denne siden er basert på åpen kildekode. Vi gjør vårt beste for å holde den oppdatert, men
+kan ikke garantere at alt er korrekt. Ser du noen feil, vennligst kontakt oss på 
+<a href="/kontakt.html">kontakt</a> så retter vi det så snart som mulig.
+</p>
+              </div>
+              <p class="venue-description">
+                Kom og bli med på det neste løpet i Kondiskarusellen lørdag 10. august! Vi inviterer deg til en dag fylt med løpeglede og konkurranser på veiene. Uansett om du er en erfaren løper eller nybegynner, har vi noe for alle. Velg mellom 5 km eller 10 km og utfordre deg selv på den flate og raske løypen. Dette er en flott mulighet til å samle venner og familie for en morsom og aktiv dag sammen. 
+
+Registrering er nå åpen, så meld deg på og vær med på feiringen av løping og fellesskap. Vi gleder oss til å se deg på startstreken og håper du blir med oss for en minneverdig løpsopplevelse. Kontakt post@kondisfabrikken.no hvis du har spørsmål eller trenger mer informasjon. Vi ser frem til å ønske deg velkommen til en fantastisk dag med løping og moro!
+              </p>
+              <h3>Detaljert informasjon:</h3>
+              <ul>
+                
+                <li>
+                  Distanse: 5 km, 10 km
+                </li>
+                
+                <li>
+                  Underlag: road
+                </li>
+                
+                <li>
+                  Sted: Kristiansand, NOR
+                </li>
+                
+                <li>
+                  Dato: 20240810
+                </li>
+                 
+                <li>
+                  Løpskategorier: 5 km, 10 km
+                </li>
+                
+                <li>
+                  Fylke: Agder
+                </li>
+                
+                <li>
+                  Arrangør: Kristiansand Løpeklubb
+                </li>
+                
+              </ul>
+              <h3>Lenke til arrangørens nettside:</h3>
+              <a class="venue-price" href="http://www.kondiskarusellen.no/">
+                http://www.kondiskarusellen.no/
+              </a>
+            </div>
+
+            <div class="subsection-right-split-container">
+              <div
+                data-mapboxCenter="[8.0182064, 58.15991189999999]"
+                data-mapboxcenter="[]"
+                class="map-container mapboxgl-map"
+                id="mapboxContainer"
+              ></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rest of your HTML content -->
+      </section>
+      <div id="errorMessage" class="error-message"></div>
+    </main>
+  </body>
+</html>
