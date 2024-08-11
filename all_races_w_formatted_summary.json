@@ -2581,13 +2581,11 @@
     "latitude": 59.05832869999999,
     "longitude": 10.4077726,
     "organizer": null,
-    "website": "/race-pages/lop-til-verdens-ende.html",
+    "website": "https://soriamoriatilverdensende.com/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Vestfold og Telemark",
     "id": "løp-til-verdens-ende_20240725_httpsliveeqtimingcom",
     "summary": "Bli med på årets løp i [navn på by/sted]! Vår løpeserie tilbyr 5 km og 10 km distanser på veier som er perfekte for å slå personlige rekorder. Uansett nivå, vil vårt løp gi deg en flott mulighet til å konkurrere og utforske [navn på by/sted]. Bli med oss for en spennende dag med løping!",
-    "website_organizer": "https://soriamoriatilverdensende.com/",
-    "new_version": true
+    "county": "Vestfold og Telemark"
   },
   {
     "date": "20240727",
@@ -2603,13 +2601,11 @@
     "latitude": 61.9808219,
     "longitude": 6.5151697,
     "organizer": "Hornindal IL",
-    "website": "/race-pages/hornindalsvatnet-maraton-2024.html",
+    "website": "http://iahaugen.no/maraton/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Møre og Romsdal",
     "id": "hornindalsvatnet-maraton-2024_20240727_httpsliveeqtimingcom",
     "summary": "Bli med på Hornindalsvatnet maraton lørdag 27. juli 2024! Velg mellom 10 km, halvmaraton eller helmaraton, og konkurrer individuelt eller som del av et lag. Dette er en veiløp som gir deg muligheten til å nyte den fantastiske naturen rundt Hornindalsvatnet mens du løper. Flotte sponsoravtaler sørger for fine premier og en flott opplevelse. Dette er en perfekt mulighet til å teste ferdighetene dine eller bare nyte en flott dag med løping og fellesskap. Vi gleder oss til å se deg på startstreken!",
-    "website_organizer": "http://iahaugen.no/maraton/",
-    "new_version": true
+    "county": "Møre og Romsdal"
   },
   {
     "date": "20240727",
@@ -2624,13 +2620,11 @@
     "latitude": 69.232038,
     "longitude": 17.9808555,
     "organizer": "Senja Ski",
-    "website": "/race-pages/salmarmila-2024.html",
+    "website": "https://www.facebook.com/fscfinnsnes/posts/-hipp-hipp-%C3%B8nsker-dere-en-super-feiring-av-det-fine-landet-v%C3%A5rt-kos-dere-masse-o/959961126139597/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Troms og Finnmark",
     "id": "salmarmila-2024_20240727_httpsliveeqtimingcom",
     "summary": "Den årlige løpssesongen på Family Sports Club nærmer seg! Vi inviterer alle til en fantastisk dag med løping, fellesskap og glede. Vårt løp vil inneholde 5 km og 10 km løp på veier og stier rundt klubben, med vakker natur og frisk luft. Uansett ferdighetsnivå, vil dette løpet være en flott mulighet til å sette seg nye mål og nyte en aktiv dag med familie og venner. Vi ønsker alle deltakere en fantastisk dag og husk å nyt hvert skritt!",
-    "website_organizer": "https://www.facebook.com/fscfinnsnes/posts/-hipp-hipp-%C3%B8nsker-dere-en-super-feiring-av-det-fine-landet-v%C3%A5rt-kos-dere-masse-o/959961126139597/",
-    "new_version": true
+    "county": "Troms og Finnmark"
   },
   {
     "date": "20240727.",
@@ -2647,13 +2641,11 @@
     "latitude": 62.1452551,
     "longitude": 6.0747977,
     "organizer": "",
-    "website": "/race-pages/hornindalsvatnet-maraton.html",
+    "website": "https://www.facebook.com/events/hornindal-idrettspark/hornindalsvatnet-maraton/1465434233749310/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
-    "county": "Møre og Romsdal",
     "id": "hornindalsvatnet-maraton_20240727_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på Hornindalsvatnet maraton - et spennende løp i det vakre Hornindalsvatnet-området! Vi tilbyr fire distanser: 4 km, 10 km, halvmaraton og maraton, designet for alle nivåer av løpere. Løpet foregår på vei og gir deg muligheten til å utfordre deg selv og nyte naturen rundt deg. Etter løpet blir det feiring med mat og musikk. Bli med på en minneverdig dag med løping og fellesskap!",
-    "website_organizer": "https://www.facebook.com/events/hornindal-idrettspark/hornindalsvatnet-maraton/1465434233749310/",
-    "new_version": true
+    "county": "Møre og Romsdal"
   },
   {
     "date": "20240804",
@@ -2667,13 +2659,11 @@
     "latitude": 60.32970019999999,
     "longitude": 11.2158667,
     "organizer": "Feiring IL",
-    "website": "/race-pages/perselopet-5km,-10km,-halvmaraton-4-aug.html",
+    "website": "http://www.xn--perselpet-q8a.com/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Viken",
     "id": "perseløpet-5km-10km-halvmaraton-4-aug_20240804_httpsliveeqtimingcom",
     "summary": "Bli med på Perseløpet, et spennende løp som passer for løpere på alle ferdighetsnivåer. Vår årlige halvmaraton tar deg gjennom vakre landskap på veiene. Arrangementet har god stemning, støtte fra tilskuere, og premier til alle deltakere. Bli med og sett din personlige beste tid på veiene i år!",
-    "website_organizer": "http://www.xn--perselpet-q8a.com/",
-    "new_version": true
+    "county": "Viken"
   },
   {
     "date": "20240805.",
@@ -2688,13 +2678,11 @@
     "latitude": 60.39126279999999,
     "longitude": 5.3220544,
     "organizer": "",
-    "website": "/race-pages/head-energy-sommerkarusellen-4.-lop.html",
+    "website": "http://www.gneist.org/sommerkarusellen/",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
-    "county": null,
     "id": "head-energy-sommerkarusellen-4-løp_20240805_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "Bli med på årets løpekonkurranse i Oslo! Vi arrangerer 5 km og 10 km distanser langs flotte asfalterte løyper. Uansett om du er nybegynner eller erfaren løper, vil vi se deg ved startstreken! Kom og opplev spenningen og gleden av å konkurrere i vårt flotte løp.",
-    "website_organizer": "http://www.gneist.org/sommerkarusellen/",
-    "new_version": true
+    "county": null
   },
   {
     "date": "20240807",
@@ -2709,13 +2697,11 @@
     "latitude": 60.32970019999999,
     "longitude": 11.2158667,
     "organizer": "Feiring IL",
-    "website": "/race-pages/perselopet-5km,-10km-7.aug.html",
+    "website": "http://www.xn--perselpet-q8a.com/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Viken",
     "id": "perseløpet-5km-10km-7aug_20240807_httpsliveeqtimingcom",
     "summary": "Bli med på Perseløpet, et spennende løp som tilbyr to distanser: 5 km og 10 km. Løpet vil finne sted langs veiene og vil starte og avslutte ved en vakker lokal park. Deltakere vil motta flotte medaljer, og premier vil bli gitt til de beste i hver kategori. Både erfarne løpere og nybegynnere er velkomne til å delta for en minneverdig dag med sunn konkurranse og spenning. Meld deg på i dag for en flott løpsopplevelse!",
-    "website_organizer": "http://www.xn--perselpet-q8a.com/",
-    "new_version": true
+    "county": "Viken"
   },
   {
     "date": "20240807",
@@ -2732,13 +2718,11 @@
     "latitude": 63.2999528,
     "longitude": 9.846820000000001,
     "organizer": "Orkanger IF - Friidrett",
-    "website": "/race-pages/orkland-energimila-2024.html",
+    "website": "https://www.orkanger-if.no/home/orkland-energimila-2023/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Trøndelag",
     "id": "orkland-energimila-2024_20240807_httpsliveeqtimingcom",
     "summary": "Bli med på Orkland Energimila 2023 - et spennende løp som tar deg gjennom vakre omgivelser og pittoreske landskap. Velg mellom fire distanser - 4 km, 5 km, 10 km og 10 km - på veier som gir deg en flott mulighet til å sette personlige rekorder. Etter løpet kan du slappe av, mingle med andre løpere og nyte deilige forfriskninger. Uansett nivå, er dette en opplevelse du ikke vil gå glipp av!",
-    "website_organizer": "https://www.orkanger-if.no/home/orkland-energimila-2023/",
-    "new_version": true
+    "county": "Trøndelag"
   },
   {
     "date": "20240810",
@@ -2753,13 +2737,11 @@
     "latitude": 58.15991189999999,
     "longitude": 8.0182064,
     "organizer": "Kristiansand Løpeklubb",
-    "website": "/race-pages/kondiskarusellen-10.-august-2024.html",
+    "website": "http://www.kondiskarusellen.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Agder",
     "id": "kondiskarusellen-10-august-2024_20240810_httpsliveeqtimingcom",
     "summary": "Bli med på løp i Kondiskarusellen lørdag 10. august! Velg mellom 5 km eller 10 km på veiene. Det spiller ingen rolle om du er nybegynner eller erfaren - det er noe for alle! Registrering er åpen nå, så bli med på en dag fylt med løpeglede og moro. Ta med venner og familie og meld deg på for en minneverdig opplevelse. Kontakt post@kondisfabrikken.no for mer informasjon. Vi gleder oss til å se deg på startstreken!",
-    "website_organizer": "http://www.kondiskarusellen.no/",
-    "new_version": true
+    "county": "Agder"
   },
   {
     "date": "20240810",
@@ -2773,13 +2755,11 @@
     "latitude": 61.2539236,
     "longitude": 12.5267561,
     "organizer": "Østby IL",
-    "website": "/race-pages/trysilmila-2024.html",
+    "website": "https://www.trysil.com/A/Ostby-IL/trysilmila/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Innlandet",
     "id": "trysilmila-2024_20240810_httpsliveeqtimingcom",
     "summary": "Bli med på Trysilmila den 10. august 2024 i Østby, Trysil. Løypene på 6,5 og 10 km passer for alle nivåer, med og uten tidtaking. Vi har også et eget barneløp. Dette terrengløpet er en del av Trysil-dobbelen og vi gleder oss til å se deg der!",
-    "website_organizer": "https://www.trysil.com/A/Ostby-IL/trysilmila/",
-    "new_version": true
+    "county": "Innlandet"
   },
   {
     "date": "20240810",
@@ -2793,13 +2773,11 @@
     "latitude": 67.2840117,
     "longitude": 14.3819409,
     "organizer": null,
-    "website": "/race-pages/bodo-run-festival-2024.html",
+    "website": "https://bodorunfestival.no/",
     "src_url": "https://live.eqtiming.com",
-    "county": "Nordland",
     "id": "bodø-run-festival-2024_20240810_httpsliveeqtimingcom",
     "summary": "Bodø Run Festival er en spennende løpsfest som finner sted 12. august 2023 i Bodø sentrum. Løperne kan velge mellom 5 km, mila eller halvmaraton. Dette asfaltløpet har en flat løypeprofil som gir en god løpsopplevelse. Marker kalenderen din for Bodø Run Festival 10. august 2024, og bli med på en morsom og spennende løpsdag!",
-    "website_organizer": "https://bodorunfestival.no/",
-    "new_version": true
+    "county": "Nordland"
   },
   {
     "date": "20240810.",
@@ -2815,13 +2793,11 @@
     "latitude": 65.8112019,
     "longitude": 13.2001504,
     "organizer": "",
-    "website": "/race-pages/milæ.html",
+    "website": "https://signup.eqtiming.com/?Event=vkbil",
     "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=2",
-    "county": "Nordland",
     "id": "milæ_20240810_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page2",
     "summary": "\"Bli med på vårt årlige løpsarrangement! Alle nivåer og aldre er velkommen til å delta i våre 0 km, 5 km og 10 km veiløp. Løypen gir nydelig utsikt over naturen og er designet for å utfordre alle løpere. Vi tilbyr assistanse under løpet og ser frem til å se samfunnet konkurrere i denne morsomme og spennende begivenheten. Vi sees ved startstreken!\"",
-    "website_organizer": "https://signup.eqtiming.com/?Event=vkbil",
-    "new_version": true
+    "county": "Nordland"
   },
   {
     "date": "20240817",
@@ -2903,6 +2879,26 @@
     "id": "christian-frederik-løpet_20240817_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
     "summary": "Velkommen til CF-Løpet 2024! Vi inviterer løpere i alle aldre og ferdighetsnivåer til å delta i vårt landeveis-løp. Vi tilbyr fire forskjellige distanser: 0 km, 1 km, 5 km og 10 km, slik at alle kan finne en passende rute. Bli med oss for en dag med fysisk aktivitet, utfordringer og personlig utvikling. Vi ser frem til å ønske deg velkommen til CF-Løpet 2024!",
     "website_organizer": "https://www.cf-lopet.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240817.",
+    "type": "road",
+    "name": "Langs Åkrafjorden",
+    "distance": "11 km",
+    "distance_m": [
+      11000
+    ],
+    "place": "Etne, Vestland",
+    "latitude": 59.66534619999999,
+    "longitude": 5.9371947,
+    "organizer": "",
+    "website": "/race-pages/langs-akrafjorden.html",
+    "src_url": "https://terminlista.kondis.no/l%C3%B8ping?underlag=asfalt&pagesize=200&page=1",
+    "county": "Vestland",
+    "id": "langs-åkrafjorden_20240817_httpsterminlistakondisnolc3b8pingunderlagasfaltpagesize200page1",
+    "summary": "Langs Åkrafjorden 2023 arrangeres av IF Klypetussen lørdag 19. august. Løpet tar deg med på en fantastisk reise langs Åkrafjorden og inkluderer ulike distanser for løpere på alle nivåer. Blant annet et 11 km løp som løper på veier i området. Deltakere vil kunne oppleve den vakre naturen på nært hold og utfordre seg selv i vakre men krevende omgivelser. Kom og bli med på denne unike løpeopplevelsen og bli kjent med andre løpeentusiaster fra hele landet!",
+    "website_organizer": "https://www.facebook.com/events/tjelmeland/langs-%C3%A5krafjorden-2023/1442770163163755/",
     "new_version": true
   },
   {
@@ -3872,6 +3868,26 @@
     "id": "romsdal-510halvhel_20240921_httpsliveeqtimingcom",
     "summary": "Planlegger du å delta i løp i Romsdal i 2024? Vi arrangerer 5 km, 10 km, halvmaraton og maratonløp på landeveiene våre. Hold deg oppdatert på våre sosiale medier for mer informasjon om de spennende løpene som kommer!",
     "website_organizer": "https://www.romsdal510halv.no/",
+    "new_version": true
+  },
+  {
+    "date": "20240922",
+    "type": "road",
+    "name": "Neskollen 10K",
+    "distance": "10K",
+    "distance_m": [
+      10000
+    ],
+    "place": "Neskollen, NOR",
+    "latitude": 60.121591,
+    "longitude": 11.3404871,
+    "organizer": "Hvam IL",
+    "website": "/race-pages/neskollen-10k.html",
+    "src_url": "https://live.eqtiming.com",
+    "county": "Viken",
+    "id": "neskollen-10k_20240922_httpsliveeqtimingcom",
+    "summary": "Bli med på Friivii løpet den 22. september for en spennende 10 km løpetur! Uansett om du er en erfaren løper som vil sette ny personlig rekord, eller en nybegynner som vil fullføre din første 10 km, er dette løpet for deg. Løypen er svært lettløpt og gir deg en flott mulighet til å konkurrere eller bare nyte en dag ute. Meld deg på i dag og ta utfordringen på en vakker vei!",
+    "website_organizer": "https://hvamil.no/neskollen-oppned/article/ekstra-loep-22-september-10-km-flatt-svaert-lettloept",
     "new_version": true
   },
   {

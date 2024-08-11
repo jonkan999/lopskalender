@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+      re
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+
+    <script defer="" src="/js/pgJs.js"></script>
+
+    <link href="/css/pg-style.css" rel="stylesheet" />
+    <link href="/css/pg-queries.css" rel="stylesheet" />
+
+    <title>
+      Løpsside for Langs Åkrafjorden - 
+    </title>
+    <link rel="icon" href="/img/logo100px.jpg"" />
+    <meta name="description" content="Langs Åkrafjorden 2023 arrangeres av IF Klypetussen lørdag 19. august. Løpet tar deg med på en fantastisk reise langs Åkrafjorden og inkluderer ulike distanser for løpere på alle nivåer. Blant annet et 11 km løp som løper på veier i området. Deltakere vil kunne oppleve den vakre naturen på nært hold og utfordre seg selv i vakre men krevende omgivelser. Kom og bli med på denne unike løpeopplevelsen og bli kjent med andre løpeentusiaster fra hele landet!" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="show-all-overlay" id="showAllOverlay"></div>
+    <button class="hide-grid" id="hideGrid">
+      <ion-icon name="close-outline" class="close-icon"></ion-icon>
+    </button>
+    <header class="header header-black section">
+      <div class="brand-box">
+        <a class="header-brand-name" href="/index.html">
+          <img
+            class="brand-box-small-image"
+            src="/img/logo.svg"
+            alt="Brand logo"
+        /></a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li>
+            <p class="category-link">
+              Løpsside for: Langs Åkrafjorden
+            </p>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="venue-page" id="venuePage">
+        <div class="show-all-grid" id="showAllGrid">
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/langs-akrafjorden_1.webp"
+              alt="image 1 for: Langs Åkrafjorden"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/langs-akrafjorden_2.webp"
+              alt="image 2 for: Langs Åkrafjorden"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/langs-akrafjorden_3.webp"
+              alt="image 3 for: Langs Åkrafjorden"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/langs-akrafjorden_4.webp"
+              alt="image 4 for: Langs Åkrafjorden"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/langs-akrafjorden_5.webp"
+              alt="image 5 for: Langs Åkrafjorden"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/langs-akrafjorden_6.webp"
+              alt="image 6 for: Langs Åkrafjorden"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+        </div>
+        <div class="images-section section airy-margin" id="imageSection">
+          <div class="left-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/langs-akrafjorden_1.webp"
+              alt="image 1 for: Langs Åkrafjorden"
+            />
+            <div class="image-overlay"></div>
+          </div>
+          <div class="right-images-section">
+            <div class="top-right-image">
+              <img
+                class="image-inner-img"
+                src="/race-pages/img/langs-akrafjorden_2.webp"
+                alt="image 2 for: Langs Åkrafjorden"
+              />
+              <div class="image-overlay"></div>
+            </div>
+            <div class="bottom-right-images">
+              <div class="bottom-right-image">
+                <img
+                  class="image-inner-img"
+                  src="/race-pages/img/langs-akrafjorden_3.webp"
+                  alt="image 3 for: Langs Åkrafjorden"
+                />
+                <div class="image-overlay"></div>
+              </div>
+              <div class="bottom-right-image">
+                <img
+                  class="image-inner-img"
+                  src="/race-pages/img/langs-akrafjorden_4.webp"
+                  alt="image 4 for: Langs Åkrafjorden"
+                />
+                <div class="show-all-container" id="showAll">
+                  <div class="square-icon-container-container">
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                  </div>
+                  <div class="show-all-images-text">
+                    Vis alle
+                  </div>
+                  <div class="image-overlay"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info-container" id="infoContainer">
+          <!-- Venue Name -->
+          <h1 class="event-space-title">Langs Åkrafjorden</h1>
+
+          <!-- Venue Address -->
+          <div class="adress-div">
+            <ion-icon
+              class="icon ion-ios-location-outline"
+              name="location-outline"
+            ></ion-icon>
+            <p class="event-space-address">Etne, Vestland</p>
+          </div>
+
+          <!-- Highlights Container -->
+          <ul class="highlights-container">
+            <!-- Star Rating -->
+            <div class="highlight-stars">
+              <ion-icon
+                class="star-icon ion-ios-star-outline md hydrated"
+                name="star"
+                role="img"
+                aria-label="star"
+              ></ion-icon>
+              <a href="https://www.facebook.com/events/tjelmeland/langs-%C3%A5krafjorden-2023/1442770163163755/"
+                >Lenke til påmelding</a
+              >
+            </div>
+
+            <!-- Guests and Size Info -->
+            <li class="highlight-info desktop">
+              <ion-icon
+                class="highlight-icon ion-ios-analytics-outline"
+                name="analytics-outline"
+              ></ion-icon>
+              <p>
+                Distanse: 11 km
+              </p>
+            </li>
+            <li class="highlight-info mobile full-row">
+              <ion-icon
+                class="highlight-icon ion-ios-analytics-outline"
+                name="analytics-outline"
+              ></ion-icon>
+              <p>
+                Distanse: 11 km
+              </p>
+            </li>
+            <li class="highlight-info desktop">
+              <ion-icon
+                class="highlight-icon ion-ios-shapes-outline"
+                name="shapes-outline"
+              ></ion-icon>
+              <p>
+                Underlag: road
+              </p>
+            </li>
+
+            <!-- Food and Drink Info -->
+            <li class="highlight-info">
+              <ion-icon
+                class="highlight-icon ion-ios-navigate-circle-outline"
+                name="navigate-circle-outline"
+              ></ion-icon>
+              <p>
+                Sted: Etne, Vestland
+              </p>
+            </li>
+            <li class="highlight-info second-col mobile">
+              <ion-icon
+                class="highlight-icon ion-ios-shapes-outline"
+                name="shapes-outline"
+              ></ion-icon>
+              <p>
+                Underlag: road
+              </p>
+            </li>
+            <li class="highlight-info">
+              <ion-icon
+                class="highlight-icon ion-ios-calendar-clear-outline"
+                name="calendar-clear-outline"
+              ></ion-icon>
+              <p>
+                Dato: 20240817.
+              </p>
+            </li>
+            <div class="highlight-star-mobile second-col">
+              <ion-icon
+                class="star-icon ion-ios-star-outline md hydrated"
+                name="star"
+                role="img"
+                aria-label="star"
+              ></ion-icon>
+              <a class="highlight-link" href="https://www.facebook.com/events/tjelmeland/langs-%C3%A5krafjorden-2023/1442770163163755/"
+                >Länk till anmälan</a
+              >
+            </div>
+          </ul>
+
+          <!-- Calendar and Mail Template Containers -->
+          <div class="subsection-split-container">
+            <!-- Description Container -->
+            <div class="description-container">
+              <h2>Om løpet:</h2>
+              <div class="disclaimer-box">
+                <p>All info på denne siden er basert på åpen kildekode. Vi gjør vårt beste for å holde den oppdatert, men
+kan ikke garantere at alt er korrekt. Ser du noen feil, vennligst kontakt oss på 
+<a href="/kontakt.html">kontakt</a> så retter vi det så snart som mulig.
+</p>
+              </div>
+              <p class="venue-description">
+                Langs Åkrafjorden 2023 er et spennende løp som arrangeres av IF Klypetussen lørdag 19. august 2023. Dette løpet tar deg med på en fantastisk reise langs Åkrafjorden, med vakker natur og utfordrende terreng. 
+Løpet inkluderer flere distanser for løpere på alle nivåer, inkludert et 11 km løp som løper på veier i området. Deltakere vil kunne oppleve den vakre naturen på nært hold, løpe langs fjorden og utfordre seg selv i denne vakre, men krevende løypen.
+
+Dette arrangementet vil tiltrekke seg løpere fra hele landet og byr på en flott mulighet til å møte andre løpeentusiaster og utforske den vakre naturen i området. Uansett om du er en erfaren langdistanseløper eller bare prøver deg på løping for første gang, er Langs Åkrafjorden 2023 det perfekte arrangementet for deg. Kom og bli med på denne unike løpeopplevelsen og utfordre deg selv i vakre omgivelser.
+              </p>
+              <h3>Detaljert informasjon:</h3>
+              <ul>
+                
+                <li>
+                  Distanse: 11 km
+                </li>
+                
+                <li>
+                  Underlag: road
+                </li>
+                
+                <li>
+                  Sted: Etne, Vestland
+                </li>
+                
+                <li>
+                  Dato: 20240817.
+                </li>
+                 
+                <li>
+                  Løpskategorier: 11 km
+                </li>
+                
+                <li>
+                  Fylke: Vestland
+                </li>
+                
+                <li>
+                  Arrangør: 
+                </li>
+                
+              </ul>
+              <h3>Lenke til arrangørens nettside:</h3>
+              <a class="venue-price" href="https://www.facebook.com/events/tjelmeland/langs-%C3%A5krafjorden-2023/1442770163163755/">
+                https://www.facebook.com/events/tjelmeland/langs-%C3%A5krafjorden-2023/1442770163163755/
+              </a>
+            </div>
+
+            <div class="subsection-right-split-container">
+              <div
+                data-mapboxCenter="[5.9371947, 59.66534619999999]"
+                data-mapboxcenter="[]"
+                class="map-container mapboxgl-map"
+                id="mapboxContainer"
+              ></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rest of your HTML content -->
+      </section>
+      <div id="errorMessage" class="error-message"></div>
+    </main>
+  </body>
+</html>
